@@ -1,9 +1,5 @@
 # Moo
 
-![Moo](gif/moo.jpg)
-
-Spawn some cows!
-
 ## Try the code:
 
 ```blocks

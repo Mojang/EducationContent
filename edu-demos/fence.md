@@ -1,9 +1,5 @@
 # Fence
 
-![The fence](gif/fence.jpg)
-
-Build the fence!
-
 ## Try the code:
 
 ```blocks

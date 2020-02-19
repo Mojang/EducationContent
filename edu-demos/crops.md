@@ -1,9 +1,5 @@
 # Crops
 
-![Crops](gif/crops.jpg)
-
-Let's plant some crops!
-
 ## Try the code:
 
 ```blocks
