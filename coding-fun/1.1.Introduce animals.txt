@@ -1,0 +1,181 @@
+### @activities 1
+
+### @explicitHints 1
+
+## Introduction
+
+### Introduction step @unplugged
+
+![Lesson 1](/static/china-tutorials/animals.gif)
+
+# Welcome to the Nature Reserve
+
+**Unit 1. Lesson 1** - Help Spawn Animals!
+
+## Activity 1
+
+### Step 1
+
+**Activity 1 - Spawn a Wolf.**: Select the ``||user:on chat command||`` block and change the command from **jump** to **wolf**.
+
+#### ~ tutorialhint
+
+```blocks 
+user.onChat("wolf", function () {
+	
+})
+```
+
+### Step 2
+
+Place a ``||mobs:spawn animal||`` block inside the ``||user:on chat command||`` block. Select **wolf** egg from the ``||mobs:animal||`` drop-down menu.
+
+#### ~ tutorialhint
+
+```blocks
+user.onChat("wolf", function () {
+    mobs.spawn(AnimalMob.Wolf, positions.create(0, 0, 0))
+})
+```
+Hint: The ``||mobs:spawn animal||`` block is inside the ``||mobs:mobs||`` menu.
+
+### Step 3
+
+Press the **Play** button to go to the Minecraft world. Press the **[T]** key to open the chat. Type **wolf** then press **[Enter]** to spawn the wolf. You can run the command several times to spawn more than 1 wolf.
+
+#### ~ tutorialhint
+
+Hint: Try and take a photo of the animals after each Activity. Follow the lanterns through the forest and climb to the top of the tree. 
+
+## Activity 2
+
+### Step 1
+
+**Activity 2 - Spawn 4 Parrots**: Select a new  ``||user:on chat command||`` block and change the command from **jump** to **parrot**. Place a ``||mobs:spawn animal||`` block inside it.
+
+#### ~ tutorialhint
+
+```blocks
+user.onChat("parrot", function () {
+    mobs.spawn(AnimalMob.Chicken, positions.create(0, 0, 0))
+})
+```
+
+### Step 2
+
+Select a **parrot** egg from the ``||mobs:animal||`` selector and enter a height of **10** in the ``||positions:position||`` middle number box. It should now read **0 10 0**.
+ 
+#### ~ tutorialhint
+
+```blocks
+user.onChat("parrot", function () {
+    mobs.spawn(AnimalMob.Parrot, positions.create(0, 10, 0))
+})
+```
+
+### Step 3
+
+Right click on the ``||mobs:spawn animal||`` block and select **duplicate**. Drag the duplicated block inside the ``||user:on chat command||`` block.
+
+### Step 4
+
+Duplicate the blocks until you have 4 parrots spawn at the same time. Press the **Play** button to go to the world, press the **[T]** key to open the chat. Type **parrot** then press **[Enter]** to spawn the parrots.
+
+#### ~ tutorialhint
+
+```blocks
+user.onChat("parrot", function () {
+    mobs.spawn(AnimalMob.Parrot, positions.create(0, 10, 0))
+    mobs.spawn(AnimalMob.Parrot, positions.create(0, 10, 0))
+    mobs.spawn(AnimalMob.Parrot, positions.create(0, 10, 0))
+    mobs.spawn(AnimalMob.Parrot, positions.create(0, 10, 0))
+})
+```
+
+## Activity 3 
+
+### Step 1
+
+**Activity 3 - Spawn 3 Types of Fish**: Select a new  ``||user:on chat command||`` block and change the command from  **jump** to **fish**. Place a ``||mobs:spawn animal||`` block inside it.
+ 
+#### ~ tutorialhint
+
+```blocks
+user.onChat("fish", function () {
+    mobs.spawn(AnimalMob.Chicken, positions.create(0, 0, 0))
+})
+```
+
+### Step 2
+
+Select any type of **fish** egg from the ``||mobs:animal||`` drop-down menu and enter a height of **-5** in the ``||positions:position||``. Duplicate the ``||mobs:spawn animal||`` block until you have 3 different types of fish spawn.
+ 
+#### ~ tutorialhint
+
+```blocks
+user.onChat("fish", function () {
+    mobs.spawn(AnimalMob.Salmon, positions.create(0, -5, 0))
+    mobs.spawn(AnimalMob.Cod, positions.create(0, -5, 0))
+    mobs.spawn(AnimalMob.TropicalFish, positions.create(0, -5, 0))
+})
+```
+
+### Step 3
+
+Press the **Play** button, go to the Minecraft world, open the chat, type **fish** and press **[Enter]**, to spawn the fish.
+
+## Activity 4
+
+### Step 1
+
+**Activity 4 - Spawn Lots of Tropical Fish**: Select a new  ``||user:on chat command||`` block and change the command from **jump** to **morefish**. Place a ``||mobs:spawn animal||`` block inside it.
+ 
+ #### ~ tutorialhint
+
+```blocks
+user.onChat("morefish", function () {
+    mobs.spawn(AnimalMob.Chicken, positions.create(0, 0, 0))
+})
+```
+
+### Step 2
+
+Select **tropical fish** egg from the ``||mobs:animal||`` selector and enter a height of **-2** in the ``||positions:position||``.
+ 
+#### ~ tutorialhint
+
+```blocks
+user.onChat("morefish", function () {
+    mobs.spawn(AnimalMob.TropicalFish, positions.create(0, -2, 0))
+})
+```
+
+### Step 3 @tutorialCompleted
+
+Duplicate the ``||mobs:spawn animal||`` block until you spawn 5 **tropical fish** in the Minecraft world by typing **morefish** into the chat.
+
+#### ~ tutorialhint
+
+```blocks
+user.onChat("morefish", function () {
+    mobs.spawn(AnimalMob.TropicalFish, positions.create(0, -2, 0))
+    mobs.spawn(AnimalMob.TropicalFish, positions.create(0, -2, 0))
+    mobs.spawn(AnimalMob.TropicalFish, positions.create(0, -2, 0))
+    mobs.spawn(AnimalMob.TropicalFish, positions.create(0, -2, 0))
+    mobs.spawn(AnimalMob.TropicalFish, positions.create(0, -2, 0))
+})
+```
+
+## Activity 5
+
+### Step 1
+
+**Activity 5 - Your Activity!**: Now it is your turn to decide what animals to spawn into this Nature Reserve. Use the coding blocks provided!
+
+### Finish
+
+**Well done! You have completed the lesson!**
+
+```package
+nether
+```
