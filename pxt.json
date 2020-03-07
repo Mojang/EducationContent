@@ -8,7 +8,8 @@
         "edu-demos/crops.md",
         "edu-demos/fence.md",
         "edu-demos/moo.md",
-        "main.ts"
+        "main.ts",
+        "coding-fun/lesson-1/agent-move.md"
     ],
     "supportedTargets": [
         "minecraft"
