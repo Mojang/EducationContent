@@ -1,0 +1,17 @@
+{
+    "name": "educationcontent",
+    "dependencies": {
+        "core": "*"
+    },
+    "files": [
+        "README.md",
+        "edu-demos/crops.md",
+        "edu-demos/fence.md",
+        "edu-demos/moo.md",
+        "main.ts"
+    ],
+    "supportedTargets": [
+        "minecraft"
+    ],
+    "preferredEditor": "tsprj"
+}
