@@ -10,7 +10,7 @@
 
 ## Step 1
 
-Program the Agent to move the Agent to the gold plate. Use ``||agent: agent move||`` block. 
+Program the Agent to move to the gold plate. Use ``||agent: agent move||`` block. 
 
 
 
