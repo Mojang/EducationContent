@@ -11,7 +11,8 @@
         "main.ts",
         "coding-fun/lesson-1/agent-move.md",
         "coding-fun/lesson-1/agent.md",
-        "coding-fun/lesson-1/welcome.md"
+        "coding-fun/lesson-1/welcome.md",
+        "welcome.md"
     ],
     "supportedTargets": [
         "minecraft"
