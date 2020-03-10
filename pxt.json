@@ -10,10 +10,10 @@
         "edu-demos/moo.md",
         "main.ts",
         "coding-fun/lesson-1/agent-move.md",
-        "coding-fun/lesson-1/agent.md",
         "welcome.md",
         "coding-fun/lesson-1/agent-up.md",
-        "coding-fun/lesson-1/last-room.md"
+        "coding-fun/lesson-1/last-room.md",
+        "coding-fun/lesson-1/welcome.md"
     ],
     "supportedTargets": [
         "minecraft"
