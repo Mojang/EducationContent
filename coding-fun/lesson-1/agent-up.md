@@ -9,10 +9,10 @@
 # Program the Agent to move up to the gold plate!
 
 ## Step 1
-Select an ``||player:on chat command||`` and rename it from **run** to **2**. Select an ``||agent: agent move||`` block and drag it inside the ``||player:on chat command||``. 
+Use an ``||player:on chat||`` and  ``||agent:agent move||`` commands to program the Agent to move towards the gold plate.
 
 #### ~ tutorialhint 
-You can change the number of steps your Agent will move by changing the number inside the ``||agent: agent move||``.You also can use ``||agent: agent turn||`` block to turn the Agent to the left or right.
+You can program the Agent to move **up**.
 
 ## Step 2
 When done, press the **Play** buton to compile the code. Go to Minecraft & press **t** and type **1**.
