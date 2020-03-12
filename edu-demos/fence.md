@@ -1,8 +1,13 @@
-# Fence
+### @hideIteration true 
+### @flyoutOnly 1
+### @explicitHints 1
 
-## Try the code:
+# Plant crops
+## Step 1
+Build the fence. Try this code!
 
-```blocks
+
+```template
 player.onChat("fence", function () {
     agent.teleport(world(-265, 64, 129), SOUTH)
     agent.setItem(SPRUCE_FENCE, 30, 1)

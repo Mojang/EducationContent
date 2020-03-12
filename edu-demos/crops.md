@@ -1,8 +1,12 @@
-# Crops
+### @hideIteration true 
+### @flyoutOnly 1
+### @explicitHints 1
 
-## Try the code:
+# Plant crops
+## Step 1
+Plant the crops. Try this code!
 
-```blocks
+```template
 player.onChat("crops", function () {
     agent.teleport(world(-264, 64, 148), WEST)
     for (let index = 0; index < 7; index++) {
