@@ -6,14 +6,6 @@
 ## Step 1
 Spawn cows! Try this code!
 
-```blocks
-player.onChat("run", function () {
-    for (let index = 0; index < 5; index++) {
-        mobs.spawn(COW, world(-268, 64, 134))
-    }
-})
-world(-273, 64, 129)
-```
 
 ```template
 player.onChat("moo", function () {
