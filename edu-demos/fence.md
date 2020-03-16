@@ -1,5 +1,4 @@
 ### @hideIteration true 
-### @flyoutOnly 1
 ### @explicitHints 1
 
 # Plant crops
