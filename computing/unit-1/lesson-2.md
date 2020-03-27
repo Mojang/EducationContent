@@ -2,7 +2,7 @@
 ### @explicitHints 1
 
 
-# Lesson 1
+# Lesson 2
 
 ## Step 1
 To program your Agent to move, select an ``||player:on chat||`` command and rename it from **run** to **move**. Select an ``||agent: agent move||`` command and drag it inside the ``||player:on chat||`` command.

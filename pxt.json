@@ -16,14 +16,14 @@
         "coding-fun/lesson-1/welcome.md",
         "coding-fun/lesson-2/activity-1.md",
         "coding-fun/lesson-2/activity-2.md",
-        "coding-fun/lesson-2/activity-3.md",
         "coding-fun/lesson-3/locate-cub.md",
         "coding-fun/lesson-3/chasm.md",
         "coding-fun/lesson-3/tower.md",
         "coding-fun/lesson-3/higher-ground.md",
         "coding-fun/lesson-3/separated-family.md",
         "computing/unit-1/lesson-1.md",
-        "computing/unit-1/lesson-2.md"
+        "computing/unit-1/lesson-2.md",
+        "computing/unit-1/lesson-3.md"
     ],
     "supportedTargets": [
         "minecraft"
