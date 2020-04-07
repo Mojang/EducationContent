@@ -1,1 +1,1 @@
-> Add your code here
+This is a lesson in Python. 
