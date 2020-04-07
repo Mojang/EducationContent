@@ -24,7 +24,8 @@
         "computing/unit-1/lesson-1.md",
         "computing/unit-1/lesson-2.md",
         "computing/unit-1/lesson-3.md",
-        "computing/unit-1/destroy.md"
+        "computing/unit-1/destroy.md",
+        "python/lesson_1/activity_1.md"
     ],
     "supportedTargets": [
         "minecraft"
