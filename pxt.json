@@ -27,7 +27,9 @@
         "python/lesson_1/activity_1.md",
         "python/lesson_2/activity_2.md",
         "no_coding.md",
-        "coding-fun/lesson-4/secure_area.md"
+        "coding-fun/lesson-4/secure_area.md",
+        "coding-fun/lesson-4/bamboo_border.md",
+        "coding-fun/lesson-4/hideaway.md"
     ],
     "supportedTargets": [
         "minecraft"

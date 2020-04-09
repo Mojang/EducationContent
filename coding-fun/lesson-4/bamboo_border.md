@@ -6,7 +6,7 @@
 ### @explicitHints 1
 
 
-# Secure the Area
+# Bamboo Border
 
 ## Step 1
 Step 1 is to build a fence.  
@@ -24,4 +24,3 @@ player.onChat("run", function () {
 })
 
 ``` 
-
