@@ -18,7 +18,6 @@
         "coding-fun/lesson-2/activity-2.md",
         "coding-fun/lesson-3/locate-cub.md",
         "coding-fun/lesson-3/chasm.md",
-        "coding-fun/lesson-3/tower.md",
         "coding-fun/lesson-3/higher-ground.md",
         "coding-fun/lesson-3/separated-family.md",
         "computing/unit-1/lesson-1.md",
@@ -27,7 +26,8 @@
         "computing/unit-1/destroy.md",
         "python/lesson_1/activity_1.md",
         "python/lesson_2/activity_2.md",
-        "no_coding.md"
+        "no_coding.md",
+        "coding-fun/lesson-4/secure_area.md"
     ],
     "supportedTargets": [
         "minecraft"
