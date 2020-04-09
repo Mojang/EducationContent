@@ -6,5 +6,5 @@
 
 ```blocks
 player.onChat("run", function () {
-}
+})
 ```
