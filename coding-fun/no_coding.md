@@ -5,6 +5,7 @@
 # No code is required for this activity. 
 
 ```blocks
-player.onChat("run", function () {
-})
+loops.onStart()
 ```
+
+
