@@ -30,7 +30,12 @@
         "coding-fun/lesson-4/secure_area.md",
         "coding-fun/lesson-4/bamboo_border.md",
         "coding-fun/lesson-4/hideaway.md",
-        "coding-fun/lesson-4/flower.md"
+        "coding-fun/lesson-4/flower.md",
+        "coding-fun/lesson-5/chicken_coup.md",
+        "coding-fun/lesson-5/cattle.md",
+        "coding-fun/lesson-5/hazing_one.md",
+        "coding-fun/lesson-5/hazing_two.md",
+        "coding-fun/lesson-5/clear_area.md"
     ],
     "supportedTargets": [
         "minecraft"
