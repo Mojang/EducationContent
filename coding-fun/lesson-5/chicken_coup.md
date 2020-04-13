@@ -9,7 +9,7 @@
 # Chicken Coup
 
 ## Step 1
-Step 1 is to secure the chicken coup.
+
 
 ## Step 2
 When done, press the **Play** buton to compile the code. Don't forget to run your code in Minecraft. 
