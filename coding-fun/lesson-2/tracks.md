@@ -14,7 +14,7 @@ Try using a ``||loops:repeat||`` block to make the code more efficient.
 ## Step 2
 When done, press the **Play** buton to compile the code. Don't forget to run your code in Minecraft. 
 
-```ghost
+```blocks
 player.onChat("run", function () {
     agent.move(FORWARD, 1)
     agent.turn(LEFT_TURN)
