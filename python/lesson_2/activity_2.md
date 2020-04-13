@@ -1,25 +1,43 @@
+### @hideIteration false 
 ### @explicitHints 1
-### @hideIteration false
 
-# Activity 1 - Which one is right?
 
+# Lesson 1
 
 ## Step 1
-Check if the command written on the computer monitor is correct. If it is, meaning no syntax errors are shown, press the mouse button on the right side of the monitor.  
+To code a conversation with your Agent select an ``||player:on chat||`` command and rename it from **run** to **hello**. Select a ``||player: say||`` command and drag it inside the ``||player:on chat||`` command.
 
 ## Step 2
-Try going over to the first computer, the one by the entrance with the flower on the desk. Write out what is written on the monitor: player(say)Hi. 
-Check if it's corret. If it is, press the mouse button. If its not, try the other 3 pieces of code on the remaining monitors. 
+Type **Hi, I am your Agent!** inside the ``||player: say||`` command. When done, press the **Play** buton to compile the code, then go to Minecraft, press **T** and type **hello**.
 
-#### ~ tutorialhint 
-Use the reset button, by talking to the developer, if you don't get the correct answer. 
+## Step 3
+Go back to your code and modify the conversation with the Agent. 
 
-## Step 3 
-If you have pressed the right button the door will open to the next activity. If you haven't bugs will appear, try untill you find the correct code. 
+## Step 4
+To teleport your Agent to different places select a new ``||player: on chat||`` command, drag it to the workspace and rename it to **come_here**. 
 
-#### ~ tutorialhint 
-The green bar on the the bottom of your screen is actually a progress bar. It will show you how much you have done of a specific activity. 
+## Step 5
+Drag an ``||agent:agent teleport to player||`` command and drop it inside the ``||player: on chat||`` command. 
+
+## Step 6
+When done, press the **Play** button to compile the code, then go to the Minecraft world, press **T** and type **come_here**.
+
+## Step 7
+To code your Agent to rotate select a new ``||player: on chat||`` command, drag it to the workspace and rename it to **turn**. 
+
+## Step 8
+Drag an ``||agent: agent turn||`` command and drop it inside the ``||player: on chat||`` command. You can decide which direction the Agent is going to rotate. 
+
+## Step 9
+When done, press the **Play** button to compile the code, then go to the Minecraft world, press **T** and type **turn**.
+
+## Step 10 
+Now you can practice using these commands in different combinations. 
 
 ```ghost
-player.say(":)")
-```  
+player.onChat("run", function () {
+    player.say(":)")
+    agent.teleportToPlayer()
+    agent.turn(LEFT_TURN)
+})
+``` 
