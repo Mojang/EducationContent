@@ -9,17 +9,24 @@
 # Make the area pretty!
 
 ## Step 1
-Step 1 is to bring flowers into the area.  
+Use your usual blocks, but don't forget to select **flowers** for the ``||agent:agent set block||`` command. There are **14** flowers that the Agent can plant on one side. 
 
 ## Step 2
-When done, press the **Play** buton to compile the code. Don't forget to run your code in Minecraft. 
+Add  `||agent: agent turn||`` and ``||loops: repeat||`` commands. 
 
-```blocks
-player.onChat("run", function () {
-    while (agent.detect(AgentDetection.Block, FORWARD)) {
-        agent.destroy(FORWARD)
-        agent.move(FORWARD, 1)
-        agent.destroy(UP)
+#### ~ tutorialhint 
+There should be **4** sides ready with the flowers.
+
+
+```ghost
+player.onChat("4", function () {
+    for (let index = 0; index < 4; index++) {
+        for (let index = 0; index < 14; index++) {
+            agent.setItem(YELLOW_FLOWER, 64, 1)
+            agent.place(DOWN)
+            agent.move(FORWARD, 1)
+        }
+        agent.turn(RIGHT_TURN)
     }
 })
 
