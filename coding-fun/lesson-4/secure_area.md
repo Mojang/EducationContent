@@ -9,7 +9,7 @@
 # Secure the Area
 
 ## Step 1
-Step 1 is to build a fence around the area for panda. Use an ``||player:on chat||`` command to start coding. You will need to add ``||agent:agent destroy||``, ``||agent: agent place||`` , ``||agent: agent set block||`` and ``||agent: agent move||`` blocks to your code. 
+Use an ``||player:on chat||`` command to start coding. You will need to add ``||agent:agent destroy||``, ``||agent: agent place||`` , ``||agent: agent set block||`` and ``||agent: agent move||`` blocks to your code. 
 
 ## Step 2
 Select **fence** block & **64** for the ``||agent:agent set block||``. Think about the correct sequence of agent commands & the correct directions. 
