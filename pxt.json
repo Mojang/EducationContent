@@ -49,7 +49,8 @@
         "coding-fun/lesson-5/hazing_two.md",
         "coding-fun/lesson-5/clear_area.md",
         "_locales/en-GB/edu-demos/moo.md",
-        "_locales/en-GB/python/lesson_2/activity_2.md"
+        "_locales/en-GB/python/lesson_2/activity_2.md",
+        "coding-fun/lesson-2/tracks.md"
     ],
     "supportedTargets": [
         "minecraft"
