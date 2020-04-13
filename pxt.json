@@ -51,7 +51,8 @@
         "_locales/en-GB/edu-demos/moo.md",
         "_locales/en-GB/python/lesson_2/activity_2.md",
         "coding-fun/lesson-2/tracks.md",
-        "coding-fun/lesson-2/garbage.md"
+        "coding-fun/lesson-2/garbage.md",
+        "coding-fun/lesson-2/blocked-path.md"
     ],
     "supportedTargets": [
         "minecraft"
