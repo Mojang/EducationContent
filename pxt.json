@@ -26,6 +26,21 @@
         "computing/unit-1/destroy.md",
         "python/lesson_1/activity_1.md",
         "python/lesson_2/activity_2.md",
+        "_locales/en-GB/coding-fun/lesson-3/separated-family.md",
+        "_locales/en-GB/coding-fun/lesson-2/activity-1.md",
+        "_locales/en-GB/coding-fun/lesson-3/higher-ground.md",
+        "_locales/en-GB/coding-fun/lesson-3/locate-cub.md",
+        "_locales/en-GB/coding-fun/lesson-3/tower.md",
+        "_locales/en-GB/README.md",
+        "_locales/en-GB/python/lesson_1/activity_1.md",
+        "_locales/en-GB/computing/unit-1/lesson-1.md",
+        "_locales/en-GB/computing/unit-1/destroy.md",
+        "_locales/en-GB/computing/unit-1/lesson-3.md",
+        "_locales/en-GB/edu-demos/crops.md",
+        "_locales/en-GB/coding-fun/lesson-3/chasm.md",
+        "_locales/en-GB/coding-fun/lesson-2/activity-2.md",
+        "_locales/en-GB/computing/unit-1/lesson-2.md",
+        "_locales/en-GB/coding-fun/lesson-1/welcome.md",
         "main.py",
         "no_coding.md",
         "coding-fun/lesson-4/secure_area.md",
@@ -36,10 +51,11 @@
         "coding-fun/lesson-5/cattle.md",
         "coding-fun/lesson-5/hazing_one.md",
         "coding-fun/lesson-5/hazing_two.md",
-        "coding-fun/lesson-5/clear_area.md"
+        "coding-fun/lesson-5/clear_area.md",
+        "_locales/en-GB/edu-demos/moo.md"
     ],
     "supportedTargets": [
         "minecraft"
     ],
-    "preferredEditor": "pyprj"
+    "preferredEditor": "tsprj"
 }
