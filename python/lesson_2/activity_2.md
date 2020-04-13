@@ -20,3 +20,6 @@ If you have pressed the right button the door will open to the next activity. If
 #### ~ tutorialhint 
 The green bar on the the bottom of your screen is actually a progress bar. It will show you how much you have done of a specific activity. 
 
+```ghost
+player.say(":)")
+```  
