@@ -26,7 +26,7 @@ You can try your code as many times as you want to. Don't try to get it right fr
 ## Step 4
 When done, press the **Play** buton to compile the code. Don't forget to run your code in Minecraft. 
 
-```ghost
+```blocks
 player.onChat("1", function () {
     agent.setItem(SPRUCE_FENCE, 64, 1)
     for (let index = 0; index < 17; index++) {

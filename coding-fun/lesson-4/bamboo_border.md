@@ -12,7 +12,7 @@
 There is a starter code that we prepared for you. Try running this code at first and learn from it. 
 
 ```template
-player.onChat("2", function () {
+player.onChat("border", function () {
     agent.setItem(BAMBOO, 64, 1)
     for (let index = 0; index < 16; index++) {
         agent.place(DOWN)

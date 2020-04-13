@@ -18,7 +18,7 @@ Add  `||agent: agent turn||`` and ``||loops: repeat||`` commands.
 There should be **4** sides ready with the flowers.
 
 
-```ghost
+```blocks
 player.onChat("4", function () {
     for (let index = 0; index < 4; index++) {
         for (let index = 0; index < 14; index++) {
