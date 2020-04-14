@@ -25,7 +25,7 @@ player.onChat("hazing", function () {
 ## Step 3
 Add ``||agent: agent place||`` and ``||agent: agent move||`` blocks inside the ``||loops:while||`` block. 
 
-```blocks
+```ghost
 player.onChat("run", function () {
     agent.setItem(TRIPWIRE, 64, 1)
     while (!(agent.detect(AgentDetection.Block, FORWARD))) {

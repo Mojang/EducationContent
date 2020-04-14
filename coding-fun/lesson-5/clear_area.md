@@ -14,7 +14,7 @@ The Agent needs to destroy **8** blocks of foliage moving **forward**. Then the 
 ## Step 2
 There are **8** rows that need to be destroyed. There will be a lot of ``||loops:repeat||`` commands in the end.
 
-```blocks
+```ghost
 player.onChat("foliage", function () {
     for (let index = 0; index < 8; index++) {
         agent.destroy(FORWARD)
