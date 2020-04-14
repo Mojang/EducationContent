@@ -5,7 +5,7 @@
 
 
 ## Step 1
-Check if the command written on the computer monitor is correct. If it is, meaning no syntax errors are shown, press the mouse button on the right side of the monitor in the game.  
+Check if the commands written on the computer monitors are correct. If they are, meaning no syntax errors are shown, press the mouse button on the right side of the monitor in the game.  
 
 ## Step 2
 Go over to the first computer, the one by the entrance with the blue flower on the desk. Write out what is written on the monitor: `||player:player(say)Hi||`, in coding window. 
