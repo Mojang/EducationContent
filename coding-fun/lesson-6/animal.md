@@ -9,7 +9,7 @@
 Select the blocks you need to build the right home for the animals. You will find all the blocks we have used throughout the lessons for you to use!
 
 
-```blocks
+```ghost
 player.onChat("run", function () {
     agent.teleportToPlayer()
     agent.turn(LEFT_TURN)
