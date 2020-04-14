@@ -9,18 +9,31 @@
 # Hazing One
 
 ## Step 1
-Step 1 is to do hazing
+Set the ``||agent:agent set block||`` to **tripwire** and set the count to **64**. 
 
 ## Step 2
-When done, press the **Play** buton to compile the code. Don't forget to run your code in Minecraft. 
+Use the ``||loops:while||`` block and drop a condition inside the ``||loops:while||`` block.  
+
+#### ~ tutorialhint
 
 ```blocks
-player.onChat("run", function () {
-    while (agent.detect(AgentDetection.Block, FORWARD)) {
-        agent.destroy(FORWARD)
-        agent.move(FORWARD, 1)
-        agent.destroy(UP)
+player.onChat("hazing", function () {
+    agent.setItem(TRIPWIRE, 64, 1)
+    while (!(agent.detect(AgentDetection.Block, FORWARD))) {
+    	
     }
 })
 
 ``` 
+## Step 3
+Add ``||agent: agent place||`` and ``||agent: agent move||`` blocks inside the ``||loops:while||`` block. 
+
+```blocks
+player.onChat("run", function () {
+    agent.setItem(TRIPWIRE, 64, 1)
+    while (!(agent.detect(AgentDetection.Block, FORWARD))) {
+        agent.place(DOWN)
+        agent.move(FORWARD, 1)
+    }
+})
+```
