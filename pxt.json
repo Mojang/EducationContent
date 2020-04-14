@@ -36,7 +36,16 @@
         "coding-fun/lesson-2/blocked-path.md",
         "coding-fun/lesson-5/hazing.md",
         "coding-fun/lesson-6/animal.md",
-        "python/lesson1/activity1.md"
+        "python/lesson1/activity1.md",
+        "python/lesson2/activity1.md",
+        "python/lesson3/activity1.md",
+        "python/lesson4/activity1.md",
+        "python/lesson5/activity1.md",
+        "python/lesson6/activity1.md",
+        "python/lesson7/activity1.md",
+        "python/lesson8/activity1.md",
+        "python/lesson9/activity1.md",
+        "python/lesson10/activity1.md"
     ],
     "supportedTargets": [
         "minecraft"
