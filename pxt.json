@@ -52,10 +52,7 @@
         "coding-fun/lesson-2/garbage.md",
         "coding-fun/lesson-2/blocked-path.md",
         "coding-fun/lesson-5/hazing.md",
-        "coding-fun/lesson-6/animal.md",
-        "testlink.md",
-        "python/test2.md",
-        "python/new.md"
+        "coding-fun/lesson-6/animal.md"
     ],
     "supportedTargets": [
         "minecraft"
