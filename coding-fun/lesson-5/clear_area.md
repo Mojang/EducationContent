@@ -6,21 +6,23 @@
 ### @explicitHints 1
 
 
-# Clear Area
+# Clear the Foliage!
 
 ## Step 1
-Step 1 is to clear the area.  
+The Agent needs to destroy **8** blocks of foliage moving **forward**. Then the Agent needs to ``||agent:agent turn around||`` and continue destroying the foliage.
 
 ## Step 2
-When done, press the **Play** buton to compile the code. Don't forget to run your code in Minecraft. 
+There are **8** rows that need to be destroyed. There will be a lot of ``||loops:repeat||`` commands in the end.
 
 ```blocks
-player.onChat("run", function () {
-    while (agent.detect(AgentDetection.Block, FORWARD)) {
+player.onChat("foliage", function () {
+    for (let index = 0; index < 8; index++) {
         agent.destroy(FORWARD)
         agent.move(FORWARD, 1)
-        agent.destroy(UP)
+        for (let index = 0; index < 2; index++) {
+            agent.move(FORWARD, 1)
+            agent.turn(RIGHT_TURN)
+        }
     }
 })
-
 ``` 
