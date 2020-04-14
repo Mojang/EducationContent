@@ -9,18 +9,22 @@
 # Cattle
 
 ## Step 1
-Step 1 is to do with cattle. 
+Look at the starter code and try running it. This code allows you to navigate the Agent without counting blocks. 
+
+```template
+player.onChat("cattle", function () {
+    while (!(agent.detect(AgentDetection.Block, FORWARD))) {
+        agent.move(FORWARD, 1)
+    }
+    agent.turn(LEFT_TURN)
+    while (!(agent.detect(AgentDetection.Block, FORWARD))) {
+        agent.move(FORWARD, 1)
+    }
+    agent.turn(RIGHT_TURN)
+})
+``` 
 
 ## Step 2
-When done, press the **Play** buton to compile the code. Don't forget to run your code in Minecraft. 
+Look at the path the Agent needs to take and make sure you finish the coding sequence with correct turns for the Agent. 
 
-```blocks
-player.onChat("run", function () {
-    while (agent.detect(AgentDetection.Block, FORWARD)) {
-        agent.destroy(FORWARD)
-        agent.move(FORWARD, 1)
-        agent.destroy(UP)
-    }
-})
 
-``` 
