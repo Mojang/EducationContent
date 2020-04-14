@@ -9,7 +9,7 @@
 # Make the area pretty!
 
 ## Step 1
-Use your usual blocks, but don't forget to select **flowers** for the ``||agent:agent set block||`` command. There are **14** flowers that the Agent can plant on one side. 
+Use your usual blocks, but don't forget to select **dandelion** for the ``||agent:agent set block||`` command. There are **14** flowers that the Agent can plant on one side. 
 
 ## Step 2
 Add  `||agent: agent turn||`` and ``||loops: repeat||`` commands. 
