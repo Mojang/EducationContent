@@ -1,5 +1,4 @@
 ### @explicitHints 1
-### @flyoutOnly 1
 ### @hideIteration false
 
 # Activity 1 - Which one is right?
@@ -21,3 +20,6 @@ If you have pressed the right button the door will open to the next activity. If
 #### ~ tutorialhint 
 The green bar on the the bottom of your screen is actually a progress bar. It will show you how much you have done of a specific activity. 
 
+```template
+player.say("Hi")
+```
