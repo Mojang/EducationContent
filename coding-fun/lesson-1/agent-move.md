@@ -17,7 +17,7 @@ You can change the number of steps your Agent will move by changing the number i
 ## Step 2
 When done, press the **Play** buton to compile the code, then go to Minecraft, press **t** and type **1**.
 
-## Step 3
+## Step 3 @tutorialCompleted
 Adjust your code or write a new one by selecting a new ``||player: on chat command||``. Don't forget to run your code in Minecraft! 
 
 ```ghost
