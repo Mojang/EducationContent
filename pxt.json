@@ -54,7 +54,8 @@
         "coding-fun/lesson-5/hazing.md",
         "coding-fun/lesson-6/animal.md",
         "testlink.md",
-        "python/test2.md"
+        "python/test2.md",
+        "python/new.md"
     ],
     "supportedTargets": [
         "minecraft"
