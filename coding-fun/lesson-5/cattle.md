@@ -25,6 +25,6 @@ player.onChat("cattle", function () {
 ``` 
 
 ## Step 2
-Look at the path the Agent needs to take and make sure you finish the coding sequence with correct turns for the Agent. 
+Look at the path the Agent needs to take and make sure you finish the coding sequence with correct turns for the Agent. You can **duplicate** the code by right-clicking on the blocks and selecting **duplicate** option. 
 
 
