@@ -45,7 +45,6 @@
         "coding-fun/lesson-4/flower.md",
         "coding-fun/lesson-5/chicken_coup.md",
         "coding-fun/lesson-5/cattle.md",
-        "coding-fun/lesson-5/hazing_one.md",
         "coding-fun/lesson-5/clear_area.md",
         "_locales/en-GB/edu-demos/moo.md",
         "_locales/en-GB/python/lesson_2/activity_2.md",
@@ -53,7 +52,8 @@
         "coding-fun/lesson-2/garbage.md",
         "coding-fun/lesson-2/blocked-path.md",
         "coding-fun/lesson-2/new_tracks.md",
-        "coding-fun/lesson-2/new.md"
+        "coding-fun/lesson-2/new.md",
+        "coding-fun/lesson-5/hazing.md"
     ],
     "supportedTargets": [
         "minecraft"
