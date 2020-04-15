@@ -2,6 +2,10 @@
 
 ### @explicitHints true
 
+```python
+player.say()
+```
+
 ## Step 1
 Check which one of the commands written on the computer monitors is correct and shows **"Hi"** on the screen. There should be no syntax errors shown when the code is run, press the mouse button on the right side of the monitor in the game. Click on the hints if you need help.
 
