@@ -9,9 +9,7 @@ To use the mathematical value of a number in a command, it should be typed **wit
 player.say(1+1) 
 ```
 This would show the number 2 in the chat. However, if we typed the same thing but with quotes, we would get the characters, 1+1, shown in the chat:  
-```python
-player.say(1+1) 
-```
+
 ## Step 2
 In python to devide we use a slash **/**. While for multiplication we use a star ** * **.  
 Look at each of the tv monitors, try the commands displayed in the coding window.
