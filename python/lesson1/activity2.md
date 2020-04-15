@@ -2,6 +2,10 @@
 
 ### @explicitHints true
 
+```python
+player.say()
+```
+
 ## Step 1
 Find out whats missing from the computer monitors, then place the syntax block thats missing from the monitor on the gold block in front. Check the command syntax by finding the command in the tab on the left side of the coding window. This tab will have the same name as the command group of the command.
 
@@ -11,6 +15,7 @@ Take the needed syntax blocks from the chest. Go over to the first monitor, by t
 ```python
 player.say"To show")
 ```
+
 Do you know which one? The next monitor on the right also has one syntax block missing.
 
 ## Step 3 
@@ -28,3 +33,5 @@ A number can be used in different ways. To show its character, using quotes, or 
 
 ### ~ tutorialhint
 Clear the coding window by using the **try again** button, by talking to the developer, if you don't get the correct outcome.
+
+
