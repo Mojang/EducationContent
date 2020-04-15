@@ -1,18 +1,19 @@
-### @explicitHints 1
-### @hideIteration false
-
 # Activity 1 - Which one is right?
+
+### @explicitHints true
 
 ## Step 1
 Check which one of the commands written on the computer monitors is correct and shows **"Hi"** on the screen. There should be no syntax errors shown when the code is run, press the mouse button on the right side of the monitor in the game. Click on the hints if you need help.
+
 #### ~ tutorialhint 
 The command structure in Minecraft python looks like:
-```python 
-command_group.command_name()
-```
+
+**command_group.command_name()**
 
 ## Step 2
-Go over to the first computer, the one by the entrance with the blue flower on the desk. Write out what is written on the monitor in the coding window: 
+
+Go over to the first computer, the one by the entrance with the blue flower on the desk. Write out what is written on the monitor in the coding window:
+
 ```python 
 player(say)Hi
 ```
