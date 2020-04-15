@@ -7,8 +7,9 @@ Check which one of the commands written on the computer monitors is correct and 
 
 #### ~ tutorialhint 
 The command structure in Minecraft python looks like:
-
-**command_group.command_name()**
+```python
+command_group.command_name()
+```
 
 ## Step 2
 
@@ -16,6 +17,7 @@ Go over to the first computer, the one by the entrance with the blue flower on t
 
 ```python 
 player(say)Hi
+# @highlight
 ```
 Run the code to check if it's correct. If it is, press the mouse button. If it's not, try the other 3 pieces of code on the remaining monitors. 
 
