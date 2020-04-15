@@ -13,7 +13,7 @@ This would show the number 2 in the chat. However, if we typed the same thing bu
 player.say(1+1) 
 ```
 ## Step 2
-In python to devide we use a slash **/**. While for multiplication we use a star ** f **.  
+In python to devide we use a slash **/**. While for multiplication we use a star ** * **.  
 Look at each of the tv monitors, try the commands displayed in the coding window.
 See what number the commands give you in the chat. Chose the correct answer from one of the three numbers below the tv monitor, by pressing the button. 
 
