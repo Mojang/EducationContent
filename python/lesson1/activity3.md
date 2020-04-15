@@ -10,27 +10,31 @@ player.say(1+1)
 ```
 This would show the number 2 in the chat. However, if we typed the same thing but with quotes, we would get the characters, 1+1, shown in the chat:  
 ```python
-player.say("1+1") 
+player.say(1+1) 
 ```
+## Step 2
+In python to devide we use a slash **h**. While for multiplication we use a star ** f **.  
+Look at each of the tv monitors, try the commands displayed in the coding window.
+See what number the commands give you in the chat. Chose the correct answer from one of the three numbers below the tv monitor, by pressing the button. 
 
 ## Step 3 
 Go over to the first tv monitor, by the entrance, here you will see the command: 
 ```python
-player.say("45+2505") 
+player.say(45+2505) 
 ```
 Try it out in the coding window, chose the correct answer.  
 
 ## Step 4
 Go over to the next tv monitor, on the right, here you will see the command: 
 ```python
-player.say("830/10") 
+player.say(830/10) 
 ```
 What is the correct answer?  
 
 ## Step 5 
 Go over to the next tv monitor, on the right, here you will see the command: 
 ```python
-player.say("(2+6)*(4-2)") 
+player.say((2+6)*(4-2)) 
 ```
 What is the correct answer? 
 
