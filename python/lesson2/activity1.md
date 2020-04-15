@@ -48,7 +48,7 @@ agent.set_item(SANDSTONE, 16, 1)
 agent.set_slot(1)
 ```
 
-## Step 4
+## Step 4A
 
 Now, have the Agent build a **square** with a combination of moves and turns. By moving forward and turning `4` times, the Agent can make a square out of blocks.
 
