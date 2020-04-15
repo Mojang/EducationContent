@@ -7,17 +7,15 @@ Check which one of the commands written on the computer monitors is correct and 
 
 #### ~ tutorialhint 
 The command structure in Minecraft python looks like:
-```python
+
 command_group.command_name()
-```
 
 ## Step 2
 
 Go over to the first computer, the one by the entrance with the blue flower on the desk. Write out what is written on the monitor in the coding window:
 
 ```python 
-player(say)Hi
-# @highlight
+player(say)Hi 
 ```
 Run the code to check if it's correct. If it is, press the mouse button. If it's not, try the other 3 pieces of code on the remaining monitors. 
 
