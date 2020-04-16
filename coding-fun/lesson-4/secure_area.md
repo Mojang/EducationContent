@@ -12,7 +12,7 @@
 Use an ``||player:on chat||`` command to start coding. You will need to add ``||agent:agent destroy||``, ``||agent: agent place||`` , ``||agent: agent set block||`` and ``||agent: agent move||`` blocks to your code. 
 
 ## Step 2
-Select **fence** block & **64** for the ``||agent:agent set block||``. Think about the correct sequence of agent commands & the correct directions. 
+Select **oak fence** block & **64** for the ``||agent:agent set block||``. Think about the correct sequence of agent commands & the correct directions. 
 
 #### ~ tutorialhint
 The right sequence of the Agent's actions is ``||agent: agent place||``, ``||agent: agent destroy||`` and ``||agent: agent move||``. 
@@ -28,7 +28,7 @@ When done, press the **Play** buton to compile the code. Don't forget to run you
 
 ```ghost
 player.onChat("1", function () {
-    agent.setItem(SPRUCE_FENCE, 64, 1)
+    agent.setItem(OAK_FENCE, 64, 1)
     for (let index = 0; index < 17; index++) {
         agent.place(RIGHT)
         agent.destroy(FORWARD)
