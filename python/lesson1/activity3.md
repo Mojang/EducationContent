@@ -27,7 +27,7 @@ player.say(45+2505)
 ```
 
 ## Step 4
-In python to devide we use a slash **/**. Go over to the second tv monitor, here you will see the sum: 
+In python to divide we use a slash **/**. Go over to the second tv monitor, here you will see the sum: 
 ```python
 830/10
 ```

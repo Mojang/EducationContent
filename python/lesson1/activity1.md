@@ -16,7 +16,6 @@ command_group.command_name()
 ## Step 2
 
 Go over to the first computer, the one by the entrance with the blue flower on the desk. Write out what is written on the monitor in the coding window:
-
 ```python 
 player(say)Hi 
 ```
@@ -26,7 +25,7 @@ Run the code to check if it's correct. If it is, press the mouse button. If it's
 If you want to clear the coding window use the **reset** button by talking to the developer. 
 
 ## Step 3 
-If you have found the correct piece of code and preesed the mouse buttton, the door will open to the next activity. If you haven't bugs will appear, keep trying until you find the correct code. 
+If you have found the correct piece of code and pressed the mouse button, the door will open to the next activity. If you haven't bugs will appear, keep trying until you find the correct code. 
 
 #### ~ tutorialhint 
 The green bar on the bottom of your screen is a progress bar. It will show you how much you have completed of the lesson. 

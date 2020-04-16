@@ -7,7 +7,7 @@ player.say()
 ```
 
 ## Step 1
-Find out what syntax is missing from the codes on the tv monitors, then place the mathcing syntax blocks on the gold in front.
+Find out what syntax is missing from the codes on the tv monitors, then place the matching syntax blocks on the gold in front.
 Check the command syntax by using the `||player: say||` command from the `||player:player||` group on the left side of the coding window.
 
 ## Step 2
@@ -30,7 +30,7 @@ Place the missing syntax blocks. The command on the fourth tv monitor also has t
 Run the code to check if the command works.
 
 ## Step 4
-Numbers can be used in different ways. To be shown as a piece of **text**, using quotes, or to used as a **mathematical value**, without quotes. 
+Numbers can be used in different ways. To be shown as a piece of **text**, using quotes, or to be used as a **mathematical value**, without quotes. 
 Go to the fifth tv monitor, there is syntax missing from the command on the monitor. 
 This command needs to display the number as a piece of **text**. Place the missing syntax blocks. 
 
