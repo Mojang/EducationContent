@@ -4,11 +4,12 @@
 
 
 ## Step 1
-To use the mathematical value of a number in a command, it should be typed **without** any quotes. So, if we typed the command: 
+To use the mathematical value of a number in a command, it should be typed **without** any quotes. So, as the first command below, it will show the number 2 in the chat.
+However, if we typed the same thing but with quotes, we would get the characters, 1+1, shown in the chat:  
 ```python
 player.say(1+1) 
+player.say("1+1")
 ```
-This would show the number 2 in the chat. However, if we typed the same thing but with quotes, we would get the characters, 1+1, shown in the chat:  
 
 ## Step 2
 In python to devide we use a slash **/**. While for multiplication we use a star ** * **.  
