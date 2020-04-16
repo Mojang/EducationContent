@@ -4,41 +4,46 @@
 
 
 ## Step 1
-To use the mathematical value of a number in a command, it should be typed **without** any quotes. So, as the first command below, it will show the number 2 in the chat.
-However, if we typed the same thing but with quotes, we would get the characters, 1+1, shown in the chat:  
+To use the mathematical value of numbers in a command, quotes should not be used. For example, if you run the command below, we will see the number 2 in the chat. 
+Which is the calculated value of 1+1.
 ```python
 player.say(1+1) 
-player.say("1+1")
 ```
 
 ## Step 2
-In python to devide we use a slash **/**. While for multiplication we use a star ** * **.  
-Look at each of the tv monitors, try the commands displayed in the coding window.
-See what number the commands give you in the chat. Chose the correct answer from one of the three numbers below the tv monitor, by pressing the button. 
+
+Look at each of the tv monitors, calculate the sums using code.
+See what number the code gives you in the chat. Chose the correct answer from one of the three numbers below the tv monitor, by pressing the button. 
 
 ## Step 3 
-Go over to the first tv monitor, by the entrance, here you will see the command: 
+Go over to the first tv monitor, by the entrance, here you will see the sum: 
 ```python
-player.say(45+2505) 
+45+2505 
 ```
-Try it out in the coding window, chose the correct answer.  
+What is the correct answer? 
+### ~ tutorialhint
+```python
+player.say(45+2505)
+```
 
 ## Step 4
-Go over to the next tv monitor, on the right, here you will see the command: 
+In python to devide we use a slash **/**. Go over to the second tv monitor, here you will see the sum: 
+```python
+830/10
+```
+What is the correct answer?
+### ~ tutorialhint
 ```python
 player.say(830/10) 
 ```
-What is the correct answer?  
 
 ## Step 5 
-Go over to the next tv monitor, on the right, here you will see the command: 
+While for multiplication we use a star ** * **. Go over to the third tv monitor, here you will see the sum: 
+```python
+(2+6)*(4-2)
+```
+What is the correct answer?
+### ~ tutorialhint
 ```python
 player.say((2+6)*(4-2)) 
 ```
-What is the correct answer? 
-
-## Step 6
-If you have chosen each correct answer correctly congratulations, you have finished the lesson. If not, bugs will appear. Keep trying until you find the correct code. 
-
-### ~ tutorialhint 
-Clear the coding window by using the try again button, by talking to the developer, if you don't get the correct outcome. 

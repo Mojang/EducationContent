@@ -9,8 +9,9 @@ Click on the hints if you need help.
 
 #### ~ tutorialhint 
 The command structure in Minecraft python is:
-
+```python
 command_group.command_name()
+```
 
 ## Step 2
 
