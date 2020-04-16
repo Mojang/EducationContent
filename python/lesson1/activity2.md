@@ -31,5 +31,5 @@ A number can be used in different ways. To show its character, using quotes, or 
 ## Step 5 
 If you have completed each command correctly the door will open to the next activity. If not, bugs will appear. Keep trying until you find the correct code. 
 ### ~ tutorialhint 
-Clear the coding window by using the try again button, by talking to the developer, if you don't get the correct outcome. 
+Clear the coding window by using the **try again** button, by talking to the developer, if you don't get the correct outcome. 
 
