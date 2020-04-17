@@ -1,7 +1,7 @@
 ### @codeStart players set @s makecode 0
 ### @codeStop players set @s makecode 1
 
-### @hideIteration false 
+### @hideIteration true
 ### @flyoutOnly 1
 ### @explicitHints 1
 
@@ -9,13 +9,10 @@
 # Make the area pretty!
 
 ## Step 1
-Use your usual blocks, but don't forget to select **dandelion** for the ``||agent:agent set block||`` command. There are **14** flowers that the Agent can plant on one side. 
-
-## Step 2
-Add  `||agent: agent turn||`` and ``||loops: repeat||`` commands. 
+You need to plant **14 dandelions** along **4** sides of the hideaway. The Agent can plant **14** dandelions on one side. 
 
 #### ~ tutorialhint 
-There should be **4** sides ready with the flowers.
+Don't forget to select a count for ``||agent:agent set block||`` command. 
 
 
 ```ghost
