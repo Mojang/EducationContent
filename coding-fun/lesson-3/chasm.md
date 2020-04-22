@@ -39,8 +39,7 @@ Where should the Agent place blocks? **Down** or **Forward**?
 When done, press the **Play** buton to compile the code. Don't forget to run your code in Minecraft. 
 
 ```ghost
-player.onChat("run", function () {
-    while (agent.detect(AgentDetection.Block, FORWARD)) {
+
         agent.destroy(FORWARD)
         agent.move(FORWARD, 1)
         agent.destroy(UP)
