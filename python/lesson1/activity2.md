@@ -13,6 +13,7 @@ Check the command syntax by using the `||player: say||` command from the `||play
 ## Step 2
 Take the needed syntax blocks from the chest. Go over to the first tv monitor, by the entrance. There is one piece of syntax missing from the command on the monitor: 
 ```python
+# @highlight
 player.say"To show")
 ```
 Place the missing syntax block. The command on the second tv monitor also has a piece of syntax missing, place the missing syntax. 
@@ -21,6 +22,7 @@ Place the missing syntax block. The command on the second tv monitor also has a 
 Go over to third tv monitor, there are two pieces of syntax missing from the command: 
 
 ```python
+# @highlight
 player.say(the screen)
 ```
 

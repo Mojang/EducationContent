@@ -10,6 +10,7 @@ Click on the hints if you need help.
 #### ~ tutorialhint 
 The command structure in Minecraft python is:
 ```python
+# @highlight
 command_group.command_name()
 ```
 
@@ -17,6 +18,7 @@ command_group.command_name()
 
 Go over to the first computer, the one by the entrance with the blue flower on the desk. Write out what is written on the monitor in the coding window:
 ```python 
+# @highlight
 player(say)Hi 
 ```
 Run the code to check if it's correct. If it is, press the mouse button. If it's not, try the other 3 pieces of code on the remaining monitors. 
