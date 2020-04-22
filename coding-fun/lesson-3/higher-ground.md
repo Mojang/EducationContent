@@ -9,25 +9,17 @@
 # Higher Ground!
 
 ## Step 1
-Step 1 is to ensure that the Agent has the necessary materials in the inventory. Use ``||agent:set block or item||``. Select the **plank** as a building material & its **amount**.
- 
-#### ~ tutorialhint
-It's a good practice to provide **64** blocks for the Agent for each item. 
-
-## Step 2
-Step 2 is to program the Agent to place **forward**, **left** & **right** by using ``||agent:agent place||`` block. Does the Agent need to move **up** after? 
-
-## Step 3
-Step 3 is to program the Agent to build a **10** block high tower. 
+Program the Agent to build a tower with **oak** blocks taht is **10** blocks high. First, ensure that the Agent has **64** blocks of **oak plank**  using ``||agent:set block or item||`` command. Program the Agent to place **forward**, **left** & **right** by using ``||agent:agent place||`` block. Think if the Agent needs to **move up** after placing the blocks.  
 
 #### ~ tutorialhint 
 Try using ``||loops:repeat||`` block and change the number to **10**. 
 
-## Step 4
-Step 4 is to ensure that the Agent moves **down** from the tower.
+## Step 2
+Program the Agent to move **down** from the tower and place **ladder** that is **10** blocks high. You need the ladder so that you can climb up!
 
-## Step 5
-Step 5 is to build the ladder in the tower, so that you can climb up! Use ``||agent:agent set block||`` and make sure that the ladder is **10** blocks high too!
+#### ~ tutorialhint 
+Don't forget to select **64** blocks of **ladder** in the Agent's inventory, so that the Agent can place the ladder. 
+
 
 ```ghost
 player.onChat("tower", function () {

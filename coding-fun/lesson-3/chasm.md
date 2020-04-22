@@ -1,7 +1,7 @@
 ### @codeStart players set @s makecode 0
 ### @codeStop players set @s makecode 1
 
-### @hideIteration false 
+### @hideIteration true 
 ### @flyoutOnly 1
 ### @explicitHints 1
 
@@ -9,19 +9,12 @@
 # The great chasm!
 
 ## Step 1
-Step 1 is to ensure that the Agent has the necessary materials in the inventory. Use ``||agent:set block or item||``. Select the **building material** & its **amount**. 
-
-#### ~ tutorialhint
-It's a good practice to provide **64** blocks for the Agent for each item. 
-
-## Step 2
-Step 2 is to program the Agent to **build a bridge** across the chasm in the ice. Use ``||loops:While||``, ``||agent:agent detect block down||`` blocks.
-
+Program the Agent to **build a bridge** across the chasm in the ice. Ensure that the Agent has the necessary materials in the inventory. Use ``||agent:set block or item||``. Select the **oak** as a building material & **64** for the **amount of blocks**. ``||loops:while||`` the Agent doesn **not** detect blocks down, program the Agent to place **down**.    
 
 #### ~ tutorialhint 
 Don't forget to use **not** in your **while** loop. 
 
-```blocks
+```template
 player.onChat("chasm", function () {
     while (!(agent.detect(AgentDetection.Block, FORWARD))) {
     	
@@ -29,20 +22,13 @@ player.onChat("chasm", function () {
 })
 ```
 
-## Step 3
-Step 3 is to ensure that the Agent places blocks & moves forward. Add ``||agent:place||`` and ``||agent:move forward||`` blocks.
-
-#### ~ tutorialhint 
-Where should the Agent place blocks? **Down** or **Forward**? 
-
-## Step 4
-When done, press the **Play** buton to compile the code. Don't forget to run your code in Minecraft. 
-
 ```ghost
-
-        agent.destroy(FORWARD)
+player.onChat("chasm", function () {
+    agent.setItem(PLANKS_OAK, 64, 1)
+    agent.move(FORWARD, 1)
+    while (!(agent.detect(AgentDetection.Block, FORWARD))) {
+        agent.place(DOWN)
         agent.move(FORWARD, 1)
-        agent.destroy(UP)
     }
 })
 
