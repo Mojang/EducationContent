@@ -23,9 +23,6 @@ player(say)Hi
 ```
 Run the code to check if it's correct. If it is, press the mouse button. If it's not, try the other 3 pieces of code on the remaining monitors. 
 
-#### ~ tutorialhint 
-If you want to clear the coding window use the **reset** button by talking to the developer. 
-
 ## Step 3 
 If you have found the correct piece of code and pressed the mouse button, the door will open to the next activity. If you haven't bugs will appear, keep trying until you find the correct code. 
 

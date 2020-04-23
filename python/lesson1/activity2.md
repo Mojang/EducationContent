@@ -16,7 +16,10 @@ Take the needed syntax blocks from the chest. Go over to the first tv monitor, b
 # @highlight
 player.say"To show")
 ```
-Place the missing syntax block. The command on the second tv monitor also has a piece of syntax missing, place the missing syntax. 
+Place the missing syntax block. The command on the second tv monitor also has a piece of syntax missing, place the missing syntax.
+
+#### ~ tutorialhint 
+If you want to remove the syntax blocks, use the **try again** button by talking to the developer. 
 
 ## Step 3 
 Go over to third tv monitor, there are two pieces of syntax missing from the command: 
