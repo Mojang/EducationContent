@@ -1,7 +1,7 @@
 ### @codeStart players set @s makecode 0
 ### @codeStop players set @s makecode 1
 
-### @hideIteration false 
+### @hideIteration true 
 ### @flyoutOnly 1
 ### @explicitHints 1
 
@@ -22,9 +22,6 @@ player.onChat("hazing", function () {
 })
 
 ``` 
-## Step 3
-Add ``||agent: agent place||`` and ``||agent: agent move||`` blocks inside the ``||loops:while||`` block. 
-
 ```ghost
 player.onChat("run", function () {
     agent.setItem(TRIPWIRE, 64, 1)
