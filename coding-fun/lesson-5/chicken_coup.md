@@ -1,7 +1,7 @@
 ### @codeStart players set @s makecode 0
 ### @codeStop players set @s makecode 1
 
-### @hideIteration false 
+### @hideIteration true 
 ### @flyoutOnly 1
 ### @explicitHints 1
 
@@ -9,18 +9,12 @@
 # Chicken Coup
 
 ## Step 1
-Make sure you have ``||agent:agent place down||`` and ``||agent: agent move||`` blocks. Set the ``||agent:agent set block||`` to **iron bars** and set the count to **64**.
-
-## Step 2
-The Agent needs to place **9** blocks of **iron bars** and ``||agent: agent turn right||``. There are **4** sides that need to have **iron bars**. 
-
-## Step 3
-The Agent needs to ``||agent:agent move up||`` and build the second level.
+The Agent needs to place **2** layers of **9** blocks of **iron bars**. There are **4** sides that need to have **iron bars**. Set the ``||agent:agent set block||`` to **iron bars** and set the count to **64**. Don't forget to use ``||agent:agent move up||``to build the second level.
 
 #### ~ tutorialhint
 At the end you will have **3** ``||loops:repeat|`` commands nested inside each other. 
 
-```blocks
+```ghost
 player.onChat("run", function () {
     for (let index = 0; index < 2; index++) {
         agent.setItem(IRON_BARS, 1, 1)
