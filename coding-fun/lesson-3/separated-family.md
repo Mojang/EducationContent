@@ -15,12 +15,13 @@ Don't forget to use **not** in your **while** loop. Think where you want the Age
 
 
 ```ghost
-player.onChat("run", function () {
+player.onChat("family", function () {
     agent.setItem(PLANKS_OAK, 64, 1)
     agent.move(FORWARD, 1)
     while (!(agent.detect(AgentDetection.Block, FORWARD))) {
         agent.place(DOWN)
         agent.move(FORWARD, 1)
+        agent.turn(LEFT_TURN)
     }
 })
 

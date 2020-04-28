@@ -12,7 +12,7 @@
 Move the Agent along the turtle tracks by using an ``||agent: agent move forward||`` block. When done, press the **Play** buton to compile the code. Don't forget to run your code in Minecraft. 
 
 ```ghost
-player.onChat("run", function () {
+player.onChat("tracks", function () {
     agent.move(FORWARD, 1)
     agent.turn(LEFT_TURN)
 })

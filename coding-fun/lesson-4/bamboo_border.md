@@ -16,9 +16,7 @@ player.onChat("border", function () {
     agent.setItem(BAMBOO, 64, 1)
     for (let index = 0; index < 16; index++) {
         agent.place(DOWN)
-        agent.move(FORWARD, 1)
     }
-    agent.turn(RIGHT_TURN)
 ```
 
 

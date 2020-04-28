@@ -15,7 +15,7 @@ Program the Agent to construct an **oak fence**. The agent needs to place, destr
 You can try your code as many times as you want to. Don't try to get it right from the first attempt. 
 
 ```blocks
-player.onChat("1", function () {
+player.onChat("fence", function () {
     agent.setItem(OAK_FENCE, 64, 1)
     for (let index = 0; index < 17; index++) {
             }
