@@ -48,7 +48,17 @@
         "python/lesson10/activity1.md",
         "python/lesson1/activity2.md",
         "python/lesson1/activity3.md",
-        "python/noCodingRequired.md"
+        "python/noCodingRequired.md",
+        "coding-fun/lesson-7/material_detect.md",
+        "coding-fun/lesson-7/surrounding_detect.md",
+        "coding-fun/lesson-7/spiral.md",
+        "coding-fun/lesson-7/3d_space.md",
+        "coding-fun/lesson-7/simulations.md",
+        "coding-fun/lesson-8/find_crater.md",
+        "coding-fun/lesson-8/locate_sample.md",
+        "coding-fun/lesson-8/find_surface.md",
+        "coding-fun/lesson-8/help_agent.md",
+        "coding-fun/lesson-8/gathering.md"
     ],
     "supportedTargets": [
         "minecraft"
