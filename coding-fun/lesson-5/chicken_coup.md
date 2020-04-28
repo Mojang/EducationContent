@@ -2,7 +2,6 @@
 ### @codeStop players set @s makecode 1
 
 ### @hideIteration true 
-### @flyoutOnly 1
 ### @explicitHints 1
 
 
@@ -15,7 +14,7 @@ The Agent needs to place **2** layers of **9** blocks of **iron bars**. There ar
 At the end you will have **3** ``||loops:repeat|`` commands nested inside each other. 
 
 ```ghost
-player.onChat("run", function () {
+player.onChat("chicken", function () {
     for (let index = 0; index < 2; index++) {
         agent.setItem(IRON_BARS, 1, 1)
         for (let index = 0; index < 4; index++) {
