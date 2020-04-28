@@ -14,7 +14,7 @@ player.say(1+1)
 ## Step 2
 
 Look at each of the tv monitors, calculate the sums using code.
-See what number the code gives you in the chat. Chose the correct answer from one of the three numbers below the tv monitor, by pressing the button. 
+See what number the code gives you in the chat. Choose the correct answer from one of the three numbers below the tv monitor, by pressing the button. 
 
 ## Step 3 
 Go over to the first tv monitor, by the entrance, here you will see the sum: 

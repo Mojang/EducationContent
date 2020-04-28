@@ -58,7 +58,8 @@
         "coding-fun/lesson-8/locate_sample.md",
         "coding-fun/lesson-8/find_surface.md",
         "coding-fun/lesson-8/help_agent.md",
-        "coding-fun/lesson-8/gathering.md"
+        "coding-fun/lesson-8/gathering.md",
+        "python/TutorialFinish.md"
     ],
     "supportedTargets": [
         "minecraft"
