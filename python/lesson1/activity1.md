@@ -4,7 +4,7 @@
 
 ## Step 1
 Check which one of the commands written on the computer monitors is correct and shows **"Hi"** on the screen when run.
-There should be no syntax errors shown when the code is run. Press the mouse button on the right side of the monitor in the game if the code runs correctly.
+Press the mouse button on the right side of the monitor in the game if the code runs correctly.
 Click on the hints if you need help.
 
 #### ~ tutorialhint 
@@ -15,15 +15,6 @@ command_group.command_name()
 ```
 
 ## Step 2
-
-Go over to the first computer, the one by the entrance with the blue flower on the desk. Write out what is written on the monitor in the coding window:
-```python 
-# @highlight
-player(say)Hi 
-```
-Run the code to check if it's correct. If it is, press the mouse button. If it's not, try the other 3 pieces of code on the remaining monitors. 
-
-## Step 3 
 If you have found the correct piece of code and pressed the mouse button, the door will open to the next activity. If you haven't bugs will appear, keep trying until you find the correct code. 
 
 #### ~ tutorialhint 
