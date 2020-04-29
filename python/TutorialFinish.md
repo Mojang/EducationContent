@@ -5,7 +5,7 @@
 player.say
 ```
 ## Introduction @unplugged
-Congratulations on finishing the lesson!
+Congratulations, you have finished the lesson!
 
 ## Step 1 
-Congratulations on finishing the lesson!
+Congratulations, you have finished the lesson!
