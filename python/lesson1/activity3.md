@@ -4,14 +4,10 @@
 
 
 ## Step 1
-To use the mathematical value of numbers in a command, quotes should not be used. For example, if you run the command below, we will see the number 2 in the chat. 
-Which is the calculated value of 1+1.
+Look at each of the tv monitors, calculate the sums using code.
+To use the mathematical value of numbers in a command, quotes should **not** be used. For example:
 ```python
 # @highlight
 player.say(1+1) 
 ```
-
-## Step 2
-Look at each of the tv monitors, calculate the sums using code.
-See what number the code gives you in the chat. Choose the correct answer from one of the three numbers below the tv monitor, by pressing the button. 
-
+When this code is run it gives the result **2**. Work out the correct answers of the sums on the tv monitors and select the corresponding buttons.
