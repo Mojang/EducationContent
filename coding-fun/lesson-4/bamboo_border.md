@@ -2,7 +2,6 @@
 ### @codeStop players set @s makecode 1
 
 ### @hideIteration true 
-### @flyoutOnly 1
 ### @explicitHints 1
 
 
