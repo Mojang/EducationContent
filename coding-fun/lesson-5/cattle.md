@@ -14,6 +14,7 @@ Look at the starter code and try running it. This code allows you to navigate th
 player.onChat("sheep", function () {
     while (!(agent.detect(AgentDetection.Block, FORWARD))) {
         agent.move(FORWARD, 1)
+        agent.turn(LEFT_TURN)
     }
 })
 ``` 
