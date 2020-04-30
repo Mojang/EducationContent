@@ -59,7 +59,10 @@
         "coding-fun/lesson-8/find_surface.md",
         "coding-fun/lesson-8/help_agent.md",
         "coding-fun/lesson-8/gathering.md",
-        "python/TutorialFinish.md"
+        "python/TutorialFinish.md",
+        "python/lesson2/activity2.md",
+        "python/lesson2/activity3.md",
+        "python/lesson2/activity4.md"
     ],
     "supportedTargets": [
         "minecraft"
