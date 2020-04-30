@@ -22,7 +22,7 @@ player.onChat("hazing", function () {
 
 ``` 
 ```ghost
-player.onChat("run", function () {
+player.onChat("hazing", function () {
     agent.setItem(TRIPWIRE, 64, 1)
     while (!(agent.detect(AgentDetection.Block, FORWARD))) {
         agent.place(DOWN)

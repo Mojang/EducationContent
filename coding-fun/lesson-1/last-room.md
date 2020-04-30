@@ -13,7 +13,7 @@ Program the Agent to reach the gold plate. You need to stay on your gold plate, 
 
 
 ```ghost
-player.onChat("run", function () {
+player.onChat("last", function () {
     agent.move(FORWARD, 1)
     agent.turn(LEFT_TURN)
 })

@@ -17,7 +17,7 @@ You can change the number of steps your Agent will move by changing the number i
 
 
 ```ghost
-player.onChat("run", function () {
+player.onChat("1", function () {
     agent.move(FORWARD, 1)
     agent.turn(LEFT_TURN)
 })

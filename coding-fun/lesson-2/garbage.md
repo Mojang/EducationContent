@@ -13,7 +13,7 @@ Use the Agent to clear the turtle tracks by using ``||agent: agent destroy||`` &
 
 
 ```ghost
-player.onChat("run", function () {
+player.onChat("garbage", function () {
     for (let index = 0; index < 4; index++) {
         agent.turn(LEFT_TURN)
         agent.move(FORWARD, 1)

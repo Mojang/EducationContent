@@ -22,7 +22,7 @@ player.onChat("fence", function () {
 })
 ```
 ```ghost
-player.onChat("1", function () {
+player.onChat("fence", function () {
     agent.setItem(OAK_FENCE, 64, 1)
     for (let index = 0; index < 17; index++) {
         agent.place(RIGHT)

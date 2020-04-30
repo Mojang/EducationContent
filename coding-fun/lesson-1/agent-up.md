@@ -14,7 +14,7 @@ Use ``||player:on chat||`` and  ``||agent:agent move||`` commands to program the
 
 
 ```ghost
-player.onChat("run", function () {
+player.onChat("up", function () {
     agent.move(FORWARD, 1)
     agent.turn(LEFT_TURN)
 })
