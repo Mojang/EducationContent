@@ -19,4 +19,7 @@ player.onChat("border", function () {
     }
 ```
 
+```ghost
+agent.move(FORWARD,1)
+```
 
