@@ -1,3 +1,1 @@
-player.onItemInteracted(IRON_SHOVEL, function on_item_interacted() {
-    
-})
+blocks.place(PLANKS_OAK, pos(0, 0, 0))

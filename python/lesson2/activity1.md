@@ -8,5 +8,5 @@ player.say()
 ```
 
 ## Step 1
-Place the required blocks in the designated areas by using the `||blocks: place block at position||` command and by changing the first prameter to the required block type.
-Use the code completion tool to select the required block type by scrooling through the options using the arrow keys and selecting an option by pressing enter.
+Place the required blocks in the designated areas by using the `||blocks: place block at position||` command, by changing the first parameter to the required block type.
+Use the code completion tool to select the required block type by starting to type the name and selecting the correct option.
