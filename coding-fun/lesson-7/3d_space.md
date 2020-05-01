@@ -8,26 +8,22 @@
 # 3d Space
 
 ## Step 1
-The Agent needs to set **tripwire** so that wolves won't get in. Set the ``||agent:agent set block||`` to **tripwire** and set the count to **64**. Use the ``||loops:while||`` block and drop a condition inside it.  
+Starter code:
 
 #### ~ tutorialhint
 
-```blocks
-player.onChat("hazing", function () {
-    agent.setItem(TRIPWIRE, 64, 1)
-    while (!(agent.detect(AgentDetection.Block, FORWARD))) {
-    	
+```template
+player.onChat("3d", function () {
+    for (let index = 0; index < 2; index++) {
+        while (agent.inspect(AgentInspection.Block, FORWARD) != GOLD_BLOCK) {
+            if (agent.detect(AgentDetection.Block, FORWARD)) {
+                agent.move(FORWARD, 1)
+            } else {
+                agent.turn(LEFT_TURN)
+            }
+        }
+        agent.move(UP, 1)
     }
 })
 
 ``` 
-```ghost
-player.onChat("run", function () {
-    agent.setItem(TRIPWIRE, 64, 1)
-    while (!(agent.detect(AgentDetection.Block, FORWARD))) {
-        agent.place(DOWN)
-        agent.move(FORWARD, 1)
-    }
-})
-```
-
