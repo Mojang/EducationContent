@@ -1,6 +1,6 @@
-# Activity 1 - Which one is right?
-
 ### @explicitHints true
+
+# Activity 1 - Which one is right?
 
 ## Step 1
 Check which one of the commands written on the computer monitors is correct and shows **"Hi"** in the chat when run.

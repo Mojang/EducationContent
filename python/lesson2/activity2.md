@@ -1,6 +1,6 @@
-# Activity 2 - All of the lights.
-
 ### @explicitHints true
+
+# Activity 2 - All of the lights.
 
 ```python
 blocks.place(GRASS_BLOCK, pos(0, 0, 0))

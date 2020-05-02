@@ -1,6 +1,6 @@
-# Activity 2 - Whats missing?
-
 ### @explicitHints true
+
+# Activity 2 - Whats missing?
 
 ```python
 player.say()

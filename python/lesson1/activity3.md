@@ -1,7 +1,6 @@
-# Activity 3 - What is the correct number?
-
 ### @explicitHints true
 
+# Activity 3 - What is the correct number?
 
 ## Step 1
 Look at each of the tv monitors, calculate the sums using code.

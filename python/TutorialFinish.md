@@ -1,5 +1,4 @@
-
-# You have completed this lesson.
+### @hideIteration true 
 
 ```python
 player.say

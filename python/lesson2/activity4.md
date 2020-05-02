@@ -1,6 +1,6 @@
-# Activity 4 - Getting across.
-
 ### @explicitHints true
+
+# Activity 4 - Getting across.
 
 ```python
 blocks.place(GRASS_BLOCK, pos(0, 0, 0))

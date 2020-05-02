@@ -1,6 +1,6 @@
-# Activity 3 - One step at the time.
-
 ### @explicitHints true
+
+# Activity 3 - One step at the time.
 
 ```python
 blocks.place(GRASS_BLOCK, pos(0, 0, 0))

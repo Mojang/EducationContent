@@ -1,6 +1,6 @@
-# Activity 1 - Place the correct block.
-
 ### @explicitHints true
+
+# Activity 1 - Place the correct block.
 
 ```python
 blocks.place(GRASS_BLOCK, pos(0, 0, 0))
