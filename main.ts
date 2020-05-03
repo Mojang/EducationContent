@@ -1,1 +1,1 @@
-blocks.place(PLANKS_OAK, pos(0, 0, 0))
+blocks.place(GRASS, pos(0, 0, 0))
