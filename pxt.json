@@ -71,5 +71,5 @@
     "supportedTargets": [
         "minecraft"
     ],
-    "preferredEditor": "pyprj"
+    "preferredEditor": "tsprj"
 }
