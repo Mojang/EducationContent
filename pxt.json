@@ -66,7 +66,8 @@
         "agent_trials/agent_move_blocks.md",
         "agent_trials/agent_move_JS.md",
         "agent_trials/agent_move_python.md",
-        "python/test123.md"
+        "python/test123.md",
+        "python/test2.md"
     ],
     "supportedTargets": [
         "minecraft"
