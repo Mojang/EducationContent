@@ -10,7 +10,7 @@ location1 = pos(0, 3, 0)
 
 #TESTING GROUNDS
 ## Step 1
-TESTING GROUND
+TESTING GROUND 2
 
 ```python
 player.say()
