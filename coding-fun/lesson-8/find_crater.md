@@ -16,15 +16,12 @@ Starter code:
 
 
 ```template
-player.onChat("3", function () {
-    while (agent.inspect(AgentInspection.Block, FORWARD) != GOLD_BLOCK) {
-        if (!(agent.detect(AgentDetection.Block, FORWARD))) {
-            agent.move(FORWARD, 1)
-        } else {
-            agent.turn(LEFT_TURN)
-        }
+player.onChat("1", function () {
+    while (agent.detect(AgentDetection.Block, DOWN)) {
+        agent.move(FORWARD, 1)
     }
-    agent.destroy(FORWARD)
-    agent.collectAll()
+    if (agent.inspect(AgentInspection.Block, DOWN) == AIR) {
+        player.say("Crater found!")
+    }
 })
 ```
