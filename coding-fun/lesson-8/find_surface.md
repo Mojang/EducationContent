@@ -17,14 +17,10 @@ Starter code:
 
 ```template
 player.onChat("3", function () {
-    while (agent.inspect(AgentInspection.Block, FORWARD) != GOLD_BLOCK) {
-        if (!(agent.detect(AgentDetection.Block, FORWARD))) {
-            agent.move(FORWARD, 1)
-        } else {
-            agent.turn(LEFT_TURN)
-        }
+    agent.move(FORWARD, 1)
+    while (agent.inspect(AgentInspection.Block, DOWN) != MAGMA_BLOCK) {
+        agent.move(DOWN, 1)
     }
-    agent.destroy(FORWARD)
-    agent.collectAll()
+    player.say("Reached the magma!")
 })
 ```
