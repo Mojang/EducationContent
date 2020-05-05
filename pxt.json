@@ -68,7 +68,8 @@
         "agent_trials/agent_move_python.md",
         "python/test123.md",
         "python/test2.md",
-        "python/lesson3/activity2.md"
+        "python/lesson3/activity2.md",
+        "python/lesson3/activity3.md"
     ],
     "supportedTargets": [
         "minecraft"
