@@ -8,11 +8,11 @@
 # Spiral
 
 ## Step 1
-Starter code:
+While the Agent is **inspecting the block forward** and the block is **not** the **gold block**, the Agent needs to **move forward**. If the Agent does **not** detect a block forward, the Agnet needs to **move forward**, otherwise it needs to **turn left**. 
 
-#### ~ tutorialhint
 
-```template
+
+```ghost
 player.onChat("spiral", function () {
     while (agent.inspect(AgentInspection.Block, FORWARD) != GOLD_BLOCK) {
         if (agent.detect(AgentDetection.Block, FORWARD)) {
