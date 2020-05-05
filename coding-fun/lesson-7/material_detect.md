@@ -8,7 +8,7 @@
 # Detecting your first material
 
 ## Step 1
-Here is some starter code for you. Think what's missing and add these components to the code. 
+Here is some starter code for you. Think what's missing and add these components to the code to collect a gold block. 
 
 ```template
 player.onChat("material", function () {

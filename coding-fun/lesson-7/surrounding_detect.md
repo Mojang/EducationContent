@@ -8,21 +8,26 @@
 # Surroundings 
 
 ## Step 1
-Starter code:
-
+While the Agent is **inspecting the block down** and the block is **stone**, the Agent needs to **move forward**. If the Agent does **not** detect a block forward, the Agnet needs to **move forward**, otherwise it needs to **turn left**. 
 
 
 ```template
-player.onChat("3", function () {
-    while (agent.inspect(AgentInspection.Block, FORWARD) != GOLD_BLOCK) {
+player.onChat("inspect", function () {
+    while (agent.inspect(AgentInspection.Block, DOWN) == STONE) {
+        
+    }
+})
+```
+
+```ghost
+player.onChat("inspect", function () {
+    while (agent.inspect(AgentInspection.Block, DOWN) == STONE) {
         if (!(agent.detect(AgentDetection.Block, FORWARD))) {
             agent.move(FORWARD, 1)
         } else {
             agent.turn(LEFT_TURN)
         }
     }
-    agent.destroy(FORWARD)
-    agent.collectAll()
 })
 ```
 
