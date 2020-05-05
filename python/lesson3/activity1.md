@@ -1,10 +1,10 @@
 ### @explicitHints true
 
-# Activity 1 - Sorting things out. 
-
 ```python
 .
 ```
+
+# Activity 1 - Sorting things out. 
 
 ## Step 1
 Look to declare **two** new variables under the variable **a**. These variables should store the strings **melon** and **apple**. 
