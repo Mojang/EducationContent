@@ -13,16 +13,18 @@ Starter code:
 #### ~ tutorialhint
 
 ```template
-player.onChat("3d", function () {
+player.onChat("4", function () {
     for (let index = 0; index < 2; index++) {
         while (agent.inspect(AgentInspection.Block, FORWARD) != GOLD_BLOCK) {
-            if (agent.detect(AgentDetection.Block, FORWARD)) {
+            if (!(agent.detect(AgentDetection.Block, FORWARD))) {
                 agent.move(FORWARD, 1)
             } else {
                 agent.turn(LEFT_TURN)
             }
         }
-        agent.move(UP, 1)
+        agent.destroy(FORWARD)
+        agent.collectAll()
+        agent.move(UP, 3)
     }
 })
 

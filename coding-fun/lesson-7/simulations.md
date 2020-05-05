@@ -11,18 +11,19 @@
 Now it is your time to try different coding solutions!
 
 
-```ghost
-player.onChat("surroundings", function () {
+```template
+player.onChat("5", function () {
     while (agent.inspect(AgentInspection.Block, FORWARD) != GOLD_BLOCK) {
+        if (agent.inspect(AgentInspection.Block, LEFT) == GOLD_BLOCK) {
+            agent.destroy(LEFT)
+            agent.collectAll()
+        }
         if (agent.detect(AgentDetection.Block, FORWARD)) {
             agent.turn(LEFT_TURN)
-        } else {
-            agent.move(FORWARD, 1)
         }
+        agent.move(FORWARD, 1)
     }
     agent.destroy(FORWARD)
-    agent.destroy(FORWARD)
-    agent.place(FORWARD)
     agent.collectAll()
-    agent.setItem(GRASS, 1, 1)
+})
 ```
