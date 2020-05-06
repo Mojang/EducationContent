@@ -14,11 +14,12 @@ Look at the monitor on the wall and change fruit variable value to match the seq
 Run the code and press the correlating fruit buttons in the same sequence shown as the chat, untill all of the lights turn on. 
 
 ```template
+//Step1 #
 a = "berries"
 // replace with variable b 
 // replace with variable c
 d = a
-
+//Step2 #
 // replace with fruit variable
 player.say(fruit)
 
