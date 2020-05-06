@@ -69,7 +69,11 @@
         "python/test123.md",
         "python/test2.md",
         "python/lesson3/activity2.md",
-        "python/lesson3/activity3.md"
+        "python/lesson3/activity3.md",
+        "coding-fun/lesson-9/activity_1.md",
+        "coding-fun/lesson-9/activity-2.md",
+        "coding-fun/lesson-9/activity_3.md",
+        "coding-fun/lesson-9/activity_4.md"
     ],
     "supportedTargets": [
         "minecraft"
