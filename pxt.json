@@ -65,7 +65,16 @@
         "python/lesson2/activity4.md",
         "agent_trials/agent_move_blocks.md",
         "agent_trials/agent_move_JS.md",
-        "agent_trials/agent_move_python.md"
+        "agent_trials/agent_move_python.md",
+        "python/test123.md",
+        "python/test2.md",
+        "python/lesson3/activity2.md",
+        "python/lesson3/activity3.md",
+        "coding-fun/lesson-9/activity_1.md",
+        "coding-fun/lesson-9/activity-2.md",
+        "coding-fun/lesson-9/activity_3.md",
+        "coding-fun/lesson-9/activity_4.md",
+        "coding-fun/lesson-9/activity_2.md"
     ],
     "supportedTargets": [
         "minecraft"

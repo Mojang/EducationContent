@@ -8,22 +8,30 @@
 # Detecting your first material
 
 ## Step 1
-Here is some starter code for you. We probably going to walk them through step by step and give them a starter code. 
-
-#### ~ tutorialhint
+Here is some starter code for you. Think what's missing and add these components to the code to collect a gold block. 
 
 ```template
 player.onChat("material", function () {
     for (let index = 0; index < 3; index++) {
-        agent.move(FORWARD, 1)
+        agent.move(LEFT, 1)
+        if (agent.inspect(AgentInspection.Block, FORWARD) == GOLD_BLOCK) {
+            
+        }
+    }
+})
+```
+
+```ghost
+player.onChat("1", function () {
+    for (let index = 0; index < 3; index++) {
+        agent.move(LEFT, 1)
         if (agent.inspect(AgentInspection.Block, FORWARD) == GOLD_BLOCK) {
             agent.destroy(FORWARD)
             agent.collectAll()
         }
     }
 })
-
-``` 
+```
 
 
 
