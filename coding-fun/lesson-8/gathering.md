@@ -5,12 +5,12 @@
 ### @explicitHints 1
 
 
-# Surroundings 
+# Holodeck 
 
 ## Step 1
-Starter code:
+Use this holodeck to sharpen your skills! 
 
-```blocks
+```ghost
 player.onChat("3", function () {
     while (agent.inspect(AgentInspection.Block, FORWARD) != GOLD_BLOCK) {
         if (!(agent.detect(AgentDetection.Block, FORWARD))) {

@@ -5,18 +5,13 @@
 ### @explicitHints 1
 
 
-# Surroundings 
+# Locate the Sample! 
 
 ## Step 1
-Starter code:
+**While** the Agent **inspects the block down** and doesn't find **ice**, program the Agent to **destroy** and **move down**. When the Agent locates the **ice**, it needs to **destroy down**, **collect** the sample and say "**Ice collected**"". 
 
-
-
-
-
-
-```template
-player.onChat("2", function () {
+```ghost 
+player.onChat("ice", function () {
     while (agent.inspect(AgentInspection.Block, DOWN) != ICE) {
         agent.destroy(DOWN)
         agent.move(DOWN, 1)
@@ -24,5 +19,13 @@ player.onChat("2", function () {
     agent.destroy(DOWN)
     agent.collectAll()
     player.say("Ice collected!")
+})
+```
+
+```template
+player.onChat("ice", function () {
+    while (true) {
+        agent.destroy(DOWN)
+    }
 })
 ```
