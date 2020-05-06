@@ -1,5 +1,5 @@
 ### @explicitHints true
-# Activity 2 - Sorting things out. 
+# Activity 2 - Ideal planting spot.
 
 ```python
 .
@@ -7,9 +7,12 @@
 # Activity 2 - Ideal planting spot.
 
 ## Step 1
-Look at each of the **5** different location variables and see what crops are at these coordinates. Then change the **STONE** ,
-in the `||blocks: place block at position||`  command, to either **PUMPKIN** or **MELON_BLOCK** to match the crop at the coordinate. 
+Look at each of the **5** different location variables and see what crops are at these coordinates. Then create
+five `||blocks: place block at position||` commands ,with either **PUMPKIN** or **MELON_BLOCK**, at the correct location variable 
+to match the crop at the coordinate. 
 
+### ~ tutorialhint
+blocks.place(**CROP TYPE**, **LOCATION VARIABLE**)
 
 ```template
 location1 = world(24, 4, -18)
@@ -18,9 +21,9 @@ location3 = world(24, 4, -18)
 location4 = world(24, 4, -18)
 location5 = world(24, 4, -18)
 
-blocks.place(STONE, location1)
-// replace with place block at position command
-// replace with place block at position command
-// replace with place block at position command
-// replace with place block at position command
+// replace with place block at location1 command
+// replace with place block at location2 command
+// replace with place block at location3 command
+// replace with place block at location4 command
+// replace with place block at location5 command
 ```
