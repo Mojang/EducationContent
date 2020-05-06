@@ -2,17 +2,17 @@
 # Activity 2 - Ideal planting spot.
 
 ```python
-.
+blocks.place()
 ```
 # Activity 2 - Ideal planting spot.
 
 ## Step 1
 Look at each of the **5** different location variables and see what crops are at these coordinates. Then create
-five `||blocks: place block at position||` commands ,with either **PUMPKIN** or **MELON_BLOCK**, at the correct location variable 
+**5** `||blocks: place block at position||` commands ,with either **PUMPKIN** or **MELON_BLOCK**, at the correct location variable 
 to match the crop at the coordinate. 
 
 ### ~ tutorialhint
-blocks.place(**CROP TYPE**, **LOCATION VARIABLE**)
+blocks.place(**crop type**, **location variable**)
 
 ```template
 location1 = world(24, 4, -18)
