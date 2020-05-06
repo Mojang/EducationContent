@@ -27,3 +27,4 @@ player.onChat("dig", function () {
 ```ghost
 agent.collectAll()
 ```
+
