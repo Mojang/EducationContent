@@ -26,9 +26,9 @@ apple = 10
 melon = 15
 berries = 20
 //replace with pumpkin variable | Step 2
-tax =2
+tax = 2
 //replace with apple change | Step 3
 //replace with melon change | Step 3
 //replace with cost variable | Step 1
-player.say("Total cost:" + cost)
+player.say(cost)
 ``` 
