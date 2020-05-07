@@ -5,7 +5,7 @@
 ### @explicitHints 1
 
 
-# Hazing One
+# Hazing 
 
 ## Step 1
 The Agent needs to set **tripwire** so that wolves won't get in. Set the ``||agent:agent set block||`` to **tripwire** and set the count to **64**. Use the ``||loops:while||`` block and drop a condition inside it.  
