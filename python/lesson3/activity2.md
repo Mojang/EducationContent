@@ -12,7 +12,7 @@ blocks.place()
 ## Step 1
 Look at each of the **5** different location variables and see what crops are at these coordinates. Then create
 **5** `||blocks: place block at position||` commands ,with either **PUMPKIN** or **MELON_BLOCK**, at the correct location variable 
-to match the crop at the coordinate. To see the coordinates and coding window at same time, click on the half coding window button in the top left-hand corner of the window. 
+to match the crop at the coordinate. To see the coordinates and coding window at same time, click on the half coding window button in the top left-hand corner. 
 ### ~ tutorialhint
 blocks.place(**crop type**, **location variable**)
 
