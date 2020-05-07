@@ -15,11 +15,11 @@ to match the crop at the coordinate.
 blocks.place(**crop type**, **location variable**)
 
 ```template
-location1 = world(24, 4, -18)
-location2 = world(24, 5, -18)
-location3 = world(24, 4, -18)
-location4 = world(24, 4, -18)
-location5 = world(24, 4, -18)
+location1 = world(-24, 40, -18)
+location2 = world(-31, 40, -11)
+location3 = world(-28, 40, -16)
+location4 = world(-25, 40, -13)
+location5 = world(-31, 40, -17)
 
 // replace with place block at location1 command
 // replace with place block at location2 command
