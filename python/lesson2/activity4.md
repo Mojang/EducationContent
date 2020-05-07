@@ -7,7 +7,7 @@ blocks.place(GRASS_BLOCK, pos(0, 0, 0))
 ```
 
 ## Step 1
-Build one line of floor, made out of **plank oak**, to get over to the other side by using the **second** and **third** coordinate of the **second**
-parameter in the `||blocks: place block at position||` command.
+Make one code to contruct a line of floor made out of five **plank oak** blocks to get over to the other side. You will need to change the **first** and **second** coordinate of the **second**
+parameter in the `||blocks: place block at position||` commands.
 ### ~ tutorialhint 
-To place a block at floor height use -1 as the **second** coordinate.
+Try using negative numbers as the coordinates.
