@@ -8,19 +8,12 @@
 # 3d Space
 
 ## Step 1
-While the Agent is **inspecting the block forward** and the block is **not** the **gold block**, the Agent needs to **move forward**. If the Agent does **not** detect a block forward, the Agnet needs to **move forward**, otherwise it needs to **turn left**. When the Agent reaches the **gold block**, it needs to **destroy** and **collect** it. After that the Agent needs to **move 3 levels up** and repeat the procedure. 
-
+Remeber the prevous activity? This one is the same spiral but the Agent needs to **move 3 levels up** and repeat the previous procedure.  
 
 ```template
 player.onChat("3D", function () {
     for (let index = 0; index < 2; index++) {
-        while (agent.inspect(AgentInspection.Block, FORWARD) != GOLD_BLOCK) {
-            if (!(true)) {
-            	
-            } else {
-            	
-            }
-        }
+        while (agent.inspect(AgentInspection.Block, FORWARD) != GOLD_BLOCK) {  
         agent.destroy(FORWARD)
     }
 })
