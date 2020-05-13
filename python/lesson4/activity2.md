@@ -20,7 +20,5 @@ In the same `||player: on chat command||` edit the code so that the Agent does t
 
 
 ```template
-def on_chat():
 
-player.on_chat("box", on_chat)
 ``` 
