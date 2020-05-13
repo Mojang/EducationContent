@@ -8,8 +8,7 @@
 # Clear the Foliage!
 
 ## Step 1
-The Agent needs to destroy **8** blocks of foliage moving **forward**. The Agent needs to ``||agent:destroy forward||`` and ``||agent:move forward||`` **8** times. Then use ``||agent: move back||`` and ``||agent:move right||`` blocks.
-
+The Agent needs to destroy **8** blocks of foliage moving **forward**. There are **16** rows of foliage that the Agent needs to destroy. The Agent needs to ``||agent:destroy forward||`` and ``||agent:move forward||`` **8** times. 
 #### ~ tutorialhint 
 ```blocks
 player.onChat("foliage", function () {

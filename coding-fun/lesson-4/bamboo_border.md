@@ -8,7 +8,7 @@
 # Bamboo Border
 
 ## Step 1
-You need to plant bamboo along **4** sides of the fence. There is a starter code that we prepared for you. It works for 1 side of the fence.   
+You need to plant bamboo along **4** sides of the panda's plot. There is a starter code that we prepared for you. It works for 1 side of the fence.   
 
 
 ```template
