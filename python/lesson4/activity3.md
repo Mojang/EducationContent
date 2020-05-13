@@ -1,6 +1,6 @@
 ### @explicitHints true
 
-# Activity 3 - NOT WORKING!! cleaning up!
+# Activity 3 - Cleaning up.
 
 ```python
 for i in range(2):
@@ -13,14 +13,9 @@ agent.turn(LEFT_TURN)
 ```
 
 ## Step 1
-Using a `||player: on chat command||` make a code so that the Agent will pick up the box and move it.
+Make a code so that the Agent will go over every block of the small carpet and pickup dirt.
 
 ## Step 2
-In the same `||player: on chat command||` edit the code so that the Agent does the same thing but **4** times. Use a `||loops: for||` loop to acomplish that.
+Edit the same code so that the Agent does the same thing but for the larger carpet. Do this by repeating the code before, **3** times,
+using a `||loops:for||` loop. At the end make the Agent drop all of the dirt in the trash. 
 
-
-```template
-def on_chat():
-
-player.on_chat("box", on_chat)
-``` 

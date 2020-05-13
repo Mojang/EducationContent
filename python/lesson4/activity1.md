@@ -1,6 +1,6 @@
 ### @explicitHints true
 
-# Activity 1 - NOT WORKING!! Too heavy!
+# Activity 1 -  Too heavy!
 
 ```python
 for i in range(2):
@@ -13,14 +13,10 @@ agent.turn(LEFT_TURN)
 ```
 
 ## Step 1
-Using a `||player: on chat command||` make a code so that the Agent will pick up the box and move it.
+Make a code so that the Agent will pick up the box and move it **6** blocks **forward** and then place it in front.
 
 ## Step 2
-In the same `||player: on chat command||` edit the code so that the Agent does the same thing but **4** times. Use a `||loops: for||` loop to acomplish that.
-
-
-```template
-def on_chat():
-
-player.on_chat("box", on_chat)
-``` 
+Edit the same code so that the Agent does the same thing but **4** times. Use a `||loops: for||` loop at the beginning. 
+The barrells will be automatically stacked.
+### ~ tutorialhint 
+Dont for get to indent everything after the loop. 

@@ -1,6 +1,6 @@
 ### @explicitHints true
 
-# Activity 2 - NOT WORKING!! Spin cycle!
+# Activity 2 - Spin cycle.
 
 ```python
 for i in range(2):
@@ -13,12 +13,11 @@ agent.turn(LEFT_TURN)
 ```
 
 ## Step 1
-Using a `||player: on chat command||` make a code so that the Agent will pick up the box and move it.
+Make a code so that the Agent will pickup the dirty laundry, move **forward** into the machine, spin around **20** times and then get out of
+the mashine to place the clean laundry on the other side of where the dirty laundry was.
 
 ## Step 2
-In the same `||player: on chat command||` edit the code so that the Agent does the same thing but **4** times. Use a `||loops: for||` loop to acomplish that.
-
-
-```template
-
-``` 
+Edit the same code so that the Agent does the same thing but for **3** loads of laundry. Do this by using a `||loops: for||` loop before all of the other 
+code.
+### ~ tutorialhint 
+Dont forget that two loops can't have the same names, so rename the second loop. 
