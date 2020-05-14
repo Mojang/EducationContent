@@ -22,10 +22,13 @@ using a `||loops:for||` loop. At the end make the Agent drop all of the dirt in 
 // replace with loop number 1    | Part 1
 agent.collect_all()
 agent.move(FORWARD, 1)
+// end loop 1
 agent.move(RIGHT, 1)
 // replace with loop number 2    | Part 1
 // make the Agent collect all    | Part 1  
 // make the Agent move back      | Part 1  
-// make the Agent move right     | Part 2  
+// end of loop 2
+// make the Agent move right     | Part 2
+// end of loop 3  
 // make the Agent drop all       | Part 2  
 ```
