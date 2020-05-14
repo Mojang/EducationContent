@@ -22,12 +22,13 @@ code.
 Dont forget that two loops can't have the same names, so rename the second loop. 
 
 ```template
+// replace with for loop                      | Part 2
 agent.collect_all()
 agent.move(FORWARD, 7)
 agent.drop_all(FORWARD)
-// replace with for loop
-// make the Agent turn left 20 times
-// make the Agent collect all
-// make the Agent move back 
-// make the Agent drop everything to the left
+// replace with for loop                      | Part 1
+// make the Agent turn left 20 times          | Part 1 
+// make the Agent collect all                 | Part 1          
+// make the Agent move back                   | Part 1
+// make the Agent drop everything to the left | Part 1
 ```
