@@ -19,9 +19,9 @@ using a `||loops:for||` loop. At the end make the Agent drop all of the dirt in 
 
 ```template
 // replace with loop number 3    | Part 2
-for i in range(1):
-    agent.collect_all()
-    agent.move(FORWARD, 1)
+// replace with loop number 1    | Part 1
+agent.collect_all()
+agent.move(FORWARD, 1)
 agent.move(RIGHT, 1)
 // replace with loop number 2    | Part 1
 // make the Agent collect all    | Part 1  
