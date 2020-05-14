@@ -20,10 +20,10 @@ the machine to place the clean laundry on the other side of where the dirty laun
 code.
 ### ~ tutorialhint 
 Don't forget that two loops can't have the same name, so rename the second loop. 
-To indent a large piece of code highlight all the code you want to indent and press teh **tab** key. 
+To indent a large piece of code highlight all the code you want to indent and press the **tab** key. 
 
 ```template
-// replace with for loop                      | Part 2
+// replace with for loop set to 3             | Part 2
 agent.collect_all()
 agent.move(FORWARD, 7)
 agent.drop_all(FORWARD)
