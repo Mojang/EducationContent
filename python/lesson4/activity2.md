@@ -19,7 +19,8 @@ the machine to place the clean laundry on the other side of where the dirty laun
 **Part 2:** Edit the same code so that the Agent does the same thing but for **3** loads of laundry. Do this by using a `||loops: for||` loop before all of the other 
 code.
 ### ~ tutorialhint 
-Dont forget that two loops can't have the same names, so rename the second loop. 
+Don't forget that two loops can't have the same name, so rename the second loop. 
+To indent a large piece of code highlight all the code you want to indent and press teh **tab** key. 
 
 ```template
 // replace with for loop                      | Part 2
