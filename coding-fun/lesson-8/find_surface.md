@@ -8,7 +8,7 @@
 # Reach magma
 
 ## Step 1
-Program the Agent move 1 step forward. While the Agent inspects block down and it is not **magma**, the Agent needs to move down. When the **magma** is reached, say ""**Reached the magma!**". 
+Program the Agent **move forward**. While the Agent **inspects** block down and it is not **magma**, the Agent needs to move down. 
 
 
 ```ghost
@@ -17,15 +17,6 @@ player.onChat("magma", function () {
     while (agent.inspect(AgentInspection.Block, DOWN) != MAGMA_BLOCK) {
         agent.move(DOWN, 1)
     }
-    player.say("Reached the magma!")
 })
 ```
 
-```template
-player.onChat("magma", function () {
-    while (true) {
-    	
-    }
-    player.say("")
-})
-```

@@ -8,7 +8,7 @@
 # Iron
 
 ## Step 1
-While the Agent **inspects the block down** and this blocks is not **iron**, it needs to **move forward**. If the Agent **detects a block forward**, then it needs to **destroy forward**. When the Agent locates iron, program it to say ""**Found the iron ore**" and collect it. 
+While the Agent **inspects the block down** and this blocks is not **iron ore**, it needs to **move forward**. If the Agent **detects a block forward**, then it needs to **destroy forward**. When the Agent locates iron, program it to **collect** it. Note that in order to collect a block, Agent needs to destory it first. 
 
 ```ghost
 player.onChat("4", function () {
