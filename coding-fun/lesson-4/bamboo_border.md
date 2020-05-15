@@ -8,8 +8,7 @@
 # Bamboo Border
 
 ## Step 1
-You need to plant bamboo along **4** sides of the panda's plot. There is a starter code that we prepared for you.  
-
+There is a starter code that we prepared for you.  Try running it first. The final goal is to plant bamboo along **4** sides of the panda's plot. 
 
 ```template
 player.onChat("bamboo", function () {
