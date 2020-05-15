@@ -8,18 +8,16 @@
 # Bamboo Border
 
 ## Step 1
-You need to plant bamboo along **4** sides of the panda's plot. There is a starter code that we prepared for you. It works for 1 side of the fence.   
+You need to plant bamboo along **4** sides of the panda's plot. There is a starter code that we prepared for you.  
 
 
 ```template
-player.onChat("border", function () {
+player.onChat("bamboo", function () {
     agent.setItem(BAMBOO, 64, 1)
     for (let index = 0; index < 16; index++) {
         agent.place(DOWN)
-        agent.move(FORWARD,1)
+        agent.move(FORWARD, 1)
     }
+    agent.turn(LEFT_TURN)
+})
 ```
-```ghost
-agent.turn(LEFT_TURN)
-```
-
