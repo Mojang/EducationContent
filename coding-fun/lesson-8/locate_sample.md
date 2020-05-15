@@ -8,7 +8,7 @@
 # Locate the Sample! 
 
 ## Step 1
-**While** the Agent **inspects the block down** and doesn't find **ice**, program the Agent to **destroy** and **move down**. When the Agent locates the **ice**, it needs to **destroy down**, **collect** the sample and say "**Ice collected**"". 
+**While** the Agent **inspects the block down** and does **not** find **ice**, program the Agent to **destroy** and **move down**. When the Agent locates the **ice**, it needs to **destroy down** and **collect** the sample. 
 
 ```ghost 
 player.onChat("ice", function () {
@@ -18,14 +18,7 @@ player.onChat("ice", function () {
     }
     agent.destroy(DOWN)
     agent.collectAll()
-    player.say("Ice collected!")
+    
 })
 ```
 
-```template
-player.onChat("ice", function () {
-    while (true) {
-        agent.destroy(DOWN)
-    }
-})
-```
