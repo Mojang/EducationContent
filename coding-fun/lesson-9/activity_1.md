@@ -8,16 +8,16 @@
 # Locating stone 
 
 ## Step 1
-Fix this coding snippet. Here is what the Agent needs to do: the Agent moves **3** steps to the **right** and checks if there is **stone** in front of it.
+Fix this coding snippet. Here is what the Agent needs to do: the Agent moves **4** steps to the **left** and checks if there is **stone** in front of it. If there is **stone**, it says **"Found the stone"**, if not, then it says **"No stone here"**. The Agent needs to repeat the whole operation **4** times. 
 
 
 
 ```template
 player.onChat("stone", function () {
     for (let index = 0; index < 3; index++) {
-        agent.move(RIGHT, 3)
+        agent.move(RIGHT, 4)
         agent.destroy(DOWN)
-        agent.move(UP, 3)
+        agent.move(DOWN, 1)
         if (agent.inspect(AgentInspection.Block, FORWARD) != STONE) {
             player.say("Found the stone!")
             agent.destroy(RIGHT)
