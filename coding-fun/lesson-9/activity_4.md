@@ -8,22 +8,22 @@
 # Repair the Rover 
 
 ## Step 1
-Fix this coding snippet. Here is the objective: the Agent needs to repair the rover by placing blocks where the holes are found.  
+Fix this coding snippet. Here is the objective: the Agent needs to inspect for **air** to find a break in the rover and place a **redstone** block there.  
 
 
 
 ```template
 player.onChat("repair", function () {
-    while (agent.inspect(AgentInspection.Block, FORWARD) != AIR) {
+    while (agent.inspect(AgentInspection.Block, FORWARD) == AIR) {
         agent.move(RIGHT, 1)
-        if (agent.inspect(AgentInspection.Block, FORWARD) == GOLD_BLOCK) {
+        if (agent.inspect(AgentInspection.Block, FORWARD) == LAPIS_LAZULI_BLOCK) {
             agent.move(RIGHT, 1)
             agent.turn(RIGHT_TURN)
-            agent.move(RIGHT, 1)
+            agent.move(LEFT, 1)
         }
     }
     player.say("Found the break!")
-    agent.setItem(REDSTONE_BLOCK, 1, 1)
-    agent.place(BACK)
+    agent.setItem(GRASS, 1, 1)
+    agent.place(FORWARD)
 })
 ```
