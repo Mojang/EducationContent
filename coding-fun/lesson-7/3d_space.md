@@ -8,7 +8,7 @@
 # 3d Space
 
 ## Step 1
-Remeber the prevous activity? This one is the same spiral but the Agent needs to **move 3 levels up** and repeat the previous procedure.  
+Do you remember the previous challenge? This one uses the same spiral but the Agent needs to **move 3 levels up** and repeat the previous procedure.  
 
 ```template
 player.onChat("3D", function () {
