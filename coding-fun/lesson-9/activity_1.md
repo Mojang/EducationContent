@@ -20,7 +20,7 @@ player.onChat("stone", function () {
         agent.move(DOWN, 1)
         if (agent.inspect(AgentInspection.Block, FORWARD) != STONE) {
             player.say("Found the stone!")
-            agent.destroy(RIGHT)
+            agent.destroy(FORWARD)
             agent.collectAll()
         } else {
             player.say("No stone here!")
