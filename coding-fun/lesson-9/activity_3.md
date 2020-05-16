@@ -8,13 +8,13 @@
 # Track Down the Rover 
 
 ## Step 1
-Fix this coding snippet. Here is the objective: using the Agent's navigational skills, you should be able to arrive to the rover. 
+Fix this coding snippet. Here is the objective: The Agent needs to locate the rover that is made of **quartz** by inspecting the block **in front** of it. If the Agent detects a **gold** block underneath, then it should turn **right**, if it detects a block of **iron** underneath, it should turn **left**.   
 
 
 
 ```template
 player.onChat("rover", function () {
-    while (agent.inspect(AgentInspection.Block, FORWARD) != EMERALD_BLOCK) {
+    while (agent.inspect(AgentInspection.Block, FORWARD) != BLOCK_OF_QUARTZ) {
             if (agent.inspect(AgentInspection.Block, UP) == GOLD_BLOCK) {
             agent.turn(RIGHT_TURN)
         }
