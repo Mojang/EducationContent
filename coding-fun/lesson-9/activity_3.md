@@ -16,10 +16,10 @@ Fix this coding snippet. Here is the objective: The Agent needs to locate the ro
 player.onChat("rover", function () {
     while (agent.inspect(AgentInspection.Block, FORWARD) != BLOCK_OF_QUARTZ) {
             if (agent.inspect(AgentInspection.Block, UP) == GOLD_BLOCK) {
-            agent.turn(RIGHT_TURN)
+            agent.turn(LEFT_TURN)
         }
             if (agent.inspect(AgentInspection.Block, RIGHT) == IRON_BLOCK) {
-            agent.turn(LEFT_TURN)
+            agent.turn(RIGHT_TURN)
         }
         agent.move(FORWARD, 1)
     }
