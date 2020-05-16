@@ -14,8 +14,7 @@ Do you remember the previous challenge? This one uses the same spiral but the Ag
 player.onChat("3D", function () {
     for (let index = 0; index < 2; index++) {
         while (agent.inspect(AgentInspection.Block, FORWARD) != GOLD_BLOCK) {  
-        agent.destroy(FORWARD)
-    }
+            }
 })
 ``` 
 ```ghost
