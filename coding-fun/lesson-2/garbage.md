@@ -9,7 +9,7 @@
 # Program the Agent to collect all the garbage!
 
 ## Step 1
-Use the Agent to clear the turtle tracks by using ``||agent: agent destroy||`` & ``||agent:agent collect all||``blocks. Try using a ``||loops:repeat||`` block to make the code more efficient. When done, press the **Play** buton to compile the code. Don't forget to run your code in Minecraft. 
+Use the Agent to clear the turtle tracks by using ``||agent: agent destroy||`` & ``||agent:agent collect all||``blocks. Try using a ``||loops:repeat||`` block to make the code more efficient. When done, press the **Play** button to compile the code. Don't forget to run your code in Minecraft. 
 
 
 ```ghost
