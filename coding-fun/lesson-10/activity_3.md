@@ -13,12 +13,20 @@ While the Agent **detects the block down**, it needs to move forward. If the Age
 
 
 ```template
-player.onChat("crater", function () {
-    while (agent.detect(AgentDetection.Block, DOWN)) {
-    	
-    }
-    if (0 == AIR) {
-        player.say("Crater found!")
+player.onChat("3", function () {
+    agent.setItem(STONE, 64, 1)
+    while (agent.inspect(AgentInspection.Block, DOWN) != PACKED_ICE) {
+        if (agent.inspect(AgentInspection.Block, DOWN) == IRON_ORE || agent.inspect(AgentInspection.Block, DOWN) == GOLD_ORE) {
+            agent.turn(LEFT_TURN)
+            agent.destroy(DOWN)
+            agent.collectAll()
+        }
+        if (agent.inspect(AgentInspection.Block, DOWN) == DIAMOND_ORE || agent.inspect(AgentInspection.Block, DOWN) == EMERALD_ORE) {
+            agent.turn(RIGHT_TURN)
+            agent.destroy(DOWN)
+            agent.collectAll()
+        }
+        agent.move(FORWARD, 1)
     }
 })
 ```

@@ -13,12 +13,13 @@ While the Agent **detects the block down**, it needs to move forward. If the Age
 
 
 ```template
-player.onChat("crater", function () {
-    while (agent.detect(AgentDetection.Block, DOWN)) {
-    	
-    }
-    if (0 == AIR) {
-        player.say("Crater found!")
+player.onChat("1", function () {
+    while (agent.inspect(AgentInspection.Block, DOWN) == PACKED_ICE) {
+        if (agent.detect(AgentDetection.Block, RIGHT)) {
+            agent.move(FORWARD, 1)
+        } else {
+            agent.move(RIGHT, 1)
+        }
     }
 })
 ```
