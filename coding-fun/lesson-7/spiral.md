@@ -8,19 +8,8 @@
 # Spiral
 
 ## Step 1
-While the Agent is **inspecting the block forward** and the block is **not** the **gold block**, the Agent needs to **move forward**. If the Agent does **not** detect a block forward, the Agent needs to move forward, otherwise it needs to **turn left**. When the Agent reaches the **gold block**, it needs to **destroy** and **collect** it. 
+While the Agent is **inspecting the block forward** and the block is **not** the **gold block**, the Agent needs to **move forward**. If the Agent does **not** detect a block forward, the Agent also needs to move forward, otherwise it needs to **turn left**. When the Agent reaches the **gold block**, it needs to **destroy** and **collect** it. 
 
-```template
-player.onChat("spiral", function () {
-    while (0 != 0) {
-        if (!(true)) {
-        	
-        } else {
-        	
-        }
-    }
-})
-```
 
 ```ghost
 player.onChat("3", function () {
