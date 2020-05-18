@@ -8,13 +8,12 @@
 # 3d Space
 
 ## Step 1
-Do you remember the previous challenge? This one uses the same spiral but the Agent needs to **move 3 levels up** and repeat the previous procedure.  
+To solve this challenge, you need to program the Agent to get to the **gold** block and collect it. The Agent needs to do it first on the ground level and then **move 3 levels up** and repeat the previous procedure.  
 
 ```template
 player.onChat("3D", function () {
     for (let index = 0; index < 2; index++) {
-        while (agent.inspect(AgentInspection.Block, FORWARD) != GOLD_BLOCK) {  
-            }
+        
 })
 ``` 
 ```ghost
