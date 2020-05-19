@@ -3,35 +3,46 @@
 # Activity 2 - Spin cycle.
 
 ```python
-for i in range(2):
-pass
-agent.collect_all()
-agent.move(FORWARD, 5)
-agent.drop_all(FORWARD)
-
+blocks.place()
 ```
 
 ## Step 1
-**Part 1:** Make a code so that the Agent will pickup the dirty laundry, move **forward** into the machine, spin left **20** times and then get out of
-the machine to place the clean laundry on the other side of where the dirty laundry was.
+Give the **first** dog everything that's already in the predefined list by changing the values of the first **4** `||blocks: place block at position||`
+commands. So that they each place, in order, one of the items in the list. Give the food from the chest to dog number one.
+
+### ~ tutorialhint 
+To drop items from the hot bar press the **Q** key on your keyboard. 
 
 ## Step 2
-**Part 2:** Edit the same code so that the Agent does the same thing but for **3** loads of laundry. Do this by using a `||loops: for||` loop before all of the other 
-code.
-### ~ tutorialhint 
-Don't forget that two loops can't have the same name, so rename the second loop. 
-To indent a large piece of code highlight all the code you want to indent and press the **tab** key. 
+Give the **second** dog everything that's already in the list with additonal vitamins added. 
+Do this by using the **append** method to add the variable **Vitamins** to the end of the list.
+Change the value of the last `||blocks: place block at position||` command so that it places the vitamins in the machine. 
+
+## Step 3
+Give the **third** dog everything that's already in the list but no **beef**. 
+Do this by using the **pop** method to remove the variable **Beef** from the list.
+
 
 ```template
-// replace with loop number 2 set to 3        | Part 2
-agent.collect_all()
-agent.move(FORWARD, 7)
-agent.drop_all(FORWARD)
-// replace with loop number 1                 | Part 1
-// make the Agent turn left 20 times          | Part 1 
-// end of loop 1
-// make the Agent collect all                 | Part 1          
-// make the Agent move back                   | Part 1
-// make the Agent drop everything to the left | Part 1
-// end of loop 2
+Bone = world(-21, 45, -31)
+Beef = world(-21, 45, -29)
+Chicken = world(-21, 45, -27)
+Biscuit = world(-21, 45, -25)
+Vitamins = world(-21, 45, -23)
+
+Dog_Food=[Bone, Beef, Chicken, Biscuit]
+
+//Add the variable Vitamins to the list using the append method | Step 2
+//Remove the varaiable Beef using the pop method                | Step 3
+//
+//Change value                                                  | Step 1
+blocks.place(REDSTONE_BLOCK, Dog_Food[0]) 
+//Change value                                                  | Step 1
+blocks.place(REDSTONE_BLOCK, Dog_Food[0])
+//Change value                                                  | Step 1
+blocks.place(REDSTONE_BLOCK, Dog_Food[0]) 
+//Change value                                                  | Step 1
+blocks.place(REDSTONE_BLOCK, Dog_Food[0]) 
+//Change value                                                  | Step 2  
+blocks.place(REDSTONE_BLOCK, Dog_Food[0]) 
 ```
