@@ -1,6 +1,6 @@
 ### @explicitHints true
 
-# Activity 3 - Cleaning up.
+# Activity 3 - What is the cats name?
 
 ```python
 player.say()

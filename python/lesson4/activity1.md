@@ -1,6 +1,6 @@
 ### @explicitHints true
 
-# Activity 1 -  Too heavy!
+# Activity 1 - Animal categorizing.
 
 ```python
 blocks.place()

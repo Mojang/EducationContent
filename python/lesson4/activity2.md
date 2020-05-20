@@ -1,6 +1,6 @@
 ### @explicitHints true
 
-# Activity 2 - Spin cycle.
+# Activity 2 - Dietary requirement.
 
 ```python
 blocks.place()
