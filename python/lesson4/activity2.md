@@ -37,7 +37,7 @@ Vitamins = world(-21, 45, -23)
 Dog_Food=[Bone, Beef, Chicken, Biscuit]
 
 //Add the variable Vitamins to the list using the append method | Step 2
-//Remove the varaiable Beef using the pop method                | Step 3
+//Remove the variable Beef using the pop method                 | Step 3
 //
 //Change the value of the list below                            | Step 1
 blocks.place(REDSTONE_BLOCK, Dog_Food[0]) 
