@@ -10,6 +10,5 @@ Click on the hints if you need help.
 ### ~ tutorialhint 
 The command structure in Minecraft python is:
 ```python
-# @highlight
 command_group.command_name()
 ```
