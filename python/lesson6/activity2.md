@@ -15,6 +15,10 @@ if True:
 ## Step 1
 **Part 1:** Write a code, using a `||logic:if else||` conditional, to make the Agent turn left when it reaches the sign and
 then move forward onto the gold block. Use and `||agent:agent inspect||` command as the condition and compare it to the variable **left**.
+The `||agent:agent inspect||` command looks like: 
+```python
+agent.inspect(AgentInspection.BLOCK, FORWARD)
+```
 ### ~ tutorialhint 
 To compare a condition against the Minecraft world or a variable use **==**.
 
