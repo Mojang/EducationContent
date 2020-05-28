@@ -23,15 +23,16 @@ Don't forget that two loops can't have the same name, so rename the second loop.
 To indent a large piece of code highlight all the code you want to indent and press the **tab** key. 
 
 ```template
-// replace with loop number 2 set to 3        | Part 2
+//Replace the lines below with your code #    
+//loop number 2 set to 3                              | Part 2
 agent.collect_all()
 agent.move(FORWARD, 7)
 agent.drop_all(FORWARD)
-// replace with loop number 1                 | Part 1
-// make the Agent turn left 20 times          | Part 1 
-// end of loop 1
-// make the Agent collect all                 | Part 1          
-// make the Agent move back                   | Part 1
-// make the Agent drop everything to the left | Part 1
-// end of loop 2
+//loop number 1                              | Part 1
+//make the Agent turn left 20 times          | Part 1 
+//end of loop 1
+//make the Agent collect all                 | Part 1          
+//make the Agent move back                   | Part 1
+//make the Agent drop everything to the left | Part 1
+//end of loop 2
 ```

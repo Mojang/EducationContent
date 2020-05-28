@@ -23,10 +23,12 @@ location2 = world(-31, 40, -11)
 location3 = world(-28, 40, -16)
 location4 = world(-25, 40, -13)
 location5 = world(-31, 40, -17)
+//Replace the lines below with your code #
 
-// replace with place block at location1 command
-// replace with place block at location2 command
-// replace with place block at location3 command
-// replace with place block at location4 command
-// replace with place block at location5 command
+//place block at location1 command
+//place block at location2 command
+//place block at location3 command
+//place block at location4 command
+//place block at location5 command
+
 ```

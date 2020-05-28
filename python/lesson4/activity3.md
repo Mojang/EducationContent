@@ -27,11 +27,11 @@ Then press the **select a cat** button and choose the cat shown in the chat.
 
 ```template
 Cat_Names= ["Smokey", "Oreo", "Sammy", "Patch", "Princess", "Snowy"]
+// Replace the lines below with your code #   
+//Change the last name to shadow           | Step 1
+//Sort the names alphabetically in the list         | Step 2
+//Reverse all names                                          | Step 3 
 
-//Change the name Snowy to Shadow                    | Step 1
-//Sort the names alphabetically in the list          | Step 2
-//Reverse all names                                  | Step 3 
-//
-//Change the value of the list below                 | Step 1,2,3
-player.say(Cat_Names[0]) 
+//Change the value of the list below | Step 1,2,3
+player.say(Cat_Names[])  
 ```

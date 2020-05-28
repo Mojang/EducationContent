@@ -16,14 +16,15 @@ on the pens to complete these commands.
 ### ~ tutorialhint 
 Remember that list positions start from zero. 
 
-```template
+```template 
 location1 = world(-2, 40, -11)
 location2 = world(-2, 40, -5)
 location3 = world(-8, 40, -0)
 location4 = world(-13, 40, -5)
 location5 = world(-13, 40, -11)
+//Replace the lines below with your code #   
 
-// replace with list of animals 
+//list of animals 
 
 mobs.spawn(My_list[0], location1)
 //spawn the third mob from the list at location2

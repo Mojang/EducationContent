@@ -16,21 +16,21 @@ Look at the monitor on the wall and change the fruit variable value to match the
 Run the code and press the matching fruit buttons in the same sequence as in the chat, untill all of the lights turn on. 
 
 ```template
-//Step1 #
+//Replace the lines below with your code #
 a = "berries"
-// replace with variable b 
-// replace with variable c
+//variable b | Step 1  
+//variable c | Step 1  
 d = a
-//Step2 #
-// replace with fruit variable
+//fruit variable      | Step 2  
 player.say(fruit)
 
-// replace with fruit variable
+//fruit variable      | Step 2  
 player.say(fruit)
 
-// replace with fruit variable
+//fruit variable      | Step 2  
 player.say(fruit)
 
 fruit = d
 player.say(fruit)
+
 ``` 

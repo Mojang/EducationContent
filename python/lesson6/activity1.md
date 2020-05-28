@@ -31,12 +31,13 @@ Do this by using the `||loops:pause||` command. After two seconds the Agent shou
 **1000** ms is approximately **1** second.
 
 ```template
-//Replace with for loop set to 7                            |Part 1
-//Add the operator NOT to the condition below               |Part 2
-//Replace with if conditional with a Agent detect condition |Part 1
-//Make the Agent move forward                               |Part 1
-//Replace with if conditional with a Agent detect condition |Part 3
-//Pause for 2000 ms                                         |Part 3
-//Make the Agent move forward                               |Part 3
+//Replace the lines below with your code #    
+//for loop set to 7                            |Part 1
+//Add the operator NOT to the condition below          |Part 2 
+//if conditional with an Agent detect condition|Part 1
+//Make the Agent move forward                  |Part 1
+//if conditional with an Agent detect condition                |Part 3
+//Pause for 2000 ms                                            |Part 3
+//Make the Agent move forward                                  |Part 3
 //End of loop
 ```

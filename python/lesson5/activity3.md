@@ -23,17 +23,18 @@ Remeber that you will need to use double indentation in your code.
 
 
 ```template
-// replace with loop number 3           | Part 2
-// replace with loop number 1           | Part 1
+//Replace the lines below with your code #    
+//loop number 3                                 | Part 2
+//loop number 1                        | Part 1
 agent.collect_all()
 agent.move(FORWARD, 1)
-// end of loop 1
+//end of loop 1
 agent.move(RIGHT, 1)
-// replace with loop number 2           | Part 1
-// make the Agent collect all           | Part 1  
-// make the Agent move back             | Part 1  
-// end of loop 2
-// make the Agent move right            | Part 2
-// end of loop 3  
-// make the Agent drop all to the right | Part 2  
+//loop number 2                        | Part 1
+//make the Agent collect all           | Part 1  
+//make the Agent move back             | Part 1  
+//end of loop 2
+//make the Agent move right                     | Part 2
+//end of loop 3  
+//make the Agent drop all to the right          | Part 2  
 ```
