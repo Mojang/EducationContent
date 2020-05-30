@@ -83,9 +83,12 @@
         "coding-fun/lesson-10/activity_4.md",
         "python/lesson5/activity2.md",
         "python/lesson5/activity3.md",
+        "coding-fun/lesson-12/space.md",
+        "coding-fun/lesson-11/activity-1.md",
+        "coding-fun/lesson-11/activity-2.md",
+        "coding-fun/lesson-11/activity-3.md",
         "python/lesson6/activity2.md",
-        "python/lesson6/activity3.md",
-        "coding-fun/lesson-12/space.md"
+        "python/lesson6/activity3.md"
     ],
     "supportedTargets": [
         "minecraft"
