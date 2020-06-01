@@ -16,7 +16,8 @@ while True:
 
 ## Step 2 
 **Part 2:** Add a sequence to the code so that the Agent places a two-block high wall to its right. 
-
+### ~ tutorialhint
+You don not have to give the Agent any blocks, it has already been given the required blocks.  
 ```template
 //Replace the lines below with your code #    
 //While loop with an Agent detect condition |Part 1

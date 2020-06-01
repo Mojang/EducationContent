@@ -18,6 +18,8 @@ while True:
 ## Step 2 
 **Part 2:** Add to the code to make the Agent build a foundation for a larger house. Write a additional `||loops:while||` loop with another sequences for the 
 inside corners.  
+### ~ tutorialhint 
+When writing the inside corners the Agent needs to go into the outline to place a block and then out again. 
 
 ```template
 //Replace the lines below with your code #    
