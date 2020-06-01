@@ -8,12 +8,26 @@
 # Surroundings 
 
 ## Step 1
-While the Agent **detects the block down**, it needs to move forward. If the Agent **inspects the block down** and finds **air**, then use ``||player:say||`` command to say **crater found!**. 
+While **inspecting the block down** that is **not** **packed ice**, if the Agent **detects the block right**, then it needs to **move forward**. Otherwise it needs to **move right**. Within the same loop, if the Agent **inspects the block down** and it is either **cobblestone** **or** **gravel**, then it needs to **destroy down** and **collect all**. 
 
 
 
 ```template
-player.onChat("2", function () {
+player.onChat("ice", function () {
+    while (0 == 0) {
+        if (true) {
+        	
+        } else {
+        	
+        }
+        if (false || false) {
+        	
+        }
+    }
+})
+```
+```ghost
+layer.onChat("2", function () {
     while (agent.inspect(AgentInspection.Block, DOWN) != PACKED_ICE) {
         if (agent.detect(AgentDetection.Block, RIGHT)) {
             agent.move(FORWARD, 1)
@@ -24,16 +38,6 @@ player.onChat("2", function () {
             agent.destroy(DOWN)
             agent.collectAll()
         }
-    }
-})
-```
-```ghost
-player.onChat("1", function () {
-    while (agent.detect(AgentDetection.Block, DOWN)) {
-        agent.move(FORWARD, 1)
-    }
-    if (agent.inspect(AgentInspection.Block, DOWN) == AIR) {
-        player.say("Crater found!")
     }
 })
 ```
