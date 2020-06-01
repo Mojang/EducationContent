@@ -88,7 +88,9 @@
         "coding-fun/lesson-11/activity-2.md",
         "coding-fun/lesson-11/activity-3.md",
         "python/lesson6/activity2.md",
-        "python/lesson6/activity3.md"
+        "python/lesson6/activity3.md",
+        "python/lesson7/activity2.md",
+        "python/lesson7/activity3.md"
     ],
     "supportedTargets": [
         "minecraft"
