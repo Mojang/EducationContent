@@ -20,7 +20,7 @@ player.onChat("ice", function () {
         } else {
         	
         }
-        if (false || false) {
+        if (agent.inspect(AgentInspection.Block, DOWN) == COBBLESTONE ||agent.inspect(AgentInspection.Block, DOWN) == GRAVEL ) {
         	
         }
     }
