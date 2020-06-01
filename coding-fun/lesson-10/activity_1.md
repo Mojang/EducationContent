@@ -8,7 +8,7 @@
 # Surroundings 
 
 ## Step 1
-While the Agent **inspects the block down** that is **packed ice**, and **if** it **detects the block right**, it needs to **move forward**. Otherwise it needs to **move right**. 
+While  **inspecting the block down** that is **packed ice**, **if** the Agent **detects the block right**, it needs to **move forward**. Otherwise it needs to **move right**. 
 
 
 
