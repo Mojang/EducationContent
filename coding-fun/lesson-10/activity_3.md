@@ -8,11 +8,11 @@
 # Surroundings 
 
 ## Step 1
-While the Agent **detects the block down**, it needs to move forward. If the Agent **inspects the block down** and finds **air**, then use ``||player:say||`` command to say **crater found!**. 
+While **inspecting the block down** that is **not packed ice**, program the Agent to locate, **destroy** and **collect** the following blocks: **iron ore**, **gold ore**, **emerald ore** and **diamond ore**. 
 
 
 
-```template
+```ghost
 player.onChat("3", function () {
     agent.setItem(STONE, 64, 1)
     while (agent.inspect(AgentInspection.Block, DOWN) != PACKED_ICE) {
@@ -30,13 +30,4 @@ player.onChat("3", function () {
     }
 })
 ```
-```ghost
-player.onChat("1", function () {
-    while (agent.detect(AgentDetection.Block, DOWN)) {
-        agent.move(FORWARD, 1)
-    }
-    if (agent.inspect(AgentInspection.Block, DOWN) == AIR) {
-        player.say("Crater found!")
-    }
-})
-```
+
