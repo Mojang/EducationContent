@@ -1,6 +1,6 @@
 ### @explicitHints true
 
-# Activity 1 - Water barrier. 
+# Activity 3 - Home reconstruction. 
 
 ```python
 agent.turn(LEFT_TURN)
@@ -12,14 +12,15 @@ while True:
 ```
 
 ## Step 1
-**Part 1:** Write a code to make the Agent move on the guideline of Redstone dust and place bloks within it to make a small house foundation. Use **two** 
-`||loops:while||` loops with **two** sequences, one for the strait pieces and one for the outside corner. 
+**Part 1:** Write a code to make the Agent follow the guideline of Redstone dust and place blocks to its left to make the small houses foundation.
+Use **two** `||loops:while||` loops with **two** sequences, one for the straight sections and one for the outside corners. 
 
 ## Step 2 
-**Part 2:** Add to the code to make the Agent build a foundation for a larger house. Write a additional `||loops:while||` loop with another sequences for the 
-inside corners.  
+**Part 2:** Add to the code to make the Agent build the foundation of a larger house. Write a additional `||loops:while||` loop with 
+an additional sequences for the inside corners.  
 ### ~ tutorialhint 
-When writing the inside corners the Agent needs to go into the outline to place a block and then out again. 
+When writing the sequence for the inside corners it needs to include a part where 
+the Agent needs to move one block beyond the outline to place a block, and then move back. 
 
 ```template
 //Replace the lines below with your code #    
@@ -39,6 +40,5 @@ When writing the inside corners the Agent needs to go into the outline to place 
 //Make the Agent place a block to its left            |Part 2        
 //Make the Agent move forward                         |Part 2
 //End of while loop 3
-//End of while loop 1
-                              
+//End of while loop 1                        
 ```
