@@ -132,7 +132,10 @@
         "tutorials/sequencing/novice/move_blocks.md",
         "tutorials/conditionals/expert/pyramid_blocks.md",
         "tutorials/conditionals/intermediate/chopping_blocks.md",
-        "tutorials/conditionals/novice/maze_blocks.md"
+        "tutorials/conditionals/novice/maze_blocks.md",
+        "tutorials/variable/expert/letter_blocks.md",
+        "tutorials/variable/intermediate/bat_blocks.md",
+        "tutorials/variable/novice/jump_blocks.md"
     ],
     "supportedTargets": [
         "minecraft"
