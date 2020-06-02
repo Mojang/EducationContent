@@ -128,7 +128,8 @@
         "tutorials/loops/novice/loops_blocks.md",
         "tutorials/sequencing/expert/ocelot_blocks.md",
         "tutorials/sequencing/intermediate/maze_blocks.md",
-        "welcome.md"
+        "welcome.md",
+        "tutorials/sequencing/novice/move_blocks.md"
     ],
     "supportedTargets": [
         "minecraft"
