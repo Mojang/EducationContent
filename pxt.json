@@ -147,7 +147,6 @@
         "tutorials/sequencing/expert/ocelot_blocks.md",
         "tutorials/sequencing/intermediate.md",
         "tutorials/sequencing/intermediate/maze_blocks.md",
-        "tutorials/sequencing/novice.md",
         "welcome.md"
     ],
     "supportedTargets": [
