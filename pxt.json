@@ -89,13 +89,8 @@
         "coding-fun/lesson-11/activity-3.md",
         "python/lesson6/activity2.md",
         "python/lesson6/activity3.md",
-        "tutorials/sequencing/novice.md",
-        "tutorials/sequencing/intermediate.md",
-        "tutorials/sequencing/advanced.md",
         "tutorials/conditional_loops/novice.md",
         "tutorials/conditional_loops/intermediate.md",
-        "tutorials/conditional_loops.md",
-        "tutorials/conditional_loops/advanced.md",
         "python/lesson7/activity2.md",
         "python/lesson7/activity3.md",
         "tutorials/events/novice.md",
@@ -105,11 +100,9 @@
         "tutorials/functions/intermediate.md",
         "tutorials/functions/advanced.md",
         "tutorials/loops/novice.md",
-        "tutorials/loops/intermediate.md",
         "tutorials/loops/advanced.md",
-        "tutorials/nested_loops/novice.md",
         "tutorials/nested_loops/intermediate.md",
-        "tutorials/nested_loops/advanced.md"
+        null
     ],
     "supportedTargets": [
         "minecraft"
