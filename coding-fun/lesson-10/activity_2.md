@@ -27,7 +27,7 @@ player.onChat("ice", function () {
 })
 ```
 ```ghost
-layer.onChat("2", function () {
+player.onChat("2", function () {
     while (agent.inspect(AgentInspection.Block, DOWN) != PACKED_ICE) {
         if (agent.detect(AgentDetection.Block, RIGHT)) {
             agent.move(FORWARD, 1)
