@@ -5,29 +5,72 @@
 ### @explicitHints 1
 
 
-# Surroundings 
+# Planet visit 
 
 ## Step 1
-Time to work on your skills on the Holodeck!
+Select the right coding snippet to run! You have only 1 attempt.
 
 
 
-```ghost
-player.onChat("3", function () {
-    agent.setItem(STONE, 64, 1)
-    while (agent.inspect(AgentInspection.Block, DOWN) != PACKED_ICE) {
-        if (agent.inspect(AgentInspection.Block, DOWN) == IRON_ORE || agent.inspect(AgentInspection.Block, DOWN) == GOLD_ORE) {
-            agent.turn(LEFT_TURN)
-            agent.destroy(DOWN)
-            agent.collectAll()
-        }
-        if (agent.inspect(AgentInspection.Block, DOWN) == DIAMOND_ORE || agent.inspect(AgentInspection.Block, DOWN) == EMERALD_ORE) {
-            agent.turn(RIGHT_TURN)
-            agent.destroy(DOWN)
+```template
+player.onChat("1", function () {
+    for (let index = 0; index < 28; index++) {
+        if (agent.detect(AgentDetection.Block, FORWARD) || (agent.detect(AgentDetection.Block, LEFT) || agent.detect(AgentDetection.Block, RIGHT))) {
+            agent.destroy(FORWARD)
+            agent.destroy(LEFT)
+            agent.destroy(RIGHT)
             agent.collectAll()
         }
         agent.move(FORWARD, 1)
     }
+    agent.turn(RIGHT_TURN)
+    for (let index = 0; index < 8; index++) {
+        if (agent.detect(AgentDetection.Block, FORWARD) || (agent.detect(AgentDetection.Block, LEFT) || agent.detect(AgentDetection.Block, RIGHT))) {
+            agent.destroy(FORWARD)
+            agent.destroy(LEFT)
+            agent.destroy(RIGHT)
+            agent.collectAll()
+        }
+        agent.move(FORWARD, 1)
+    }
+    agent.turn(RIGHT_TURN)
+    for (let index = 0; index < 24; index++) {
+        if (agent.detect(AgentDetection.Block, FORWARD) || (agent.detect(AgentDetection.Block, LEFT) || agent.detect(AgentDetection.Block, RIGHT))) {
+            agent.destroy(FORWARD)
+            agent.destroy(LEFT)
+            agent.destroy(RIGHT)
+            agent.collectAll()
+        }
+        agent.move(FORWARD, 1)
+    }
+})
+player.onChat("2", function () {
+    for (let index = 0; index < 10; index++) {
+        for (let index = 0; index < 4; index++) {
+            for (let index = 0; index < 4; index++) {
+                agent.move(FORWARD, 1)
+                agent.setItem(PLANKS_OAK, 1, 1)
+                agent.place(DOWN)
+            }
+            agent.turn(RIGHT_TURN)
+        }
+        agent.move(UP, 1)
+    }
+})
+player.onChat("3", function () {
+    while (agent.inspect(AgentInspection.Block, FORWARD) != GOLD_ORE) {
+        if (agent.detect(AgentDetection.Block, FORWARD)) {
+            agent.destroy(FORWARD)
+        }
+        if (agent.inspect(AgentInspection.Block, DOWN) == GOLD_ORE) {
+            agent.turn(RIGHT_TURN)
+        }
+        if (agent.inspect(AgentInspection.Block, DOWN) == IRON_ORE) {
+            agent.turn(LEFT_TURN)
+        }
+        agent.move(FORWARD, 1)
+    }
+    player.say("Found Ore Deposit!")
 })
 ```
 
