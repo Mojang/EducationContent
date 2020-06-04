@@ -19,7 +19,9 @@ player.onChat("3", function () {
             agent.turn(LEFT_TURN)
         }
     }
-    agent.destroy(FORWARD)
-    agent.collectAll()
+agent.destroy(FORWARD)
+agent.collectAll()
+agent.place(FORWARD)
+agent.setItem(GRASS, 1, 1)
 })
 ```
