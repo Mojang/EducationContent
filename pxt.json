@@ -135,7 +135,9 @@
         "tutorials/conditionals/novice/maze_blocks.md",
         "tutorials/variable/expert/letter_blocks.md",
         "tutorials/variable/intermediate/bat_blocks.md",
-        "tutorials/variable/novice/jump_blocks.md"
+        "tutorials/variable/novice/jump_blocks.md",
+        "python/lesson8/activity2.md",
+        "python/lesson8/activity3.md"
     ],
     "supportedTargets": [
         "minecraft"
