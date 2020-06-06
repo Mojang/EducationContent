@@ -1,44 +1,40 @@
 ### @explicitHints true
 
-# Activity 3 - Home reconstruction. 
+# Activity 1 - One row at a time. 
 
 ```python
-agent.turn(LEFT_TURN)
-agent.place(RIGHT)
+agent.till(RIGHT)
 agent.move(FORWARD, 5)
-agent.detect(AgentDetection.BLOCK, FORWARD) 
-while True:
-      pass
+agent.set_slot(1)
 ```
 
 ## Step 1
-**Part 1:** Write a code to make the Agent follow the guideline of Redstone dust and place blocks to its left to make the small houses foundation.
-Use **two** `||loops:while||` loops with **two** sequences, one for the straight sections and one for the outside corners. 
+**Part 1:** Write a code to make the Agent move forward while tilling and planting saplings, on the **grass** blocks, to its left.
 
 ## Step 2 
-**Part 2:** Add to the code to make the Agent build the foundation of a larger house. Write a additional `||loops:while||` loop with 
-an additional sequences for the inside corners.  
+**Part 2:** Add to the code to make the Agent also fertizlie the saplings **5** times.
 ### ~ tutorialhint 
-When writing the sequence for the inside corners it needs to include a part where 
-the Agent needs to move one block beyond the outline to place a block, and then move back. 
+The Agent has fertizlizer in its **second** inventory slot. Switch between the Agents **first** and **second** slot using the `||agent:set active slot||`
+command.  
 
 ```template
+//Replace with your functions below #
+//Replace with comment about function below   |Part 1   
+//Declare your function                       |Part 1
+//Set the Agents inventory slot to 1                  |Part 2
+//Make the Agent till to its left             |Part 1
+//Make the Agent place a sapling to its left  |Part 1
+//Set the Agents inventory slot to 2                  |Part 2
+//Make the Agent place fertilizer to its left         |Part 2
+//Make the Agent place fertilizer to its left         |Part 2
+//Make the Agent place fertilizer to its left         |Part 2
+//Make the Agent place fertilizer to its left         |Part 2
+//Make the Agent place fertilizer to its left         |Part 2
 //Replace the lines below with your code #    
-//While loop 1 with an Agent detect condition |Part 1
-//Make the Agent place a block to its left    |Part 1       
-//Make the Agent move forward                 |Part 1 
-//While loop 2 with an Agent detect condition |Part 1
-//Make the Agent turn left                    |Part 1                 
 //Make the Agent move forward                 |Part 1
-//End of while loop 2
-//While loop 3 with an Agent detect condition         |Part 2
-//Make the Agent place a block to its left            |Part 2        
-//Make the Agent move forward                         |Part 2
-//Make the Agent place a block to its left            |Part 2        
-//Make the Agent move back                            |Part 2
-//Make the Agent turn right                           |Part 2                 
-//Make the Agent place a block to its left            |Part 2        
-//Make the Agent move forward                         |Part 2
-//End of while loop 3
-//End of while loop 1                        
+//Call your function                          |Part 1
+//Make the Agent move forward                 |Part 1
+//Call your function                          |Part 1
+//Make the Agent move forward                 |Part 1
+//Call your function                          |Part 1                 
 ```

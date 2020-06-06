@@ -1,44 +1,49 @@
-### @explicitHints true
+###@explicitHints true
 
-# Activity 3 - Home reconstruction. 
+# Activity 2 - Breaking boulders.
 
 ```python
-agent.turn(LEFT_TURN)
+agent.destroy(FORWARD)
 agent.place(RIGHT)
+agent.collect_all()
 agent.move(FORWARD, 5)
-agent.detect(AgentDetection.BLOCK, FORWARD) 
-while True:
+agent.inspect(AgentInspection.BLOCK, FORWARD) 
+agent.till(BACK)
+for i in range(4):
       pass
+if True: 
+    pass
+else: 
+    pass
+elif:
+    pass
 ```
 
-## Step 1
-**Part 1:** Write a code to make the Agent follow the guideline of Redstone dust and place blocks to its left to make the small houses foundation.
-Use **two** `||loops:while||` loops with **two** sequences, one for the straight sections and one for the outside corners. 
+##Step 1
+**Part 1:** Write a code to make the Agent move forward, break and collect each **stone** block in the way.  
 
-## Step 2 
-**Part 2:** Add to the code to make the Agent build the foundation of a larger house. Write a additional `||loops:while||` loop with 
-an additional sequences for the inside corners.  
-### ~ tutorialhint 
-When writing the sequence for the inside corners it needs to include a part where 
-the Agent needs to move one block beyond the outline to place a block, and then move back. 
+##Step 2 
+**Part 2:** Add to the code to make the Agent till and plant saplings, on the **grass** blocks, to its left.  
 
 ```template
-//Replace the lines below with your code #    
-//While loop 1 with an Agent detect condition |Part 1
-//Make the Agent place a block to its left    |Part 1       
-//Make the Agent move forward                 |Part 1 
-//While loop 2 with an Agent detect condition |Part 1
-//Make the Agent turn left                    |Part 1                 
-//Make the Agent move forward                 |Part 1
-//End of while loop 2
-//While loop 3 with an Agent detect condition         |Part 2
-//Make the Agent place a block to its left            |Part 2        
-//Make the Agent move forward                         |Part 2
-//Make the Agent place a block to its left            |Part 2        
-//Make the Agent move back                            |Part 2
-//Make the Agent turn right                           |Part 2                 
-//Make the Agent place a block to its left            |Part 2        
-//Make the Agent move forward                         |Part 2
-//End of while loop 3
-//End of while loop 1                        
+//Place your functions below #
+//Replace with comment about function below        |Part 1   
+//Declare function 1                               |Part 1
+//Make the Agent destroy the block forward         |Part 1
+//Make the Agent collect all                       |Part 1
+//Make the Agent move forward                      |Part 1
+//Replace with comment about function below                |Part 2   
+//Declare function 2                                       |Part 2
+//Make the Agent move forward                              |Part 2
+//Make the till back                                       |Part 2
+//Make the place back                                      |Part 2
+//Replace the lines below with your code #  
+//For loop set to 14                               |Part 1
+//If else conditional with Agent inspect condition |Part 1
+//Call function for removing rocks                 |Part 1
+//Elif conditional with Agent inspect condition            |Part 2            
+//Call function for planting trees                         |Part 2
+//Else part of if else conditional                 |Part 1
+//Make the Agent move forward                      |Part 1
+                       
 ```
