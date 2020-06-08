@@ -12,7 +12,7 @@ player.onChat("spiral", function () {
 
 ## Step 2
 
-Put a ``||while loop||`` inside the ``||agent:chat command||``. Get a ``||logic comparison||``, set it to **not equals** and drag it into the ``||while loop||`` in place of **true**. Get an ``||agent inspect||``, set it to **block** and **forward** and drag it into the **left** parameter of the comparison. Get a ``||basic block||``, set it to **Gold** and drag it into the **right** parameter of the comparison. 
+Put a ``||loops:while loop||`` inside the ``||player:chat command||``. Get a ``||logic:comparison||``, set it to **not equals** and drag it into the ``||loops:while loop||`` in place of **true**. Get an ``||agent:agent inspect||``, set it to **block** and **forward** and drag it into the **left** parameter of the comparison. Get a ``||blocks: block||``, set it to **Gold** and drag it into the **right** parameter of the comparison. 
 
 ```blocks
 player.onChat("spiral", function () {
@@ -24,7 +24,7 @@ player.onChat("spiral", function () {
 
 ## Step 3
 
-Add an ``||if else conditional||`` inside the ``||while loop||`` and replace the **true** argument in the ``||if else||`` conditional with a ``||logic not||``. Add an ``||agent detect||`` set to **block** and **forward** into the ``||logical not||``. Add an ``||agent move||`` **forward** by 1 into the ``||if conditional||``.
+Add an ``||logic:if else conditional||`` inside the ``||loops:while loop||`` and replace the **true** argument in the ``||logic:if else||`` conditional with a ``||logic: not||``. Add an ``||agent:agent detect||`` set to **block** and **forward** into the ``||logic: not||``. Add an ``||agent:agent move||`` **forward** by 1 into the ``||logic:if conditional||``.
 
 ```blocks
 player.onChat("spiral", function () {
@@ -40,7 +40,7 @@ player.onChat("spiral", function () {
 
 ## Step 4
 
-Add an ``||agent:turn left||`` into the ``||else conditional||``.
+Add an ``||agent:turn left||`` into the ``||logic:else conditional||``.
 
 ```blocks
 player.onChat("spiral", function () {
@@ -56,7 +56,7 @@ player.onChat("spiral", function () {
 
 ## Step 5
 
-Add an ``||agent:move||`` **up** by **3** outside of the ``||while loop||`` but still inside the ``||on chat||`` command.  
+Add an ``||agent:agent move||`` **up** by **3** outside of the ``||loops:while loop||`` but still inside the ``||player:on chat||`` command.  
 
 ```blocks
 player.onChat("spiral", function () {
@@ -73,7 +73,7 @@ player.onChat("spiral", function () {
 
 ## Step 6
 
-Place a ``||repeat loop||`` onto the workspace and set it to repeat **4** times. Drag all your code (including the ``||while loop||`` and the last ``||agent:move||``) inside the ``||repeat loop||``. Drag the ``||repeat loop||`` (and everything inside it) into the ``||agent:on chat||`` command. 
+Place a ``||loops:repeat loop||`` onto the workspace and set it to repeat **4** times. Drag all your code (including the ``||loops:while loop||`` and the last ``||agent: agent move||``) inside the ``||loops:repeat loop||``. Drag the ``||loops:repeat loop||`` (and everything inside it) into the ``||player:on chat||`` command. 
 
 ```blocks
  player.onChat("spiral", function () {
