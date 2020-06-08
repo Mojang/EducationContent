@@ -3,7 +3,7 @@
 
 
 ## Step 1
-Code a ``||chat||`` command and name it **“spiral”**.
+Code a ``||player:on chat||`` command and name it **“spiral”**.
 
 ```javascript
 player.onChat("spiral", function () {
@@ -12,7 +12,7 @@ player.onChat("spiral", function () {
 
 ## Step 2
 
-Code a ``||while loop||`` that begins with: while the ``||agent inspects||`` a block **forward** is not equal to a block of **gold**.
+Code a ``||loops:while||`` loop that begins with: while the ``||agent:inspects||`` a block **forward** is not equal to a block of **gold**.
 
 ```javascript
 player.onChat("spiral", function () {
@@ -24,7 +24,7 @@ player.onChat("spiral", function () {
 
 ## Step 3
 
-Code an ``||if/else statement||`` to go inside the ``||while loop||`` that starts with: if the agent ``||does NOT detect||`` a block **forward** then ``||agent moves||`` **forward** by **1**. 
+Code an ``||logic:if-else||`` statement to go inside the ``||loops:while||`` loop that starts with: if the agent ``||agent:does NOT detect||`` a block **forward** then ``||agent:moves||`` **forward** by **1**. 
 
 ```javascript
 player.onChat("spiral", function () {
@@ -40,7 +40,7 @@ player.onChat("spiral", function () {
 
 ## Step 4
 
-In the ``||else||`` clause of the ``||if/else statement||``, write that the ``||agent turns||`` **left**. 
+In the ``||logic:else||`` clause of the ``||logic:if-else statement||``, write that the ``||agent:turns||`` **left**. 
 
 ```javascript
 player.onChat("spiral", function () {
@@ -56,7 +56,7 @@ player.onChat("spiral", function () {
 
 ## Step 5
 
-Outside of the ``||while loop||``, code the agent to ``||move up||`` by **3** .
+Outside of the ``||loops:while||`` loop, code the agent to ``||agent:move up||`` by **3** .
 
 ```javascript
 player.onChat("spiral", function () {
@@ -73,7 +73,7 @@ player.onChat("spiral", function () {
 
 ## Step 6
 
-Code the ``||while loop||`` to be repeated **2** times by adding a ``||for loop||`` around it. 
+Code the ``||loops:while||`` loop to be repeated **2** times by adding a ``||loops:for||`` loop around it. 
 
 ```javascript
  player.onChat("spiral", function () {

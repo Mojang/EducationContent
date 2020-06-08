@@ -2,7 +2,7 @@
 # Spiral Activity: Python
 
 ## Step 1
-Code a ``||chat||`` command and name it **“spiral”**.
+Code a ``||player:on chat||`` command and name it **“spiral”**.
 
 ```python
 def on_chat():
@@ -12,7 +12,7 @@ player.on_chat("spiral", on_chat)
 
 ## Step 2
 
-Code a ``||while loop||`` that begins with: while the ``||agent inspects||`` a block **forward** is not equal to a block of **gold**.
+Code a ``||loops:while||`` loop that begins with: while the ``||agent:inspects||`` a block **forward** is not equal to a block of **gold**.
 
 ```python
 def on_chat():
@@ -23,7 +23,7 @@ player.on_chat("spiral", on_chat)
 
 ## Step 3
 
-Code an ``||if/else statement||`` to go inside the ``||while loop||`` that starts with: if the agent ``||does NOT detect||`` a block **forward** then ``||agent moves||`` **forward** by **1**. 
+Code an ``||logic:if-else||`` statement to go inside the ``||loops:while||`` loop that starts with: if the agent ``||agent: does NOT detect||`` a block **forward** then ``||agent:moves||`` **forward** by **1**. 
 
 ```python
 def on_chat():
@@ -37,7 +37,7 @@ player.on_chat("spiral", on_chat)
 
 ## Step 4
 
-In the ``||else||`` clause of the ``||if/else statement||``, write that the ``||agent turns||`` **left**. 
+In the ``||logic:else||`` clause of the ``||logic:if-else||`` statement, write that the ``||agent:turns||`` **left**. 
 
 ```python
 def on_chat():
@@ -51,7 +51,7 @@ player.on_chat("spiral", on_chat)
 
 ## Step 5
 
-Outside of the ``||while loop||``, code the agent to ``||move up||`` by **3** .
+Outside of the ``||loops:while||`` loop, code the agent to ``||agent:move up||`` by **3** .
 
 ```python
 def on_chat():
@@ -66,7 +66,7 @@ player.on_chat("spiral", on_chat)
 
 ## Step 6
 
-Code the ``||while loop||`` to be repeated **2** times by adding a ``||for loop||`` around it. 
+Code the ``||loops:while||`` loop to be repeated **2** times by adding a ``||loops:for||`` loop around it. 
 
 ```python
 def on_chat():
