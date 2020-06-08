@@ -12,7 +12,7 @@ player.onChat("pyramid", function (size){
 ```
 
 ## Step 2
-Get an ``||logic:if-then||`` and drag it into the **pyramid** ``||player:on chat||`` command. Drag a ``||comparison||`` into the **true** argument of the ``||logic:if-then||`` conditional  and set it to **>** (greater than). Then, insert the **size** variable into the first argument **left**. Leave the right argument empty.
+Get an ``||logic:if-then||`` and drag it into the **pyramid** ``||player:on chat||`` command. Drag a ``||logic: comparison||`` into the **true** argument of the ``||logic:if-then||`` conditional  and set it to **>** (greater than). Then, insert the **size** variable into the first argument **left**. Leave the right argument empty.
 
 ```blocks
 player.onChat("pyramid", function (size)){ 
