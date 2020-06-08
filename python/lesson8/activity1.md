@@ -23,10 +23,10 @@ command.
 //Replace with your functions below #
 //Replace with comment about function below   |Part 1   
 //Declare your function                       |Part 1
-//Set the Agents inventory slot to 1                  |Part 2
+//Set the Agent's inventory slot to 1                 |Part 2
 //Make the Agent till to its left             |Part 1
 //Make the Agent place a sapling to its left  |Part 1
-//Set the Agents inventory slot to 2                  |Part 2
+//Set the Agent's inventory slot to 2                 |Part 2
 //Make the Agent place fertilizer to its left         |Part 2
 //Make the Agent place fertilizer to its left         |Part 2
 //Make the Agent place fertilizer to its left         |Part 2
