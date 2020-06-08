@@ -2,7 +2,7 @@
 
 
 ## Step 1
-Create a new ``||on chat||`` command and name it **“it”**.
+Create a new ``||player: on chat||`` command and name it **“it”**.
 
 ```python
 def on_chat():
@@ -12,7 +12,7 @@ player.on_chat("lt", on_chat)
 
 ## Step 2
 
-Inside the ``||on chat||`` command,  Code the agent to ``||turn left||``.
+Inside the ``||player: on chat||`` command,  Code the agent to turn left.
 
 ```python
 def on_chat():
@@ -22,7 +22,7 @@ player.on_chat("lt", on_chat)
 
 ## Step 3
 
-Create an ``||if-statement||`` that evaluates whether an agent detects a block in front. If it evaluates to true, then turn left.
+Create an ``||logic: if then||`` statement that evaluates whether an agent detects a block in front. If it evaluates to **true**, then turn left.
 
 ```python
 if agent.detect(AgentDetection.BLOCK, FORWARD):
@@ -31,7 +31,7 @@ if agent.detect(AgentDetection.BLOCK, FORWARD):
 
 ## Step 4
 
-Add an ``||else||`` to the ``||if-statement||``, that includes an instruction to have the``||agent:move||`` **forward by 1**.  **NOTE:** The full statement then becomes an if-else statement).
+Add an ``||logic: else||`` to the ``||logic: if||`` statement, that includes an instruction to have the ``||agent:move||`` **forward by 1**.  **NOTE:** The full statement then becomes an ``||logic: if-else||`` statement.
 
 ```python
         agent.turn(LEFT_TURN)
@@ -41,7 +41,7 @@ Add an ``||else||`` to the ``||if-statement||``, that includes an instruction to
 
 ## Step 5
 
-Place the ``||if-else statement||`` within a ``||forever loop||``—so that these steps will continue until you stop them.
+Place the ``||logic: if-else||`` statement within a ``||loops: forever||`` loop—so that these steps will continue until you stop them.
 
 ```python
 def on_forever():
@@ -54,7 +54,7 @@ loops.forever(on_forever)
 
 ## Step 6
 
-Create a new ``||agent:on chat||`` command and name it **“tp”**.
+Create a new ``||player:on chat||`` command and name it **“tp”**.
 
 ```python
 def on_chat2():
@@ -64,7 +64,7 @@ player.on_chat("tp", on_chat2)
 
 ## Step 7
 
-Add an ``||agent teleport||`` to player inside the ``||chat||`` command.
+Add an ``||mobs: teleport to player||`` inside the ``||player: on chat||`` command.
 
 ```python
 def on_chat2():
