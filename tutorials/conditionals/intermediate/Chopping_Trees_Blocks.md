@@ -1,8 +1,8 @@
-# Chopping Trees: Blocks
+﻿# Chopping Trees: Blocks
 
 
 ## Step 1
-Create an ``||agent:on chat||`` command and name it **“it”**.
+Create an ``||player:on chat||`` command and name it **“it”**.
 
 ```blocks
 player.onChat("it", function () {
@@ -11,7 +11,7 @@ player.onChat("it", function () {
 
 ## Step 2
 
-Get an ``||agent:turn||``, set it to **left**, and drag it inside the ``||on chat||`` command.
+Get a ``||agent:turn||``, set it to **left**, and drag it inside the ``||player:on chat||`` command.
 
 ```blocks
 player.onChat("it", function () {
@@ -21,7 +21,7 @@ player.onChat("it", function () {
 
 ## Step 3
 
-Create another ``||agent:on chat||`` command and name it **“tp”**.
+Create another ``||player:on chat||`` command and name it **“tp”**.
 
 ```blocks
 player.onChat("tp", function () {
@@ -30,7 +30,7 @@ player.onChat("tp", function () {
 
 ## Step 4
 
-Get an ``||agent:teleport to player||`` and drag it inside the **tp**  ``||agent:on chat||`` command.
+Get an ``||agent:teleport to player||`` and drag it inside the **tp**  ``||player:on chat||`` command.
 
 ```blocks
 player.onChat("tp", function () {
@@ -40,7 +40,7 @@ player.onChat("tp", function () {
 
 ## Step 5
 
-Create a third ``||agent:on chat||`` command and name it **“chop”**.
+Create a third ``||player:on chat||`` command and name it **“chop”**.
 
 ```blocks
 player.onChat("chop", function () {
@@ -49,7 +49,7 @@ player.onChat("chop", function () {
 
 ## Step 6
 
-Get a new ``||set variable||``, click the dropdown,  then create a new **height** variable and set it to **0**. Drag this new variable into the **chop** ``||agent:on chat||`` command.
+Get a new ``||variable||``, click the dropdown,  then create a new **height** variable and set it to **0**. Drag this new variable into the **chop** ``||agent:on chat||`` command.
 
 ```blocks
 let height = 0
@@ -66,7 +66,7 @@ player.onChat("chop", function () {
 
 ## Step 7
 
-Get a ``||while loop||`` and drag it into the workspace. Get an ``||agent:detect||`` and set it to **block** and **forward**. Drag this ``||agent detect||`` inside the ``||while loop||`` and then drag the while loop inside the **chop** ``||agent:on chat||`` command directly under the **height** variable.
+Get a ``||loops: while||`` loop and drag it into the workspace. Get an ``||agent:detect||`` and set it to **block** and **forward**. Drag this ``||agent:detect||`` inside the ``||loops:while||`` loop and then drag the while loop inside the **chop** ``||player:on chat||`` command directly under the **height** variable.
 
 ```blocks
 player.onChat("chop", function () {
@@ -78,7 +78,7 @@ player.onChat("chop", function () {
 
 ## Step 8
 
-Get a ``||change variable||``, set it to the value of **height plus 1**. Drag the **height** variable into the ``||while loop||``.
+Get a ``||change variable||``, set it to the value of **height plus 1**. Drag the **height** variable into the ``||loops: while||`` loop.
 
 ```blocks
     while (agent.detect(AgentDetection.Block, FORWARD)) {
@@ -88,9 +88,9 @@ Get a ``||change variable||``, set it to the value of **height plus 1**. Drag th
 
 ## Step 9
 
-Get an ``||agent:destroy||`` and set it to **up**. Drag it into the ``||while loop||`` under the change variable **height**.
+Get an ``||agent:destroy||`` and set it to **up**. Drag it into the ``||loops: while||`` loop under the change variable **height**.
 
-Get an ``||agent:move||`` and set it to **up by 1**. Drag it into the ``||while loop||`` directly beneath the ``||agent:destroy||``.
+Get an ``||agent:move||`` and set it to **up by 1**. Drag it into the ``||loops: while||`` loop directly beneath the ``||agent:destroy||``.
 
 ```blocks
     height += 1
@@ -102,7 +102,7 @@ Get an ``||agent:move||`` and set it to **up by 1**. Drag it into the ``||while 
 
 ## Step 10
 
-Add a ``||repeat loop||`` after the ``||while loop||``. Get the **height** variable and drag it into the **times** argument of the ``||repeat loop||``.
+Add a ``||loops:repeat||`` loop after the ``||loops: while||`` loop. Get the **height** variable and drag it into the **times** argument of the ``||loops:repeat||`` loop.
 
 ```blocks
 for (let index = 0; index < height; index++) {
@@ -111,9 +111,9 @@ for (let index = 0; index < height; index++) {
 
 ## Step 11
 
-Duplicate the **up** ``||agent:move||`` (from above), then change it to **down**. Drag the **down** ``||agent:move||`` into the ``||repeat loop||``.
+Duplicate the **up** ``||agent:move||`` (from above), then change it to **down**. Drag the **down** ``||agent:move||`` into the ``||loops:repeat||`` loop.
 
-Duplicate the **up** ``||agent:destroy||`` (from above), then change it to **forward**. Drag the **forward** ``||agent:destroy||`` into the ``||repeat loop||``. Place it directly beneath the ``||agent:move||``.
+Duplicate the **up** ``||agent:destroy||`` (from above), then change it to **forward**. Drag the **forward** ``||agent:destroy||`` into the  ``||loops:repeat||`` loop. Place it directly beneath the ``||agent:move||``.
 
 ```blocks
 for (let index = 0; index < height; index++) {
@@ -124,7 +124,7 @@ for (let index = 0; index < height; index++) {
 
 ## Step 12
 
-Get an ``||agent:collect all||`` and drag it into the ``||repeat loop||`` under the **forward** ``||agent destroy||``.
+Get a ``||agent:collect all||`` and drag it into the  ``||loops:repeat||`` loop under the **forward** ``||agent:destroy||``.
 
 ```blocks
     }

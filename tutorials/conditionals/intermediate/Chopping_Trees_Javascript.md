@@ -1,8 +1,8 @@
-# Chopping Trees: Javascript
+﻿# Chopping Trees: Javascript
 
 
 ## Step 1
-Create an ``||chat||`` command and name it **“it”**.
+Create an ``||player:on chat||`` command and name it **“it”**.
 
 ```javascript
 player.onChat("it", function () {
@@ -11,7 +11,7 @@ player.onChat("it", function () {
 
 ## Step 2
 
-Inside the ``||chat||`` command, code the agent to ``||turn left||``.
+Inside the ``||player:chat||`` command, code the agent to **turn left**.
 
 ```javascript
 player.onChat("it", function () {
@@ -21,7 +21,7 @@ player.onChat("it", function () {
 
 ## Step 3
 
-Create another ``||chat||`` command and name it **“tp”**.
+Create another ``||player:chat||`` command and name it **“tp”**.
 
 ```javascript
 player.onChat("tp", function () {
@@ -30,7 +30,7 @@ player.onChat("tp", function () {
 
 ## Step 4
 
-Inside the ``||chat||`` command, code the agent to ``||teleport||`` to the player.
+Inside the ``||player:chat||`` command, code the agent to ``||mobs:teleport||`` to the player.
 
 ```javascript
 player.onChat("tp", function () {
@@ -40,7 +40,7 @@ player.onChat("tp", function () {
 
 ## Step 5
 
-Create a third ``||chat||`` command and name it **“chop”**.
+Create a third ``||player:chat||`` command and name it **“chop”**.
 
 ```javascript
 player.onChat("chop", function () {
@@ -66,7 +66,7 @@ player.onChat("chop", function () {
 
 ## Step 7
 
-Inside the **chop** ``||agent:on chat||`` command—directly under the **height** variable—create a ``||while loop||`` that begins with: ``||while the agent detects a block forward||``.
+Inside the **chop** ``||player:on chat||`` command—directly under the **height** variable—create a ``||loops:while||`` loop that begins with: **while the agent detects a block forward**.
 
 ```javascript
 player.onChat("chop", function () {
@@ -78,7 +78,7 @@ player.onChat("chop", function () {
 
 ## Step 8
 
-Add a ``||while loop||`` to change the **height** ``||variable||`` to the value of **height plus 1**.
+Add a ``||loops:while||`` loop to change the **height** ``||variable||`` to the value of **height plus 1**.
 
 ```javascript
     while (agent.detect(AgentDetection.Block, FORWARD)) {
@@ -88,9 +88,9 @@ Add a ``||while loop||`` to change the **height** ``||variable||`` to the value 
 
 ## Step 9
 
-In the ``||while loop||``—under the change variable **height**—code the agent to  ``||destroy up||``. 
+In the ``||loops:while||`` loop—under the change variable **height**—code the agent to  **destroy up**. 
 
-Also, add a line to have the ``||agent move up by 1||``.
+Also, add a line to have the **agent move up by 1**.
 
 ```javascript
     height += 1
@@ -101,7 +101,7 @@ Also, add a line to have the ``||agent move up by 1||``.
 
 ## Step 10
 
-Add a ``||for loop||`` after the ``||while loop||``. Insert the **height** variable into the **times** argument of the ``||repeat loop||``.
+Add a ``||loops:for||`` loop  after the ``||loops:while||`` loop. Insert the **height** variable into the **times** argument of the ``||loops:repeat||`` loop.
 
 ```javascript
 for (let index = 0; index < height; index++) {
@@ -110,7 +110,7 @@ for (let index = 0; index < height; index++) {
 
 ## Step 11
 
-Inside the ``||for loop||``,  add a line for ``||agent move down by 1||`` and ``||agent destroy forward||``.
+Inside the ``||loops:for||`` loop,  add a line for **agent move down by 1** and **agent destroy forward**.
 
 ```javascript
 for (let index = 0; index < height; index++) {
@@ -121,7 +121,7 @@ for (let index = 0; index < height; index++) {
 
 ## Step 12
 
-After the ``||for loop||``, code the agent to ``||collect all||`` .
+After the ``||loops:for||`` loop, code the agent to ``||agent:collect all||`` .
 
 ```javascript
     }
