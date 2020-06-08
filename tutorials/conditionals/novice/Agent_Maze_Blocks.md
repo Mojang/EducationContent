@@ -66,7 +66,7 @@ player.onChat("tp", function () {
 ```
 
 ## Step 7
-Add a ``||mobs:teleport||`` to inside the ``||player:on chat||`` command.
+Add a ``||agent:teleport to player||`` to inside the ``||player:on chat||`` command.
 
 ```blocks
 player.onChat("tp", function () {
