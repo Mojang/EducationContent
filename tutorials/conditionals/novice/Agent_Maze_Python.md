@@ -64,7 +64,7 @@ player.on_chat("tp", on_chat2)
 
 ## Step 7
 
-Add an ``||mobs: teleport to player||`` inside the ``||player: on chat||`` command.
+Add an ``||agent: teleport to player||`` inside the ``||player: on chat||`` command.
 
 ```python
 def on_chat2():
