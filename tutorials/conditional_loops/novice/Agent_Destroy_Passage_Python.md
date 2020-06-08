@@ -3,7 +3,7 @@
 
 
 ## Step 1
-Code an ``||player:chat||`` command and name it **“destroy”**.
+Code an ``||player:on chat||`` command and name it **“destroy”**.
 
 ```python
 player.onChat("destroy", function () {
@@ -13,7 +13,7 @@ player.on_chat("destroy", on_chat)
 ```
 
 ## Step 2
-Add a ``||loops:while loop||`` inside the ``||player:chat ||`` command that continues as long as the agent ``||detects||`` a block **forward**. 
+Add a ``||loops:while||`` loop inside the ``||player:on chat ||`` command that continues as long as the agent ``||agent:detects||`` a block **forward**. 
 
 ```python
 def on_chat():
@@ -23,7 +23,7 @@ player.on_chat("destroy", on_chat)
 ```
 
 ## Step 3
-Code the agent to ``||destroy||`` **forward** inside the ``||while loop||``.
+Code the agent to ``||agent:destroy||`` **forward** inside the ``||loops:while||`` loop.
 
 ```python
 def on_chat():
@@ -34,7 +34,7 @@ player.on_chat("destroy", on_chat)
 
 ## Step 4
 
-Code the agent to ``||move forward||`` by **one** after the ``||destroy forward||`` code inside the ``||while loop||``.
+Code the agent to ``||agent:move forward||`` by **one** after the ``||agent:destroy forward||`` code inside the ``||loops:while||`` loop.
 
 ```python
 def on_chat():
@@ -46,7 +46,7 @@ player.on_chat("destroy", on_chat)
 
 ## Step 5
 
-Code the agent to ``||destroy||`` **up** after it ``||moves forward||`` , then **end** the ``||while loop||``.
+Code the agent to ``||agent:destroy||`` **up** after it ``||agent:moves forward||`` , then **end** the ``||loops:while||`` loop.
 
 ```python
 def on_chat():
