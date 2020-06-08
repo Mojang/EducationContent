@@ -20,10 +20,10 @@ elif:
 ```
 
 ##Step 1
-**Part 1:** Write a code to make the Agent move forward, break and collect each **stone** block in the way.  
+**Part 1:** Write a code to make the Agent move forward while breaking and collecting each **stone** block in its way.  
 
 ##Step 2 
-**Part 2:** Add to the code to make the Agent till and plant saplings, on the **grass** blocks, to its left.  
+**Part 2:** Add to the code to now make the Agent till and plant saplings on the **grass** blocks.  
 
 ```template
 //Place your functions below #
@@ -35,8 +35,8 @@ elif:
 //Replace with comment about function below                |Part 2   
 //Declare function 2                                       |Part 2
 //Make the Agent move forward                              |Part 2
-//Make the till back                                       |Part 2
-//Make the place back                                      |Part 2
+//Make the Agent till back                                 |Part 2
+//Make the Agent place back                                |Part 2
 //Replace the lines below with your code #  
 //For loop set to 14                               |Part 1
 //If else conditional with Agent inspect condition |Part 1
