@@ -1,9 +1,9 @@
-
+﻿
 # Build a Bridge: Javascript
 
 
 ## Step 1
-Code a ``||chat||`` command and name it **“build”**.
+Code a ``||player:on chat||`` command and name it **“build”**.
 
 ```javascript
 player.onChat("build", function () {
@@ -11,7 +11,7 @@ player.onChat("build", function () {
 ```
 
 ## Step 2
-Code the agent to ``||set a block||`` of **oak wood planks**, count of **64**, in slot **1** inside the ``||chat||`` command.
+Code the agent to ``||agent:set a block||`` of **oak wood planks**, count of **64**, in slot **1** inside the ``||player:on chat||`` command.
 
 ```javascript
 player.onChat("build", function () {
@@ -20,7 +20,7 @@ player.onChat("build", function () {
 ```
 
 ## Step 3
-Code the agent to ``||move forward||`` by **1**.
+Code the agent to ``||agent:move forward||`` by **1**.
 
 ```javascript
 player.onChat("build", function () {
@@ -31,7 +31,7 @@ player.onChat("build", function () {
 
 ## Step 4
 
-Inside the ``||chat||``  command, code a ``||while loop||`` that starts with checking if the agent does ``||not detect a block||``  **down**.
+Inside the ``||player:on chat||``  command, code a ``||loops:while||`` loop that starts with checking if the agent does ``||agent:not detect a block||``  **down**.
 
 ```javascript
 player.onChat("build", function () {
@@ -45,7 +45,7 @@ player.onChat("build", function () {
 
 ## Step 5
 
-Inside the ``||while loop||`` , code for the ``||agent to place||`` **down**.
+Inside the ``||loops:while||`` loop , code for the ``||agent:to place||`` **down**.
 
 ```javascript
 player.onChat("build", function () {
@@ -59,7 +59,7 @@ player.onChat("build", function () {
 
 ## Step 6
 
-After the ``||place down||`` , code for the ``||agent to move||`` **forward by 1**. Then end the``||while loop||``.
+After the ``||agent:place down||`` , code for the ``||agent:to move||`` **forward by 1**. Then end the ``||loops:while||`` loop.
 
 ```javascript
 player.onChat("build", function () {

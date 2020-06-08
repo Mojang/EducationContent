@@ -31,7 +31,7 @@ player.onChat("build", function () {
 
 ## Step 4
 
-Get a ``||while loop||`` and drag it into the  ``||player:on chat||``  command after the ``||agent move||`` **forward**. Get a ``||logic:not||`` and drag it into the **true** of the ``||while loop||``. Get an ``||agent:detect||`` and set it to **block** and **down**. Drag the completed agent detect into the **not** parentheses.
+Get a ``||loops:while||`` loop and drag it into the  ``||player:on chat||``  command after the ``||agent:move||`` **forward**. Get a ``||logic:not||`` and drag it into the **true** of the ``||loops:while||`` loop. Get an ``||agent:detect||`` and set it to **block** and **down**. Drag the completed agent detect into the **not** parentheses.
 
 ```blocks
 player.onChat("build", function () {
@@ -45,7 +45,7 @@ player.onChat("build", function () {
 
 ## Step 5
 
-Get an ``||agent place||``, set it to **down** and drag it inside the ``||while loop||``.
+Get an ``||agent:place||``, set it to **down** and drag it inside the ``||loops:while||`` loop.
 
 ```blocks
 player.onChat("build", function () {
@@ -59,7 +59,7 @@ player.onChat("build", function () {
 
 ## Step 6
 
-Right-click on the existing ``||agent:move||`` **forward by 1** to duplicate it. Drag the new ``||agent:move||`` **forward by 1** into the ``||while loop||`` under the ``||agent:place||`` down.
+Right-click on the existing ``||agent:move||`` **forward by 1** to duplicate it. Drag the new ``||agent:move||`` **forward by 1** into the ``||loops:while||`` loop under the ``||agent:place||`` down.
 
 ```blocks
 player.onChat("build", function () {
