@@ -3,7 +3,7 @@
 
 
 ## Step 1
-Create a ``||chat||`` command, name it **“pyramid”**, and set the second argument to **function (size)**.
+Create a ``||player: on chat||`` command, name it **“pyramid”**, and set the second argument to **function (size)**.
 
 ```javascript
 player.onChat("pyramid", function (size){ 
@@ -13,7 +13,7 @@ player.onChat("pyramid", function (size){
 
 ## Step 2
 
-Add an ``if||`` statement that evaluates whether **size** is greater than 0.
+Add an ``||logic:if||`` statement that evaluates whether **size** is greater than 0.
 
 ```javascript
 player.onChat("pyramid", function (size)){ 
@@ -25,7 +25,7 @@ player.onChat("pyramid", function (size)){
 
 ## Step 3
 
-Inside the ``||if||`` statement, code the agent to ``||set block or item||`` of **sandstone** to be the value of the **size** variable multiplied by **size**—in slot 1.
+Inside the ``||logic:if||`` statement, code the agent to ``||agent:set block or item||`` of **sandstone** to be the value of the **size** variable multiplied by **size**—in slot 1.
 
 ```javascript
 player.onChat("pyramid", function (size){ 
@@ -38,7 +38,7 @@ player.onChat("pyramid", function (size){
 
 ## Step 4
 
-Code the agent to ``||set the active slot||`` as the 1 slot.
+Code the agent to ``||agent:set the active slot||`` as the 1 slot.
 
 ```javascript
         agent.setItem(SANDSTONE, size * size, 1) 
@@ -49,7 +49,7 @@ Code the agent to ``||set the active slot||`` as the 1 slot.
 
 ## Step 5
 
-Next, set the agent ``||place on move||`` to **true**.
+Next, set the agent ``||agent:place on move||`` to **true**.
 
 ```javascript
         agent.setSlot(1) 
@@ -60,7 +60,7 @@ Next, set the agent ``||place on move||`` to **true**.
 
 ## Step 6
 
-Add a ``||for loop||`` that says the variable **i** from 0 to 4 minus 1.
+Add a ``||loops:for||`` loop that says the variable **i** from 0 to 4 minus 1.
 
 ```javascript
     agent.setAssist(PLACE_ON_MOVE, true) 
@@ -72,7 +72,7 @@ Add a ``||for loop||`` that says the variable **i** from 0 to 4 minus 1.
 
 ## Step 7
 
- Code the agent to ``||move forward||`` by the value of the **size** variable.
+ Code the agent to ``||agent:move forward||`` by the value of the **size** variable.
 
 ```blocks
         for (let i = 0; i <= 0 - 0; i++) { 
@@ -82,7 +82,7 @@ Add a ``||for loop||`` that says the variable **i** from 0 to 4 minus 1.
 
 ## Step 8
 
-Code the agent to ``||turn left||`` and end of the ``||for loop||``. 
+Code the agent to ``||turn left||`` and end of the ``||loops:for||`` loop. 
 
 ```javascript
 for (let i = 0; i <= 0 - 0; i++) { 
@@ -93,7 +93,7 @@ for (let i = 0; i <= 0 - 0; i++) {
 
 ## Step 9
 
-After the ``||for loop||``, but still inside the ``||if||`` statement, code the agent to ``||move up by 1||``. 
+After the ``||loops:for||`` loop, but still inside the ``||logic:if||`` statement, code the agent to **move up by 1**. 
 
 ```javascript
    } 
@@ -103,7 +103,7 @@ After the ``||for loop||``, but still inside the ``||if||`` statement, code the 
 
 ## Step 10
 
- Code the agent ``||place on move||`` to be **false**. 
+ Code the agent ``||agent:place on move||`` to be **false**. 
 
 ```javascript
   agent.move(UP, 1) 
@@ -112,7 +112,7 @@ After the ``||for loop||``, but still inside the ``||if||`` statement, code the 
 
 ## Step 11
 
-Place a ``||run chat||`` command to join the **pyramid** chat plus the value of the **size** variable minus 2.
+Place a ``||player:run chat||`` command to join the **pyramid** chat plus the value of the **size** variable minus 2.
 
 ```javascript
         agent.setAssist(PLACE_ON_MOVE, false) 
