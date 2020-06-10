@@ -1,6 +1,6 @@
 ### @explicitHints true
 
-# Activity 3 - Score board.
+# Activity 3 - Scoring system.
 
 ```python
 positions.add()

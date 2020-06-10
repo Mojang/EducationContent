@@ -41,12 +41,13 @@ conditional.
 //Pause for 100ms                                                  |Part 2
 //Place AIR block at Agent pos + 2                                 |Part 2
 //Replace the lines below with your code #           
-def move():
-    if blocks.test_for_block(LIGHT_BLUE_CONCRETE, pos(0, -1, 0)):
-        agent.move(RIGHT, 1)
-    elif blocks.test_for_block(RED_CONCRETE, pos(0, -1, 0)):
-        agent.move(LEFT, 1)
-while True:
-    move()
-# Call function 2                                          |Part 1          
-```
+def move()
+if blocks.test_for_block(LIGHT_BLUE_CONCRETE, pos(0, -1, 0))
+agent.move(RIGHT, 1)
+if blocks.test_for_block(RED_CONCRETE, pos(0, -1, 0))
+agent.move(LEFT, 1)
+while True
+move()
+//Call function 2                                          |Part 1   
+```      
+

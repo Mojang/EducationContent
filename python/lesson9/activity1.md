@@ -16,10 +16,11 @@ while True:
 ```
 
 ## Step 1
-There are two 'buttons' on the floor, blue is to control the Agent's left movement while red is to control the Agent's right. Write a code 
-so that when you stand on the red or blue pads the Agent moves right or left.  
+There are two 'buttons' on the controller, blue is to make the Agent's move left and red is to make the Agent's move right. Write a code 
+so that when you stand on the red or blue blocks the Agent moves in the correct direction.  
+
 ### ~ tutorialhint
-A `||loops:while||` loop with the condition set to **True** or **1** will repeat infinitely. 
+A `||loops:while||` loop with the condition set to **True** will repeat continuously. 
 
 ```template
 //Replace with your functions below #
@@ -30,6 +31,6 @@ A `||loops:while||` loop with the condition set to **True** or **1** will repeat
 //Elif conditional with test for block condition (RED_CONCRETE)
 //Make the Agent move left
 //Replace the lines below with your code #    
-//Infinite while loop with True as condition 
+//While loop with True as condition 
 //Call function                      
 ```
