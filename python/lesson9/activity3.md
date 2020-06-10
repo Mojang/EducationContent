@@ -24,15 +24,10 @@ while True:
 ```
 
 ## Step 1
-**Part 1:** Declare a variable in the code named `||variables:score||`. Then add **1** to that variable each time the Agent shoots a gold block.
+Declare a variable in the code named `||variables:score||`. Then add **1** to that variable each time the Agent shoots a gold block.
 Edit the condition in the while loop, so that it only loops when `||variables:score||` is smaller, or equal to, **10**. 
 ### ~ tutorialhint
 **Smaller or equal to** means **<=**.
-
-## Step 2 
-**Part 2:** Add to the code so that it displays the score, when it changes, in the chat. 
-### ~ tutorialhint 
-To display the score only when it changes use an additional variable named `||variables: count||` and another `||logic: If||` conditional.
 
 ```template
 //Place your functions below # 
