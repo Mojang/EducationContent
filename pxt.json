@@ -137,7 +137,9 @@
         "tutorials/variable/novice/jump_blocks.md",
         "python/lesson8/activity2.md",
         "python/lesson8/activity3.md",
-        "coding-fun/lesson-11/all_activities.md"
+        "coding-fun/lesson-11/all_activities.md",
+        "python/lesson9/activity2.md",
+        "python/lesson9/activity3.md"
     ],
     "supportedTargets": [
         "minecraft"
