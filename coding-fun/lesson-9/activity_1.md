@@ -8,7 +8,9 @@
 # Locating stone 
 
 ## Step 1
-Fix this coding snippet. Here is what the Agent needs to do: the Agent moves **4** steps to the **left** and checks if there is **stone** in front of it. If there is **stone**, it says **"Found the stone"**, if not, then it says **"No stone here"**. The Agent needs to repeat the whole operation **4** times. 
+Fix this coding snippet. Here is what the Agent needs to do: **move** to the **left 4 times**, **destroy down**, **move down**. If the Agent detects a **stone** block forward, it needs to say "Found the stone!", **destroy forward** and **collect all**. If the stone is **not detected**, the Agent needs to say, "No stone here!". Each time after moving down, the Agent needs to **move 1 block up** to the surface. This activity needs to repeat **4** times.
+
+
 
 
 
