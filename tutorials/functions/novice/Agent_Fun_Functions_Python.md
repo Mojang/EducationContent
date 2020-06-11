@@ -1,7 +1,7 @@
 ﻿# Agent Fun Functions: Python
 
 ## Step 1
-You are given the following code for “carrots,” “chicken,” and “snowball” chat commands.
+You are given the following code for “carrots,” “chicken,” and “snowball” ``||player:on chat||`` commands.
 
 ```python
 def on_chat():
