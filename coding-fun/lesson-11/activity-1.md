@@ -8,7 +8,7 @@
 # Planet visit
 
 ## Step 1
-Select the right coding snippet to run! You have only 1 attempt.
+Select the right code to run! You have only one attempt, so be careful!
 
 
 
