@@ -8,8 +8,7 @@
 # Track Down the Rover 
 
 ## Step 1
-Fix this coding snippet. Here is the objective: The Agent needs to locate the rover that is made of **quartz** by inspecting the block **in front** of it. If the Agent detects a **gold** block underneath, then it should turn **right**, if it detects a block of **iron** underneath, it should turn **left**.   
-
+Fix this coding snippet. Here is the objective: This time the Agent needs to **destroy down** and **move down**, while **inspecting** for a **gold** block on the **left**. The Agent needs to continue **moving down** until it locates the **gold** block on the left. While **moving down**, if the Agent finds a *stone** block **in front**, it needs to say, "Found the stone!", **destroy forward** and **collect** the block. 
 
 
 ```template
