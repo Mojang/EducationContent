@@ -8,7 +8,7 @@
 # Repair the Rover 
 
 ## Step 1
-Fix this coding snippet. Here is the objective: the Agent needs to inspect for **air** to find a break in the rover and place a **redstone** block there.  
+Fix this coding snippet. Here is the objective: while **inspecting** for a block of **air** and **not** finding it, the Agent needs to **move right**. If the Agent finds the block of **lapis lazuli** **in front**, it needs to **move right**, **turn right**, then **move left**. After that the Agent needs to say, "Found the break!" and **place a block of redstone forward**.
 
 
 
