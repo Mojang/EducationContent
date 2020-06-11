@@ -12,7 +12,7 @@ Your challenge is to jump really high to climb up to the inaccessible area. Try 
 
 
 ```ghost
-player.onTravelled(SWIM_LAVA, function () {
+loops.forever(function () {
     mobs.applyEffect(JUMP_BOOST, mobs.target(NEAREST_PLAYER), 10, 1)
 })
 ```
