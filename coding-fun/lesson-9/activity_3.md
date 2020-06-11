@@ -8,7 +8,9 @@
 # Track Down the Rover 
 
 ## Step 1
-Fix this coding snippet. Here is the objective: This time the Agent needs to **destroy down** and **move down**, while **inspecting** for a **gold** block on the **left**. The Agent needs to continue **moving down** until it locates the **gold** block on the left. While **moving down**, if the Agent finds a *stone** block **in front**, it needs to say, "Found the stone!", **destroy forward** and **collect** the block. 
+Fix this coding snippet. Here is the objective: while **inspecting forward** for a block of **quartz** and **not** finding it, the Agent needs to **move forward**. If it **detects** a **gold** block **down**, it needs to **turn right**. If it detects a **block of iron down**, it needs to **turn left**. In the end the Agent needs to say, "Found the rover!"
+
+
 
 
 ```template
