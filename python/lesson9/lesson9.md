@@ -29,7 +29,7 @@ There are two 'buttons' on the controller, blue is to make the Agent's move left
 so that when you stand on the red or blue blocks the Agent moves in the correct direction.  
 
 ### ~ tutorialhint
-A `||loops:while||` loop with the condition set to **True** will repeat continuously. 
+A `||loops:while||` loop with the condition set to **True** will repeat continuously. Do **not** delete any pregiven code in the coding window.
 
 ## Step 2
 **Activity 2 - Firing system -**
@@ -42,10 +42,12 @@ conditional.
 
 ## Step 4
 **Activity 3 - Scoring system:**
-In the code you have been given a variable named `||variables:score||`, add **1** to that variable each time the Agent shoots a gold block.
+In the code you have been given a variable named `||variables:score||`, add **1** to the variable each time the Agent shoots a gold block.
 Edit the condition in the while loop, so that it only loops when `||variables:score||` is smaller, or equal to, **15**. 
+Add two splash screens at the start and the end of the game using the `||gameplay:show title||` command.
+
 ### ~ tutorialhint
-**Smaller or equal to** means **<=**.
+**<=** means **less than or equal to**.
 
 
 ```template
@@ -77,6 +79,6 @@ score = 0
 //Call function 2                                                             |Act. 2 Part 1
 //Add a end splash screen using the gameplay title command                                   |Act. 3
 //Spawn lighting bolt on Agent position                                                      |Act. 3  
-if score == 15
+if score > 15
 player.execute("scoreboard players set @p score 15")
 ```
