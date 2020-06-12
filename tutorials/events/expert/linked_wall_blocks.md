@@ -10,7 +10,7 @@ player.onChat("position", function () {
 ```
 
 ## Step 2
-Insert a ``|||variable:new variable||`` and name it **PlayerPosition**. Then, drag a ``||player world||`` position into the “**0**” parameter of the set variable.
+Insert a ``|||variable:new variable||`` and name it **PlayerPosition**. Then, drag a ``||position:world||`` position into the “**0**” parameter of the set variable.
 
 ```blocks
 let PlayerPosition: Position = null 
