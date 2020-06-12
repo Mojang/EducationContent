@@ -1,4 +1,4 @@
-﻿# Linked Walls: Python
+# Linked Walls: Python
 
 ## Step 1
 
@@ -11,7 +11,7 @@ player.on_chat("position", on_chat)
 ```
 
 ## Step 2
-Create a variable **PlayerPosition** and set it to the ``||player world||`` position. 
+Create a variable **PlayerPosition** and set it to the ``||position:world||`` position. 
 
 ```python
 PlayerPosition: Position = None
