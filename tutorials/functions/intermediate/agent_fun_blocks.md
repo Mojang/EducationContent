@@ -1,4 +1,4 @@
-﻿# Modifying Agent Fun Functions: Blocks
+# Modifying Agent Fun Functions: Blocks
 
 ## Step 1
 You are given an ``||player:on chat||`` command **carrot**, the ``||player:on chat||`` command **chicken** and the ``||player:on chat||`` command **snowball**.
