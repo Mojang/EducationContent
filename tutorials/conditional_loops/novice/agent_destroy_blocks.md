@@ -1,4 +1,3 @@
-﻿
 # Agent Destroy Passage: Blocks
 
 
