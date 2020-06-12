@@ -1,4 +1,4 @@
-﻿# Linked Walls: Blocks
+# Linked Walls: Blocks
 
 ## Step 1
 Get an ``||player:on chat||`` command and name it “**position**”.
