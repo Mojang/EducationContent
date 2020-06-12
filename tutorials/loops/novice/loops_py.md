@@ -1,4 +1,4 @@
-# Linked Loops: Python
+# Loops: Python
 
 ## Step 1
 Code an ``||player:on item used||`` event and set it to  **Bone**.
@@ -10,7 +10,7 @@ player.on_item_interacted(BONE, item_interacted_bone)
 ```
 
 ## Step 2
-Within the ``||on item used||`` event, code a ``||loops:for||`` loop, that repeats **6** times.
+Within the ``||player: on item used||`` event, code a ``||loops:for||`` loop, that repeats **6** times.
 
 ```python
 def item_interacted_bone():
@@ -30,7 +30,7 @@ player.on_item_interacted(BONE, item_interacted_bone)
 ```
 
 ## Step 4
-Code another ``||loops:for||`` loop inside the **Bone** ``||on item used||`` that repeats **4** times.
+Code another ``||loops:for||`` loop inside the **Bone** ``||player:on item used||`` that repeats **4** times.
 
 ```python
 def item_interacted_bone():
