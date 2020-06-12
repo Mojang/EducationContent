@@ -29,7 +29,7 @@ player.onChat("chicken", function () {
 
 ## Step 3
 
-The chicken is lonely. Get a ``||loops:repeat||`` and set it to **100** times. Drag the ``||mobs:spawn animal||`` into the ``|||loops:repeat||`` 100, and then drag the ``|||loops:repeat||`` 100 into the **chicken** ``||player:on chat||`` command.
+The chicken is lonely. Get a ``||loops:repeat||`` and set it to **100** times. Drag the ``||mobs:spawn animal||`` into the ``||loops:repeat||`` 100, and then drag the ``||loops:repeat||`` 100 into the **chicken** ``||player:on chat||`` command.
 
 Go to Minecraft, press **t** to open the chat and type chicken. Look up to see 100 chickens drop from the sky from 10 blocks above your player.
 
