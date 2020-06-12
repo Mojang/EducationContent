@@ -1,4 +1,4 @@
-﻿# House for Loops: Python
+# House for Loops: Python
 
 ## Step 1
 Code an ``||player:on chat||`` command that makes the ``||agent:teleport to player||``. Name it **tp**. 
