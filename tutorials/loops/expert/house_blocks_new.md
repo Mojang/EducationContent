@@ -1,4 +1,4 @@
-﻿# House for Loops: Blocks
+# House for Loops: Blocks
 
 ## Step 1
 Get an ``||player:on chat||`` command and name it **teleport**. Get an ``||agent:teleport to player||`` and drag it into the ``||player:on chat||`` command.  
