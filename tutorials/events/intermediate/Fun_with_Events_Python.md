@@ -1,7 +1,7 @@
 # Fun with Events: Python
 
 ## Step 1
-Code an event for the case when a ``||player||`` walks, **projectile fireworks rockets** will spawn at the position of (0,10,0).
+Code an event for the case when a ``||player: player||`` walks, **projectile fireworks rockets** will spawn at the position of (0,10,0).
 
 ```python
 def travelled_walk():
@@ -20,7 +20,7 @@ player.on_travelled(WALK, travelled_walk)
 ```
 
 ## Step 3
-Code an event for the case when an **oak wood** ``||block||`` is broken, a **chicken** will spawn at position (0,10,0). 
+Code an event for the case when an **oak wood** ``||blocks:block||`` is broken, a **chicken** will spawn at position (0,10,0). 
 
 ```python
 def block_broken_planks_oak():
