@@ -1,4 +1,4 @@
-﻿# Chicken Rain: Javascript
+# Chicken Rain: Javascript
 
 
 ## Step 1
