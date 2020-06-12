@@ -1,4 +1,4 @@
-﻿# Linked Walls: Javascript
+# Linked Walls: Javascript
 
 ## Step 1
 
@@ -11,7 +11,7 @@ player.onChat("position", function () {
 ```
 
 ## Step 2
-Create a variable **PlayerPosition** and set it to the ``||player world||`` position. 
+Create a variable **PlayerPosition** and set it to the ``||positions: world||`` position. 
 
 ```javascript
 let PlayerPosition: Position = null 
