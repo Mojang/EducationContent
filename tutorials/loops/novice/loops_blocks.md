@@ -10,7 +10,7 @@ player.onItemInteracted(BONE, function () {
 ```
 
 ## Step 2
-Get a ``||loops:repeat||`` loop, drag it into the **Bone** ``||on item used||`` and set it to repeat **6** times.
+Get a ``||loops:repeat||`` loop, drag it into the **Bone** ``||player:on item used||`` and set it to repeat **6** times.
 
 ```blocks
 player.onItemInteracted(BONE, function () { 
@@ -32,7 +32,7 @@ player.onItemInteracted(BONE, function () {
 ```
 
 ## Step 4
-Get another ``||loops:repeat||`` loop, drag it into the **Stone Ax** ``||on item used||`` and set it to repeat **4** times.
+Get another ``||loops:repeat||`` loop, drag it into the **Stone Ax** ``||player: on item used||`` and set it to repeat **4** times.
 
 ```blocks
 player.onItemInteracted(BONE, function () { 
@@ -46,7 +46,7 @@ player.onItemInteracted(BONE, function () {
 ```
 
 ## Step 5
-Get another  ``||mobs:spawn animal at||``  and drag it into the new ``||loops:repeat||`` loop. Select **Skeleton Horse** and set the  position to (0,0,0). **NOTE:** This will repeat 4 times inside the loop.
+Get another  ``||mobs:spawn animal at||``  and drag it into the new ``||loops:repeat||`` loop. Select **Skeleton Horse** and set the  position to (0,0,0). **NOTE:** This will repeat **4** times inside the loop.
 
 ```blocks
 player.onItemInteracted(BONE, function () { 
