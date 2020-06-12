@@ -1,4 +1,3 @@
-﻿
 # Farm: Javascript
 
 ## Step 1
