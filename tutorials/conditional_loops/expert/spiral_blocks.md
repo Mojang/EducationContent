@@ -1,4 +1,3 @@
-﻿
 # Spiral Activity: Blocks
 
 
