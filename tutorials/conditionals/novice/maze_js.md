@@ -1,4 +1,3 @@
-﻿
 # Agent Maze: Javascript
 
 
