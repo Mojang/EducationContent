@@ -1,4 +1,4 @@
-# Linked Loops: Blocks
+# Loops: Blocks
 
 ## Step 1
 Get an ``||player:on item used||`` command and choose **Bone**.
