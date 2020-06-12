@@ -1,4 +1,4 @@
-﻿# Farm: Blocks
+# Farm: Blocks
 
 ## Step 1
 Get an ``||player:on chat||`` command and choose **farm**.
