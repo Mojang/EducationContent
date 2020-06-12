@@ -1,5 +1,3 @@
-﻿
-
 # Agent Maze: Blocks
 
 
