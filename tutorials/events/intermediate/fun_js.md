@@ -1,7 +1,7 @@
 # Fun with Events: Javascript
 
 ## Step 1
-Code an event for the case when a ``||player||`` walks, **projectile fireworks rockets** will spawn at the position of (0,10,0).
+Code an event for the case when a ``||player:player||`` walks, **projectile fireworks rockets** will spawn at the position of (0,10,0).
 
 ```javascript
 player.onTravelled(WALK, function () {
