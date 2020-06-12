@@ -1,4 +1,4 @@
-﻿# Chicken Rain: Python
+# Chicken Rain: Python
 
 
 ## Step 1
