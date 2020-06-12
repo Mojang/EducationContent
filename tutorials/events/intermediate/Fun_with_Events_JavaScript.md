@@ -1,4 +1,4 @@
-﻿# Fun with Events: Javascript
+# Fun with Events: Javascript
 
 ## Step 1
 Code an event for the case when a ``||player||`` walks, **projectile fireworks rockets** will spawn at the position of (0,10,0).
@@ -21,7 +21,7 @@ player.onTravelled(WALK, function () {
 ```
 
 ## Step 3
-Code an event for the case when an **oak wood** ``||block||`` is broken, a **chicken** will spawn at position (0,10,0). 
+Code an event for the case when an **oak wood** is ``||blocks:onBlockBroken||``, a **chicken** will spawn at position (0,10,0). 
 
 ```javascript
 blocks.onBlockBroken(PLANKS_OAK, function () {

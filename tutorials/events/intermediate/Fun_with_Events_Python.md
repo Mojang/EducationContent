@@ -1,4 +1,4 @@
-﻿# Fun with Events: Python
+# Fun with Events: Python
 
 ## Step 1
 Code an event for the case when a ``||player||`` walks, **projectile fireworks rockets** will spawn at the position of (0,10,0).
