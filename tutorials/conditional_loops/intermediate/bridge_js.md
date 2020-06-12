@@ -1,4 +1,3 @@
-﻿
 # Build a Bridge: Javascript
 
 
