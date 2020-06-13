@@ -40,3 +40,4 @@ player.onChat("witch_hunters", function () {
     }
 })
 ```
+## Step 2
