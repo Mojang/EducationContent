@@ -2,16 +2,16 @@
 
 ## Repair the bridge
 
-```blocks
+```template
 player.onChat("bridge", function () {
-    blocks.fill(
-    SPRUCE_WOOD_SLAB,
-    world(-442, 68, -839),
-    world(-440, 68, -839),
-    FillOperation.Replace
-    )
-    loops.pause(1000)
-    blocks.fill(
+blocks.fill(
+SPRUCE_WOOD_SLAB,
+world(-442, 68, -839),
+world(-440, 68, -839),
+FillOperation.Replace
+)
+loops.pause(1000)
+blocks.fill(
     SPRUCE_WOOD_SLAB,
     world(-442, 68, -838),
     world(-440, 68, -838),
