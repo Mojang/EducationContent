@@ -1,6 +1,10 @@
+### @explicitHints 1
+
 # Test
 
 ## Step 1
+Get rid of the witch! 
+
 
 ```template
 player.onChat("witch_hunters", function () {
