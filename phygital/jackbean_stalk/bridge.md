@@ -2,7 +2,7 @@
 
 ## Repair the bridge
 
-```block
+```blocks
 player.onChat("bridge", function () {
     blocks.fill(
     SPRUCE_WOOD_SLAB,
