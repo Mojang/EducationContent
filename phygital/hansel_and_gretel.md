@@ -2,7 +2,7 @@
 
 ## Step 1
 
-```block
+```blocks
 player.onChat("witch_hunters", function () {
     mobs.kill(
     mobs.entitiesByType(mobs.monster(WITCH))
