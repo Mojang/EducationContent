@@ -1,5 +1,3 @@
-### @explicitHints 1
-
 # Test
 
 ## Step 1
