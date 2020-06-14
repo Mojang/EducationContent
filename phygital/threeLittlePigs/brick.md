@@ -1,8 +1,9 @@
 # Storytime - Three Little Pigs
 
-## Blow the Brick house down
+## Step 1 
+Blow the Brick house down
 
-```block
+```template
 player.onChat("brick_huff_puff", function () {
     player.say("Woooooooooooossssssssssshhhhhhhh")
     for (let index = 0; index < 350; index++) {
@@ -16,4 +17,5 @@ player.onChat("brick_huff_puff", function () {
     }
 })
 ```
-## Take a look at the code for this activity. You've just gotten ill, and the house didn't disappear! Use the coding you learned from the hay house and the wood house to make the brick houes blow down too. Good luck!
+## Step 2
+Take a look at the code for this activity. You've just gotten ill, and the house didn't disappear! Use the coding you learned from the hay house and the wood house to make the brick houes blow down too. Good luck!
