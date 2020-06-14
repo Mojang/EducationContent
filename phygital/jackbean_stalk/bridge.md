@@ -1,6 +1,7 @@
 # Jack and the Beanstalk
 
-## Repair the bridge
+## Step 1
+Repair the bridge
 
 ```template
 player.onChat("bridge", function () {
@@ -47,4 +48,5 @@ blocks.fill(
     )
 })
 ```
-## Run this code to build the bridge. Then return to your code and change the bridge build materials to stone, and change how many blocks wide the bridge will be. 
+## Step 2 
+Run this code to build the bridge. Then return to your code and change the bridge build materials to stone, and change how many blocks wide the bridge will be. 
