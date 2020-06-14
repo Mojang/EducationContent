@@ -1,8 +1,9 @@
 # Storytime - Three Little Pigs
 
-## Blow the Hay house down
+## Step 1
+Blow the Hay house down
 
-```block
+```template
 player.onChat("hay_huff_puff", function () {
     player.say("Woooooooooooossssssssssshhhhhhhh")
     for (let index = 0; index < 350; index++) {
@@ -26,4 +27,5 @@ player.onChat("hay_huff_puff", function () {
     }
 })
 ```
-## Whoa! What just happened? Take a look at the code after you run it once. How were the hay blocks removed? You'll need this knowledge soon... continue in the story for now.
+## Step 2
+Whoa! What just happened? Take a look at the code after you run it once. How were the hay blocks removed? You'll need this knowledge soon... continue in the story for now.
