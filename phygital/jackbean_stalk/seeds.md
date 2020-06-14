@@ -1,6 +1,7 @@
 # Storytime - Jack and the Beanstalk
 
-## Plant Seeds to create the Beanstalk
+## Step 1 
+Plant Seeds to create the Beanstalk
 
 ```block
 loops.forever(function () {
@@ -16,5 +17,6 @@ loops.forever(function () {
     }
 })
 ```
-## This code clones an object from somewhere else in the world to appear, as if by magic! Run the code to watch what happens. Then return here and choose something else to clone. 
+## Step 2 
+This code clones an object from somewhere else in the world to appear, as if by magic! Run the code to watch what happens. Then return here and choose something else to clone. 
 Map the coordinates of the object you wish to clone and determine what kind of materials are used. Update the code file to clone something else in your world! Don't you wish you could do this in the real world too? 
