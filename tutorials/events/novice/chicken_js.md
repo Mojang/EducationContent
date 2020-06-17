@@ -4,7 +4,7 @@
 ## Step 1
 Create a ``||player:on chat||`` command and name it **“chicken”**.
 
-```javascript
+```spy
 player.onChat("chicken", function (){ 
  
 }) 
@@ -18,7 +18,7 @@ Inside the ``||player:on chat||`` command, spawn a chicken 10 blocks above the h
 
 Go to Minecraft, press **t** to open the chat and type "chicken". Look up to see a single chicken drop from the sky from 10 blocks above your player.
 
-```javascript
+```spy
 player.onChat("chicken", function () { 
     mobs.spawn(CHICKEN, pos(0, 10, 0)) 
 }) 
@@ -28,7 +28,7 @@ player.onChat("chicken", function () {
 
 Place a ``||loops: for loop||`` around the spawn code to repeat the spawn code **100 times**.
 
-```javascript
+```spy
 player.onChat("chicken", function () {
     for (let index = 0; index < 100; index++) {
         mobs.spawn(CHICKEN, pos(0, 10, 0))
@@ -38,7 +38,7 @@ player.onChat("chicken", function () {
 
 ### Full Code: 
 
-```javascript
+```spy
 player.onChat("chicken", function () {
     for (let index = 0; index < 100; index++) {
         mobs.spawn(CHICKEN, pos(0, 10, 0))
