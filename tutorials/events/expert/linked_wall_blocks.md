@@ -10,7 +10,7 @@ player.onChat("position", function () {
 ```
 
 ## Step 2
-Insert a ``|||variable:new variable||`` and name it **PlayerPosition**. Then, drag a ``||position:world||`` position into the “**0**” parameter of the set variable.
+Insert a ``|||variable:new variable||`` and name it **PlayerPosition**. Then, drag a ``||positions:world position||`` into the “**0**” parameter of the set variable.
 
 ```blocks
 let PlayerPosition: Position = null 
@@ -20,7 +20,7 @@ player.onChat("position", function () {
 ```
 
 ## Step 3
-Insert another ``|||variable:new variable||`` and name it **from_position**. Then, drag a ``||position:+||`` into the “**0**” argument of the set variable. 
+Insert another ``|||variable:new variable||`` and name it **from_position**. Then, drag a ``||positions:+||`` into the “**0**” argument of the set variable. 
 
 Drag this ``||variable||`` into the end of the ``||player:on chat||``. Get the **PlayerPosition** ``||variable||`` and drag it into the top set of coordinates in the new **from_position** variable. Set the **bottom** coordinates to (6, 0, 0).
 
@@ -37,7 +37,7 @@ player.onChat("position", function () {
 ```
 
 ## Step 4
-Insert another ``|||variable:new variable||`` and name it **to_position**. Then, drag a ``||position:+||`` into the “**0**” argument of the set variable.
+Insert another ``|||variable:new variable||`` and name it **to_position**. Then, drag a ``||positions:+||`` into the “**0**” argument of the set variable.
 
 Drag this ``||variable||`` into the end of the ``||player:on chat||``. Get the **PlayerPosition** ``||variable||`` and drag it into the top set of coordinates in the new **to_position** variable. Set the **bottom** coordinates to (-6, 13, 0).
 
