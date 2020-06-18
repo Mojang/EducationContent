@@ -3,7 +3,7 @@
 ## Step 1 
 Plant Seeds to create the Beanstalk
 
-```block
+```template
 loops.forever(function () {
     if (blocks.testForBlock(MELON_STEM, world(-441, 68, -860))) {
         blocks.clone(
