@@ -1,4 +1,4 @@
-﻿# House Functions: Blocks
+# House Functions: Blocks
 
 ## Step 1
 Add a ``||advanced:function||`` and name it **walls**. 
