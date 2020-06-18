@@ -1,8 +1,8 @@
-﻿# Letter Printing: Spy
+# Letter Printing: Spy
 
 ## Step 1
 
-Code an ``||player:on chat||`` command and name it **mix**, which contains a ``||variables:set new variable||`` called **starting_world_position** that is set to ``||player:player world position||``.
+Code an ``||player:on chat||`` command and name it **mix**, which contains a ``||variables:set new variable||`` called **starting_world_position** that is set to ``||positions:player world position||``.
 
 ```spy
 player.onChat("mix", function () {
@@ -28,8 +28,7 @@ player.onChat("mix", function () {
 
 ## Step 3
 
-Set the variable **starting_world_ position** to **(0,0,0)**.
-Set the variable **word1** to "rail".
+Set the variable **starting_world_ position** to **(0,0,0)**. Set the variable **word1** to "rail".
   
 ```spy
 Let starting_world_position: Position = null
@@ -39,9 +38,7 @@ word1 = "rail"
 
 ## Step 4
 
-Create an ``||player:on chat||`` command and name it **mix2**.
-
-Create a new ``||player:on chat||`` **mix2** command.  Inside this command, ``||blocks:print||`` the variable **word1** out of **smooth sandstone** at position **(0,0,0)**, facing **West**. Also, ensure that the **starting_world_ position** variable is set to ``||player world position||``. 
+Create an ``||player:on chat||`` command and name it **mix2**. Create a new ``||player:on chat||`` **mix2** command.  Inside this command, ``||blocks:print||`` the variable **word1** out of **smooth sandstone** at position **(0,0,0)**, facing **West**. Also, ensure that the **starting_world_ position** variable is set to ``||positions:player world position||``. 
 
 ```spy
 player.onChat("mix2", function () {
@@ -151,11 +148,8 @@ player.onTravelled(FLY, function () {
 
 ## Step 10
 
-Set the **alphabet** and **RandomLetter** variables. For consistency, we set them in the same location we set all the other variables.
-
-Add another ``||variables:set new variable||``, set it to the **alphabet** variable and insert a text ``||text:""||`` string with the empty string **“”** assigned to it. Drag the  **alphabet** variable into the ``||on start||`` directly beneath the **word2** variable.  
-
-Add another ``||variables:set new variable||``, set it to the **RandomLetter** variable and set it to **0**. Drag **RandomLetter** into the ``||on start||`` directly beneath the **alphabet** variable.
+Set the **alphabet** and **RandomLetter** variables. For consistency, we set them in the same location we set all the other variables. Add another ``||variables:set new variable||``, set it to the **alphabet** variable and insert a text ``||text:""||`` string with the empty string **“”** assigned to it. Drag the  **alphabet** variable into the ``||loops: on start||`` directly beneath the **word2** variable.
+Add another ``||variables:set new variable||``, set it to the **RandomLetter** variable and set it to **0**. Drag **RandomLetter** into the ``||loops: on start||`` directly beneath the **alphabet** variable.
 
 ```spy
 let RandomLetter = 0
