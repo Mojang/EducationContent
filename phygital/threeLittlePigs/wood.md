@@ -3,7 +3,7 @@
 ## Step 1 
 Blow the Wood house down
 
-```block
+```template
 player.onChat("wood_huff_puff", function () {
     player.say("Woooooooooooossssssssssshhhhhhhh")
     for (let index = 0; index < 350; index++) {
