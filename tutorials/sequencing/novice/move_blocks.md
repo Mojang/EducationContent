@@ -1,4 +1,4 @@
-﻿# Agent Move: Blocks
+# Agent Move: Blocks
 
 ## Step 1
 Create an ``||player:on chat||`` command and name it **“tp”**.
