@@ -37,11 +37,7 @@ word1 = "rail"
 
 ## Step 4
 
-Create an ``||player:on chat||`` command and name it **mix2**.
-
-Add another ``||variables:set new variable||``, set it to the variable **starting_world_ position**, then set it to ``||player:player world position||``. Drag that variable into the ``||player:on chat||`` **mix2** command.
-
-Inside the ``||player:on chat||`` command, add a ``||blocks:print||`` and assign it the variable **word1** out of **smooth sandstone** at position **(0,0,0)**, facing **West**. Drag **word1** directly beneath the  **starting_world_ position** variable.
+Create an ``||player:on chat||`` command and name it **mix2**. Add another ``||variables:set new variable||``, set it to the variable **starting_world_ position**, then set it to ``||player:player world position||``. Drag that variable into the ``||player:on chat||`` **mix2** command. Inside the ``||player:on chat||`` command, add a ``||blocks:print||`` and assign it the variable **word1** out of **smooth sandstone** at position **(0,0,0)**, facing **West**. Drag **word1** directly beneath the  **starting_world_ position** variable.
 
 ```blocks
 player.onChat("mix2", function () {
@@ -91,9 +87,7 @@ word2 = "road"
 
 ## Step 7
 
-Add another ``||blocks:print||``, insert a ``||text:join||`` and assign both **word1** and **word2**. Set the ``||blocks:print||`` to **lapiz lazuli** at position **(0,0,0)**, facing **West**.
-
-Drag the complete ``||blocks:print|`` into the ``||player:on chat||`` **mix2** command directly beneath the **word2** variable. 
+Add another ``||blocks:print||``, insert a ``||text:join||`` and assign both **word1** and **word2**. Set the ``||blocks:print||`` to **lapiz lazuli** at position **(0,0,0)**, facing **West**. Drag the complete ``||blocks:print|`` into the ``||player:on chat||`` **mix2** command directly beneath the **word2** variable. 
 
 ```blocks
 player.onChat("mix2", function () {
