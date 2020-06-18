@@ -2,7 +2,7 @@
 
 ## Step 1
 
-Code an ``||player:on chat||`` command and name it **mix**, which contains a ``||variables:set new variable||`` called **starting_world_position** that is set to ``||positions:player world position||``.
+Code an ``||player:on chat||`` command and name it **mix**, which contains a ``||variables:set new variable||`` called **starting_world_position** that is set to ``||player:player world position||``.
 
 ```python
 def on_chat():
@@ -32,7 +32,7 @@ word1 = "rail"
 
 ## Step 4
 
-Create an ``||player:on chat||`` command and name it **mix2**. Create a new ``||player:on chat||`` **mix2** command.  Inside this command, ``||blocks:print||`` the variable **word1** out of **smooth sandstone** at position **(0,0,0)**, facing **West**. Also, ensure that the **starting_world_ position** variable is set to ``||positions: player world position||``. 
+Create an ``||player:on chat||`` command and name it **mix2**. Create a new ``||player:on chat||`` **mix2** command.  Inside this command, ``||blocks:print||`` the variable **word1** out of **smooth sandstone** at position **(0,0,0)**, facing **West**. Also, ensure that the **starting_world_ position** variable is set to ``||player: player world position||``. 
 
 ```python
  def on_chat2():
