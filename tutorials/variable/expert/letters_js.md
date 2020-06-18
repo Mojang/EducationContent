@@ -2,7 +2,7 @@
 
 ## Step 1
 
-Code an ``||player:on chat||`` command and name it **mix**, which contains a ``||variables:set new variable||`` called **starting_world_position** that is set to ``||positions:player world position||``.
+Code an ``||player:on chat||`` command and name it **mix**, which contains a ``||variables:set new variable||`` called **starting_world_position** that is set to ``||player:player world position||``.
 
 ```spy
 player.onChat("mix", function () {
@@ -38,7 +38,7 @@ word1 = "rail"
 
 ## Step 4
 
-Create an ``||player:on chat||`` command and name it **mix2**. Create a new ``||player:on chat||`` **mix2** command.  Inside this command, ``||blocks:print||`` the variable **word1** out of **smooth sandstone** at position **(0,0,0)**, facing **West**. Also, ensure that the **starting_world_ position** variable is set to ``||positions:player world position||``. 
+Create an ``||player:on chat||`` command and name it **mix2**. Create a new ``||player:on chat||`` **mix2** command.  Inside this command, ``||blocks:print||`` the variable **word1** out of **smooth sandstone** at position **(0,0,0)**, facing **West**. Also, ensure that the **starting_world_ position** variable is set to ``||player:player world position||``. 
 
 ```spy
 player.onChat("mix2", function () {
@@ -126,11 +126,7 @@ player.onTravelled(FLY, function () {
 
 ## Step 9
 
-Add another ``||variables:set new variable||`` **RandomLetter**. Get a ``||math:pick random||`` and set the range from **0** to **12**. Then, insert the complete ``||math:pick random||`` into the **RandomLetter** variable.
-
-To print your letters, insert a ``||blocks:print||`` into the ``||player:on player fly||``  under the **RandomLetter** variable.
-
-Add a character from into the ``||blocks:print||`` and assign the **alphabet** and **RandomLetter** variables, respectively. Set the remaining parameters of the ``||blocks:print||`` to **pumpkin**, **(-5, 2, 0)**, and along the **West** direction (negative x).
+Add another ``||variables:set new variable||`` **RandomLetter**. Get a ``||math:pick random||`` and set the range from **0** to **12**. Then, insert the complete ``||math:pick random||`` into the **RandomLetter** variable. To print your letters, insert a ``||blocks:print||`` into the ``||player:on player fly||``  under the **RandomLetter** variable. Add a character from into the ``||blocks:print||`` and assign the **alphabet** and **RandomLetter** variables, respectively. Set the remaining parameters of the ``||blocks:print||`` to **pumpkin**, **(-5, 2, 0)**, and along the **West** direction (negative x).
 
 
 ```spy
@@ -148,8 +144,7 @@ player.onTravelled(FLY, function () {
 
 ## Step 10
 
-Set the **alphabet** and **RandomLetter** variables. For consistency, we set them in the same location we set all the other variables. Add another ``||variables:set new variable||``, set it to the **alphabet** variable and insert a text ``||text:""||`` string with the empty string **“”** assigned to it. Drag the  **alphabet** variable into the ``||loops: on start||`` directly beneath the **word2** variable.
-Add another ``||variables:set new variable||``, set it to the **RandomLetter** variable and set it to **0**. Drag **RandomLetter** into the ``||loops: on start||`` directly beneath the **alphabet** variable.
+Set the **alphabet** and **RandomLetter** variables. For consistency, we set them in the same location we set all the other variables. Add another ``||variables:set new variable||``, set it to the **alphabet** variable and insert a text ``||text:""||`` string with the empty string **“”** assigned to it. Drag the  **alphabet** variable into the ``||loops: on start||`` directly beneath the **word2** variable. Add another ``||variables:set new variable||``, set it to the **RandomLetter** variable and set it to **0**. Drag **RandomLetter** into the ``||loops: on start||`` directly beneath the **alphabet** variable.
 
 ```spy
 let RandomLetter = 0
