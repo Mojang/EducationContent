@@ -1,4 +1,4 @@
-﻿# Bat Cave: Blocks
+# Bat Cave: Blocks
 
 ## Step 1
 Create an ``||player:on chat||`` command and name it **cave**.
@@ -132,8 +132,7 @@ mobs.spawn(BAT, batcave)
 
 ## Step 12
 
-Next, repeat the **bat** ``||mobs:spawn animal||``. Get a ``||loops:repeat||`` loop and set it to **200** times. Drag the **bat** into the loop. Drag the entire loop into the ``
-||player:on chat||`` **cave** command below the ``||gameplay:time set||`` **dusk**.
+Next, repeat the **bat** ``||mobs:spawn animal||``. Get a ``||loops:repeat||`` loop and set it to **200** times. Drag the **bat** into the loop. Drag the entire loop into the ``||player:on chat||`` **cave** command below the ``||gameplay:time set||`` **dusk**.
 
 ```blocks
 for (let index = 0; index < 200; index++) {
