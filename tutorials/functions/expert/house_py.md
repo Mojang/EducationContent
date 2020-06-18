@@ -1,4 +1,4 @@
-﻿# House Functions: Python
+# House Functions: Python
 
 ## Step 1
 Code a ``||advanced:function||`` and name it **walls**. 
