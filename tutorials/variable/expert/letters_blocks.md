@@ -1,7 +1,7 @@
 # Letter Printing: Blocks
 
 ## Step 1
-Create an ``||player:on chat||`` command and name it **mix** and  contains a ``||variables:set new variable||`` called **starting_world_position**. Set this variable ``||positions:player world position||``.
+Create an ``||player:on chat||`` command and name it **mix** and  contains a ``||variables:set new variable||`` called **starting_world_position**. Set this variable ``||player:player world position||``.
 
 ```blocks
 player.onChat("mix", function () {
@@ -39,7 +39,7 @@ word1 = "rail"
 
 Create an ``||player:on chat||`` command and name it **mix2**.
 
-Add another ``||variables:set new variable||``, set it to the variable **starting_world_ position**, then set it to ``||positions:player world position||``. Drag that variable into the ``||player:on chat||`` **mix2** command.
+Add another ``||variables:set new variable||``, set it to the variable **starting_world_ position**, then set it to ``||player:player world position||``. Drag that variable into the ``||player:on chat||`` **mix2** command.
 
 Inside the ``||player:on chat||`` command, add a ``||blocks:print||`` and assign it the variable **word1** out of **smooth sandstone** at position **(0,0,0)**, facing **West**. Drag **word1** directly beneath the  **starting_world_ position** variable.
 
