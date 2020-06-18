@@ -11,7 +11,7 @@ player.on_chat("position", on_chat)
 ```
 
 ## Step 2
-Create a variable **PlayerPosition** and set it to the ``||position:world||`` position. 
+Create a variable **PlayerPosition** and set it to the ``||positions:world||`` position. 
 
 ```python
 PlayerPosition: Position = None

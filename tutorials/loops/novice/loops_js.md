@@ -3,7 +3,7 @@
 ## Step 1
 Code an ``||player:on item used||`` event and set it to  **Bone**.
 
-```javascript
+```spy
 player.onItemInteracted(BONE, function () { 
  
 }) 
@@ -12,7 +12,7 @@ player.onItemInteracted(BONE, function () {
 ## Step 2
 Within the ``||player:on item used||`` event, code a ``||loops:for||`` loop, that repeats **6** times.
 
-```javascript
+```spy
 player.onItemInteracted(BONE, function () { 
     for (let index = 0; index < 6; index++) { 
       
@@ -23,7 +23,7 @@ player.onItemInteracted(BONE, function () {
 ## Step 3
 Inside the ``||loops:for||`` loop, spawn a **Zombie Horse** at (0,0,0).
 
-```javascript
+```spy
 player.onItemInteracted(BONE, function () {
     for (let index = 0; index < 6; index++) {
         mobs.spawn(ZOMBIE_HORSE, pos(0, 0, 0))
@@ -34,7 +34,7 @@ player.onItemInteracted(BONE, function () {
 ## Step 4
 Code another ``||loops:for||`` loop inside the **Bone** ``||player:on item used||`` that repeats **4** times.
 
-```javascript
+```spy
 player.onItemInteracted(BONE, function () { 
     for (let index = 0; index < 6; index++) { 
         mobs.spawn(ZOMBIE_HORSE, pos(0, 0, 0)) 
@@ -48,7 +48,7 @@ player.onItemInteracted(BONE, function () {
 ## Step 5
 Inside the ``||loops:for||`` loop, spawn a **skeleton horse** at (0,0,0).  
 
-```javascript
+```spy
 player.onItemInteracted(BONE, function () { 
     for (let index = 0; index < 6; index++) { 
         mobs.spawn(ZOMBIE_HORSE, pos(0, 0, 0)) 
@@ -64,7 +64,7 @@ Go into Minecraft and test out all the events.
 
 ### Full Code: 
 
-```javascript
+```spy
 player.onItemInteracted(BONE, function () { 
     for (let index = 0; index < 6; index++) { 
         mobs.spawn(ZOMBIE_HORSE, pos(0, 0, 0)) 
