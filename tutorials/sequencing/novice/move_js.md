@@ -1,4 +1,4 @@
-﻿# Agent Move: Spy
+# Agent Move: Spy
 
 ## Step 1
 Code an ``||player:on chat||`` command and name it **“tp”**.
