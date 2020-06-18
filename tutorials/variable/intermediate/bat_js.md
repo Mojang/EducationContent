@@ -1,4 +1,4 @@
-﻿# Bat Cave: Spy
+# Bat Cave: JavaScript
 
 ## Step 1
 Add a ``||player:on chat||`` command and name it **cave**.
