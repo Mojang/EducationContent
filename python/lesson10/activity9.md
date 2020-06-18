@@ -1,6 +1,6 @@
 ### @explicitHints true
 
-# Diamond or dirt?
+# The Agent labyrinth.
 
 ```python
 agent.move(FORWARD, 5)
@@ -26,6 +26,4 @@ while True:
 ```
 
 ## Step 1
-Calculate these four sums using code. You need to get the Agent to the gold block, do this by placing a diamond or dirt block depending on the answer of the sums.  If the answer is 1 place a diamond block, if its 0 place a dirt block. 
-
-
+Get the Agent through the maze. Write a code to use the colored blocks on the flor as forward, left, and right directions for the Agent to move in. Then get the Agent to the end of the maze. (Hint: try using a endlessly repeating while loop).

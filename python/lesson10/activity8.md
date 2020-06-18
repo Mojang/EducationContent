@@ -1,6 +1,6 @@
 ### @explicitHints true
 
-# Diamond or dirt?
+# Diamond rush. 
 
 ```python
 agent.move(FORWARD, 5)
@@ -26,6 +26,11 @@ while True:
 ```
 
 ## Step 1
-Calculate these four sums using code. You need to get the Agent to the gold block, do this by placing a diamond or dirt block depending on the answer of the sums.  If the answer is 1 place a diamond block, if its 0 place a dirt block. 
+Finish the code so that the Agent moves forward and counts each gold block he passes over.  At the end hell stack how ever many gold blocks he has passed over. 
 
-
+```template
+diamond = 0
+for index in range(diamond)
+    agent.place(FORWARD)
+    loops.pause(500)
+```

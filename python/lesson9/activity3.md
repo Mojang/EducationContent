@@ -1,18 +1,20 @@
 ### @explicitHints true
 
-# Activity 3 - Scoring system.
+# Diamond or dirt?
 
 ```python
-positions.add()
-pos(0, 0, 0)
-mobs.spawn(FIREWORKS_ROCKET, agent.get_position())
-blocks.place()
-loops.pause(100)
 agent.move(FORWARD, 5)
-agent.get_position()
-gameplay.title(mobs.target(NEAREST_PLAYER), "Congratulations!", "You won!")
-mobs.target(NEAREST_PLAYER)
-player.say("HI")
+pos(0, 0, 0)
+player.say("Finished")
+agent.place(LEFT)
+agent.inspect(AgentInspection.BLOCK, DOWN) 
+agent.turn(RIGHT_TURN)
+agent.destroy(BACK)
+agent.drop_all(FORWARD)
+agent.collect_all()
+loops.pause(500)
+for i in range(10):
+    pass
 if True: 
     pass
 else: 
@@ -24,42 +26,6 @@ while True:
 ```
 
 ## Step 1
-Declare a variable in the code named `||variables:score||`. Then add **1** to that variable each time the Agent shoots a gold block.
-Edit the condition in the while loop, so that it only loops when `||variables:score||` is smaller, or equal to, **10**. 
-### ~ tutorialhint
-**Smaller or equal to** means **<=**.
+Calculate these four sums using code. You need to get the Agent to the gold block, do this by placing a diamond or dirt block depending on the answer of the sums.  If the answer is 1 place a diamond block, if its 0 place a dirt block. 
 
-```template
-//Place your functions below # 
-def fire():
-    if blocks.test_for_block(GOLD_BLOCK,
-    positions.add(agent.get_position(), pos(0, 2, 0))):
-        mobs.spawn(FIREWORKS_ROCKET, agent.get_position())
-        loops.pause(100)
-        blocks.place(AIR, positions.add(agent.get_position(), pos(0, 2, 0)))
-//Add 1 to the variable score                                                |Part 1
-    elif blocks.test_for_block(GOLD_BLOCK,
-    positions.add(agent.get_position(), pos(0, 3, 0))):
-        mobs.spawn(FIREWORKS_ROCKET, agent.get_position())
-        loops.pause(100)
-        blocks.place(AIR, positions.add(agent.get_position(), pos(0, 3, 0)))
-//Add 1 to the variable score                                                |Part 1
-def move():
-    if blocks.test_for_block(LIGHT_BLUE_CONCRETE, pos(0, -1, 0)):
-        agent.move(RIGHT, 1)
-    elif blocks.test_for_block(RED_CONCRETE, pos(0, -1, 0)):
-        agent.move(LEFT, 1)
-//Replace the lines below with your code #    
-//Declare the variable score                                                 |Part 1
-//Declare the variable count                                                         |Part 2 
-gameplay.title(mobs.target(NEAREST_PLAYER), "Agent Invader", "Start")
-//Change while loop to only loop when score is <= 10                         |Part 1
-while True:
-//Add an If conditional with the condition score > count                             |Part 2
-//Show the score in chat                                                             |Part 2
-//Add 1 to the variable score                                                        |Part 2
-    move()
-    fire()
-//Add a splash screen using the gameplay title command                       |Part 1
-//Spawn lighting bolt on Agent position                                      |Part 1       
-```
+

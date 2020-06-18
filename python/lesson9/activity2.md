@@ -1,15 +1,20 @@
 ### @explicitHints true
 
-# Activity 2 - Firing system.
+# Blinding lights. 
 
 ```python
-positions.add()
-pos(0, 0, 0)
-mobs.spawn(FIREWORKS_ROCKET, agent.get_position())
-blocks.place()
-loops.pause(100)
 agent.move(FORWARD, 5)
-agent.get_position()
+pos(0, 0, 0)
+player.say("Finished")
+agent.place(LEFT)
+agent.inspect(AgentInspection.BLOCK, DOWN) 
+agent.turn(RIGHT_TURN)
+agent.destroy(BACK)
+agent.drop_all(FORWARD)
+agent.collect_all()
+loops.pause(500)
+for i in range(10):
+    pass
 if True: 
     pass
 else: 
@@ -21,33 +26,8 @@ while True:
 ```
 
 ## Step 1
-**Part 1:** Write another function to make the Agent shoot the first row of blocks above itself.
-The Agent needs to use fireworks rockets when shooting. Each shoot block needs to be replaced with an **AIR** block. 
+Make the Agent place the Redstone lamps on top of the Redstone blocks lights while walking forwards on the walkway.
 
-## Step 2 
-**Part 2:** Add to the code to make the Agent do the same thing but also for the second row above, using an additional `||logic: elif||`
-conditional. 
-
-```template
-//Place your functions below # 
-//Replace with comment about function below      
-//Declare function 2                                       |Part 1
-//If conditional, test for block condition, Agent pos + 2  |Part 1
-//Spawn firework rockets at Agent position                 |Part 1
-//Pause for 100ms                                          |Part 1
-//Place AIR block at Agent pos + 2                         |Part 1
-//Elif conditional, test for block condition, Agent pos + 2        |Part 2
-//Spawn firework rockets at Agent position                         |Part 2
-//Pause for 100ms                                                  |Part 2
-//Place AIR block at Agent pos + 2                                 |Part 2
-//Replace the lines below with your code #           
-def move()
-if blocks.test_for_block(LIGHT_BLUE_CONCRETE, pos(0, -1, 0))
-agent.move(RIGHT, 1)
-if blocks.test_for_block(RED_CONCRETE, pos(0, -1, 0))
-agent.move(LEFT, 1)
-while True
-move()
-//Call function 2                                          |Part 1   
-```      
+### ~ tutorialhint
+The Agent already have all of the required blocks in its inventory.
 
