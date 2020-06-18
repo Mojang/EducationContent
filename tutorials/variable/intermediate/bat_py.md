@@ -1,4 +1,4 @@
-﻿# Bat Cave: Python
+# Bat Cave: Python
 
 ## Step 1
 Add a ``||player:on chat||`` command and name it **cave**.
