@@ -3,7 +3,7 @@
 ## Step 1
 Code an ``||player:on chat||`` command and name it **farm**.
 
-```javascript
+```spy
 player.onChat("farm", function () { 
  
 }) 
@@ -12,7 +12,7 @@ player.onChat("farm", function () {
 ## Step 2
 Code the ``||agent||`` to set **carrots** at the count of **64** in slot **1**. 
 
-```javascript
+```spy
 player.onChat("farm", function () {
     agent.setItem(CARROTS, 64, 1)
 })
@@ -21,7 +21,7 @@ player.onChat("farm", function () {
 ## Step 3
 Code a ``|loops:for||`` loop that repeats **3** times. 
 
-```javascript
+```spy
 player.onChat("farm", function () { 
     agent.setItem(CARROTS, 64, 1) 
     for (let index = 0; index < 3; index++) { 
@@ -33,7 +33,7 @@ player.onChat("farm", function () {
 ## Step 4
 Code the ``||agent||`` to move **back by 5** inside the ``||loops:for|| loop.
 
-```javascript
+```spy
 player.onChat("farm", function () { 
     agent.setItem(CARROTS, 64, 1) 
     for (let index = 0; index < 3; index++) { 
@@ -45,7 +45,7 @@ player.onChat("farm", function () {
 ## Step 5
 After the ``||agent:move||`` back code, code the ``||agent||`` to move **right by 2**.
 
-```javascript
+```spy
 player.onChat("farm", function () { 
     agent.setItem(CARROTS, 64, 1) 
     for (let index = 0; index < 3; index++) { 
@@ -58,7 +58,7 @@ player.onChat("farm", function () {
 ## Step 6
 Code a ``||loops:for||`` loop that repeats **5** times. Place it inside the first ``||loops:for||`` loop but above the ``||agent:move||`` move back code.
 
-```javascript
+```spy
 player.onChat("farm", function () { 
     agent.setItem(CARROTS, 64, 1) 
     for (let index = 0; index < 3; index++) { 
@@ -74,7 +74,7 @@ player.onChat("farm", function () {
 ## Step 7
 Code a ``||agent:till||`` to till **forward** inside the inner ``||loops:for||`` loop.
 
-```javascript
+```spy
 player.onChat("farm", function () { 
     agent.setItem(CARROTS, 64, 1) 
     for (let index = 0; index < 3; index++) { 
@@ -90,7 +90,7 @@ player.onChat("farm", function () {
 ## Step 8
 After the ``||agent:till||``, code the ``||agent||`` to move **forward by 1** .
 
-```javascript
+```spy
 player.onChat("farm", function () { 
     agent.setItem(CARROTS, 64, 1) 
     for (let index = 0; index < 3; index++) { 
@@ -107,7 +107,7 @@ player.onChat("farm", function () {
 ## Step 9
 After the ``||agent:move||`` forward, code to have the ``||agent:place||`` forward. 
 
-```javascript
+```spy
 player.onChat("farm", function () { 
     agent.setItem(CARROTS, 64, 1) 
     for (let index = 0; index < 3; index++) { 
@@ -127,7 +127,7 @@ Go into Minecraft and test out all the events.
 
 ### Full Code: 
 
-```javascript
+```spy
 player.onChat("farm", function () {
     agent.setItem(CARROTS, 64, 1)
     for (let index = 0; index < 3; index++) {
