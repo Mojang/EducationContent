@@ -1,4 +1,4 @@
-﻿# Agent Maze: Blocks
+# Agent Maze: Blocks
 
 ## Step 1
 Create an ``||player:on chat||`` command and name it **tp**.
