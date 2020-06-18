@@ -1,4 +1,4 @@
-﻿# House Functions: Spy
+# House Functions: Spy
 
 ## Step 1
 Code a ``||advanced:function||`` and name it **walls**. 
