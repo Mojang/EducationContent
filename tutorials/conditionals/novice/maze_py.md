@@ -1,4 +1,4 @@
-﻿# Agent Maze: Python
+# Agent Maze: Python
 
 
 ## Step 1

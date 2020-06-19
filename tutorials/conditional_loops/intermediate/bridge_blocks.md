@@ -1,4 +1,4 @@
-﻿
+
 # Build a Bridge: Blocks
 
 
