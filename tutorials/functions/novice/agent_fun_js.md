@@ -1,4 +1,4 @@
-﻿# Agent Fun Functions: Blocks
+# Agent Fun Functions: Blocks
 
 ## Step 1
 You are given the following code for “carrots,” “chicken,” and “snowball” ``||player:on chat||`` commands.

@@ -1,4 +1,4 @@
-﻿# Chopping Trees: Blocks
+# Chopping Trees: Blocks
 
 
 ## Step 1

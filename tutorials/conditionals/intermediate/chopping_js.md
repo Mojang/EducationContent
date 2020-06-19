@@ -1,4 +1,4 @@
-﻿# Chopping Trees: Javascript
+# Chopping Trees: Javascript
 
 
 ## Step 1
