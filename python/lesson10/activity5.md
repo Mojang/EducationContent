@@ -26,4 +26,4 @@ while True:
 ```
 
 ## Step 1
-Can you make the Agent move through the area row by row without turning? 
+Can you make the Agent move through the area sideways, row by row, without it turning? 

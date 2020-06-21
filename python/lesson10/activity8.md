@@ -26,9 +26,9 @@ while True:
 ```
 
 ## Step 1
-Finish the code so that the Agent moves forward and counts each gold block he passes over.  At the end hell stack how ever many gold blocks he has passed over. 
-
-```template
+Finish the code so that the Agent moves towards the gold block and counts each diamond block it passes over.   
+At the end, when the Agent gets to the gold block, it will stack the number of diamonds passed over in a pillar.
+```python
 diamond = 0
 for index in range(diamond)
     agent.place(FORWARD)

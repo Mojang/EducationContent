@@ -26,5 +26,5 @@ while True:
 ```
 
 ## Step 1
-Make the Agent mine the diamonds behind itself, and then drop them into the minecart. 
+Make the Agent mine the diamonds behind itself, and then drop them into the collection area at the other end.
 

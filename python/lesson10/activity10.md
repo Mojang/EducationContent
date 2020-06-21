@@ -26,7 +26,9 @@ while True:
 ```
 
 ## Step 1
-You have been given a list. To find what block type the Agent should stand on, sort the list alphabetically. Get the second block in that list, this is the block type the Agent should move to. To find what block type your character should stand on reverse and pop the fourth item in the list. Get the sixth block in that list and stand on that block. 
+You have been given a list. To find what block type the Agent should stand on, **sort** the list alphabetically. 
+Get the **second** block in that list, press the button next to those blocks to teleport the Agent to those blocks. To find what block type your player should stand on **reverse** and **pop** the **fourth** item in the list. 
+Get the **sixth** block in that list and stand on that block. 
 
 ```template
 block_list = ["DIAMOND", "ICE", "EMERALD", "STONE", "WOOD", "GOLD", "QUARTZ"]
