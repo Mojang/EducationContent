@@ -26,8 +26,8 @@ while True:
 ```
 
 ## Step 1
-Make the Agent place the Redstone lamps on top of the Redstone blocks while walking forwards on the walkway.
+Make the Agent place the Redstone lamps in its inventory on top of the Redstone blocks while walking forwards on the walkway to the gold block.
 
 ### ~ tutorialhint
-The Agent already has all of the required blocks in its inventory.
+Try using a loop.
 

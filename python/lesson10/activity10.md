@@ -26,10 +26,11 @@ while True:
 ```
 
 ## Step 1
-You have been given a list. To find what block type the Agent should stand on, **sort** the list alphabetically. 
-Get the **second** block in that list, press the button next to those blocks to teleport the Agent to those blocks. To find what block type your player should stand on **reverse** and **pop** the **fourth** item in the list. 
-Get the **sixth** block in that list and stand on that block. 
+You have been given a list. Delete the quotes (**'**) from the begining and end of each line. To find what block type the Agent should stand on, **sort** the list alphabetically
+and get the **second** block from the list. Press the button next to the correct blocks to teleport the Agent to there. 
+To find what block type your player should stand on **reverse**  the list and **pop** the **fourth** block in the list. 
+Get the **sixth** block from the list and stand on that block. 
 
 ```template
-block_list = ["DIAMOND", "ICE", "EMERALD", "STONE", "WOOD", "GOLD", "QUARTZ"]
+'block_list = ["DIAMOND", "ICE", "EMERALD", "STONE", "WOOD", "GOLD", "QUARTZ"]'
 ```

@@ -26,7 +26,8 @@ while True:
 ```
 
 ## Step 1
-The code below is missing all of its syntax. Write it corretly in the coding window so it runs, then place the missing syntax blocks in the world.
+The code below is missing all of its syntax, add the correct syntax in the coding window to make the code run. 
+Then place the matching missing syntax blocks in the world.
 ```python
 for i in range 10
     agent move FORWARD 1

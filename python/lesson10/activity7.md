@@ -26,4 +26,4 @@ while True:
 ```
 
 ## Step 1
-Make the Agent move forward onto the gold block while breaking the melons but leaving the pumpkins alone. 
+Make the Agent move forward to the gold block while breaking the melons but leaving the pumpkins alone. 
