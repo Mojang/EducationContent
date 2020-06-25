@@ -1,6 +1,9 @@
 ### @hideIteration true 
+### @explicitHints 1
+### @CustomAI.ts
 
-```blocks
+```AIForEarth
+
 ```
 
 # Testing
