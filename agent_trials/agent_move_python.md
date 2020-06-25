@@ -4,7 +4,6 @@
 ### @hideIteration true 
 ### @explicitHints 1
 
-
 # Program the Agent to move to the gold plate!
 
 ## Step 1
@@ -18,6 +17,3 @@ player.on_chat("move", on_chat)
 
 #### ~ tutorialhint 
 You can change the number of steps your Agent will move by changing the number inside the ``||agent: agent move||`` block. You also can use an ``||agent: agent turn||`` block to turn the Agent to the left or right.
-
-
-
