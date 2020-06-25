@@ -1,11 +1,10 @@
-﻿
 # Agent Destroy Passage: Javascript
 
 
 ## Step 1
 Code an ``||player:on chat||`` command and name it **“destroy”**.
 
-```javascript
+```spy
 player.onChat("destroy", function () {
 })
 ```
@@ -13,7 +12,7 @@ player.onChat("destroy", function () {
 ## Step 2
 Add a ``||loops:while||`` loop inside the ``||player:on chat ||``  command that continues as long as the ``||agent: detects||`` a block **forward**. 
 
-```javascript
+```spy
 player.onChat("destroy", function () {
     while (agent.detect(AgentDetection.Block, FORWARD)) {  	
     }
@@ -23,7 +22,7 @@ player.onChat("destroy", function () {
 ## Step 3
 Code the agent to ``||agent:destroy||`` **forward** inside the ``||loops:while||`` loop.
 
-```javascript
+```spy
 player.onChat("destroy", function () {
     while (agent.detect(AgentDetection.Block, FORWARD)) {
         agent.destroy(FORWARD)
@@ -35,7 +34,7 @@ player.onChat("destroy", function () {
 
 Code the agent to ``||agent:move forward||`` by **one** after the ``||agent:destroy forward||`` code inside the ``||loops:while||`` loop.
 
-```javascript
+```spy
 player.onChat("destroy", function () {
     while (agent.detect(AgentDetection.Block, FORWARD)) {
         agent.destroy(FORWARD)
@@ -48,7 +47,7 @@ player.onChat("destroy", function () {
 
 Code the agent to ``||agent:destroy||`` **up** after it ``||agent:moves forward||`` , then **end** the ``||loops:while||`` loop.
 
-```javascript
+```spy
 player.onChat("destroy", function () {
     while (agent.detect(AgentDetection.Block, FORWARD)) {
         agent.destroy(FORWARD)
@@ -60,7 +59,7 @@ player.onChat("destroy", function () {
 
 ### Full Code: 
 
-```javascript
+```spy
 player.onChat("destroy", function () {
     while (agent.detect(AgentDetection.Block, FORWARD)) {
         agent.destroy(FORWARD)

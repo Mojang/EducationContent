@@ -1,11 +1,10 @@
-﻿
 # Spiral Activity: Javascript
 
 
 ## Step 1
 Code a ``||player:on chat||`` command and name it **“spiral”**.
 
-```javascript
+```spy
 player.onChat("spiral", function () {
 })
 ```
@@ -14,7 +13,7 @@ player.onChat("spiral", function () {
 
 Code a ``||loops:while||`` loop that begins with: while the ``||agent:inspects||`` a block **forward** is not equal to a block of **gold**.
 
-```javascript
+```spy
 player.onChat("spiral", function () {
     while (agent.inspect(AgentInspection.Block, FORWARD) != GOLD_BLOCK) {
     	
@@ -26,7 +25,7 @@ player.onChat("spiral", function () {
 
 Code an ``||logic:if-else||`` statement to go inside the ``||loops:while||`` loop that starts with: if the agent ``||agent:does NOT detect||`` a block **forward** then ``||agent:moves||`` **forward** by **1**. 
 
-```javascript
+```spy
 player.onChat("spiral", function () {
     while (agent.inspect(AgentInspection.Block, FORWARD) != GOLD_BLOCK) {
         if (!(agent.detect(AgentDetection.Block, FORWARD))) {
@@ -42,7 +41,7 @@ player.onChat("spiral", function () {
 
 In the ``||logic:else||`` clause of the ``||logic:if-else statement||``, write that the ``||agent:turns||`` **left**. 
 
-```javascript
+```spy
 player.onChat("spiral", function () {
     while (agent.inspect(AgentInspection.Block, FORWARD) != GOLD_BLOCK) {
         if (!(agent.detect(AgentDetection.Block, FORWARD))) {
@@ -58,7 +57,7 @@ player.onChat("spiral", function () {
 
 Outside of the ``||loops:while||`` loop, code the agent to ``||agent:move up||`` by **3** .
 
-```javascript
+```spy
 player.onChat("spiral", function () {
     while (agent.inspect(AgentInspection.Block, FORWARD) != GOLD_BLOCK) {
         if (!(agent.detect(AgentDetection.Block, FORWARD))) {
@@ -75,7 +74,7 @@ player.onChat("spiral", function () {
 
 Code the ``||loops:while||`` loop to be repeated **2** times by adding a ``||loops:for||`` loop around it. 
 
-```javascript
+```spy
  player.onChat("spiral", function () {
     for (let index = 0; index < 2; index++) {
         while (agent.inspect(AgentInspection.Block, FORWARD) != GOLD_BLOCK) {
@@ -92,7 +91,7 @@ Code the ``||loops:while||`` loop to be repeated **2** times by adding a ``||loo
 
 ### Full Code: 
 
-```javascript
+```spy
  player.onChat("spiral", function () {
     for (let index = 0; index < 2; index++) {
         while (agent.inspect(AgentInspection.Block, FORWARD) != GOLD_BLOCK) {

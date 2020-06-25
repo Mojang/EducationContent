@@ -1,10 +1,20 @@
 ### @explicitHints true
 
-# Activity 1 - Game controls.  
+# What's that syntax!? 
 
 ```python
 agent.move(FORWARD, 5)
 pos(0, 0, 0)
+player.say("Finished")
+agent.place(LEFT)
+agent.inspect(AgentInspection.BLOCK, DOWN) 
+agent.turn(RIGHT_TURN)
+agent.destroy(BACK)
+agent.drop_all(FORWARD)
+agent.collect_all()
+loops.pause(500)
+for i in range(10):
+    pass
 if True: 
     pass
 else: 
@@ -16,21 +26,10 @@ while True:
 ```
 
 ## Step 1
-There are two 'buttons' on the controller, blue is to make the Agent's move left and red is to make the Agent's move right. Write a code 
-so that when you stand on the red or blue blocks the Agent moves in the correct direction.  
-
-### ~ tutorialhint
-A `||loops:while||` loop with the condition set to **True** will repeat continuously. 
-
-```template
-//Replace with your functions below #
-//Replace with comment about function below      
-//Declare function                                
-//If conditional with test for block condition (LIGHT_BLUE_CONCRETE)
-//Make the Agent move right
-//Elif conditional with test for block condition (RED_CONCRETE)
-//Make the Agent move left
-//Replace the lines below with your code #    
-//While loop with True as condition 
-//Call function                      
+The code below is missing all of its syntax, add the correct syntax in the coding window to make the code run. 
+Then place the matching missing syntax blocks in the world.
+```python
+for i in range 10
+    agent move FORWARD 1
+player say  Finished
 ```

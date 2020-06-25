@@ -1,4 +1,4 @@
-﻿
+
 # Agent Destroy Passage: Python
 
 

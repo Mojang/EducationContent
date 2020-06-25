@@ -1,4 +1,4 @@
-﻿# Letter Printing: Python
+# Letter Printing: Python
 
 ## Step 1
 
@@ -22,8 +22,7 @@ player.on_chat("mix", on_chat)
 
 ## Step 3
 
-Set the variable **starting_world_ position** to **(0,0,0)**.
-Set the variable **word1** to "rail".
+Set the variable **starting_world_ position** to **(0,0,0)**. Set the variable **word1** to "rail".
   
 ```python
 starting_world_position: Position = None
@@ -33,9 +32,7 @@ word1 = "rail"
 
 ## Step 4
 
-Create an ``||player:on chat||`` command and name it **mix2**.
-
-Create a new ``||player:on chat||`` **mix2** command.  Inside this command, ``||blocks:print||`` the variable **word1** out of **smooth sandstone** at position **(0,0,0)**, facing **West**. Also, ensure that the **starting_world_ position** variable is set to ``||player world position||``. 
+Create an ``||player:on chat||`` command and name it **mix2**. Create a new ``||player:on chat||`` **mix2** command.  Inside this command, ``||blocks:print||`` the variable **word1** out of **smooth sandstone** at position **(0,0,0)**, facing **West**. Also, ensure that the **starting_world_ position** variable is set to ``||player: player world position||``. 
 
 ```python
  def on_chat2():

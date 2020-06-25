@@ -1,4 +1,4 @@
-﻿
+
 # Spiral Activity: Python
 
 ## Step 1

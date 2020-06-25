@@ -1,4 +1,4 @@
-﻿# Chopping Trees: Python
+# Chopping Trees: Python
 
 
 ## Step 1

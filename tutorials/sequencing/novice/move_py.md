@@ -1,4 +1,4 @@
-﻿# Agent Move: Python
+# Agent Move: Python
 
 ## Step 1
 Code an ``||player:on chat||`` command and name it **“tp”**.

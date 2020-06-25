@@ -1,4 +1,4 @@
-﻿# Ocelot Enclosure: Spy
+# Ocelot Enclosure: Spy
 
 ## Step 1
 Code an ``||player:on chat||`` command and name it **fence**.

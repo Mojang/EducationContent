@@ -1,18 +1,18 @@
-﻿# Agent Move: Blocks
+# Agent Move: JavaScript
 
 ## Step 1
-Create an ``||player:on chat||`` command and name it **“tp”**.
+Code an ``||player:on chat||`` command and name it **“tp”**.
 
-```blocks
+```spy
 player.onChat("tp", function () {
 })
 ```
 
 ## Step 2
 
-Get a ``||agent:teleport to player||`` and drag it inside the **tp**  ``||player:on chat||`` command.
+Inside the **tp**  ``||player:on chat||`` command, code the agent to ``||agent:teleport to player||`` .
 
-```blocks
+```spy
 player.onChat("tp", function () {
     agent.teleportToPlayer()
 })
@@ -20,18 +20,18 @@ player.onChat("tp", function () {
 
 ## Step 3
 
-Get another ``||player:on chat||`` command and name it **“fd”**.
+Code another ``||player:on chat||`` command and name it **“fd”**.
 
-```blocks
+```spy
 player.onChat("fd", function () {
 })
 ```
 
 ## Step 4
 
-Get an ``||agent:move||`` and set it to **forward by 5**. 
+Inside the  ``||player:on chat||`` **fd** command , code the agent to ``||agent:move||`` and set it to **forward by 5**. 
 
-```blocks
+```spy
 player.onChat("fd", function () {
     agent.move(FORWARD, 5)
 })
@@ -39,18 +39,18 @@ player.onChat("fd", function () {
 
 ## Step 5
 
-Get another ``||player:on chat||`` command and name it **“it”**.
+Code another ``||player:on chat||`` command and name it **“lt”**.
 
-```blocks
+```spy
 player.onChat("lt", function () {
 })
 ```
 
 ## Step 6
 
-Get a ``||agent:turn||`` and set it to **turn left**. Drag it into the ``||player:on chat||`` **it** command.
+Inside the ``||player:on chat||`` **lt** command, code the agent to ``||agent:turn||`` and set it to **turn left**.
 
-```blocks
+```spy
 player.onChat("lt", function () {
     agent.turn(LEFT_TURN)
 })
@@ -58,9 +58,9 @@ player.onChat("lt", function () {
 
 ## Step 7
 
-Get another ``||player:on chat||`` command and name it **“rt”**.
+Create yet another ``||player:on chat||`` command and name it **“rt”**.
 
-```blocks
+```spy
 player.onChat("rt", function () {
     agent.turn(RIGHT_TURN)
 })
@@ -68,14 +68,13 @@ player.onChat("rt", function () {
 
 ## Step 8
 
-Get another ``||agent:turn||``, set it to **turn right**, and then drag the ``||agent||`` **turn right** into the ``||player:on chat||`` **rt** command.
+Inside the **rt** chat command, code the ``||agent||`` to **turn right**.
 
-```blocks
+```spy
 player.onChat("rt", function () {
     agent.turn(RIGHT_TURN)
 })
 ```
-
 
 ## Step 9
 
@@ -83,7 +82,7 @@ Return to Minecraft, press **t** to open the chat and type the commands **tp**, 
 
 ### Full Code: 
 
-```blocks
+```spy
 player.onChat("lt", function () {
     agent.turn(LEFT_TURN)
 })

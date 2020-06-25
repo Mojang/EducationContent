@@ -1,4 +1,4 @@
-﻿# Agent Maze: Spy
+# Agent Maze: Spy
 
 ## Step 1
 Code a ``||player:on chat||`` command, name it **tp**, and code the agent to ``||agent:teleport to player||``.

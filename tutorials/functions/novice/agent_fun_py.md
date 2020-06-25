@@ -1,4 +1,4 @@
-﻿# Agent Fun Functions: Python
+# Agent Fun Functions: Python
 
 ## Step 1
 You are given the following code for “carrots,” “chicken,” and “snowball” ``||player:on chat||`` commands.
