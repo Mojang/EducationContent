@@ -26,5 +26,5 @@ while True:
 ```
 
 ## Step 1
-Make the Agent mine the diamond ore behind itself, and then drop the mined diamonds into the collection area at the other end.
+Make the Agent mine the diamond and emerald ore behind itself, and then drop the mined diamonds into the collection area at the other end.
 
