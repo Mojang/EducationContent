@@ -1,4 +1,9 @@
 ### @explicitHints true
+### @hideIteration true 
+
+```python
+player.say("Hi")
+```
 
 # Activity 3 - What is the correct number?
 

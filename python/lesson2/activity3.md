@@ -1,5 +1,5 @@
 ### @explicitHints true
-
+### @hideIteration true 
 # Activity 3 - One step at a time.
 
 ```python

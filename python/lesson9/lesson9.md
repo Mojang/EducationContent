@@ -1,5 +1,4 @@
 ### @explicitHints true
-
 # Agent Invader  
 
 ```python

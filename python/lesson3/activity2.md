@@ -2,6 +2,7 @@
 ### @codeStop players set @s makecode 1
 
 ### @explicitHints true
+### @hideIteration true 
 # Activity 2 - Ideal planting spot.
 
 ```python

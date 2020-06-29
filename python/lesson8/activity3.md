@@ -1,5 +1,5 @@
-###@explicitHints true
-
+### @explicitHints true
+### @hideIteration true 
 # Activity 3 - Pasture of trees. 
 
 ```python

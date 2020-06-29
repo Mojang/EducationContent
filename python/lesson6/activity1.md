@@ -1,5 +1,5 @@
 ### @explicitHints true
-
+### @hideIteration true 
 # Activity 1 -  Stop and go.
 
 ```python

@@ -1,5 +1,5 @@
 ### @explicitHints true
-
+### @hideIteration true 
 # Row by row.
 
 ```python

@@ -1,5 +1,5 @@
-###@explicitHints true
-
+### @explicitHints true
+### @hideIteration true 
 # Activity 2 - Breaking boulders.
 
 ```python

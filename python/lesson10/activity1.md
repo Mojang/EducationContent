@@ -1,4 +1,5 @@
 ### @explicitHints true
+### @hideIteration true 
 
 # What's that syntax!? 
 

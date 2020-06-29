@@ -1,4 +1,5 @@
 ### @explicitHints true
+### @hideIteration true 
 
 # Activity 2 - Whats missing?
 

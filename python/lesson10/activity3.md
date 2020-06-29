@@ -1,4 +1,5 @@
 ### @explicitHints true
+### @hideIteration true 
 
 # Diamond or dirt?
 

@@ -1,5 +1,5 @@
 ### @explicitHints true
-
+### @hideIteration true 
 # Depths of the earth. 
 
 ```python
