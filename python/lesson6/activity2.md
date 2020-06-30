@@ -1,5 +1,5 @@
 ### @explicitHints true
-### @hideIteration true 
+ 
 # Activity 2 -  Is it left, or right? 
 
 ```python
@@ -25,7 +25,7 @@ To compare a condition against the Minecraft world or a variable use **==**.
 
 ## Step 2
 **Part 2:** Edit the code so that the Agent turns in both directions until it reaches the gold block. Do this by adding a **elif**
-conditional in between the **if** and **else** parts.
+conditional in between the **if** and **else** parts. Use the variables already provided in your code: left = BLUE_GLAZED_TERRACOTTA, right = PINK_GLAZED_TERRACOTTA.
 ### ~ tutorialhint 
 Use the **elif** conditional with an `||agent:agent inspect||` command
 as the condition and compare it to the variable **right**.

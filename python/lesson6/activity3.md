@@ -18,7 +18,7 @@ Write a code to make the Agent detect and avoid randomly placed blocks, as it mo
 with a **and not** operator in between them. For the **elif** condition use two `||agent:agent detect||` commands 
 with a **and** operator in between them. An example or two conditions with an **and not** operator:
 ```python
-agent.detect(AgentDetection.BLOCK, DIRECTION) and not (agent.detect(AgentDetection.BLOCK, DIRECTION))
+agent.detect(AgentDetection.BLOCK, DIRECTION) and not agent.detect(AgentDetection.BLOCK, DIRECTION)
 ```
 
 ### ~ tutorialhint 

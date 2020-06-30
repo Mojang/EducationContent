@@ -1,5 +1,4 @@
 ### @explicitHints true
-### @hideIteration true 
 # Activity 2 - Spin cycle.
 
 ```python
@@ -12,14 +11,15 @@ agent.drop_all(FORWARD)
 ```
 
 ## Step 1
-**Part 1:** Make a code so that the Agent will pickup the dirty laundry, move **forward** into the machine, spin left **20** times and then get out of
+**Part 1:** Write a code so that the Agent will pick up the dirty laundry, move **forward** into the machine, spin left **20** times and then get out of
 the machine to place the clean laundry on the other side of where the dirty laundry was.
 
 ## Step 2
 **Part 2:** Edit the same code so that the Agent does the same thing but for **3** loads of laundry. Do this by using a `||loops: for||` loop before all of the other 
 code.
+
 ### ~ tutorialhint 
-Don't forget that two loops can't have the same name, so rename the second loop. 
+Don't forget that, in this case, two loops should not have the same variable name, so rename the second loop. 
 To indent a large piece of code highlight all the code you want to indent and press the **tab** key. 
 
 ```template

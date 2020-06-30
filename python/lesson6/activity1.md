@@ -1,5 +1,5 @@
 ### @explicitHints true
-### @hideIteration true 
+
 # Activity 1 -  Stop and go.
 
 ```python
@@ -16,11 +16,11 @@ agent.detect(AgentDetection.BLOCK, FORWARD)
 **Part 1:** Write a code so that the Agent will only move when there **is** a block on it's left side. 
 Use a `||agent: agent detect||` command for the condition: 
 ```python
-agent.detect(AgentDetection.BLOCK, FORWARD)
+agent.detect(AgentDetection.BLOCK, LEFT)
 ```
 
 ## Step 2
-**Part 2:** Edit the code so that the Agent moves when there **no**  block to it's left. 
+**Part 2:** Edit the code so that the Agent moves when there **no** block to it's left. 
 Do this by adding a **not** operator before the condition. 
 
 ## Step 3
@@ -28,7 +28,7 @@ Do this by adding a **not** operator before the condition.
 Do this by using the `||loops:pause||` command. After two seconds the Agent should move again to reach the last gold block.
 
 ### ~ tutorialhint
-**1000** ms is approximately **1** second.
+**1000** ms is **1** second.
 
 ```template
 //Replace the lines below with your code #    
