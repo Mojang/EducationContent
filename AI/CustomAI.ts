@@ -1,5 +1,5 @@
-//% color=#ec05cd 
-namespace AIForEarthh {
+//% color=#00bbff
+namespace AIForEarth {
 
     let airBlock = Block.Air
 
@@ -9,7 +9,7 @@ namespace AIForEarthh {
      */
 
     //% block
-    export function working(dir: SixDirection) {
+    export function TestSequence() {
         agent.move(FORWARD, 3)
         agent.turn(TurnDirection.Right)
         agent.move(FORWARD, 3)

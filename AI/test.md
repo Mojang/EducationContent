@@ -12,4 +12,6 @@ AIR TEST
 
 ```blocks
 ```
-
+```package
+AIForEarth=https://github.com/Mojang/EducationContent/blob/master/AI/CustomAI.ts
+```
