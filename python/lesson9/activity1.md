@@ -16,7 +16,7 @@ while True:
 ```
 
 ## Step 1
-There are two 'buttons' on the controller, blue is to make the Agent move left and red is to make the Agent move right. Write a code 
+There are two 'buttons' on the controller, **blue** is to make the Agent move left and **red** is to make the Agent move right. Write a code 
 so that when you stand on the red or blue blocks the Agent moves in the correct direction.  
 
 ### ~ tutorialhint

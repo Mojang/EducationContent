@@ -1,6 +1,4 @@
-### @hideIteration true 
 ### @explicitHints 1
-### @CustomAI.ts 
 
 # Testing
 
@@ -10,8 +8,7 @@ AIR TEST
 #### ~ tutorialhint 
 AIR TEST
 
-```blocks
-```
+
 ```package
-AIForEarth=https://github.com/Mojang/EducationContent/blob/master/AI/CustomAI.ts
+AI/CustomAI
 ```
