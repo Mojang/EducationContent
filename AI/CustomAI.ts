@@ -1,14 +1,14 @@
 //% color=#00bbff
-namespace AIForEarth {
+namespace AI {
 
     /**
      * Test
-     * @param dir the direction of detection
+     * @param value, the number of sequence loops
      */
 
-    //% block="$value|"
+    //% block
     export function TestSequence(value: number){
-        let i;
+        let i
         for (i = 0; i < value; i++) {
             agent.move(FORWARD, 3)
             agent.turn(TurnDirection.Right)
