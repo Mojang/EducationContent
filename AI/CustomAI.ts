@@ -7,7 +7,7 @@ namespace AI {
      */
 
     //% block
-    export function TestSequence(value: number){
+    export function testSequence(value: number){
         let i
         for (i = 0; i < value; i++) {
             agent.move(FORWARD, 3)
