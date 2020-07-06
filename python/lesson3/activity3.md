@@ -5,7 +5,6 @@
 ```python
 player.say("hi")
 item +=1
-
 ```
 
 ## Step 1
