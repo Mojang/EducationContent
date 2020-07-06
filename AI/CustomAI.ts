@@ -6,15 +6,18 @@ namespace AIForEarth {
      * @param dir the direction of detection
      */
 
-    //% block="agent detect dry grass %dir"
-    export function TestSequence(dir: SixDirection) {
-        agent.move(FORWARD, 3)
-        agent.turn(TurnDirection.Right)
-        agent.move(FORWARD, 3)
-        agent.turn(TurnDirection.Right)
-        agent.move(FORWARD, 3)
-        agent.turn(TurnDirection.Right)
-        agent.move(FORWARD, 3)
-        agent.turn(TurnDirection.Right)
+    //% block="$value|"
+    export function TestSequence(value: number){
+        let i;
+        for (i = 0; i < value; i++) {
+            agent.move(FORWARD, 3)
+            agent.turn(TurnDirection.Right)
+            agent.move(FORWARD, 3)
+            agent.turn(TurnDirection.Right)
+            agent.move(FORWARD, 3)
+            agent.turn(TurnDirection.Right)
+            agent.move(FORWARD, 3)
+            agent.turn(TurnDirection.Right)
+        }
     }
 }
