@@ -120,7 +120,6 @@
         "python/lesson10/activity10.md",
         "python/noCodingRequired.md",
         "python/test123.md",
-        "python/test2.md",
         "tutorials/events/expert/linked_wall_blocks.md",
         "tutorials/events/expert/linked_walls_js.md",
         "tutorials/events/expert/linked_walls_py.md",
@@ -207,7 +206,8 @@
         "coding-fun/lesson-14/activity_1.md",
         "coding-fun/lesson-14/activity_2.md",
         "coding-fun/lesson-14/activity_3.md",
-        "AI/CustomAI.ts"
+        "AI/CustomAI.ts",
+        "AI/Test.md"
     ],
     "supportedTargets": [
         "minecraft"
