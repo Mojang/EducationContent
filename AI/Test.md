@@ -5,5 +5,5 @@ Select TEST2
 #### ~ tutorialhint 
 
 ```package
-CustomAI=github:Mojang/EducationContent/AI/CustomAI.ts
+CustomAI=github:Mojang/EducationContent/AI/CustomAI
 ```
