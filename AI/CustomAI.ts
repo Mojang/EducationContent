@@ -1,5 +1,5 @@
 //% color=#00bbff
-namespace AIEarth{
+namespace AIForEarth{
 
     /**
      * Test
