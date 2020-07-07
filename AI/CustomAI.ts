@@ -1,11 +1,10 @@
 //% color=#00bbff
-namespace AI {
+namespace AIEarth{
 
     /**
      * Test
      * @param value, the number of sequence loops
      */
-
     //% block
     export function testSequence(value: number){
         let i

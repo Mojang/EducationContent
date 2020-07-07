@@ -5,5 +5,5 @@ Select
 #### ~ tutorialhint 
 
 ```package
-Mojang/EducationContent/AI/CustomAI
+AI/CustomAI.ts
 ```

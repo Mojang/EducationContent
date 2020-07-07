@@ -2,7 +2,8 @@
     "name": "educationcontent",
     "version": "1.0.4",
     "dependencies": {
-        "core": "*"
+        "core": "*",
+        "builder": "*"
     },
     "files": [
         "README.md",
