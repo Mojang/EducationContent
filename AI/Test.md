@@ -5,5 +5,5 @@ Select
 #### ~ tutorialhint 
 
 ```package
-AI/CustomAI.ts
+AI/CustomAI
 ```
