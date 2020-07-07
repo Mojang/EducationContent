@@ -5,5 +5,5 @@ Select
 #### ~ tutorialhint 
 
 ```package
-AI/CustomAI
+minecraft-hoc2019=github:microsoft/pxt-minecraft-hoc2019
 ```
