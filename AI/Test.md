@@ -5,5 +5,5 @@ Select an sequence, please work.
 #### ~ tutorialhint 
 
 ```package
-CustomAI=github:Mojang/EducationContent/AI/CustomAI
+Mojang/EducationContent/AI/CustomAI
 ```
