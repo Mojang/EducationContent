@@ -19,6 +19,11 @@ namespace AIForEarth{
             agent.turn(TurnDirection.Right)
         }
     }
+    /**
+     * Test2
+     * @param value, the number of sequence loops
+     */
+    //% block
     export function testSequence1(value: number){
         let i
         for (i = 0; i < value; i++) {
@@ -32,6 +37,11 @@ namespace AIForEarth{
             agent.turn(TurnDirection.Right)
         }
     }
+    /**
+     * Test3
+     * @param value, the number of sequence loops
+     */
+    //% block
     export function testSequence3(value: number){
         let i
         for (i = 0; i < value; i++) {
