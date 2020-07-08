@@ -24,7 +24,7 @@ namespace AIForEarth{
      * @param value, the number of sequence loops
      */
     //% block
-    export function testSequence1(value: number){
+    export function Sequencetest(value: number){
         let i
         for (i = 0; i < value; i++) {
             agent.move(FORWARD, 3)
@@ -42,7 +42,7 @@ namespace AIForEarth{
      * @param value, the number of sequence loops
      */
     //% block
-    export function testSequence3(value: number){
+    export function Sequence(value: number){
         let i
         for (i = 0; i < value; i++) {
             agent.move(FORWARD, 3)
