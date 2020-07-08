@@ -208,7 +208,13 @@
         "coding-fun/lesson-14/activity_2.md",
         "coding-fun/lesson-14/activity_3.md",
         "AI/CustomAI.ts",
-        "AI/Test.md"
+        "AI/Test.md",
+        "AI/Test1.md",
+        "AI/Test2.md",
+        "AI/Test3.md",
+        "AI/Test4.md",
+        "AI/Test5.md",
+        "AI/Test6.md"
     ],
     "supportedTargets": [
         "minecraft"
