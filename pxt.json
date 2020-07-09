@@ -210,11 +210,7 @@
         "AI/CustomAI.ts",
         "AI/Test.md",
         "AI/Test1.md",
-        "AI/Test2.md",
-        "AI/Test3.md",
-        "AI/Test4.md",
-        "AI/Test5.md",
-        "AI/Test6.md"
+        "AI/Test2.md"
     ],
     "supportedTargets": [
         "minecraft"
