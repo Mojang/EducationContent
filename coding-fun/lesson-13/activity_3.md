@@ -8,17 +8,18 @@
 # Building
 
 ## Step 1
-``||mobs:Give||`` yourself at least **20 stone** blocks. Create a new ``||variable||`` and name it **count**.  Get an ``||blocks:on block placed||`` block and set it to **stone**. Drag the ``||change count||`` block inside the ``||blocks: on block placed||`` and add ``||player: say||`` block. Add ``||count||`` inside the ``||player: say||`` block. Whenever you place blocks, the game will be counting. 
+``||mobs:Give||`` yourself at least **20 emerald** blocks. Create a new ``||variable||`` and name it **count**.  Get an ``||blocks:on block placed||`` block and set it to **emerald**. Drag the ``||change count||`` block inside the ``||blocks: on block placed||`` and add ``||player: say||`` block. Add ``||count||`` inside the ``||player: say||`` block. This way whenever you place blocks, the game will be counting how many blocks you placed. 
 
 ### ~ tutorialhint 
+
+You can select emerald, stone or diamond. 
 ```blocks
 let count = 0
-
-let count = 0
-blocks.onBlockPlaced(STONE, function () {
+blocks.onBlockPlaced(GRASS, function () {
     count += 1
     player.say(count)
 })
+
 ```
 
 ```ghost
