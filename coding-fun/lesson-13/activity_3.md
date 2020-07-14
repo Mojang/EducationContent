@@ -12,10 +12,10 @@
 
 ### ~ tutorialhint 
 
-You can select emerald, stone or diamond. 
+You can select iron, gold, emerald or diamond. 
 ```blocks
 let count = 0
-blocks.onBlockPlaced(GRASS, function () {
+blocks.onBlockPlaced(EMERALD_BLOCK, function () {
     count += 1
     player.say(count)
 })
