@@ -8,7 +8,7 @@
 # The Climb
 
 ## Step 1
-Your challenge is to jump really high to climb up to the inaccessible area. Try **applying jump boost** to the **nearest player** with duration set to **10**.
+Your challenge is to jump really high to climb up to the inaccessible area. Think about duration and amplifier..
 
 
 ```ghost
