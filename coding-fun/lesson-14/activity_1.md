@@ -5,12 +5,17 @@
 ### @explicitHints 1
 
 
-# Make it rain!
+# Pass the dinosaur!
 
 ## Step 1
-Challenge 1
+You need to sneak past the dinosaur by making yourself invisible. Can you make this happen? 
 
-```template
+
+### ~ tutorialHint
+If you are on a Windows device, try pressing shift and W to sneak in Minecraft.  
+
+
+```ghost
 player.onTravelled(SNEAK, function () {
     mobs.applyEffect(INVISIBILITY, mobs.target(NEAREST_PLAYER), 3, 1)
 })

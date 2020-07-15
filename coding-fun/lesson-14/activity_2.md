@@ -5,10 +5,10 @@
 ### @explicitHints 1
 
 
-# Make it rain!
+# Sandcastle!
 
 ## Step 1
-Challenge 1
+Use your coding superpowers to overcome the challenges presented. Remember, there might be a lot of ways to solve the challenges. 
 
 ```ghost
 blocks.onBlockBroken(GRASS, function () {
