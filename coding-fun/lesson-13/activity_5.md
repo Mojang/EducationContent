@@ -8,9 +8,21 @@
 # Make it rain!
 
 ## Step 1
-Put together multiple events to make it rain! 1. Get ``||player: on player walk||``, ``||player: on player climb||`` and ``||blocks: on block broken||``. 2. Create new variables: **walk**, **jump**, **break**. 3. Drag the ``||variable: set||`` inside each corresponding event block. 4. Set the variables to ``||logic: true||``. 5. Use a ``||loop: forever||`` block and drag  an ``||logic: if statement||``  inside of it. If all the conditions are set to true, change the ``||gameplay: weather||`` to **rain**. 
+Make it rain while you dance in Minecraft!s to make it rain! To make it happen you will need to use several events blocks. 1. Create your variables, for example: **walk**, **jump** or/ and **break**. 2. Select the event blocks, for example ``||player: on player fall||``, ``||player: on player walk||``. 3. Set your new ``||variables||`` to ``||logic: true||`` inside each corresponding event block. 4. Use a ``||loop: forever||`` block and drag  an ``||logic: if statement||``  inside of it. Set all your conditions to true and add ``||gameplay: weather||`` block to it. 
 
+### ~ tutorialHint
+```blocks
+let walk = false
+player.onTravelled(WALK, function () {
+    walk = true
+})
+loops.forever(function () {
+    if (walk == true && "" == "") {
+    	
+    }
+})
 
+```
 
 ```ghost
 let climb = false
