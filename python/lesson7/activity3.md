@@ -12,7 +12,7 @@ while True:
 ```
 
 ## Step 1
-**Part 1:** Write a code to make the Agent follow the guideline of Redstone dust and place blocks to its left to make the small houses foundation.
+**Part 1:** Write a code to make the Agent follow the guideline of Redstone dust and place blocks to its left to make the small house's foundation.
 Use **two** `||loops:while||` loops with **two** sequences, one for the straight sections and one for the outside corners. 
 
 ## Step 2 
@@ -37,8 +37,6 @@ the Agent needs to move one block beyond the outline to place a block, and then 
 //Make the Agent place a block to its left            |Part 2        
 //Make the Agent move back                            |Part 2
 //Make the Agent turn right                           |Part 2                 
-//Make the Agent place a block to its left            |Part 2        
-//Make the Agent move forward                         |Part 2
 //End of while loop 3
 //End of while loop 1                        
 ```

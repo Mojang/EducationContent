@@ -20,9 +20,9 @@ def function_name():
 Remember to describe, in a comment, what your function does.  
 
 ## Step 2 
-**Part 2:** Add to the code to make the Agent also fertizlie the saplings **6** times each.
+**Part 2:** Add to the code to make the Agent use fertilizer on the saplings, **6** times each.
 ### ~ tutorialhint 
-The Agent has fertizlizer in its **second** inventory slot. Switch between the Agents **first** and **second** slot using the `||agent:set active slot||`
+The Agent has fertilizer in its **second** inventory slot. Switch between the Agents' **first** and **second** slots using the `||agent:set active slot||`
 command.  
 
 ```template
