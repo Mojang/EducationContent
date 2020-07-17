@@ -28,7 +28,7 @@ while True:
 
 ## Step 1
 You have been given a list. Delete the quotes (**'**) from the begining and end of each line. To find what block type the Agent should stand on, **sort** the list alphabetically
-and get the **second** block from the list. Press the button next to the correct blocks to teleport the Agent to there. 
+and get the **second** block from the list. Stand on the correct block type and press the button to teleport the Agent there. 
 To find what block type your player should stand on **reverse**  the list and **pop** the **fourth** block in the list. 
 Get the **sixth** block from the list and stand on that block. 
 

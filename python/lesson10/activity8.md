@@ -28,12 +28,13 @@ while True:
 ## Step 1
 Delete the quotes (**'**) from the begining and end of each line. 
 Finish the code so that the Agent moves towards the gold block and counts each diamond block it passes over.   
-At the end, when the Agent reaches to the gold block, it will stack the number of diamonds, passed over, in a pillar.
+At the end, when the Agent reaches to the gold block, the Agent should then place the number of diamond blocks it passed over, in front of it, 
+,one by one. These blocks will be automatically stacked by a piston.  
 ```template
 'diamond = 0'
 'for index in range(11):'
 '    agent.move(FORWARD, 1)'
-'for index2 in range(diamond)'
+'for index2 in range(diamond):'
 '    agent.place(FORWARD)'
 '    loops.pause(500)'
 ```

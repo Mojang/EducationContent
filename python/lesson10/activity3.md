@@ -27,8 +27,8 @@ while True:
 ```
 
 ## Step 1
-Write a code to calculate these four sums. You need to get the Agent to the gold block, do this by placing a diamond or dirt
-block depending on the answer of the sums. If the answer is 1 place a diamond block, if its 0 place a dirt block. 
+Write a code to calculate the answers to these four expressions. You need to get the Agent to the gold block, do this by placing a diamond or dirt
+block, from the chest, depending on the answer of the expression. From left to right, if the answer is 1 place a diamond block, if its 0 place a dirt block. 
 ```python
 1. 10000 / 10000 + 64.64 + 64.64 - 72 - 57.28
 2. 64 / 4 + 64 / 64 - 128 / 8 - 1
