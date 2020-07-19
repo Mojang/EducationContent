@@ -8,9 +8,22 @@
 # Build a starter house!
 
 ## Step 1
-Use ``||agent: agent move||``, ``||agent:agent collect||``, ``||agent:agent destroy||`` blocks.
+Use the provided sample code to place 1 row of blocks. Then Agent needs to repeat the same procedure **4 times**, then ``||agent: move up||``and **repeat** it more. Create a new ``||variable: variable||`` and name it **height**. Add **height** to the ``||loops: repeat||`` block. This code will allow you to build 1 house. 
+
+
+### ~ tutorialHint
+Don't forget to input your numbers in the in-game chat when typing in the command, for example **house 2 5**. 
 
 ```template
+player.onChat("house", function (size, height) {
+    for (let index = 0; index < size; index++) {
+        agent.setItem(STONE, 1, 1)
+        agent.place(DOWN)
+        agent.move(FORWARD, 1)
+    }
+    agent.turn(RIGHT_TURN)
+```
+```ghost
 player.onChat("build-simple", function (size, height) {
     for (let index = 0; index < height; index++) {
         for (let index = 0; index < 4; index++) {
