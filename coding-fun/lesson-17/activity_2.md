@@ -8,26 +8,27 @@
 # Build a Town Hall!
 
 ## Step 1
-Use **stone** as your building material, create **3** ``||variable: variables||`` and name them **width**, **length** and **height**. Don't forget to add your variables to the ``||player: on chat||`` command.
+We created a function **plantSeed** for you. Now drag ``||player: on chat||`` command. Add a ``||loops: repeat||`` block and a ``||function:call plantSeed||`` block. Count how many times the Agent needs to repeat **plantSeed** function. 
+
+### ~ tutorialHint
+Functions live in the **Advanced** section. It is also a good practice to leave notes about the code that's written, like the one that we left for you about functions. 
+
+```template
+/**
+ * A function allows you to easily reuse code.
+ */
+function plantSeed () {
+    agent.till(FORWARD)
+    agent.move(FORWARD, 1)
+    agent.place(DOWN)
+}
+```
 
 ```ghost
-player.onChat("town_hall", function (length, width, height) {
-    for (let index = 0; index < height; index++) {
-        for (let index = 0; index < 2; index++) {
-            for (let index = 0; index < length; index++) {
-                agent.setItem(STONE, 1, 1)
-                agent.place(DOWN)
-                agent.move(FORWARD, 1)
-            }
-            agent.turn(RIGHT_TURN)
-            for (let index = 0; index < width; index++) {
-                agent.setItem(STONE, 1, 1)
-                agent.place(DOWN)
-                agent.move(FORWARD, 1)
-            }
-            agent.turn(RIGHT_TURN)
-        }
-        agent.move(UP, 1)
+player.onChat("plantSection", function () {
+    for (let index = 0; index < 11; index++) {
+        plantSeed()
     }
+    agent.move(FORWARD, 1)
 })
 ```
