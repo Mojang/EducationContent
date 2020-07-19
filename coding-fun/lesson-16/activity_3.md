@@ -8,10 +8,10 @@
 # Build a Town Hall!
 
 ## Step 1
-Use ``||agent: agent move||``, ``||agent:agent collect||``, ``||agent:agent destroy||`` blocks.
+Use **stone** to build, create **3** ``||variable: variables||`` and name them **width**, **lenth** and **height**. Don't forget to add your variables to the ``||player: on chat||`` command.  
 
-```template
-player.onChat("build-advanced", function (length, width, height) {
+```ghost
+player.onChat("town_hall", function (length, width, height) {
     for (let index = 0; index < height; index++) {
         for (let index = 0; index < 2; index++) {
             for (let index = 0; index < length; index++) {
