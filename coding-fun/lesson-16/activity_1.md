@@ -1,19 +1,21 @@
 ### @codeStart players set @s makecode 0
 ### @codeStop players set @s makecode 1
 
-### @hideIteration false 
+### @hideIteration true 
 ### @explicitHints 1
 
 
 # Mine the resources!
 
 ## Step 1
-Use ``||agent: agent move||``, ``||agent:agent collect||``, ``||agent:agent destroy||`` blocks.
+Try creating several ``||player:on chat||`` commands that will direct the Agent to move in different directions, for example, **forward**, **back**, **right**. Instead of specifying how far you want the Agent to move, you can use variables. When typing the command in in-game chat, type **forward** and **a number**, for example **forward 5** if you want the Agent to **move 5 steps forward**. This way you can change on the fly how many steps the Agent needs to move without changing the code. 
 
 ```template
-player.onChat("walk", function (num1) {
+player.onChat("forward", function (num1) {
     agent.move(FORWARD, num1)
 })
+```
+```ghost
 player.onChat("right", function (num1) {
     agent.turn(RIGHT_TURN)
     agent.move(FORWARD, num1)
@@ -33,32 +35,4 @@ player.onChat("collect", function () {
 })
 ```
 
-
-```ghost
-player.onChat("floor", function () {
-    count = 0
-    for (let index = 0; index < 4; index++) {
-        while (!(agent.detect(AgentDetection.Block, FORWARD))) {
-            if (count == 0) {
-                agent.setItem(blockA, 1, 1)
-                agent.destroy(DOWN)
-                agent.place(DOWN)
-                count += 1
-            } else {
-                agent.setItem(blockB, 1, 1)
-                agent.destroy(DOWN)
-                agent.place(DOWN)
-                count += -1
-            }
-            agent.move(FORWARD, 1)
-        }
-        agent.turn(RIGHT_TURN)
-    }
-})
-let count = 0
-let blockB = 0
-let blockA = 0
-blockA = BLOCK_OF_QUARTZ
-blockB = LAPIS_LAZULI_BLOCK
-```
 
