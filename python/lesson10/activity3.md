@@ -35,4 +35,13 @@ block, from the chest, depending on the answer of the expression. From left to r
 3. 19283746 / 19283746 - 1 + 1000 / 100 - 9
 4. 8 - 9 + 7 + 32 * 2 - 64 / 2 - 38
 ```
+```template
+//Calculate the expression: 10000 / 10000 + 64.64 + 64.64 - 72 - 57.28 
+//
+//Calculate the expression: 64 / 4 + 64 / 64 - 128 / 8 - 1 
+//
+//Calculate the expression: 19283746 / 19283746 - 1 + 1000 / 100 - 9
+//
+//Calculate the expression: 8 - 9 + 7 + 32 * 2 - 64 / 2 - 38 
+```
 
