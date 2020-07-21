@@ -93,7 +93,7 @@ blocks.onBlockBroken(AIR, function () {
 ```
 
 ## Step 8
-Duplicate the ``||blocks:on broken||`` block structure. Change the **Glass** to **Diamond** and the the **Diamond** ``||blocks:place||`` to **Orange Wool**.
+Duplicate the ``||blocks:on broken||`` block structure. Change the **Glass** to **Diamond** and the **Diamond** ``||blocks:place||`` to **Orange Wool**.
 
 ```blocks
 blocks.onBlockBroken(DIAMOND_BLOCK, function () { 
