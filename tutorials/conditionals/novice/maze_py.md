@@ -12,7 +12,7 @@ player.on_chat("lt", on_chat)
 
 ## Step 2
 
-Inside the ``||player: on chat||`` command,  Code the agent to turn left.
+Inside the ``||player: on chat||`` command,  code the agent to turn left.
 
 ```python
 def on_chat():
