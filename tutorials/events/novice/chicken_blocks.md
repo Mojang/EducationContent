@@ -1,9 +1,8 @@
-
 # Chicken Rain: Blocks
 
 
 ## Step 1
-Get an ``||player:on chat||`` command and name it **“chicken”**.
+Get an ``||player:on chat||`` command and name it **"chicken"**.
 
 ```blocks
 player.onChat("chicken", function (){ 
