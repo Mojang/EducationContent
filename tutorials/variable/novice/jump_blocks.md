@@ -1,7 +1,7 @@
 # Mega Jump: Blocks
 
 ## Step 1
-Get an ``||player:on chat||`` command and name it **“jump”**. 
+Rename the existing ``||player:on chat||`` command **“jump”**. 
 
 ```blocks
 player.onChat("jump", function () { 
