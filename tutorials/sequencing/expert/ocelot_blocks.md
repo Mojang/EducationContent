@@ -54,7 +54,7 @@ Drag it  the builder turn into the ``||player:on chat||`` **fence** command belo
 
 ## Step 6
 
-Add another ``||builder:move||`` and set it to **forward by 21**. Add a ``||builder:turn||`` and set it to **turn right**. Get another ``||builder:move||`` and set it to **forward by 9** Drag both of these into the ``||player:on chat||`` **fence** command below the last ``||builder:turn||`` **right**.
+Add another ``||builder:move||`` and set it to **forward by 21**. Add a ``||builder:turn||`` and set it to **turn right**. Get another ``||builder:move||`` and set it to **forward by 9**. Drag both of these into the ``||player:on chat||`` **fence** command below the last ``||builder:turn||`` **right**.
 
 ```blocks
     builder.turn(RIGHT_TURN)
@@ -66,7 +66,7 @@ Add another ``||builder:move||`` and set it to **forward by 21**. Add a ``||buil
 
 ## Step 7
 
-To place fencing along the perimeter of the rectangle, add a ``||builder:trace path from mark with||`` and set it to **Oak Fence** . Drag it into the ``||player:on chat||`` **fence** command below the last ``||builder:move||`` **forward**.
+To place fencing along the perimeter of the rectangle, add a ``||builder:trace path from mark with||`` and set it to **Oak Fence**. Drag it into the ``||player:on chat||`` **fence** command below the last ``||builder:move||`` **forward**.
 
 ```blocks
     builder.move(FORWARD, 9)
@@ -105,7 +105,7 @@ To spawn a second ocelot into the fence, duplicate the entire ``||mobs:spawn ani
 
 ## Step 10
 
-Duplicate the entire **ocelot** and change the animal to **wolf**. Duplicate the **wolf**to spawn two more wolves into the fence. Drag both wolves into the ``||player:on chat||`` **fence** command below the last **ocelot**.
+Duplicate the entire **ocelot** and change the animal to **wolf**. Duplicate the **wolf** to spawn two more wolves into the fence. Drag both wolves into the ``||player:on chat||`` **fence** command below the last **ocelot**.
 
 ```blocks
     mobs.spawn(OCELOT, randpos(
