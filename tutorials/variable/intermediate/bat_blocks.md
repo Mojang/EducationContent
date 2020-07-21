@@ -1,7 +1,7 @@
 # Bat Cave: Blocks
 
 ## Step 1
-Create an ``||player:on chat||`` command and name it **cave**.
+Rename the existing ``||player:on chat||`` command **cave**.
 
 ```blocks
 player.onChat("cave", function () {
@@ -67,7 +67,8 @@ player.onChat("cave", function () {
 
 ## Step 6
 
-Get a ``||variables:new variable||`` and name it **bat_cave**. Get a ``||player:player world position||`` and drag it into the **bat_cave** variable. Drag **bat_cave** into the ``||player:on chat||`` **cave** command (below the ``||loops:repeat||`` loop.
+Get a ``||variables:set variable||`` and assign it a new variable called **bat_cave**.  Get a ``||player:player world position||`` and drag it into the **bat_cave** variable. 
+Drag the newly completed ``||variables:set variable||`` **bat_cave** into the ``||player:on chat||`` command **cave** below the ``||loops:repeat||`` loop 50.
 
 ```blocks
 let batcave: Position = null
@@ -96,7 +97,7 @@ player.say("You have 10 seconds to get out before the bats arrive.")
 
 ## Step 8
 
-Get a ``||loops: pause||`` loop and set it to **10** seconds (10,000 ms). Drag this loop into the end of the ``||[player:on chat||`` command.
+Get a ``||loops: pause||`` loop and set it to **10** seconds (10,000 ms). Drag this loop into the end of the ``||player:on chat||`` command.
 
 ```blocks
 player.say("You have 10 seconds to get out before the bats arrive.")
@@ -106,7 +107,7 @@ player.on_chat("cave", on_chat)
 
 ## Step 9
 
-Get a ``||loops: pause||`` loop and set it to **10** seconds (10,000 ms). Drag this loop into the end of the ``||[player:on chat||`` command.
+Get another ``||player:player say||``command and code the player to say, “Watch out for bats!”. Drag the newly completed ``||player:player say||`` into the ``||player:on chat||`` command at the end. 
 
 ```blocks
 loops.pause(10000)
