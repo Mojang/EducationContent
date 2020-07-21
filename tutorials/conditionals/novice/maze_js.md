@@ -12,7 +12,7 @@ player.onChat("it", function () {
 ## Step 2
 
 
-Inside the ``||player:on chat||`` command,  Code the agent to **turn left**.
+Inside the ``||player:on chat||`` command,  code the agent to **turn left**.
 
 ```javascript
 player.onChat("lt", function () {
