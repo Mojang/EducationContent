@@ -1,7 +1,7 @@
 # Linked Walls: Blocks
 
 ## Step 1
-Get an ``||player:on chat||`` command and name it “**position**”.
+Rename the existing ``||player:on chat||`` command and name it “**position**”.
 
 ```blocks
 player.onChat("position", function () { 
@@ -10,7 +10,7 @@ player.onChat("position", function () {
 ```
 
 ## Step 2
-Insert a ``|||variable:new variable||`` and name it **PlayerPosition**. Then, drag a ``||positions:world position||`` into the “**0**” parameter of the set variable.
+Create a ``|||variable:new variable||`` and name it **PlayerPosition**. Then, drag a ``||player:player world position||`` into the “**0**” parameter of the set variable.
 
 ```blocks
 let PlayerPosition: Position = null 
@@ -20,7 +20,7 @@ player.onChat("position", function () {
 ```
 
 ## Step 3
-Insert another ``|||variable:new variable||`` and name it **from_position**. Then, drag a ``||positions:+||`` into the “**0**” argument of the set variable. 
+Create another ``|||variable:new variable||`` and name it **from_position**. Then, drag an ``||positions:+ (add position)||`` into the “**0**” argument of the set variable. 
 
 Drag this ``||variable||`` into the end of the ``||player:on chat||``. Get the **PlayerPosition** ``||variable||`` and drag it into the top set of coordinates in the new **from_position** variable. Set the **bottom** coordinates to (6, 0, 0).
 
@@ -37,7 +37,7 @@ player.onChat("position", function () {
 ```
 
 ## Step 4
-Insert another ``|||variable:new variable||`` and name it **to_position**. Then, drag a ``||positions:+||`` into the “**0**” argument of the set variable.
+Create another ``|||variable:new variable||`` and name it **to_position**. Then, drag an ``||positions:+ (add position)||`` into the “**0**” argument of the set variable.
 
 Drag this ``||variable||`` into the end of the ``||player:on chat||``. Get the **PlayerPosition** ``||variable||`` and drag it into the top set of coordinates in the new **to_position** variable. Set the **bottom** coordinates to (-6, 13, 0).
 
@@ -67,7 +67,7 @@ player.onChat("wall", function () {
 ```
 
 ## Step 6
-Insert a ``||blocks:fill||`` and set it to **Glass**. Take the  **from_position** ``||variable||`` and drag it into the **from** argument of the **Glass** ``||blocks:fill||``. Also, take the  **to_position** ``||variable||`` and drag it into the **to** argument of the **Glass** ``||blocks:fill||``. 
+Insert a ``||blocks:fill with||`` and set it to **Glass**. Take the  **from_position** ``||variable||`` and drag it into the **from** argument of the **Glass** ``||blocks:fill||``. Also, take the  **to_position** ``||variable||`` and drag it into the **to** argument of the **Glass** ``||blocks:fill||``. 
 
 ```blocks
 player.onChat("wall", function () { 
