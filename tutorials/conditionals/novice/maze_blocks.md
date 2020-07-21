@@ -31,7 +31,7 @@ if (agent.detect(AgentDetection.Block, FORWARD)) {
 
 ## Step 4
 
-Click the **(+)** to add an ``||logic: else||`` to the ``||logic:if then||`` conditional, then put in a ``||agent:move||`` **forward by 1**.  **NOTE:** The full statement then becomes an if-else statement.
+Click the **(+)** to add an ``||logic: else||`` to the ``||logic:if then||`` conditional, then put in a ``||agent:move||`` **forward by 1**. **NOTE:** The full statement then becomes an if-else statement.
 
 ```blocks
 if (agent.detect(AgentDetection.Block, FORWARD)) {
