@@ -55,7 +55,7 @@ player.onChat("walls", function () {
 ```
 
 ## Step 6
-Get a third ``||loops:repeat||`` loop and drag it inside the second ``||loops:repeat||`` loop and set it above the a``||agent: turn right||``. Set the third ``||loops:repeat||`` loop to repeat **4** times. Add an ``||agent:place||`` to the innermost ``||loops:repeat||`` loop and set it to **down**. Add an ``||agent:move||``, set it to **forward by 1** and drag it inside the innermost ``||loops:repeat||`` loop under the ``||agent:place||`` down.
+Get a third ``||loops:repeat||`` loop and drag it inside the second ``||loops:repeat||`` loop and set it above the ``||agent: turn right||``. Set the third ``||loops:repeat||`` loop to repeat **4** times. Add a ``||agent:place||`` block to the innermost ``||loops:repeat||`` loop and set it to **down**. Add a ``||agent:move||``block, set it to **forward by 1** and drag it inside the innermost ``||loops:repeat||`` loop under the ``||agent:place||`` down.
 
 ```blocks
 player.onChat("walls", function () { 
