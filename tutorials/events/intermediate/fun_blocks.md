@@ -26,7 +26,7 @@ player.onChat("destroy", function () {
 ## Step 3
 Get an ``||blocks:on broken||`` block and drag it into the workspace, then select the **oak wood** block.
 
-Add a ``||mobs:spawn||``, set it to **chicken** and change the (y) coordinate of the position to **10 blocks** above the players position (0, 10, 0).
+Add a ``||mobs:spawn||``, set it to **chicken** and change the (y) coordinate of the position to **10 blocks** above the player's position (0, 10, 0).
 
 ```blocks
 blocks.onBlockBroken(PLANKS_OAK, function () { 
