@@ -64,7 +64,7 @@ function walls () {
 ```
 
 ## Step 6
-Get a new ``||advanced:function||`` and name it **roof**.   
+Get a new ``||function:function||`` and name it **roof**.   
 
 ```blocks
 function roof () {
