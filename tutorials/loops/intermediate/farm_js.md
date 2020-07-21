@@ -31,7 +31,7 @@ player.onChat("farm", function () {
 ```
 
 ## Step 4
-Code the ``||agent||`` to move **back by 5** inside the ``||loops:for|| loop.
+Code the ``||agent||`` to move **back by 5** inside the ``||loops:for||`` loop.
 
 ```spy
 player.onChat("farm", function () { 
