@@ -2,7 +2,7 @@
 # Fun with Events: Blocks
 
 ## Step 1
-Get an ``||player: on player||`` and set it **walk**. Get a ``||mobs:spawn||`` drag it into the workspace, and set it to **animal**. Drag a ``||mobs: projectile||`` into the **animal parameter** of the spawn animal and select **fireworks rocket**.
+Get an ``||player: on player||`` block and set it **walk**. Get a ``||mobs:spawn||``block and drag it into the workspace, and set it to **animal**. Drag a ``||mobs: projectile||`` into the **animal parameter** of the spawn animal and select **fireworks rocket**.
 
 Change the (y) coordinate of the position to **10 blocks** above the players position (0, 10, 0).
 
