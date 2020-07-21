@@ -5,7 +5,7 @@ You are given an ``||player:on chat||`` command **carrot**, the ``||player:on ch
 
 
 ## Step 2
-Get a new ``||player:on item used||`` and select **Blaze Rod**.  Add a ``||player:run chat||`` and name it **carrot**, get another ``||player:run chat||`` and name it **chicken**, and get a third ``||player:run chat||`` and name it **snowball**
+Get a new ``||player:on item used||`` and select **Blaze Rod**.  Add a ``||player:run chat||`` and name it **carrot**, get another ``||player:run chat||`` and name it **chicken**, and get a third ``||player:run chat||`` and name it **snowball**.
 
 ```blocks
 player.onChat("lt", function () {
