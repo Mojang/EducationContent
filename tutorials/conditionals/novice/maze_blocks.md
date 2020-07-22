@@ -45,6 +45,8 @@ loops.forever(function () {
         agent.move(FORWARD, 1)
     })
 ```
+## Step 5
+Press the **Play** button and try out your code in Minecraft. 
 
 ```ghost
  agent.teleportToPlayer()
