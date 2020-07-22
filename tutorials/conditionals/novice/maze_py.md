@@ -34,6 +34,9 @@ def on_forever():
         agent.move(FORWARD, 1)
 loops.forever(on_forever)
 ```
+## Step 5
+Press the **Play** button and try out your code in Minecraft. 
+
 ```ghost
 agent.teleportToPlayer()
 ```
