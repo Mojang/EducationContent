@@ -1,7 +1,7 @@
 # Fun with Events: Python
 
 ## Step 1
-Code an event for the case when a ``||player: player||`` walks, **projectile fireworks rockets** will spawn at the position of (0,10,0).
+Code an event for the case when a ``||player: player||`` walks, **projectile fireworks rockets** will spawn at the position of (0,**10**,0).
 
 ```python
 def travelled_walk():
@@ -20,7 +20,7 @@ player.on_travelled(WALK, travelled_walk)
 ```
 
 ## Step 3
-Code an event for the case when an **oak wood** ``||blocks:block||`` is broken, a **chicken** will spawn at position (0,10,0). 
+Code an event for the case when an **oak wood** ``||blocks:block||`` is broken, a **chicken** will spawn at position (0,**10**,0). 
 
 ```python
 def block_broken_planks_oak():
@@ -29,7 +29,7 @@ blocks.on_block_broken(PLANKS_OAK, block_broken_planks_oak)
 ```
 
 ## Step 4
-Add a  ``||loops:for||`` loop around the spawn code and have it  repeat **25 times**. 
+Add a  ``||loops:for||`` loop around the spawn code and have it repeat **25 times**. 
 
 ```python
 def block_broken_planks_oak():
@@ -48,9 +48,7 @@ player.on_item_interacted(GOLDEN_APPLE, item_interacted_golden_apple)
 ```
 
 ## Step 6
-Go into Minecraft and test out all the events. 
-
-### Full Code: 
+Press the **Play** button, go into Minecraft and test out all the events. 
 
 ```python
 def travelled_walk():
