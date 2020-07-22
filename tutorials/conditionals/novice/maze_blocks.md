@@ -11,7 +11,7 @@ player.onChat("it", function () {
 
 ## Step 2
 
-Get a ``||agent:turn||``, set it to **left** and put it inside the ``||player:on chat||`` command.
+Get an ``||agent:agent turn||``block, set it to **left** and put it inside the ``||player:on chat||`` command.
 
 ```blocks
 player.onChat("lt", function () {
@@ -21,33 +21,31 @@ player.onChat("lt", function () {
 
 ## Step 3
 
-Get an ``||logic:if then||`` conditional that evaluates a ``||agent:detect||``, set it to **block** and **forward**, then add a ``||agent:turn||`` **left** within the ``||logic: if then||``  conditional.
+Get a ``||loops: forever||`` loop and drag it into the workspace. 
 
 ```blocks
-if (agent.detect(AgentDetection.Block, FORWARD)) {
-        agent.turn(LEFT_TURN)
-    }
+loops.forever(function () {
+	
+})
 ```
 
 ## Step 4
-
-Click the **(+)** to add an ``||logic: else||`` to the ``||logic:if then||`` conditional, then put in a ``||agent:move||`` **forward by 1**. **NOTE:** The full statement then becomes an if-else statement.
+Get an ``||logic:if then||`` conditional that evaluates a ``||agent:detect||``command, set it to **block** and **forward**, then add a ``||agent:turn||`` **left** block within the ``||logic: if then||``  conditional.
 
 ```blocks
 if (agent.detect(AgentDetection.Block, FORWARD)) {
         agent.turn(LEFT_TURN)
-    } else {
-        agent.move(FORWARD, 1)
     }
 ```
 
 ## Step 5
 
-Get a ``||loops: forever||`` loop and place the ``||logic:if else||`` statement within this loop—so that these steps will continue until you stop them. 
+Click the **(+)** sign to add ``||logic: else||`` to the ``||logic:if then||`` conditional, then put in an ``||agent:agent move||`` **forward by 1** block.
+
+**NOTE:** The full statement then becomes an **if-else statement.
 
 ```blocks
-loops.forever(function () {
-    if (agent.detect(AgentDetection.Block, FORWARD)) {
+if (agent.detect(AgentDetection.Block, FORWARD)) {
         agent.turn(LEFT_TURN)
     } else {
         agent.move(FORWARD, 1)
@@ -55,6 +53,19 @@ loops.forever(function () {
 ```
 
 ## Step 6
+
+Place the ``||logic:if else||`` statement within the ``||loops:forever||`` loop—so that these steps will continue until you stop them. 
+
+```blocks
+loops.forever(function () {
+    if (agent.detect(AgentDetection.Block, FORWARD)) {
+        agent.turn(LEFT_TURN)
+    } else {
+        agent.move(FORWARD, 1)
+    })
+```
+
+## Step 7
 
 Get a new ``||player:on chat||`` command and name it **“tp”**.
 
@@ -64,27 +75,9 @@ player.onChat("tp", function () {
 ```
 
 ## Step 7
-Add a ``||agent:teleport to player||`` to inside the ``||player:on chat||`` command.
+Add a ``||agent:teleport to player||`` block inside the ``||player:on chat||`` command.
 
 ```blocks
-player.onChat("tp", function () {
-    agent.teleportToPlayer()
-})
-```
-
-### Full Code: 
-
-```blocks
-player.onChat("lt", function () {
-    agent.turn(LEFT_TURN)
-})
-loops.forever(function () {
-    if (agent.detect(AgentDetection.Block, FORWARD)) {
-        agent.turn(LEFT_TURN)
-    } else {
-        agent.move(FORWARD, 1)
-    }
-})
 player.onChat("tp", function () {
     agent.teleportToPlayer()
 })
