@@ -11,7 +11,7 @@ player.onChat("tp", function () {
 
 ## Step 2
 
-Inside the ``||player:on chat||`` command, code the agent to ``||mobs:teleport||`` to the player.
+Inside the ``||player:on chat||`` command, code the agent to ``||agent:teleport||`` to the player.
 
 ```javascript
 player.onChat("tp", function () {
@@ -19,7 +19,7 @@ player.onChat("tp", function () {
 })
 ```
 
-## Step 5
+## Step 3
 
 Create another ``||player: on chat||`` command and name it **“chop”**.
 
@@ -28,7 +28,7 @@ player.onChat("chop", function () {
 })
 ```
 
-## Step 6
+## Step 4
 
 Create a new ``||variable: variable||``, name it **height**, and set it to **0**.
 
@@ -45,7 +45,7 @@ player.onChat("chop", function () {
 })
 ```
 
-## Step 7
+## Step 5
 
 Inside the **chop** ``||player:on chat||`` command—directly under the **height** variable—create a ``||loops:while||`` loop that begins with: **while the agent detects a block forward**.
 
@@ -57,7 +57,7 @@ player.onChat("chop", function () {
     }
 ```
 
-## Step 8
+## Step 6
 
 Add a ``||loops:while||`` loop to change the **height** ``||variable: variable||`` to the value of **height plus 1**.
 
@@ -67,7 +67,7 @@ Add a ``||loops:while||`` loop to change the **height** ``||variable: variable||
     }
 ```
 
-## Step 9
+## Step 7
 
 In the ``||loops:while||`` loop—under the change variable **height**—code the agent to  **destroy up**. 
 
@@ -80,7 +80,7 @@ Also, add a line to have the **agent move up by 1**.
     }
 ```
 
-## Step 10
+## Step 8
 
 Add a ``||loops:for||`` loop  after the ``||loops:while||`` loop. Insert the **height** variable into the **times** argument of the ``||loops:repeat||`` loop.
 
@@ -89,7 +89,7 @@ for (let index = 0; index < height; index++) {
     } 
 ```
 
-## Step 11
+## Step 9
 
 Inside the ``||loops:for||`` loop,  add a line for **agent move down by 1** and **agent destroy forward**.
 
@@ -100,7 +100,7 @@ for (let index = 0; index < height; index++) {
     }
 ```
 
-## Step 12
+## Step 10
 
 After the ``||loops:for||`` loop, code the agent to ``||agent:collect all||`` .
 
@@ -110,7 +110,7 @@ After the ``||loops:for||`` loop, code the agent to ``||agent:collect all||`` .
 })
 ```
 
-## Step 13
+## Step 11
 
 Go into Minecraft, type **t** and test out the **tp**, and **chop** chat commands. 
 
