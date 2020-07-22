@@ -57,6 +57,21 @@ player.onChat("destroy", function () {
     }
 })
 ```
+
+## Step 6
+
+Press the **Play** button, go to Minecraft, type **t** and try out **destroy**. 
+
+```blocks
+player.onChat("destroy", function () { 
+    while (agent.detect(AgentDetection.Block, FORWARD)) { 
+        agent.destroy(FORWARD) 
+        agent.move(FORWARD, 1) 
+        agent.destroy(UP) 
+    } 
+})
+
+
 ```ghost
 agent.teleportToPlayer()
 ```
