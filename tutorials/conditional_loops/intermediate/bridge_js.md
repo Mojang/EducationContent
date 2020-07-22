@@ -2,7 +2,7 @@
 
 
 ## Step 1
-Code a ``||player:on chat||`` command and name it **“build”**.
+Code aN ``||player:on chat||`` command and name it **“build”**.
 
 ```spy
 player.onChat("build", function () {
@@ -44,7 +44,7 @@ player.onChat("build", function () {
 
 ## Step 5
 
-Inside the ``||loops:while||`` loop , code for the ``||agent:to place||`` **down**.
+Inside the ``||loops:while||`` loop , code for the ``||agent:agent to place||`` **down**.
 
 ```spy
 player.onChat("build", function () {
@@ -58,7 +58,7 @@ player.onChat("build", function () {
 
 ## Step 6
 
-After the ``||agent:place down||`` , code for the ``||agent:to move||`` **forward by 1**. Then end the ``||loops:while||`` loop.
+After the ``||agent:place down||`` command, code for the ``||agent:agent to move||`` **forward by 1**. Then end the ``||loops:while||`` loop.
 
 ```spy
 player.onChat("build", function () {
@@ -70,17 +70,3 @@ player.onChat("build", function () {
     }
 })
 ```
-
-### Full Code: 
-
-```spy
-player.onChat("build", function () {
-    agent.setItem(PLANKS_OAK, 64, 1)
-    agent.move(FORWARD, 1)
-    while (!(agent.detect(AgentDetection.Block, DOWN))) {
-        agent.place(DOWN)
-        agent.move(FORWARD, 1)
-    }
-})
-```
-
