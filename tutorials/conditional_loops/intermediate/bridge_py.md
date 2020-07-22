@@ -47,7 +47,7 @@ player.on_chat("build", on_chat)
 
 ## Step 5
 
-Inside the ``||loops:while||`` loop , code for the ``||agent:to place||`` **down**.
+Inside the ``||loops:while||`` loop , code for the ``||agent:agent to place||`` **down**.
 
 ```python
 def on_chat():
@@ -60,7 +60,7 @@ player.on_chat("build", on_chat)
 
 ## Step 6
 
-After the ``||agent:place down||`` , code for the ``||agent:to move||`` **forward by 1**. Then end the ``||loops:while||`` loop.
+After the ``||agent:place down||`` command, code for the ``||agent:agent to move||`` **forward by 1**, then end the ``||loops:while||`` loop.
 
 ```python
 def on_chat():
@@ -71,16 +71,3 @@ def on_chat():
         agent.move(FORWARD, 1)
 player.on_chat("build", on_chat)
 ```
-
-### Full Code: 
-
-```python
-def on_chat():
-    agent.set_item(PLANKS_OAK, 64, 1)
-    agent.move(FORWARD, 1)
-    while not (agent.detect(AgentDetection.BLOCK, DOWN)):
-        agent.place(DOWN)
-        agent.move(FORWARD, 1)
-player.on_chat("build", on_chat)
-```
-
