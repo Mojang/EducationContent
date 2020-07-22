@@ -57,15 +57,4 @@ player.onChat("destroy", function () {
 })
 ```
 
-### Full Code: 
-
-```spy
-player.onChat("destroy", function () {
-    while (agent.detect(AgentDetection.Block, FORWARD)) {
-        agent.destroy(FORWARD)
-        agent.move(FORWARD, 1)
-        agent.destroy(UP)
-    }
-})
-```
 
