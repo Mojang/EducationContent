@@ -7,7 +7,7 @@ blocks.place(GRASS_BLOCK, pos(0, 0, 0))
 ```
 
 ## Step 1
-Write a code to construct a whole staircase, out of **bricks**. You will need to change the **second** and **third** coordinate of the **second** parameter in all of the three `||blocks: place block at position||` commands.
+Write some code to construct a whole staircase, out of **bricks**. You will need to change the **second** and **third** coordinate of the **second** parameter in all of the three `||blocks: place block at position||` commands.
 
 ### ~ tutorialhint 
 Look at the walls to see the east, west, north and south directions.

@@ -12,7 +12,7 @@ while True:
 ```
 
 ## Step 1
-**Part 1:** Write a code to make the Agent move forward when there is Redstone dust in front of it. 
+**Part 1:** Write some code to make the Agent move forward when there is Redstone dust in front of it. 
 
 ## Step 2 
 **Part 2:** Add a sequence to the code so that the Agent places a two-block high wall to its right as it moves. 

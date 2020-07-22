@@ -13,7 +13,7 @@ agent.detect(AgentDetection.BLOCK, FORWARD)
 ```
 
 ## Step 1
-**Part 1:** Write a code so that the Agent will only move when there **is** a block on its left side. 
+**Part 1:** Write some code so that the Agent will only move when there **is** a block on its left side. 
 Use a `||agent: agent detect||` command for the condition: 
 ```python
 agent.detect(AgentDetection.BLOCK, LEFT)

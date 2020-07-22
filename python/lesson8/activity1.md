@@ -9,7 +9,7 @@ agent.set_slot(1)
 ```
 
 ## Step 1
-**Part 1:** Write a code to make the Agent move forward while tilling and planting saplings, on the **grass** blocks, to its left. Example of 
+**Part 1:** Write some code to make the Agent move forward while tilling and planting saplings, on the **grass** blocks, to its left. Example of 
 function structure: 
 ```python
 def function_name():

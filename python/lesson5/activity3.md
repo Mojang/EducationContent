@@ -10,7 +10,7 @@ agent.drop_all(FORWARD)
 ```
 
 ## Step 1
-**Part 1:** Write a code so that the Agent will go over every block of the small carpet and pick up the dirt.
+**Part 1:** Write some code so that the Agent will go over every block of the small carpet and pick up the dirt.
 ### ~ tutorialhint 
 Don't forget that, in this case, two loops should not have the same variable name.
 

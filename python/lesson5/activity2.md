@@ -11,7 +11,7 @@ agent.drop_all(FORWARD)
 ```
 
 ## Step 1
-**Part 1:** Write a code so that the Agent will pick up the dirty laundry, move **forward** into the machine, spin left **20** times and then get out of
+**Part 1:** Write some code so that the Agent will pick up the dirty laundry, move **forward** into the machine, spin left **20** times and then get out of
 the machine to place the clean laundry on the other side of where the dirty laundry was.
 
 ## Step 2

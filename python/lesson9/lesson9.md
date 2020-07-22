@@ -25,7 +25,7 @@ while True:
 
 ## Step 1
 **Activity 1 - Game controls:**
-There are two 'buttons' on the controller, blue is to make the Agent move left and red is to make the Agent move right. Write a code 
+There are two 'buttons' on the controller, blue is to make the Agent move left and red is to make the Agent move right. Write some code 
 so that when you stand on the red or blue blocks the Agent moves in the correct direction. Use the test for block command below, to check if a block 
 is in a certain position:
 ```python

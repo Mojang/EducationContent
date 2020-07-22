@@ -26,7 +26,7 @@ while True:
 ```
 
 ## Step 1
-Navigate the Agent through the maze. Write a code to use the colored blocks as forward, left, and right control directions for the Agent to move in.
+Navigate the Agent through the maze. Write some code to use the colored blocks as forward, left, and right control directions for the Agent to move in.
 Then control the Agent to the end of the maze by standing on the colored blocks. 
 
 ### ~ tutorialhint

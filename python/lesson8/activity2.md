@@ -20,7 +20,7 @@ elif:
 ```
 
 ## Step 1
-**Part 1:** Write a code to make the Agent move forward while breaking and collecting each **stone** block in its way.  
+**Part 1:** Write some code to make the Agent move forward while breaking and collecting each **stone** block in its way.  
 
 ## Step 2 
 **Part 2:** Add to the code to now make the Agent till and plant saplings on the **grass** blocks.  
