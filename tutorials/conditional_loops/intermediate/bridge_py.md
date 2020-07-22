@@ -71,6 +71,20 @@ def on_chat():
         agent.move(FORWARD, 1)
 player.on_chat("build", on_chat)
 ```
+## Step 7
+
+Press the **Play** button, go to Minecraft, type **t** and try out **build**. 
+
+```python
+def on_chat(): 
+    agent.set_item(PLANKS_OAK, 64, 1) 
+    agent.move(FORWARD, 1) 
+    while not (agent.detect(AgentDetection.BLOCK, DOWN)): 
+        agent.place(DOWN) 
+        agent.move(FORWARD, 1) 
+player.on_chat("build", on_chat) 
+```
+
 ```ghost
 agent.teleportToPlayer()
 ```
