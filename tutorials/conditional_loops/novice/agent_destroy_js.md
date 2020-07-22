@@ -10,7 +10,7 @@ player.onChat("destroy", function () {
 ```
 
 ## Step 2
-Add a ``||loops:while||`` loop inside the ``||player:on chat ||``  command that continues as long as the ``||agent: detects||`` a block **forward**. 
+Add a ``||loops:while||`` loop inside the ``||player:on chat ||``  command that continues as long as it ``||agent: detects||`` a block **forward**. 
 
 ```spy
 player.onChat("destroy", function () {
