@@ -57,14 +57,3 @@ def on_chat():
 player.on_chat("destroy", on_chat)
 ```
 
-### Full Code: 
-
-```python
-def on_chat():
-    while agent.detect(AgentDetection.BLOCK, FORWARD):
-        agent.destroy(FORWARD)
-        agent.move(FORWARD, 1)
-        agent.destroy(UP)
-player.on_chat("destroy", on_chat)
-```
-
