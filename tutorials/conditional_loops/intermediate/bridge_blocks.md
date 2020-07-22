@@ -71,5 +71,7 @@ player.onChat("build", function () {
     }
 })
 ```
-
+```ghost
+agent.teleportToPlayer()
+```
 
