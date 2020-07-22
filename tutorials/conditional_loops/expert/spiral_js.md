@@ -4,7 +4,7 @@
 ## Step 1
 Code an ``||player:on chat||`` command and name it **“spiral”**.
 
-```spy
+```javascript
 player.onChat("spiral", function () {
 })
 ```
@@ -13,7 +13,7 @@ player.onChat("spiral", function () {
 
 Code a ``||loops:while||`` loop that begins with: while the ``||agent:agent inspects||`` a block **forward** is not equal to a block of **gold**.
 
-```spy
+```javascript
 player.onChat("spiral", function () {
     while (agent.inspect(AgentInspection.Block, FORWARD) != GOLD_BLOCK) {
     	
@@ -25,7 +25,7 @@ player.onChat("spiral", function () {
 
 Code an ``||logic:if-else||`` statement to go inside the ``||loops:while||`` loop that starts with: if the agent ``||agent:does NOT detect||`` a block **forward** then ``||agent:moves||`` **forward** by **1**. 
 
-```spy
+```javascript
 player.onChat("spiral", function () {
     while (agent.inspect(AgentInspection.Block, FORWARD) != GOLD_BLOCK) {
         if (!(agent.detect(AgentDetection.Block, FORWARD))) {
@@ -41,7 +41,7 @@ player.onChat("spiral", function () {
 
 In the ``||logic:else||`` clause of the ``||logic:if-else statement||``, write that the ``||agent:turns||`` **left**. 
 
-```spy
+```javascript
 player.onChat("spiral", function () {
     while (agent.inspect(AgentInspection.Block, FORWARD) != GOLD_BLOCK) {
         if (!(agent.detect(AgentDetection.Block, FORWARD))) {
@@ -51,4 +51,25 @@ player.onChat("spiral", function () {
         }
     }
 })
+```
+
+## Step 5
+Press the **Play** button, go to Minecraft, type **t** and try out **spiral**. 
+
+```javascript
+player.onChat("spiral", function () { 
+    for (let index = 0; index < 2; index++) { 
+        while (agent.inspect(AgentInspection.Block, FORWARD) != GOLD_BLOCK) { 
+            if (!(agent.detect(AgentDetection.Block, FORWARD))) { 
+                agent.move(FORWARD, 1) 
+            } else { 
+                agent.turn(LEFT_TURN) 
+            } 
+        } 
+        agent.move(UP, 3) 
+    } 
+}) 
+```
+```ghost
+agent.teleportToPlayer()
 ```
