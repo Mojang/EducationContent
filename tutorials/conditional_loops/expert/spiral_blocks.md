@@ -90,20 +90,5 @@ Place a ``||loops:repeat||`` loop  onto the workspace and set it to repeat **4**
 
 ```
 
-### Full Code: 
 
-```blocks
- player.onChat("spiral", function () {
-    for (let index = 0; index < 2; index++) {
-        while (agent.inspect(AgentInspection.Block, FORWARD) != GOLD_BLOCK) {
-            if (!(agent.detect(AgentDetection.Block, FORWARD))) {
-                agent.move(FORWARD, 1)
-            } else {
-                agent.turn(LEFT_TURN)
-            }
-        }
-        agent.move(UP, 3)
-    }
-})
-```
 
