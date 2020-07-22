@@ -57,4 +57,7 @@ player.onChat("destroy", function () {
     }
 })
 ```
+```ghost
+agent.teleportToPlayer()
+```
 
