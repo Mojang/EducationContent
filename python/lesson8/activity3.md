@@ -35,7 +35,7 @@ Do this by adding an `||logic:if else||` conditional, that inspects for grass bl
 //If else conditional with Agent inspect condition            |Part 2
 //Add function that plants saplings                           |Part 2
 //Place the command below in the else part of the conditional |Part 2
-//Make the Agent move forward |Part 1
+//Make the Agent move forward                         |Part 1
 //End of loop 1
 //Replace with comment about function below           |Part 1    
 //Declare function 2                                  |Part 1

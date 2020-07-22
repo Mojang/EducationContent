@@ -13,7 +13,7 @@ if True:
 ```
 
 ## Step 1
-**Part 1:** Write a code, using a `||logic:if else||` conditional, to make the Agent turn left when it reaches the sign and
+**Part 1:** Write a code, using an `||logic:if else||` conditional, to make the Agent turn left when it reaches the sign and
 then move forward onto the gold block. Use an `||agent:agent inspect||` command as the condition and compare it to the variable **left**.
 The `||agent:agent inspect||` command looks like: 
 ```python
@@ -24,7 +24,7 @@ Use the variables already provided in your code: left = BLUE_GLAZED_TERRACOTTA, 
 To check if two values are equal, use **==**.
 
 ## Step 2
-**Part 2:** Edit the code so that the Agent turns in both directions until it reaches the gold block. Do this by adding a **elif**
+**Part 2:** Edit the code so that the Agent turns in both directions until it reaches the gold block. Do this by adding an **elif**
 conditional in between the **if** and **else** parts.
 ### ~ tutorialhint 
 Use the **elif** conditional with an `||agent:agent inspect||` command
