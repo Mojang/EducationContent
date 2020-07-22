@@ -10,7 +10,7 @@ if (agent.detect(AgentDetection.Block, FORWARD)) {
     }
 ```
 
-## Step 4
+## Step 2
 
 Add an ``||logic: else||`` statement to the ``||logic: if-statement||``, and within it include an instruction to have the ``||agent:agent move||`` **forward by 1**.  
 
@@ -24,7 +24,7 @@ if (agent.detect(AgentDetection.Block, FORWARD)) {
     }
 ```
 
-## Step 5
+## Step 3
 
 Place the ``||logic: if-else||`` statement within a ``||loops: forever||`` loop—so that these steps will continue until you stop them.
 
