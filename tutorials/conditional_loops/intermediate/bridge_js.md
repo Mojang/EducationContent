@@ -2,7 +2,7 @@
 
 
 ## Step 1
-Code aN ``||player:on chat||`` command and name it **“build”**.
+Code an ``||player:on chat||`` command and name it **“build”**.
 
 ```javascript
 player.onChat("build", function () {
