@@ -56,6 +56,19 @@ def on_chat():
         agent.destroy(UP)
 player.on_chat("destroy", on_chat)
 ```
+## Step 6
+
+Press the **Play** button, go to Minecraft, type **t** and try out **destroy**. 
+
+```python
+def on_chat(): 
+    while agent.detect(AgentDetection.BLOCK, FORWARD): 
+        agent.destroy(FORWARD) 
+        agent.move(FORWARD, 1) 
+        agent.destroy(UP) 
+player.on_chat("destroy", on_chat) 
+```
+
 ```ghost
 agent.teleportToPlayer()
 ```
