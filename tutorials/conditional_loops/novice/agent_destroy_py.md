@@ -56,4 +56,6 @@ def on_chat():
         agent.destroy(UP)
 player.on_chat("destroy", on_chat)
 ```
-
+```ghost
+agent.teleportToPlayer()
+```
