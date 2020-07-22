@@ -1,7 +1,7 @@
 # Linked Walls: Blocks
 
 ## Step 1
-Rename the existing ``||player:on chat||`` command and name it “**position**”.
+Rename the existing ``||player:on chat||`` command into “**position**”.
 
 ```blocks
 player.onChat("position", function () { 
@@ -20,9 +20,9 @@ player.onChat("position", function () {
 ```
 
 ## Step 3
-Create another ``|||variable:new variable||`` and name it **from_position**. Then, drag an ``||positions:+ (add position)||`` into the “**0**” argument of the set variable. 
+Create another ``|||variable: variable||`` and name it **from_position**. Then, drag an ``||positions:+ (add position)||`` block into the “**0**” argument of the set variable. 
 
-Drag this ``||variable||`` into the end of the ``||player:on chat||``. Get the **PlayerPosition** ``||variable||`` and drag it into the top set of coordinates in the new **from_position** variable. Set the **bottom** coordinates to (6, 0, 0).
+Drag this ``||variable:variable||`` into the end of the ``||player:on chat||`` command. Get the **PlayerPosition** ``||variable:variable||`` and drag it into the top set of coordinates in the new **from_position** variable. Set the **bottom** coordinates to (**6**, 0, 0).
 
 ```blocks
 let PlayerPosition: Position = null 
@@ -37,9 +37,9 @@ player.onChat("position", function () {
 ```
 
 ## Step 4
-Create another ``|||variable:new variable||`` and name it **to_position**. Then, drag an ``||positions:+ (add position)||`` into the “**0**” argument of the set variable.
+Create another ``|||variable: variable||`` and name it **to_position**. Then, drag an ``||positions:+ (add position)||`` into the “**0**” argument of the set variable.
 
-Drag this ``||variable||`` into the end of the ``||player:on chat||``. Get the **PlayerPosition** ``||variable||`` and drag it into the top set of coordinates in the new **to_position** variable. Set the **bottom** coordinates to (-6, 13, 0).
+Drag this ``||variable:variable||`` into the end of the ``||player:on chat||`` command. Get the **PlayerPosition** ``||variable:variable||`` and drag it into the top set of coordinates in the new **to_position** variable. Set the **bottom** coordinates to (**-6, 13, 0**).
 
 ```blocks
 let from_position: Position = null 
@@ -67,7 +67,7 @@ player.onChat("wall", function () {
 ```
 
 ## Step 6
-Insert a ``||blocks:fill with||`` and set it to **Glass**. Take the  **from_position** ``||variable||`` and drag it into the **from** argument of the **Glass** ``||blocks:fill||``. Also, take the  **to_position** ``||variable||`` and drag it into the **to** argument of the **Glass** ``||blocks:fill||``. 
+Insert a ``||blocks:fill with||`` block and set it to **Glass**. Take the  **from_position** ``||variable:variable||`` and drag it into the **from** argument of the **Glass** ``||blocks:fill||`` command. Also, take the  **to_position** ``||variable:variable||`` and drag it into the **to** argument of the **Glass** ``||blocks:fill||`` command. 
 
 ```blocks
 player.onChat("wall", function () { 
@@ -81,7 +81,7 @@ player.onChat("wall", function () {
 ```
 
 ## Step 7
-Get an ``||blocks: on broken||``, set it to **Glass**. Insert a ``||blocks:place||`` and set to **Diamond**. Drag a ``||positions:pick random position||`` into the **at** argument of the **Diamond** ``||blocks:place||``. Get the **from_position** variable and drag it into the **from** argument of the **Diamond** ``||blocks:place||``. Get the variable **to_position** and drag it into the **to** argument of the **Diamond** ``||blocks:place||``.
+Get an ``||blocks: on block broken||`` command, set it to **Glass**. Insert a ``||blocks:place||`` block and set to **Diamond**. Drag a ``||positions:pick random position||`` block into the **at** argument of the **Diamond** ``||blocks:place||`` block. Get the **from_position** variable and drag it into the **from** argument of the **Diamond** ``||blocks:place||`` block. Get the variable **to_position** and drag it into the **to** argument of the **Diamond** ``||blocks:place||`` block.
 
 ```blocks
 blocks.onBlockBroken(AIR, function () { 
@@ -93,7 +93,7 @@ blocks.onBlockBroken(AIR, function () {
 ```
 
 ## Step 8
-Duplicate the ``||blocks:on broken||`` block structure. Change the **Glass** to **Diamond** and the **Diamond** ``||blocks:place||`` to **Orange Wool**.
+Duplicate the ``||blocks:on block broken||`` block structure. Change the **Glass** to **Diamond** and the **Diamond** ``||blocks:place||`` block to **Orange Wool**.
 
 ```blocks
 blocks.onBlockBroken(DIAMOND_BLOCK, function () { 
@@ -105,9 +105,7 @@ blocks.onBlockBroken(DIAMOND_BLOCK, function () {
 ```
 
 ## Step 9
-Go into Minecraft and test out all the events.
-
-### Full Code: 
+Press the **Play** button, go into Minecraft and test out all the events.
 
 ```blocks
 let from_position: Position = null 
