@@ -71,6 +71,21 @@ player.onChat("build", function () {
     }
 })
 ```
+
+## Step 7
+Press the **Play** button, go to Minecraft, type **t** and try out **build**.
+
+```blocks
+player.onChat("build", function () { 
+    agent.setItem(PLANKS_OAK, 64, 1) 
+    agent.move(FORWARD, 1) 
+    while (!(agent.detect(AgentDetection.Block, DOWN))) { 
+        agent.place(DOWN) 
+        agent.move(FORWARD, 1) 
+    } 
+}) 
+```
+
 ```ghost
 agent.teleportToPlayer()
 ```
