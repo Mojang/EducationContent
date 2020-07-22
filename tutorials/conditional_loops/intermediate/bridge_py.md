@@ -71,3 +71,6 @@ def on_chat():
         agent.move(FORWARD, 1)
 player.on_chat("build", on_chat)
 ```
+```ghost
+agent.teleportToPlayer()
+```
