@@ -2,7 +2,7 @@
 
 
 ## Step 1
-Code a ``||player:on chat||`` command and name it **“spiral”**.
+Code an ``||player:on chat||`` command and name it **“spiral”**.
 
 ```spy
 player.onChat("spiral", function () {
@@ -11,7 +11,7 @@ player.onChat("spiral", function () {
 
 ## Step 2
 
-Code a ``||loops:while||`` loop that begins with: while the ``||agent:inspects||`` a block **forward** is not equal to a block of **gold**.
+Code a ``||loops:while||`` loop that begins with: while the ``||agent:agent inspects||`` a block **forward** is not equal to a block of **gold**.
 
 ```spy
 player.onChat("spiral", function () {
@@ -52,57 +52,3 @@ player.onChat("spiral", function () {
     }
 })
 ```
-
-## Step 5
-
-Outside of the ``||loops:while||`` loop, code the agent to ``||agent:move up||`` by **3** .
-
-```spy
-player.onChat("spiral", function () {
-    while (agent.inspect(AgentInspection.Block, FORWARD) != GOLD_BLOCK) {
-        if (!(agent.detect(AgentDetection.Block, FORWARD))) {
-            agent.move(FORWARD, 1)
-        } else {
-            agent.turn(LEFT_TURN)
-        }
-    }
-    agent.move(UP, 3)
-})
-```
-
-## Step 6
-
-Code the ``||loops:while||`` loop to be repeated **2** times by adding a ``||loops:for||`` loop around it. 
-
-```spy
- player.onChat("spiral", function () {
-    for (let index = 0; index < 2; index++) {
-        while (agent.inspect(AgentInspection.Block, FORWARD) != GOLD_BLOCK) {
-            if (!(agent.detect(AgentDetection.Block, FORWARD))) {
-                agent.move(FORWARD, 1)
-            } else {
-                agent.turn(LEFT_TURN)
-            }
-        }
-        agent.move(UP, 3)
-    }
-})
-```
-
-### Full Code: 
-
-```spy
- player.onChat("spiral", function () {
-    for (let index = 0; index < 2; index++) {
-        while (agent.inspect(AgentInspection.Block, FORWARD) != GOLD_BLOCK) {
-            if (!(agent.detect(AgentDetection.Block, FORWARD))) {
-                agent.move(FORWARD, 1)
-            } else {
-                agent.turn(LEFT_TURN)
-            }
-        }
-        agent.move(UP, 3)
-    }
-})
-```
-
