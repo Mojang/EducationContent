@@ -49,3 +49,21 @@ def on_chat():
 player.on_chat("spiral", on_chat)
 ```
 
+## Step 5
+Press the **Play** button, go to Minecraft, type **t** and try out **spiral**. 
+
+```python
+def on_chat(): 
+    for index in range(2): 
+        while agent.inspect(AgentInspection.BLOCK, FORWARD) != GOLD_BLOCK: 
+            if not (agent.detect(AgentDetection.BLOCK, FORWARD)): 
+                agent.move(FORWARD, 1) 
+            else: 
+                agent.turn(LEFT_TURN) 
+        agent.move(UP, 3) 
+player.on_chat("spiral", on_chat) 
+```
+```ghost
+agent.teleportToPlayer()
+```
+
