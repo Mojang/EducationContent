@@ -77,3 +77,10 @@ player.onItemInteracted(BONE, function () {
 }) 
 ```
 
+```ghost
+player.onChat("run", function () {
+	
+})
+```
+
+
