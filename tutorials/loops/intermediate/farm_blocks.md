@@ -150,3 +150,8 @@ player.onChat("farm", function () {
 })
 ```
 
+```ghost
+agent.teleportToPlayer()
+agent.move(FORWARD, 1)
+agent.turn(LEFT_TURN)
+```
