@@ -54,9 +54,7 @@ player.on_item_interacted(BONE, item_interacted_bone)
 ```
 
 ## Step 6
-Go into Minecraft and test out all the events.
-
-### Full Code: 
+Press the Play button, go into Minecraft and test out all the events.
 
 ```python
 def item_interacted_bone():
