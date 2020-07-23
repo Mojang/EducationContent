@@ -21,7 +21,9 @@ player.onItemInteracted(BONE, function () {
 ```
 
 ## Step 3
-Get a ``||mobs:spawn animal at||``  and drag it into the ``||loops:repeat||`` loop. Select **Zombie Horse** and set the  position to (0,0,0). **NOTE:** This will repeat 6 times inside the loop.
+Get a ``||mobs:spawn animal at||`` block and drag it into the ``||loops:repeat||`` loop. Select **Zombie Horse** and set the  position to (0,0,0). 
+
+**NOTE:** This will repeat 6 times inside the loop.
 
 ```blocks
 player.onItemInteracted(BONE, function () { 
@@ -46,7 +48,9 @@ player.onItemInteracted(BONE, function () {
 ```
 
 ## Step 5
-Get another  ``||mobs:spawn animal at||``  and drag it into the new ``||loops:repeat||`` loop. Select **Skeleton Horse** and set the  position to (0,0,0). **NOTE:** This will repeat **4** times inside the loop.
+Get another  ``||mobs:spawn animal at||`` block and drag it into the new ``||loops:repeat||`` loop. Select **Skeleton Horse** and set the position to (0,0,0). 
+
+**NOTE:** This will repeat **4** times inside the loop.
 
 ```blocks
 player.onItemInteracted(BONE, function () { 
@@ -60,9 +64,7 @@ player.onItemInteracted(BONE, function () {
 ```
 
 ## Step 6
-Go into Minecraft and test out all the events.
-
-### Full Code: 
+Press the **Play** button, go into Minecraft and test out all the events. Check out the items that you have in the chest. 
 
 ```blocks
 player.onItemInteracted(BONE, function () { 
