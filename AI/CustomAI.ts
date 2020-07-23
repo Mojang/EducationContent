@@ -1,67 +1,70 @@
-enum PatternType {
-    //% block="Spotted"
-    Spotted,
-    //% block="Striped"
-    Striped
+enum datasetType {
+    //% block="historical"
+    historical,
+    //% block="current"
+    current
+}
+
+enum ML {
+    //% block="supervised"
+    supervised,
+    //% block="unsupervised"
+    unsupervised,
+    //% block="semi-supervised"
+    semiSupervised,
+    //% block="reinforcment"
+    reinforcment
+}
+
+enum actionML {
+    //% block="classify"
+    classify,
+    //% block="get prediction"
+    getPrediction
+}
+
+//% color="#4C97FF"
+namespace datasets {
+
+
+    //% block="%type| dataset"
+    export function onEvent(type: datasetType, handler: () => void) {
+    /*Random Code*/
     }
 
-//% color=#00bbff
-namespace AIForEarth{
-
-
-    //% block="sequence %value|"
-    export function test1(value: number){
-        let i
-        for (i = 0; i < value; i++) {
-            agent.move(FORWARD, 3)
-            agent.turn(TurnDirection.Right)
-            agent.move(FORWARD, 3)
-            agent.turn(TurnDirection.Right)
-            agent.move(FORWARD, 3)
-            agent.turn(TurnDirection.Right)
-            agent.move(FORWARD, 3)
-            agent.turn(TurnDirection.Right)
-        }
-    }
-        
-    //% block="run pattern || %patternType|at %speed|for %duration ms"
-    //% duration.shadow=timePicker
-    //% speed.min=0 speed.max=60
-    //% expandableArgumentMode="enabled"
-    export function test2(direction: PatternType,
-        speed: number,
-        duration: number){
-            /*Code Random*/
+    //% block="gather data"
+    export function data1() {
+    /*Random Code*/
     }
 
-    //% block="run pattern variation || %patternType|at %speed|for %duration ms"
-    //% duration.shadow=timePicker
-    //% speed.min=0 speed.max=100
-    //% expandableArgumentMode="toggle"
-    export function test3(direction: PatternType,
-        speed: number,
-        duration: number){
-            /*Code Random*/
+    //% block="upload data"
+    export function data2() {
+    /*Random Code*/
     }
 
-    //% block="tpTypeBlockExample"
-    export function test4(){
-            /*Code Random*/
-    }
-    
-    //% block="return number"
-    export function test5(): number {
-        return 0;
-    }
-
-    //% block="return boolean"
-    export function test6(): boolean {
-        return false;
-    }
-
-
-    //% block="on event"
-    export function test7(handler: () => void) {
-
+    //% block="label data"
+    export function data3() {
+    /*Random Code*/
     }
 }
+
+//% color="#8332A8"
+namespace AI {
+
+    //% block="%type| machine learning algorithm with a %datatype| dataset"
+    export function onEvent(type: ML, datatype: datasetType, handler: () => void) {
+    /*Random Code*/
+    }
+
+    //% block="find pattern and %MLaction|"
+    export function action(MLaction: actionML) {
+    /*Random Code*/
+    }
+
+    //% block="set goal %value|"
+    export function goal(value: number) {
+    /*Random Code*/
+    }
+
+}
+
