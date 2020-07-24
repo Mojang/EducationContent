@@ -51,9 +51,19 @@ namespace datasets {
 //% color="#8332A8"
 namespace AI {
 
-    //% block="%type| machine learning algorithm with a %datatype| dataset"
-    export function onEvent(type: ML, datatype: datasetType, handler: () => void) {
+    //% block="%type| machine learning"
+    export function onEvent(type: ML, handler: () => void) {
     /*Random Code*/
+    }
+
+    //% block="%type| machine learning algorithm with %datatype| dataset"
+    export function onEvent2(type: ML, datatype: datasetType, handler: () => void) {
+    /*Random Code*/
+    }
+
+    //% block="compare %dataset| against %dataset|"
+    export function compare(dataset: datasetType, datasetType1: datasetType) {
+
     }
 
     //% block="find pattern and %MLaction|"
@@ -67,4 +77,3 @@ namespace AI {
     }
 
 }
-
