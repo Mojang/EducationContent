@@ -1,7 +1,7 @@
 # Mega Jump: Python
 
 ## Step 1
-Add a ``||player:chat||`` command named **“jump”**.
+Add an ``||player:on chat||`` command named **“jump”**.
 
 ```python
 def on_chat():
@@ -27,11 +27,11 @@ Try it out in Minecraft by typing jump in the chat.
 
 ## Step 4
 
-Add a ``||variable||`` named **num1** to the “jump” chat command.   
+Add a ``||variable: variable||`` named **num1** to the “jump” chat command.   
 
 ## Step 5
 
-Change the **100** in the ``||player:teleport||`` position to the ``||variable||`` **num1**. 
+Change the **100** in the ``||player:teleport||`` position to the ``||variable:variable||`` **num1**. 
 
 ```python
 def on_chat(num1):
@@ -42,8 +42,6 @@ player.on_chat("jump", on_chat)
 ## Step 6
 
 Try it out in Minecraft by entering jump and then any number in the chat.  (Example jump 50, or jump 100). 
-
-### Full Code: 
 
 ```python
 def on_chat(num1):
