@@ -1,7 +1,7 @@
 # Mega Jump: Blocks
 
 ## Step 1
-Rename the existing ``||player:on chat||`` command **“jump”**. 
+Rename the existing ``||player:on chat||`` command into **“jump”**. 
 
 ```blocks
 player.onChat("jump", function () { 
@@ -10,7 +10,7 @@ player.onChat("jump", function () {
 
 ## Step 2
 
-Place a ``||player:teleport to||`` inside the ``||player:on chat||`` command **jump** and enter **100** in the **“y”** coordinate. 
+Place a ``||player:player teleport to||`` inside the ``||player:on chat||`` command **jump** and enter **100** in the **“y”** coordinate. 
 
 ```blocks
 player.onChat("jump", function () { 
@@ -25,7 +25,7 @@ Try it out in Minecraft by typing **jump** in the chat.
 
 ## Step 4
 
- Click the (+) inside the ``||player:on chat||`` command jump and create a new ``||variable||`` named **num1**. 
+ Click the (+) inside the ``||player:on chat||`` command jump and create a new ``||variable: variable||`` named **num1**. 
 
 ```blocks
 player.onChat("jump", function (num1) {
@@ -46,8 +46,6 @@ player.onChat("jump", function (num1) {
 ## Step 6
 
 Try it out in Minecraft by entering **jump** and then any number in the chat.  (Example jump 50, or jump 100). 
-
-### Full Code: 
 
 ```blocks
 player.onChat("jump", function (num1) {
