@@ -3,7 +3,7 @@
 ## Step 1
 Code an ``||player:on chat||`` command and name it **“tp”**.
 
-```spy
+```javascript
 player.onChat("tp", function () {
 })
 ```
@@ -12,7 +12,7 @@ player.onChat("tp", function () {
 
 Inside the **tp**  ``||player:on chat||`` command, code the agent to ``||agent:teleport to player||`` .
 
-```spy
+```javascript
 player.onChat("tp", function () {
     agent.teleportToPlayer()
 })
@@ -22,7 +22,7 @@ player.onChat("tp", function () {
 
 Code another ``||player:on chat||`` command and name it **“fd”**.
 
-```spy
+```javascript
 player.onChat("fd", function () {
 })
 ```
@@ -31,7 +31,7 @@ player.onChat("fd", function () {
 
 Inside the  ``||player:on chat||`` **fd** command , code the agent to ``||agent:move||`` and set it to **forward by 5**. 
 
-```spy
+```javascript
 player.onChat("fd", function () {
     agent.move(FORWARD, 5)
 })
@@ -50,7 +50,7 @@ player.onChat("lt", function () {
 
 Inside the ``||player:on chat||`` **lt** command, code the agent to ``||agent:turn||`` and set it to **turn left**.
 
-```spy
+```javascript
 player.onChat("lt", function () {
     agent.turn(LEFT_TURN)
 })
@@ -60,7 +60,7 @@ player.onChat("lt", function () {
 
 Create yet another ``||player:on chat||`` command and name it **“rt”**.
 
-```spy
+```javascript
 player.onChat("rt", function () {
     agent.turn(RIGHT_TURN)
 })
@@ -68,9 +68,9 @@ player.onChat("rt", function () {
 
 ## Step 8
 
-Inside the **rt** chat command, code the ``||agent||`` to **turn right**.
+Inside the **rt** chat command, code the ``||agent:agent||`` to **turn right**.
 
-```spy
+```javascript
 player.onChat("rt", function () {
     agent.turn(RIGHT_TURN)
 })
@@ -78,11 +78,9 @@ player.onChat("rt", function () {
 
 ## Step 9
 
-Return to Minecraft, press **t** to open the chat and type the commands **tp**, **rt**, **lt**, **fd**—one at a time—to see what happens.
+Press the **Play** button, return to Minecraft, press **t** to open the chat and type the commands **tp**, **rt**, **lt**, **fd**—one at a time—to see what happens.
 
-### Full Code: 
-
-```spy
+```javascript
 player.onChat("lt", function () {
     agent.turn(LEFT_TURN)
 })
