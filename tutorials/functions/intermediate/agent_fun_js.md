@@ -3,7 +3,7 @@
 ## Step 1
 You are given an ``||player:on chat||`` command **carrot**, the ``||player:on chat||`` command **chicken** and the ``||player:on chat||`` command **snowball**.
 
-```javascript
+```template
 player.onChat("carrot", function () {
     agent.setItem(CARROTS, 64, 1)
     for (let index = 0; index < 3; index++) {
@@ -68,43 +68,10 @@ player.onItemInteracted(BLAZE_ROD, function () {
 ```
 
 ## Step 5
-Return to Minecraft and type the commands **torches**, **chicken**, **snowball** into the chat to see what happens. 
+Press the **Play** button, return to Minecraft and type the commands **torches**, **chicken**, **snowball** into the chat to see what happens. 
 
 ## Step 6
-Return to your coding and modify the other given ``||player:on chat||`` commands **chicken** and **snowball**.
+Press the **Play** button, return to your coding and modify the other given ``||player:on chat||`` commands **chicken** and **snowball**. 
 
 ## Step 7
 Return to Minecraft and type the **chicken** and **snowball** commands into the chat to see what happens. 
-
-### Full Code: 
-
-```javascript
-player.onChat("torches", function () {
-    agent.setItem(TORCH, 32, 1)
-    for (let index = 0; index < 3; index++) {
-        for (let index = 0; index < 4; index++) {
-            agent.till(FORWARD)
-            agent.move(FORWARD, 1)
-            agent.place(FORWARD)
-        }
-        agent.move(BACK, 5)
-        agent.move(RIGHT, 2)
-    }
-})
-player.onChat("chicken", function () {
-    for (let index = 0; index < 15; index++) {
-        mobs.spawn(CHICKEN, pos(0, 0, 0))
-    }
-})
-player.onChat("snowball", function () {
-    for (let index = 0; index < 15; index++) {
-        mobs.spawn(SNOWBALL_PROJECTILE_MOB, pos(0, 10, 0))
-    }
-})
-player.onItemInteracted(BLAZE_ROD, function () {
-    player.runChatCommand("torches")
-    player.runChatCommand("chicken")
-    player.runChatCommand("snowball")
-})
-```
-
