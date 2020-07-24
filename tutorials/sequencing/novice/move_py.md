@@ -81,9 +81,7 @@ player.on_chat("rt", on_chat4)
 
 ## Step 9
 
-Return to Minecraft, press **t** to open the chat and type the commands **tp**, **rt**, **lt**, **fd**—one at a time—to see what happens.
-
-### Full Code: 
+Press the **Play** button, return to Minecraft, press **t** to open the chat and type the commands **tp**, **rt**, **lt**, **fd**—one at a time—to see what happens.
 
 ```python
 def on_chat():
