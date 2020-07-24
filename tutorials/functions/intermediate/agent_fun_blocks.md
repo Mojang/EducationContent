@@ -1,8 +1,32 @@
 # Modifying Agent Fun Functions: Blocks
 
 ## Step 1
-You are given an ``||player:on chat||`` command **carrot**, the ``||player:on chat||`` command **chicken** and the ``||player:on chat||`` command **snowball**.
+You are given the following ``||player:on chat||`` commands **carrot**, **chicken** and **snowball**.
 
+```template
+player.onChat("carrot", function () {
+    agent.setItem(CARROTS, 64, 1)
+    for (let index = 0; index < 3; index++) {
+        for (let index = 0; index < 5; index++) {
+            agent.till(FORWARD)
+            agent.move(FORWARD, 1)
+            agent.place(FORWARD)
+        }
+        agent.move(BACK, 5)
+        agent.move(RIGHT, 2)
+    }
+})
+player.onChat("chicken", function () {
+    for (let index = 0; index < 15; index++) {
+        mobs.spawn(CHICKEN, pos(0, 0, 0))
+    }
+})
+player.onChat("snowball", function () {
+    for (let index = 0; index < 15; index++) {
+        mobs.spawn(SNOWBALL_PROJECTILE_MOB, pos(0, 10, 0))
+    }
+})
+```
 
 ## Step 2
 Rename the given **carrot** ``||player:on chat||`` command to **torches**.  Modify the ``||agent:set block or item||`` to **Torch** at the count of **32** in slot **1**.
@@ -33,7 +57,7 @@ player.onChat("torches", function () {
 ```
 
 ## Step 4
-Get a new ``||player:on item used||`` and select **Trident**.  Add a ``||player:run chat||`` command named **torches**. Add another ``||player:run chat||``  command and name it **chicken**. Add another ``||player:run chat||``  command and name it **snowball**. 
+Get a new ``||player:on item used||`` command and select **trident**.  Add a ``||player:run chat||`` command named **torches**. Add another ``||player:run chat||``  command and name it **chicken**. Add another ``||player:run chat||``  command and name it **snowball**. 
 
 ```blocks
 player.onItemInteracted(BLAZE_ROD, function () { 
@@ -44,43 +68,11 @@ player.onItemInteracted(BLAZE_ROD, function () {
 ```
 
 ## Step 5
-Return to Minecraft and type the commands **torches**, **chicken**, **snowball** into the chat to see what happens. 
+Press the **Play** button, return to Minecraft and type the commands **torches**, **chicken**, **snowball** into the chat to see what happens. 
 
 ## Step 6
-Return to your coding and modify the other given ``||player:on chat||`` commands **chicken** and **snowball**.
+Modify the other given ``||player:on chat||`` commands **chicken** and **snowball**. You can select a different effect for this coding experience. 
 
 ## Step 7
-Return to Minecraft and type the **chicken** and **snowball** commands into the chat to see what happens. 
-
-### Full Code: 
-
-```blocks
-player.onChat("torches", function () {
-    agent.setItem(TORCH, 32, 1)
-    for (let index = 0; index < 3; index++) {
-        for (let index = 0; index < 4; index++) {
-            agent.till(FORWARD)
-            agent.move(FORWARD, 1)
-            agent.place(FORWARD)
-        }
-        agent.move(BACK, 5)
-        agent.move(RIGHT, 2)
-    }
-})
-player.onChat("chicken", function () {
-    for (let index = 0; index < 15; index++) {
-        mobs.spawn(CHICKEN, pos(0, 0, 0))
-    }
-})
-player.onChat("snowball", function () {
-    for (let index = 0; index < 15; index++) {
-        mobs.spawn(SNOWBALL_PROJECTILE_MOB, pos(0, 10, 0))
-    }
-})
-player.onItemInteracted(BLAZE_ROD, function () {
-    player.runChatCommand("torches")
-    player.runChatCommand("chicken")
-    player.runChatCommand("snowball")
-})
-```
+Press the **Play** button, return to Minecraft and type the **chicken** and **snowball** commands into the chat to see what happens. 
 
