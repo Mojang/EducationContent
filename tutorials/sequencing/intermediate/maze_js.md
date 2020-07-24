@@ -1,9 +1,9 @@
-# Agent Maze: Spy
+# Agent Maze: JavaScript
 
 ## Step 1
-Code a ``||player:on chat||`` command, name it **tp**, and code the agent to ``||agent:teleport to player||``.
+Code an ``||player:on chat||`` command, name it **tp**, and code the agent to ``||agent:teleport to player||``.
 
-```spy
+```javascript
 player.onChat("tp", function () {
 })
 ```
@@ -12,7 +12,7 @@ player.onChat("tp", function () {
 
 Code another ``||player:on chat||`` command, name it **side1**, then code the agent to  ``||agent:place on move||`` and set it to **true**.
 
-```spy
+```javascript
 player.onChat("side1", function () { 
     agent.setAssist(PLACE_ON_MOVE, true) 
     
@@ -23,7 +23,7 @@ player.onChat("side1", function () {
 
 Code the agent to ``||agent:move forward||`` by **4** and then **turn left**.  
 
-```spy
+```javascript
 player.onChat("side1", function () { 
     agent.setAssist(PLACE_ON_MOVE, true) 
     agent.move(FORWARD, 4) 
@@ -33,9 +33,9 @@ player.onChat("side1", function () {
 
 ## Step 4
 
-Code the agent to ``||agent:move forward||`` by **5**, ``||agent:turn||`` **right**, and then ``||agent:move||`` **forward by 5** again.
+Code the agent to ``||agent:move forward||`` by **5**, ``||agent:agent turn||`` **right**, and then ``||agent:agent move||`` **forward by 5** again.
 
-```spy
+```javascript
 player.onChat("side1", function () { 
     agent.setAssist(PLACE_ON_MOVE, true) 
     agent.move(FORWARD, 4) 
@@ -50,7 +50,7 @@ player.onChat("side1", function () {
 
 Code the agent to ``||agent:place on move||`` and set it to **false**. 
 
-```spy
+```javascript
 player.onChat("side1", function () { 
     agent.setAssist(PLACE_ON_MOVE, true) 
     agent.move(FORWARD, 4) 
@@ -66,7 +66,7 @@ player.onChat("side1", function () {
 
 Code the agent to ``||agent:turn||`` **left**, ``||agent:move||`` **forward by 2**, and then ``||agent:turn||`` **left** again.
 
-```spy
+```javascript
 player.onChat("side1", function () { 
     agent.setAssist(PLACE_ON_MOVE, true) 
     agent.move(FORWARD, 4) 
@@ -85,7 +85,7 @@ player.onChat("side1", function () {
 
 Code a new ``||player:on chat||`` command and name it **side2**. Code the agent to ``||agent:place on move||`` to **true**.
 
-```spy
+```javascript
 player.onChat("side2", function () { 
     agent.setAssist(PLACE_ON_MOVE, true) 
     }) 
@@ -107,7 +107,7 @@ player.onChat("side2", function () {
 
 Code the agent to ``||agent:move||`` **forward by 5** and then ``||agent:turn||`` **right**.
 
-```spy
+```javascript
 player.onChat("side2", function () { 
     agent.setAssist(PLACE_ON_MOVE, true) 
     agent.move(FORWARD, 7) 
@@ -121,7 +121,7 @@ player.onChat("side2", function () {
 
 Finally, code the agent to ``||agent:move||`` **forward by 3**.
 
-```spy
+```javascript
 player.onChat("side2", function () { 
     agent.setAssist(PLACE_ON_MOVE, true) 
     agent.move(FORWARD, 7) 
@@ -135,9 +135,7 @@ player.onChat("side2", function () {
 
 Return to Minecraft, type **tp**, then type **side2** into the chat line to see the agent build your second wall.
 
-### Full Code: 
-
-```spy
+```javascript
 player.onChat("tp", function () { 
     agent.teleportToPlayer() 
 }) 
