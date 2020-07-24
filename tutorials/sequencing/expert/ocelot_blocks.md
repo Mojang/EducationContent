@@ -10,11 +10,11 @@ player.onChat("fence", function () {
 
 ## Step 2
 
-Go to the **advanced** section of the toolbox and find ``||builder: builder||``. Get a ``||builder:teleport||`` and drag it to the ``||player: on chat||`` **fence** command. Get ``||positions: world coordinates||`` and set coordinates to: **-18, 4, -50**. Add a ``||builder:face||`` command and set it to **West (negative X)**,  then drag it into the ``||player:on chat||`` **fence** command below the ``||builder:teleport||`` block.
+Go to the **advanced** section of the toolbox and find ``||builder: builder||``. Get a ``||builder:teleport||`` and drag it to the ``||player: on chat||`` **fence** command. Get ``||positions: world coordinates||`` and set coordinates to: **-695, 9, 880**. Add a ``||builder:face||`` command and set it to **West (negative X)**,  then drag it into the ``||player:on chat||`` **fence** command below the ``||builder:teleport||`` block.
 
 ```blocks
 player.onChat("1", function () {
-    builder.teleportTo(positions.createWorld(-18, 4, -50))
+    builder.teleportTo(positions.createWorld(-695, 9, 880)))
     builder.face(WEST)
 })
 ```
@@ -81,8 +81,8 @@ After completing the fence, get a ``||mobs:spawn animal||`` and select **ocelot*
 ```blocks
     builder.tracePath(OAK_FENCE)
     mobs.spawn(OCELOT, randpos(
-    world(-20, 4, -58),
-    world(-37, 4, -50)
+    world(-698, 9, 870),
+    world(-715, 9, 880)
     ))
 })
 ```
@@ -93,12 +93,12 @@ To spawn a second ocelot into the fence, duplicate the entire ``||mobs:spawn ani
 
 ```blocks
     mobs.spawn(OCELOT, randpos(
-    world(-20, 4, -58),
-    world(-37, 4, -50)
+    world(-698, 9, 870),
+    world(-715, 9, 880)
     ))
     mobs.spawn(OCELOT, randpos(
-    world(-20, 4, -58),
-    world(-37, 4, -50)
+    world(-698, 9, 870),
+    world(-715, 9, 880)
     ))
 })
 ```
@@ -109,16 +109,16 @@ Duplicate the entire **ocelot** and change the animal to **wolf**. Duplicate the
 
 ```blocks
     mobs.spawn(OCELOT, randpos(
-    world(-20, 4, -58),
-    world(-37, 4, -50)
+    world(-698, 9, 870),
+    world(-715, 9, 880)
     ))
     mobs.spawn(WOLF, randpos(
-    world(-20, 4, -58),
-    world(-37, 4, -50)
+    world(-698, 9, 870),
+    world(-715, 9, 880)
     ))
     mobs.spawn(WOLF, randpos(
-    world(-20, 4, -58),
-    world(-37, 4, -50)
+    world(-698, 9, 870),
+    world(-715, 9, 880)
     ))
 })
 ```
@@ -128,8 +128,8 @@ Duplicate the entire **ocelot** and change the animal to **wolf**. Duplicate the
 Return to Minecraft and test your code.
 
 ```blocks
-player.onChat("1", function () {
-    builder.teleportTo(positions.createWorld(-18, 4, -50))
+player.onChat("fence", function () {
+    builder.teleportTo(positions.createWorld(-695, 9, 880))
     builder.face(WEST)
     builder.move(FORWARD, 21)
     builder.turn(RIGHT_TURN)
@@ -140,20 +140,20 @@ player.onChat("1", function () {
     builder.move(FORWARD, 9)
     builder.tracePath(OAK_FENCE)
     mobs.spawn(OCELOT, randpos(
-    world(-20, 4, -58),
-    world(-37, 4, -50)
+    world(-698, 9, 870),
+    world(-715, 9, 880)
     ))
     mobs.spawn(OCELOT, randpos(
-    world(-20, 4, -58),
-    world(-37, 4, -50)
+    world(-698, 9, 870),
+    world(-715, 9, 880)
     ))
     mobs.spawn(WOLF, randpos(
-    world(-20, 4, -58),
-    world(-37, 4, -50)
+    world(-698, 9, 870),
+    world(-715, 9, 880)
     ))
     mobs.spawn(WOLF, randpos(
-    world(-20, 4, -58),
-    world(-37, 4, -50)
+    world(-698, 9, 870),
+    world(-715, 9, 880)
     ))
 })
 ```
