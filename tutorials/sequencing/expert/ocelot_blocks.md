@@ -10,7 +10,7 @@ player.onChat("fence", function () {
 
 ## Step 2
 
-Get a ``||builder:teleport||`` and ``||builder:set coordinate||``  these world coordinates: **-18, 4, -50**. Drag the complete ``||builder:teleport||`` into the ``||player:on chat||`` **fence** command. Add a ``||builder:face||`` and set it to **West (negative X)**,  then drag it into the ``||player:on chat||`` **fence** command below the ``||builder:teleport||``.
+Go to the **advanced** section of the toolbox and find ``||builder: builder||``. Get a ``||builder:teleport||`` and drag it to the ``||player: on chat||`` **fence** command. Get ``||positions: world coordinates||`` and set coordinates to: **-18, 4, -50**. Add a ``||builder:face||`` command and set it to **West (negative X)**,  then drag it into the ``||player:on chat||`` **fence** command below the ``||builder:teleport||`` block.
 
 ```blocks
 player.onChat("1", function () {
@@ -41,9 +41,9 @@ Add a ``||builder:turn||`` and set it to **turn right**. Drag it into the ``||pl
 
 ## Step 5
 
-Get another ``||builder:move||`` and set it to **forward by 9**. Drag it into the ``||player:on chat||`` **fence**  below the ``||builder:turn||`` **right**. Add another 	``||builder:turn||`` and set it to turn **right**. 
+Get another ``||builder:move||`` block and set it to **forward by 9**. Drag it into the ``||player:on chat||`` **fence**  below the ``||builder:turn||`` **right** block. Add another ``||builder:turn||`` command and set it to turn **right**. 
 
-Drag it  the builder turn into the ``||player:on chat||`` **fence** command below the ``||builder:move||`` **forward**.
+Drag the ``||builder: turn||`` into the ``||player:on chat||`` **fence** command below the ``||builder:move||`` **forward** command.
 
 ```blocks
     builder.turn(RIGHT_TURN)
@@ -54,7 +54,7 @@ Drag it  the builder turn into the ``||player:on chat||`` **fence** command belo
 
 ## Step 6
 
-Add another ``||builder:move||`` and set it to **forward by 21**. Add a ``||builder:turn||`` and set it to **turn right**. Get another ``||builder:move||`` and set it to **forward by 9**. Drag both of these into the ``||player:on chat||`` **fence** command below the last ``||builder:turn||`` **right**.
+Add another ``||builder:builder move||`` command and set it to **forward by 21**. Add a ``||builder:builder turn||`` block and set it to **turn right**. Get another ``||builder:builder move||`` block and set it to **forward by 9**. Drag both of these into the ``||player:on chat||`` **fence** command below the last ``||builder:builder turn||`` **right**.
 
 ```blocks
     builder.turn(RIGHT_TURN)
@@ -66,7 +66,7 @@ Add another ``||builder:move||`` and set it to **forward by 21**. Add a ``||buil
 
 ## Step 7
 
-To place fencing along the perimeter of the rectangle, add a ``||builder:trace path from mark with||`` and set it to **Oak Fence**. Drag it into the ``||player:on chat||`` **fence** command below the last ``||builder:move||`` **forward**.
+To place fencing along the perimeter of the rectangle, add a ``||builder:builder trace path from mark with||`` block and set it to **Oak Fence**. Drag it into the ``||player:on chat||`` **fence** command below the last ``||builder:move||`` **forward**.
 
 ```blocks
     builder.move(FORWARD, 9)
@@ -76,7 +76,7 @@ To place fencing along the perimeter of the rectangle, add a ``||builder:trace p
 
 ## Step 8
 
-After completing the fence, get a ``||mobs:spawn animal||`` and select **ocelot**. Add a ``||math:pick random position||``, set it to these coordinates inside the fence: from **(-20, 4, -58)** to **(-37, 4, -50)**, then insert it into the ``||mobs:spawn animal||`` **ocelot** position. Drag the **ocelot** into the ``||player:on chat||`` **fence** command below the ``||builder:trace path from mark||`` **Oak Fence**.
+After completing the fence, get a ``||mobs:spawn animal||`` and select **ocelot**. Add a ``||math:pick random position||``, set it to these coordinates inside the fence: from **(-20, 4, -58)** to **(-37, 4, -50)**, then insert it into the ``||mobs:spawn animal||`` **ocelot** position. Drag the **ocelot** into the ``||player:on chat||`` **fence** command below the ``||builder:builder trace path from mark||`` **Oak Fence**.
 
 ```blocks
     builder.tracePath(OAK_FENCE)
@@ -126,8 +126,6 @@ Duplicate the entire **ocelot** and change the animal to **wolf**. Duplicate the
 ## Step 11
 
 Return to Minecraft and test your code.
-
-### Full Code: 
 
 ```blocks
 player.onChat("1", function () {
