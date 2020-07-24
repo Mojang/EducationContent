@@ -1,7 +1,7 @@
 # Bat Cave: Python
 
 ## Step 1
-Add a ``||player:on chat||`` command and name it **cave**.
+Add an ``||player:on chat||`` command and name it **cave**.
 
 ```python
 def on_chat():
@@ -11,7 +11,7 @@ player.on_chat("cave", on_chat)
 
 ## Step 2
 
-Code the player to  ``||player:say||``, type **"Dig a cave"**, and drag it into the ``||player:on chat||`` command.
+Code the player to  ``||player:say||``by typing **"Dig a cave"**, and drag it into the ``||player:on chat||`` command.
 
 ```python
 player.onChat("cave", function () {
@@ -85,7 +85,7 @@ player.on_chat("cave", on_chat)
 
 ## Step 8
 
-``||loops: pause||`` the code for **10** seconds (10,000 ms).
+``||loops: Pause||`` the code for **10** seconds (10,000 ms).
 
 ```python
 player.say("You have 10 seconds to get out before the bats arrive.")
@@ -95,7 +95,7 @@ player.on_chat("cave", on_chat)
 
 ## Step 9
 
-After the pause, code the player to say “Watch out for bats!”.
+After the pause, code the player to say **“Watch out for bats!”**.
 
 ```python
     loops.pause(10000)
@@ -105,7 +105,7 @@ player.on_chat("cave", on_chat)
 
 ## Step 10
 
-Set the time to **dusk**.
+Set the ``||gameplay:time||`` to **dusk**.
 
 ```python
 gameplay.timeSet(gameplay.time(DUSK))
@@ -113,7 +113,7 @@ gameplay.timeSet(gameplay.time(DUSK))
 
 ## Step 11
 
-``||mobs:spawn animal||`` a bat at the **bat_cave** variable.
+``||mobs:Spawn||`` a bat at the **bat_cave** variable.
 
 ```python
 gameplay.time_set(gameplay.time(DUSK))
@@ -134,9 +134,6 @@ player.on_chat("cave", on_chat)
 ## Step 13
 
 Go into Minecraft and type **cave** in the chat to see all the code run.
-
-
-### Full Code: 
 
 ```python
 let batcave: Position = null
