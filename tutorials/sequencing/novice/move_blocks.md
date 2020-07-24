@@ -10,7 +10,7 @@ player.onChat("tp", function () {
 
 ## Step 2
 
-Get a ``||agent:teleport to player||`` and drag it inside the **tp**  ``||player:on chat||`` command.
+Get an ``||agent:agent teleport to player||`` and drag it inside the **tp**  ``||player:on chat||`` command.
 
 ```blocks
 player.onChat("tp", function () {
@@ -29,7 +29,7 @@ player.onChat("fd", function () {
 
 ## Step 4
 
-Get an ``||agent:move||`` and set it to **forward by 5**. 
+Get an ``||agent:agent move||`` and set it to **forward by 5**. 
 
 ```blocks
 player.onChat("fd", function () {
@@ -39,7 +39,7 @@ player.onChat("fd", function () {
 
 ## Step 5
 
-Get another ``||player:on chat||`` command and name it **“it”**.
+Get another ``||player:on chat||`` command and name it **“lt”**.
 
 ```blocks
 player.onChat("lt", function () {
@@ -48,7 +48,7 @@ player.onChat("lt", function () {
 
 ## Step 6
 
-Get a ``||agent:turn||`` and set it to **turn left**. Drag it into the ``||player:on chat||`` **it** command.
+Get an ``||agent:agent turn||`` and set it to **turn left**. Drag it into the ``||player:on chat||`` **lt** command.
 
 ```blocks
 player.onChat("lt", function () {
@@ -68,7 +68,7 @@ player.onChat("rt", function () {
 
 ## Step 8
 
-Get another ``||agent:turn||``, set it to **turn right**, and then drag the ``||agent||`` **turn right** into the ``||player:on chat||`` **rt** command.
+Get another ``||agent:agent turn||`` block, set it to **turn right**, and then drag the ``||agent:agent||`` **turn right** into the ``||player:on chat||`` **rt** command.
 
 ```blocks
 player.onChat("rt", function () {
@@ -79,9 +79,8 @@ player.onChat("rt", function () {
 
 ## Step 9
 
-Return to Minecraft, press **t** to open the chat and type the commands **tp**, **rt**, **lt**, **fd**—one at a time—to see what happens.
+Press the **Play** button, return to Minecraft, press **t** to open the chat and type the commands **tp**, **rt**, **lt**, **fd**—one at a time—to see what happens.
 
-### Full Code: 
 
 ```blocks
 player.onChat("lt", function () {
