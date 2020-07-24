@@ -3,23 +3,7 @@
 ## Step 1
 You are given an ``||player:on chat||`` command **carrot**, the ``||player:on chat||`` command **chicken** and the ``||player:on chat||`` command **snowball**.
 
-
-## Step 2
-Get a new ``||player:on item used||`` and select **Blaze Rod**.  Add a ``||player:run chat||`` and name it **carrot**, get another ``||player:run chat||`` and name it **chicken**, and get a third ``||player:run chat||`` and name it **snowball**.
-
-```blocks
-player.onChat("lt", function () {
-    agent.turn(LEFT_TURN)
-})
-```
-
-## Step 3
-
-Return to Minecraft and type the commands **carrot**, **chicken**, **snowball** into the chat to see what happens.
-
-### Full Code: 
-
-```blocks
+```template
 player.onChat("carrot", function () {
     agent.setItem(CARROTS, 64, 1)
     for (let index = 0; index < 3; index++) {
@@ -32,5 +16,30 @@ player.onChat("carrot", function () {
         agent.move(RIGHT, 2)
     }
 })
+player.onChat("chicken", function () {
+    for (let index = 0; index < 15; index++) {
+        mobs.spawn(CHICKEN, pos(0, 0, 0))
+    }
+})
+player.onChat("snowball", function () {
+    for (let index = 0; index < 15; index++) {
+        mobs.spawn(SNOWBALL_PROJECTILE_MOB, pos(0, 10, 0))
+    }
+})
 ```
+
+## Step 2
+Get a new ``||player:on item used||`` and select **Blaze Rod**.  Add a ``||player:run chat||`` command and name it **carrot**, get another ``||player:run chat||`` command and name it **chicken**, and get a third ``||player:run chat||`` command and name it **snowball**.
+
+```blocks
+player.onItemInteracted(BLAZE_ROD, function () {
+    player.runChatCommand("carrot")
+    player.runChatCommand("chicken")
+    player.runChatCommand("snowball")
+})
+```
+
+## Step 3
+
+Return to Minecraft and type the commands **carrot**, **chicken**, **snowball** into the chat to see what happens.
 
