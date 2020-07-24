@@ -2,7 +2,7 @@
 
 ## Step 1
 
-Code an ``||player:on chat||`` command and name it **mix**, which contains a ``||variables:set new variable||`` called **starting_world_position** that is set to ``||player:player world position||``.
+Code an ``||player:on chat||`` command and name it **mix**, which contains a ``||variables: new variable||`` called **starting_world_position** that is set to ``||player:player world position||``.
 
 ```python
 def on_chat():
@@ -32,7 +32,7 @@ word1 = "rail"
 
 ## Step 4
 
-Create an ``||player:on chat||`` command and name it **mix2**. Create a new ``||player:on chat||`` **mix2** command.  Inside this command, ``||blocks:print||`` the variable **word1** out of **smooth sandstone** at position **(0,0,0)**, facing **West**. Also, ensure that the **starting_world_ position** variable is set to ``||player: player world position||``. 
+Create another ``||player:on chat||`` command and name it **mix2**. Inside this command, ``||blocks:print||`` the variable **word1** out of **smooth sandstone** at position **(0,0,0)**, facing **West**. Also, ensure that the **starting_world_ position** variable is set to ``||player: player world position||``. 
 
 ```python
  def on_chat2():
@@ -67,7 +67,7 @@ word2 = "road"
 
 ## Step 7
 
-To the **mix2** ``||player:on chat||`` command,  ``||blocks:print|`` both **word1** and **word2** variables **lapiz lazuli** at position **(0,0,0)**, facing **West**
+Add ``||blocks:print|`` both **word1** and **word2** variables **lapiz lazuli** at position **(0,0,0)**, facing **West** to the **mix2** ``||player:on chat||`` command.
 
 ```python
 def on_chat2():
@@ -118,8 +118,6 @@ word2 = "road"
 
 Go into Minecraft and test all of your code.
 
-
-### Full Code: 
 
 ```python
 def on_chat():
