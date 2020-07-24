@@ -10,9 +10,9 @@ player.onChat("tp", function () {
 
 ## Step 2
 
-Get a ``||agent:teleport to player||`` and drag it inside the  ``||player:on chat||`` **tp** command.
+Get an ``||agent:agent teleport to player||`` command and drag it inside the  ``||player:on chat||`` **tp** command.
 
-**NOTE:** Note: This command is essential to get your agent to join you at your position.
+**NOTE:** This command is essential to get your agent to join you at your position.
 
 ```blocks
 player.onChat("tp", function () {  
@@ -31,7 +31,7 @@ player.onChat("side1", function () {
 
 ## Step 4
 
-Get an ``||agent:place on move||`` and set it to **true**.  Place it inside ``||player:on chat||`` **side1** command.
+Get an ``||agent:agent place on move||`` block and set it to **true**.  Place it inside ``||player:on chat||`` **side1** command.
 
 ```blocks
 player.onChat(""side1"", function () {  
@@ -42,7 +42,7 @@ player.onChat(""side1"", function () {
 
 ## Step 5
 
-Get a ``||agent:move forward||`` and set it to **4**.  Place it inside ``||player:on chat||`` **side1** command under the previous commands.
+Get an ``||agent:agent move forward||`` and set it to **4**.  Place it inside ``||player:on chat||`` **side1** command under the previous commands.
 
 ```blocks
 player.onChat(""side1"", function () {  
@@ -53,7 +53,7 @@ player.onChat(""side1"", function () {
 
 ## Step 6
 
-Add a ``||agent:turn||`` and set it to **turn left**. Drag it into the ``||player:on chat||`` **side1** command.
+Add an ``||agent:agent turn||`` command and set it to **turn left**. Drag it into the ``||player:on chat||`` **side1** command.
 
 ```blocks
 player.onChat(""side1"", function () {  
@@ -65,7 +65,7 @@ player.onChat(""side1"", function () {
 
 ## Step 7
 
-Add another ``||agent:move forward||`` and set it to **5**.  Place it inside ``||player:on chat||`` **side1** command under the previous commands.
+Add another ``||agent:move forward||`` block and set it to **5**.  Place it inside ``||player:on chat||`` **side1** command under the previous commands.
 
 ```blocks
 player.onChat(""side1"", function () {  
@@ -78,7 +78,7 @@ player.onChat(""side1"", function () {
 
 ## Step 8
 
-Add another ``||agent:turn||`` and set it to **right**.  Place it inside ``||player:on chat||`` **side1** command under the previous commands.
+Add another ``||agent:agent turn||`` block and set it to **right**.  Place it inside ``||player:on chat||`` **side1** command under the previous commands.
 
 ```blocks
 player.onChat(""side1"", function () {  
@@ -92,7 +92,9 @@ player.onChat(""side1"", function () {
 
 ## Step 9
 
-Right-click on the existing ``||agent:move||`` **forward by 5** and select **duplicate**. Drag the duplicate agent into the ``||player:on chat||`` **side1** command under the previous agent commands. **NOTE:** The duplicate function can save time when coding with blocks.
+Right-click on the existing ``||agent:agent move||`` **forward by 5** command and select **duplicate**. Drag the duplicate agent into the ``||player:on chat||`` **side1** command under the previous agent commands. 
+
+**NOTE:** The duplicate function can save time when coding with blocks.
 
 ```blocks
 player.onChat(""side1"", function () {  
@@ -107,7 +109,7 @@ player.onChat(""side1"", function () {
 
 ## Step 10
 
-Duplicate the existing ``||agent:place on move||``, then drag the duplicate into the ``||player:on chat||`` **side1** command under the previous agent commands.
+Duplicate the existing ``||agent:place on move||`` block, then drag the duplicate into the ``||player:on chat||`` **side1** command under the previous agent commands.
 
 ```blocks
 player.onChat(""side1"", function () {  
@@ -123,15 +125,15 @@ player.onChat(""side1"", function () {
 
 ## Step 11
 
-Duplicate the existing ``||agent:turn||`` **left**, then drag the duplicate into the ``||player:on chat||`` **side1** command under the previous agent commands.
+Duplicate the existing ``||agent:agent turn||`` **left** command, then drag the duplicate into the ``||player:on chat||`` **side1** command under the previous agent commands.
 
 ## Step 12
 
-Duplicate the existing ``||agent:move||`` **forward**, then drag the duplicate into the ``||player:on chat||`` **side1** command under the previous agent commands.
+Duplicate the existing ``||agent:agent move||`` **forward** command, then drag the duplicate into the ``||player:on chat||`` **side1** command under the previous agent commands.
 
 ## Step 13
 
-Duplicate the existing ``||agent:turn||`` **left**, then drag the duplicate into the ``||player:on chat||`` **side1** command under the previous agent commands.
+Duplicate the existing ``||agent:agent turn||`` **left**, then drag the duplicate into the ``||player:on chat||`` **side1** command under the previous agent commands.
 
 ```blocks
 player.onChat(""side1"", function () {  
@@ -150,7 +152,7 @@ player.onChat(""side1"", function () {
 
 ## Step 14
 
-Return to Minecraft, type **tp**, and then type **side 1** into the chat line to see the agent build your first wall.
+Press the **Play** button, return to Minecraft, type **tp**, and then type **side 1** into the chat line to see the agent build your first wall.
 
 ## Step 15
 
@@ -168,17 +170,15 @@ player.onChat("side2", function () { 
 
 ## Step 17
 
-Set the first ``||agent:move||`` to **forward by 7** and the last ``||agent:move||`` to **forward by 3**.
+Set the first ``||agent:agent move||`` block to **forward by 7** and the last ``||agent:agent move||`` to **forward by 3**.
 
 ## Step 18
 
-Change the last ``||agent:turn||`` **left** turn **right**.
+Change the last ``||agent:agent turn||`` command from **left** to **right**.
 
 ## Step 19
 
 Return to Minecraft, type **tp**, then type **side2** into the chat line to see the agent build your second wall.
-
-### Full Code: 
 
 ```blocks
 player.onChat("tp", function () {  
