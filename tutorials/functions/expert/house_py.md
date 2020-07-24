@@ -1,7 +1,7 @@
 # House Functions: Python
 
 ## Step 1
-Code a ``||advanced:function||`` and name it **walls**. 
+Code a ``||functions:function||`` and name it **walls**. 
 
 ```python
 def walls():
@@ -17,7 +17,7 @@ def walls():
 ```
 
 ## Step 3
-Within the **walls** function, code a ``||loops:for||`` loop that repeats **3** times a ``||agent:move||`` **up by 1** .
+Within the **walls** function, code a ``||loops:for||`` loop that repeats **3** times an ``||agent:agent move||`` **up by 1** .
 
 ```python
 def walls():
@@ -27,7 +27,7 @@ def walls():
 ```
 
 ## Step 4
-Code another ``||loops:for||`` loop that repeats **4** times, and drag it inside the first ``||loops:for||`` loop—beneath the first ``||agent:move||``. With the second loop, code a ``||agent:turn right||``.
+Code another ``||loops:for||`` loop that repeats **4** times, and drag it inside the first ``||loops:for||`` loop — beneath the first ``||agent:agent move||``. With the second loop, code an ``||agent:agent turn right||``.
 
 ```python
 def walls():
@@ -39,7 +39,7 @@ def walls():
 ```
 
 ## Step 5
-Code a third ``||loops:for||`` loop, drag it inside the second ``||loops:repeat||`` loop and place it above the a ``||agent: turn right||``. Set the third ``||loops:for||`` loop to repeat **4** times. Within the innermost ``||loops:for||`` loop, code the agent to ``||agent:place||`` and set it to **down**. Add an agent ``||agent:move||``, set it to **forward by 1**, and drag it inside the innermost ``||loops:for||`` loop under the ``||agent:place||`` down.
+Code a third ``||loops:for||`` loop, drag it inside the second ``||loops:repeat||`` loop and place it above the ``||agent: agent turn right||``. Set the third ``||loops:for||`` loop to repeat **4** times. Within the innermost ``||loops:for||`` loop, code the agent to ``||agent:place||`` and set it to **down**. Add an agent ``||agent:move||``, set it to **forward by 1**, and drag it inside the innermost ``||loops:for||`` loop under the ``||agent:place||`` down.
 
 ```python
 def walls():
@@ -62,7 +62,7 @@ def roof():
 ```
 
 ## Step 7
-Code the agent to ``||agent:set block or item||``, set it to **brick slab**, set the count to **1** and the slot to **1** and drag it into the **roof** ``||advanced:function||``. Also, code the agent to ``||agent:move||`` **up by 1**.
+Code the agent to ``||agent:set block or item||``, set it to **brick slab**, set the count to **1** and the slot to **1** and drag it into the **roof** ``||functions:function||``. Also, code the agent to ``||agent:move||`` **up by 1**.
 
 ```python
 def roof():
@@ -71,7 +71,7 @@ def roof():
 ```
 
 ## Step 8
-Inside the **roof** ``||advanced:function||``, code a ``||loops:for||`` loop and set it to repeat **4** times. Within the loop, code the agent to ``||agent:move||`` **back by 4**, and then code the agent to ``||agent:move||``  **right by 1**.
+Inside the **roof** ``||functions:function||``, code a ``||loops:for||`` loop and set it to repeat **4** times. Within the loop, code the agent to ``||agent:move||`` **back by 4**, and then code the agent to ``||agent:move||``  **right by 1**.
 	
 ```python
 def roof():
@@ -83,7 +83,7 @@ def roof():
 ```
 
 ## Step 9
-Code another ``||loops:for||`` loop and set it to repeat **4** times. Within this loop, add a ``||agent:place down||``, followed by a ``||agent:move||`` **forward by 1**. Place this ``||loops:for||`` loop inside the previous loop—above the ``||agent:move||`` **back by 4**.
+Code another ``||loops:for||`` loop and set it to repeat **4** times. Within this loop, add a ``||agent:place down||``, followed by an ``||agent:agent move||`` **forward by 1**. Place this ``||loops:for||`` loop inside the previous loop—above the ``||agent:agent move||`` **back by 4**.
 
 ```python
 def roof():
@@ -98,7 +98,7 @@ def roof():
 ```
 
 ## Step 10
-Code a ``||player:on chat||`` command and name it **house**, and have it call both the **walls** and **roof** ``||advanced:functions||``.
+Code an ``||player:on chat||`` command and name it **house**, and have it call both the **walls** and **roof** ``||functions:functions||``.
 
 ```python
 def on_chat():
@@ -109,9 +109,7 @@ player.on_chat("house", on_chat)
 
 
 ## Step 11
-Go into Minecraft and test out all the events.
-
-### Full Code: 
+Go into Minecraft and test out the **house** command.
 
 ```python
 def walls():
