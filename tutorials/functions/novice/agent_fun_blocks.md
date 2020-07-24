@@ -41,5 +41,5 @@ player.onItemInteracted(BLAZE_ROD, function () {
 
 ## Step 3
 
-Return to Minecraft and type the commands **carrot**, **chicken**, **snowball** into the chat to see what happens.
+Press the **Play** button, return to Minecraft and type the commands **carrot**, **chicken**, **snowball** into the chat to see what happens.
 
