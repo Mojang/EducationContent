@@ -1,7 +1,7 @@
 # Agent Maze: Python
 
 ## Step 1
-Code a ``||player:on chat||`` command, name it **tp**, and code the agent to ``||agent:teleport to player||``.
+Code an ``||player:on chat||`` command, name it **tp**, and code the agent to ``||agent:teleport to player||``.
 
 ```python
 def on_chat():
