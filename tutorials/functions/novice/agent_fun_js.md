@@ -3,7 +3,7 @@
 ## Step 1
 You are given the following code for “carrots,” “chicken,” and “snowball” ``||player:on chat||`` commands.
 
-```javascript
+```template
 player.onChat("carrot", function () {
     agent.setItem(CARROTS, 64, 1)
     for (let index = 0; index < 3; index++) {
@@ -29,7 +29,7 @@ player.onChat("snowball", function () {
 ```
 
 ## Step 2
-Code when a blaze rod is ``||player:on item used||`` that the **carrot**, **chicken**, and **snowball** ``||player:on chat||`` commands run. 
+Code when a **blaze rod** is ``||player: used||`` that the **carrot**, **chicken**, and **snowball** ``||player:on chat||`` commands run. 
 
 ```javascript
 player.onItemInteracted(BLAZE_ROD, function () {
@@ -41,8 +41,6 @@ player.onItemInteracted(BLAZE_ROD, function () {
 
 ## Step 3
 Return to Minecraft and type the commands **carrot**, **chicken**, **snowball** into the chat to see what happens.
-
-### Full Code: 
 
 ```javascript
 player.onChat("carrot", function () {
