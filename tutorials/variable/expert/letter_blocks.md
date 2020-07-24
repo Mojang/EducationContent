@@ -1,7 +1,7 @@
 # Letter Printing: Blocks
 
 ## Step 1
-Create an ``||player:on chat||`` command and name it **mix** and  contains a ``||variables:set new variable||`` called **starting_world_position**. Set this variable ``||player:player world position||``.
+Create an ``||player:on chat||`` command and name it **mix** that contains a ``||variables: new variable||`` called **starting_world_position**. Set this ``||variable:variable||`` to ``||player:player world position||``.
 
 ```blocks
 player.onChat("mix", function () {
@@ -27,7 +27,7 @@ player.onChat("mix", function () {
 
 ## Step 3
 
-Add an ``||loops:on start||`` and insert a new variable **word1**. Assign the string "rail" to this variable. Set the variable **starting_world_ position** to **(0,0,0)**.
+Add an ``||loops:on start||`` and insert a new variable **word1**. Set the variable to **"rail"**. Set the variable **starting_world_ position** to **(0,0,0)**.
 
 ```blocks
 Let starting_world_position: Position = null
@@ -37,7 +37,7 @@ word1 = "rail"
 
 ## Step 4
 
-Create an ``||player:on chat||`` command and name it **mix2**. Add another ``||variables:set new variable||``, set it to the variable **starting_world_ position**, then set it to ``||player:player world position||``. Drag that variable into the ``||player:on chat||`` **mix2** command. Inside the ``||player:on chat||`` command, add a ``||blocks:print||`` and assign it the variable **word1** out of **smooth sandstone** at position **(0,0,0)**, facing **West**. Drag **word1** directly beneath the  **starting_world_ position** variable.
+Create an ``||player:on chat||`` command and name it **mix2**. Add another ``||variables: variable||``, set it to the **starting_world_ position**, then set it to ``||player:player world position||``. Drag that variable into the ``||player:on chat||`` **mix2** command. Inside the ``||player:on chat||`` command, add a ``||blocks:print||`` block and assign it the variable **word1** out of **smooth sandstone** at position **(0,0,0)**, facing **West**. Drag **word1** directly beneath the  **starting_world_ position** variable.
 
 ```blocks
 player.onChat("mix2", function () {
@@ -53,7 +53,7 @@ player.onChat("mix2", function () {
 
 ## Step 5
 
-Add another ``||blocks:print||`` and assign it the  variable **word2** out of **purple wool** at position **0,0,0**, facing **West**. Drag **word2** directly beneath the **word1** variable.
+Add another ``||blocks:print||`` block and assign it the variable **word2** out of **purple wool** at position **0,0,0**, facing **West**. Drag **word2** directly beneath the **word1** variable.
 
 ```blocks
 player.onChat("mix2", function () {
@@ -75,7 +75,7 @@ player.onChat("mix2", function () {
 
 ## Step 6
 
-Add another ``||variables:set new variable||``, select **word2** assign the string "road" to it. Drag the **word2** variable into the ``||loops:on start||`` directly beneath the **word1** variable.
+Add another ``||variables:variable||``, select **word2** and assign the string "road" to it. Drag the **word2** variable into the ``||loops:on start||`` command directly beneath the **word1** variable.
 
 ```blocks
 let starting_world_position: Position = null
@@ -87,7 +87,7 @@ word2 = "road"
 
 ## Step 7
 
-Add another ``||blocks:print||``, insert a ``||text:join||`` and assign both **word1** and **word2**. Set the ``||blocks:print||`` to **lapiz lazuli** at position **(0,0,0)**, facing **West**. Drag the complete ``||blocks:print|`` into the ``||player:on chat||`` **mix2** command directly beneath the **word2** variable. 
+Add another ``||blocks:print||``command, insert a ``||text:join||`` block and assign both **word1** and **word2**. Set the ``||blocks:print||`` to **lapiz lazuli** at position **(0,0,0)**, facing **West**. Drag the complete ``||blocks:print|`` into the ``||player:on chat||`` **mix2** command directly beneath the **word2** variable. 
 
 ```blocks
 player.onChat("mix2", function () {
@@ -115,7 +115,7 @@ player.onChat("mix2", function () {
 
 ## Step 8
 
-Get an ``||player:on player walk||`` and set it to **fly**. Create a new variable with the name **alphabet**, then assign it the text string "ABCDEFGHIJKLMNOPQ". Drag this variable into the ``||player:on player fly||``.
+Get an ``||player:on player walk||`` block and set it to **fly**. Create a new variable with the name **alphabet**, then assign it the text string **"ABCDEFGHIJKLMNOPQ"**. Drag this variable into the ``||player:on player fly||`` block.
 
 ```blocks
 player.onTravelled(FLY, function () {
@@ -125,7 +125,7 @@ player.onTravelled(FLY, function () {
 
 ## Step 9
 
-Add another ``||variables:set new variable||`` **RandomLetter**. Get a ``||math:pick random||`` and set the range from **0** to **12**. Then, insert the complete ``||math:pick random||`` into the **RandomLetter** variable.
+Add another ``||variables: variable||`` **RandomLetter**. Get a ``||math:pick random||`` block and set the range from **0** to **12**. Then, insert the complete ``||math:pick random||`` block into the **RandomLetter** variable.
 
 
 ```blocks
@@ -158,9 +158,6 @@ word2 = "road"
 ## Step 11
 
 Go into Minecraft and test all of your code.
-
-
-### Full Code: 
 
 ```blocks
 player.onChat("mix", function () {
