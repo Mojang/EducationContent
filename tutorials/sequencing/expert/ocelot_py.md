@@ -11,18 +11,18 @@ player.on_chat("fence", on_chat)
 
 ## Step 2
 
-Code a ``||builder:teleport||`` world position **-18, 4, -50**, facing **West**.
+Code a ``||builder:builder teleport||`` world position **-695, 9, 880**, facing **West**.
 
 ```blocks
 def on_chat():
-    builder.teleport_to(world(-18, 4, -50))
+    builder.teleport_to(world(-695, 9, 880))
     builder.face(WEST)
 player.on_chat("1", on_chat)
 ```
 
 ## Step 3
 
-``||builder:move||`` the builder **forward by 21**. 
+``||builder:Move||`` the builder **forward by 21**. 
 
 ```blocks
     builder.face(WEST)
@@ -32,7 +32,7 @@ player.on_chat("1", on_chat)
 
 ## Step 4
 
-``||builder:turn||`` the builder to the **right**.
+``||builder:Turn||`` the builder to the **right**.
 
 ```blocks
     builder.move(FORWARD, 21)
@@ -42,7 +42,7 @@ player.on_chat("1", on_chat)
 
 ## Step 5
 
-``||builder:move||`` the builder **forward by 9** and ``||builder:turn||`` **right**. 
+``||builder:Move||`` the builder **forward by 9** and ``||builder:turn||`` **right**. 
 
 ```blocks
     builder.turn(RIGHT_TURN)
@@ -53,7 +53,7 @@ player.on_chat("1", on_chat)
 
 ## Step 6
 
-``||builder:move||`` the builder **forward by 21**, ``||builder:turn||`` **right**, and ``||builder:move||`` **forward by 9**.
+``||builder:Move||`` the builder **forward by 21**, ``||builder:turn||`` **right**, and ``||builder:move||`` **forward by 9**.
 
 ```blocks
     builder.move(FORWARD, 21)
@@ -78,7 +78,7 @@ Randomly ``||mobs:spawn||`` one **ocelot** inside the fence that was just built.
 
 ```blocks
     builder.trace_path(OAK_FENCE)
-    mobs.spawn(OCELOT, randpos(world(-20, 4, -58), world(-37, 4, -50)))
+    mobs.spawn(OCELOT, randpos(world(-698, 9, 870), world(-715, 9, 880)))
 player.on_chat("1", on_chat)
 ```
 
@@ -87,8 +87,8 @@ player.on_chat("1", on_chat)
 Randomly ``||mobs:spawn||`` another **ocelot** inside the fence that was just built.
 
 ```blocks
-    mobs.spawn(OCELOT, randpos(world(-20, 4, -58), world(-37, 4, -50)))
-    mobs.spawn(OCELOT, randpos(world(-20, 4, -58), world(-37, 4, -50)))
+    mobs.spawn(OCELOT, randpos(world(-698, 9, 870), world(-715, 9, 880)))
+    mobs.spawn(OCELOT, randpos(world(-698, 9, 870), world(-715, 9, 880)))
 player.on_chat("1", on_chat)
 ```
 
@@ -107,11 +107,9 @@ player.on_chat("1", on_chat)
 
 Return to Minecraft and test your code.
 
-### Full Code: 
-
-```blocks
+```python
 def on_chat():
-    builder.teleport_to(world(-18, 4, -50))
+    builder.teleport_to(world(-695, 9, 880))
     builder.face(WEST)
     builder.move(FORWARD, 21)
     builder.turn(RIGHT_TURN)
@@ -121,10 +119,10 @@ def on_chat():
     builder.turn(RIGHT_TURN)
     builder.move(FORWARD, 9)
     builder.trace_path(OAK_FENCE)
-    mobs.spawn(OCELOT, randpos(world(-20, 4, -58), world(-37, 4, -50)))
-    mobs.spawn(OCELOT, randpos(world(-20, 4, -58), world(-37, 4, -50)))
-    mobs.spawn(WOLF, randpos(world(-20, 4, -58), world(-37, 4, -50)))
-    mobs.spawn(WOLF, randpos(world(-20, 4, -58), world(-37, 4, -50)))
-player.on_chat("1", on_chat)
+    mobs.spawn(OCELOT, randpos(world(-698, 9, 870), world(-715, 9, 880)))
+    mobs.spawn(OCELOT, randpos(world(-698, 9, 870), world(-715, 9, 880)))
+    mobs.spawn(WOLF, randpos(world(-698, 9, 870), world(-715, 9, 880)))
+    mobs.spawn(WOLF, randpos(world(-698, 9, 870), world(-715, 9, 880)))
+player.on_chat("fence", on_chat)
 ```
 
