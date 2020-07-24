@@ -3,7 +3,7 @@
 ## Step 1
 You are given the following code for “carrots,” “chicken,” and “snowball” ``||player:on chat||`` commands.
 
-```python
+```template
 def on_chat():
     agent.set_item(CARROTS, 64, 1)
     for index in range(3):
@@ -36,9 +36,8 @@ player.on_item_interacted(BLAZE_ROD, item_interacted_blaze_rod)
 ```
 
 ## Step 3
-Return to Minecraft and type the commands **carrot**, **chicken**, **snowball** into the chat to see what happens.
+Press the **Play** button, return to Minecraft and type the commands **carrot**, **chicken**, **snowball** into the chat to see what happens.
 
-### Full Code: 
 
 ```python
 def on_chat():
