@@ -8,7 +8,7 @@
 # The Climb
 
 ## Step 1
-Your challenge is to jump really high to climb up to the inaccessible area. Think about duration and amplifier..
+Your challenge is to **jump really high** to climb up to the inaccessible area. Think about **duration** and **amplifier**.
 
 
 ```ghost
