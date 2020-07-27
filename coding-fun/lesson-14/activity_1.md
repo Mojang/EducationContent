@@ -8,7 +8,7 @@
 # Pass the dinosaur!
 
 ## Step 1
-You need to sneak past the dinosaur by making yourself invisible. Can you make this happen? 
+You need to **sneak past** the dinosaur by making yourself **invisible**. Can you make this happen? 
 
 
 ### ~ tutorialHint
