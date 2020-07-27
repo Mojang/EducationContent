@@ -76,4 +76,19 @@ namespace AI {
     /*Random Code*/
     }
 
+    //% block="compare a %value| against a %value1|"
+    export function compare1(value:number, value1:number) {
+    /*Random Code*/
+    }
+
+    //% block="historical dataset"
+    export function dataset1(): number {
+        return 0;
+    }
+
+    //% block="current dataset"
+    export function dataset2(): number {
+        return 0;
+    }
+
 }
