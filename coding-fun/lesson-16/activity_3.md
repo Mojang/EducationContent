@@ -8,7 +8,7 @@
 # Build a Town Hall!
 
 ## Step 1
-Use **stone** as your building material, create **3** ``||variable: variables||`` and name them **width**, **length** and **height**. Don't forget to add your variables to the ``||player: on chat||`` command.
+Use **stone** as your building material, create **3** ``||variable: variables||`` and name them **width**, **length** and **height**; set the ``||variable: variables||`` to the correct parameters. Don't forget to add your variables to the ``||player: on chat||`` command.
 
 ```ghost
 player.onChat("town_hall", function (length, width, height) {
