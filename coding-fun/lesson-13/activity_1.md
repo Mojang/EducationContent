@@ -8,7 +8,7 @@
 # Lava swim
 
 ## Step 1
-Your challenge is to swim across the lava lake. Try **applying fire resistance** to the **nearest player**. Think about duration and amplifier. 
+Your challenge is to ``||player:swim||`` across the lava lake. Try ``||mobs:applying fire resistance||`` to the **nearest player**. Think about **duration** and **amplifier**. 
 
 
 

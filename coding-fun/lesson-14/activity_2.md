@@ -8,7 +8,7 @@
 # Sandcastle!
 
 ## Step 1
-Use your coding superpowers to overcome the challenges presented. Remember, there might be a lot of ways to solve the challenges. 
+Use your coding superpowers to overcome the challenges presented. Remember, there might be a lot of ways to solve them. 
 
 ```ghost
 blocks.onBlockBroken(GRASS, function () {

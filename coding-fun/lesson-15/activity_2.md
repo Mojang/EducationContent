@@ -5,15 +5,19 @@
 ### @explicitHints 1
 
 
-# A little help!
+# Columns!
 
 ## Step 1
-Start by creating ``||length||`` and ``||segments||`` variables. Set the ``||length variable||`` to **5** and ``||segments||`` to **6**. 
+Time to build the columns! First, create ``||variable: length||`` and ``||variable: segments||``variables. Then ``||variable: set length||`` to **5** and ``||variable: set segments||`` to **6** ``||loops: on start||``. 
 
 ## Step 2
-Drag a ``||Set block||`` command and set it to **white concrete** with the count set to **64**. Figure out what directions the Agent needs to place blocks. Ensure that you ``||loops:repeat||`` this procedure ``||length||`` times.      
+Now within an ``||player: on chat command||`` you need to add all the actions that the Agent needs to build **1** column: ``||agent: set block of pillar of quartz||`` at the count of **64**; ``||agent: place||`` commands and ``||agent:move forward||``.  Place all these actions within a ``||loops: repeat||`` loop that **repeats ``||variable: length||`` times. 
+
 ## Step 3
-After that the Agent needs to ``||move down||`` and ``||loops: repeat||`` the same procedure ``||segments||`` times. 
+Now nest the first ``||loops: repeat||`` loops within another ``||loops: repeat||`` loop that repeats ``||variables:segments||`` times. Try it out in Minecraft!
+
+### ~ tutorialHint
+You need to add ``||agent: move down||`` to make the code work!
 
 ```ghost
 player.onChat("build", function () {
