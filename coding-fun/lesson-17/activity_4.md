@@ -5,10 +5,45 @@
 ### @explicitHints 1
 
 
-# Build a Town Hall!
+# Beets!
 
 ## Step 1
-Use **stone** as your building material, create **3** ``||variable: variables||`` and name them **width**, **length** and **height**. Don't forget to add your variables to the ``||player: on chat||`` command.
+You are provided with three functions: ``||functions: plantSeed||``, ``||functions: plantSection||`` and ``||functions: checkTurn||``. First, create 2 new ``||variable: variables||`` and name them **block** and **block2**. Set ``||variable: block||`` to **lapis lazuli** and ``||variable: block2||`` to **quartz**. Swap **lapis lazuli** and **quartz** in the ``||functions: checkTurn||`` to the newly created variables.  
+
+```template
+/**
+ * We are calling a function inside a function
+ */
+function plantSection () {
+    for (let index = 0; index < 11; index++) {
+        plantSeed()
+    }
+    agent.move(FORWARD, 1)
+}
+ /**
+ * The code was modified to not place seeds if there's no block under the Agent.
+ */
+function plantSeed () {
+    agent.till(FORWARD)
+    agent.move(FORWARD, 1)
+    if (agent.detect(AgentDetection.Block, DOWN)) {
+        agent.place(DOWN)
+    }
+}
+player.onChat("checkTurn", function () {
+    if (agent.inspect(AgentInspection.Block, DOWN) == LAPIS_LAZULI_BLOCK) {
+        agent.turn(RIGHT_TURN)
+        agent.move(FORWARD, 1)
+        agent.turn(RIGHT_TURN)
+    } else if (agent.inspect(AgentInspection.Block, DOWN) == BLOCK_OF_QUARTZ) {
+        agent.turn(LEFT_TURN)
+        agent.move(FORWARD, 1)
+        agent.turn(RIGHT_TURN)
+    }
+})
+
+```
+
 
 ```ghost
 player.onChat("town_hall", function (length, width, height) {

@@ -5,29 +5,49 @@
 ### @explicitHints 1
 
 
-# Build a Town Hall!
+# Planting Beets!
 
 ## Step 1
-Use **stone** as your building material, create **3** ``||variable: variables||`` and name them **width**, **length** and **height**. Don't forget to add your variables to the ``||player: on chat||`` command.
+Two functions **plantSeed** and **plantSection** are provided for you. Create a new ``||player: on chat||`` command and ``||functions: call plantSection||`` within it. Add an ``||logic: if||`` statement that checks if ``||agent: agent inspects block down||`` and it is ``||blocks: lapis lazuli||``, then ``||agent: agent turn right||``, ``||agent: move forward||`` and ``||agent: turn right||``. ``||logic: If||`` ``||agent: agentinspects the block down||`` and it is ``||blocks: a block of quartz||``, then then ``||agent: agent turns left||``, ``||agent: moves forward||`` and ``||agent: turns right||``. Finally ``||functions: call plantSection||``.  
+
+```template
+/**
+ * We are calling a function inside a function
+ */
+function plantSection () {
+    for (let index = 0; index < 11; index++) {
+        plantSeed()
+    }
+    agent.move(FORWARD, 1)
+}
+ /**
+ * The code was modified to not place seeds if there's no block under the Agent.
+ */
+function plantSeed () {
+    agent.till(FORWARD)
+    agent.move(FORWARD, 1)
+    if (agent.detect(AgentDetection.Block, DOWN)) {
+        agent.place(DOWN)
+    }
+}
+
+/**
+* You need to check if the Agent is stepping on a lapis block turn right, if quartz turn left.
+*/
+```
 
 ```ghost
-player.onChat("town_hall", function (length, width, height) {
-    for (let index = 0; index < height; index++) {
-        for (let index = 0; index < 2; index++) {
-            for (let index = 0; index < length; index++) {
-                agent.setItem(STONE, 1, 1)
-                agent.place(DOWN)
-                agent.move(FORWARD, 1)
-            }
-            agent.turn(RIGHT_TURN)
-            for (let index = 0; index < width; index++) {
-                agent.setItem(STONE, 1, 1)
-                agent.place(DOWN)
-                agent.move(FORWARD, 1)
-            }
-            agent.turn(RIGHT_TURN)
-        }
-        agent.move(UP, 1)
+player.onChat("checkTurn", function () {
+    plantSection()
+    if (agent.inspect(AgentInspection.Block, DOWN) == LAPIS_LAZULI_BLOCK) {
+        agent.turn(RIGHT_TURN)
+        agent.move(FORWARD, 1)
+        agent.turn(RIGHT_TURN)
+    } else if (agent.inspect(AgentInspection.Block, DOWN) == BLOCK_OF_QUARTZ) {
+        agent.turn(LEFT_TURN)
+        agent.move(FORWARD, 1)
+        agent.turn(RIGHT_TURN)
     }
+    plantSection()
 })
 ```
