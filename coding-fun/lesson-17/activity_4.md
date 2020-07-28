@@ -8,7 +8,9 @@
 # Beets!
 
 ## Step 1
-You are provided with three functions: ``||functions: plantSeed||``, ``||functions: plantSection||`` and ``||functions: checkTurn||``. First, create 2 new ``||variable: variables||`` and name them **block** and **block2**. Set ``||variable: block||`` to **lapis lazuli** and ``||variable: block2||`` to **quartz**. Swap **lapis lazuli** and **quartz** in the ``||functions: checkTurn||`` to the newly created variables.  
+You are provided with three functions: ``||functions: plantSeed||``, ``||functions: plantSection||`` and ``||functions: checkTurn||``. First, create 2 new ``||variable: variables||`` and name them **block** and **block2**. Set ``||variable: block||`` to **lapis lazuli** and ``||variable: block2||`` to **quartz**. Swap **lapis lazuli** and **quartz** in the ``||functions: checkTurn||`` function to the newly created variables. In the new ``||player: on chat||`` command add your condition: ``||loops:while||`` the Agent is ``||agent:inspecting the block down||``, and it is not a **gold block**, ``||functions: call||`` the neccessary functions. 
+
+
 
 ```template
 /**
@@ -30,7 +32,7 @@ function plantSeed () {
         agent.place(DOWN)
     }
 }
-player.onChat("checkTurn", function () {
+function checkTurn (block: number, block2: number) {
     if (agent.inspect(AgentInspection.Block, DOWN) == LAPIS_LAZULI_BLOCK) {
         agent.turn(RIGHT_TURN)
         agent.move(FORWARD, 1)
@@ -38,31 +40,33 @@ player.onChat("checkTurn", function () {
     } else if (agent.inspect(AgentInspection.Block, DOWN) == BLOCK_OF_QUARTZ) {
         agent.turn(LEFT_TURN)
         agent.move(FORWARD, 1)
-        agent.turn(RIGHT_TURN)
+        agent.turn(LEFT_TURN)
     }
-})
+}
 
 ```
 
 
 ```ghost
-player.onChat("town_hall", function (length, width, height) {
-    for (let index = 0; index < height; index++) {
-        for (let index = 0; index < 2; index++) {
-            for (let index = 0; index < length; index++) {
-                agent.setItem(STONE, 1, 1)
-                agent.place(DOWN)
-                agent.move(FORWARD, 1)
-            }
-            agent.turn(RIGHT_TURN)
-            for (let index = 0; index < width; index++) {
-                agent.setItem(STONE, 1, 1)
-                agent.place(DOWN)
-                agent.move(FORWARD, 1)
-            }
-            agent.turn(RIGHT_TURN)
-        }
-        agent.move(UP, 1)
+player.onChat("plant", function () {
+    while (agent.inspect(AgentInspection.Block, DOWN) != GOLD_BLOCK) {
+        plantSection()
+        checkTurn(LAPIS_LAZULI_BLOCK, BLOCK_OF_QUARTZ)
     }
 })
+
+function checkTurn (block: number, block2: number) {
+    if (agent.inspect(AgentInspection.Block, DOWN) == block) {
+        agent.turn(RIGHT_TURN)
+        agent.move(FORWARD, 1)
+        agent.turn(RIGHT_TURN)
+    } else if (agent.inspect(AgentInspection.Block, DOWN) == block2) {
+        agent.turn(LEFT_TURN)
+        agent.move(FORWARD, 1)
+        agent.turn(LEFT_TURN)
+    }
+}
+
+let block = BLOCK_OF_QUARTZ
+let block2 = LAPIS_LAZULI_BLOCK
 ```
