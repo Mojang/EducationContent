@@ -91,13 +91,13 @@ namespace AI {
     /*Random Code*/
     }
 
-    //% block="compare %value| against %value1| find patterns and %_MLaction|"
-    export function compare1(value:,
-    value1:, _MLaction: actionML,
-    placeholder1:number, placeholder2:number) {
-    placeholder1 = 1;
-    placeholder2 = 2;
-    /*Random Code*/
-    }
+//     //% block="compare %value| against %value1| find patterns and %_MLaction|"
+//     export function compare1(value:,
+//     value1:, _MLaction: actionML,
+//     placeholder1:number, placeholder2:number) {
+//     placeholder1 = 1;
+//     placeholder2 = 2;
+//     /*Random Code*/
+//     }
 
 }
