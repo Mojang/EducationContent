@@ -7,15 +7,12 @@ agent.destroy(FORWARD)
 agent.place(RIGHT)
 agent.collect_all()
 agent.move(FORWARD, 5)
-agent.inspect(AgentInspection.BLOCK, FORWARD) 
 agent.till(BACK)
 for i in range(4):
       pass
-if True: 
+if agent.inspect(AgentInspection.BLOCK, FORWARD) == GRASS:
     pass
 else: 
-    pass
-elif:
     pass
 ```
 
