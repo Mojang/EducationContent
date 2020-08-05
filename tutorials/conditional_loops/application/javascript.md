@@ -17,7 +17,10 @@ agent.place(FORWARD)
 for (let index = 0; index < 4; index++) {
 	
 }
-while (true) {
+while (agent.detect(AgentDetection.Block, FORWARD)) {
     agent.destroy(FORWARD)
+}
+while (!(agent.inspect(AgentInspection.Block, FORWARD) == GRASS)) {
+	
 }
 ```
