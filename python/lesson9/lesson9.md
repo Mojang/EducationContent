@@ -7,6 +7,7 @@ mobs.spawn(FIREWORKS_ROCKET, agent.get_position())
 blocks.place()
 blocks.test_for_block(GRASS, pos(0, 0, 0))
 positions.add(pos(0, 0, 0), pos(0, 0, 0))
+pos(0, 0, 0)
 loops.pause(100)
 agent.move(FORWARD, 5)
 agent.get_position()
@@ -38,9 +39,9 @@ A `||loops:while||` loop with the condition set to **True** will repeat continuo
 ## Step 2
 **Activity 2 - Firing system -**
 **Part 1:** Write another function to make the Agent shoot the gold blocks above it.
-Use a `||mobs: mob spawn||` command with **FIREWORKS_ROCKET** to shoot. Each gold block shot needs to be replaced with an **AIR** block, to make it disapear.
-Use an `||agent: agent position||` command to get the Agents position.
-Use a add positions command with an `||agent: agent position||` command inside, to get the position of the **AIR** block. 
+Use a `||mobs: mob spawn||` command with **FIREWORKS_ROCKET** to shoot. Each gold block shot needs to be replaced with an **AIR** block, to make it disappear.
+Use an `||agent: agent position||` command to get the Agent's position.
+Use an add positions command with an `||agent: agent position||` command inside, to get the position of the **AIR** block. 
 The two commands together look like:
 ```python 
 positions.add(agent.get_position(), pos(0, 0, 0))
