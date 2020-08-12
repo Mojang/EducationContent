@@ -115,7 +115,7 @@ player.onChat("farm", function () {
 ```
 
 ## Step 11
-Add a ``||agent:place||`` block, set it to **forward**, then drag it inside the second/inner repeat loop.
+Add a ``||agent:place||`` block, set it to **down**, then drag it inside the second/inner repeat loop.
 
 ```blocks
 player.onChat("farm", function () {
@@ -124,7 +124,7 @@ player.onChat("farm", function () {
         for (let index = 0; index < 7; index++) {
             agent.till(FORWARD)
             agent.move(FORWARD, 1)
-            agent.place(FORWARD)
+            agent.place(DOWN)
         }
         agent.move(BACK, 7)
         agent.move(RIGHT, 4)
@@ -142,7 +142,7 @@ player.onChat("farm", function () {
         for (let index = 0; index < 7; index++) {
             agent.till(FORWARD)
             agent.move(FORWARD, 1)
-            agent.place(FORWARD)
+            agent.place(DOWN)
         }
         agent.move(BACK, 7)
         agent.move(RIGHT, 4)
