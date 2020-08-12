@@ -6,7 +6,6 @@
 Code an ``||player:on chat||`` command and name it **“destroy”**.
 
 ```python
-player.onChat("destroy", function () {
 def on_chat():
     pass
 player.on_chat("destroy", on_chat)
