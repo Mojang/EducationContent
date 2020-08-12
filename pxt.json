@@ -233,6 +233,10 @@
         "coding-fun/lesson-18.md",
         "ww1984/crate.md"
     ],
+    "targetVersions": {
+        "target": "1.5.30",
+        "targetId": "minecraft"
+    },
     "supportedTargets": [
         "minecraft"
     ],
