@@ -2,7 +2,7 @@
 
 
 ## Step 1
-Rename a ``||player:on chat||`` command into **“destroy”**.
+Rename a ``||player:on chat||`` command into **"destroy"**.
 
 ```blocks
 player.onChat("destroy", function () {
