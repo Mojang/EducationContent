@@ -2,7 +2,7 @@
 
 
 ## Step 1
-Create an ``||player:on chat||`` command and name it **“pyramid”**. Click the **(+)** sign and create a new **size** variable.
+Create an ``||player:on chat||`` command and name it **"pyramid"**. Click the **(+)** sign and create a new **size** variable.
 
 ```blocks
 player.onChat("pyramid", function (size){ 
