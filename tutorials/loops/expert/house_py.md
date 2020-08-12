@@ -78,11 +78,11 @@ player.on_chat("roof", on_chat3)
 ```
 
 ## Step 8
-Code the ``||agent:agent set block or item||`` to set a **Bricks slab** at a count of **1** in slot **1** and then code the agent to ``||agent:move||`` **up by 1**.
+Code the ``||agent:agent set block or item||`` to set a **Bricks slab** at a count of **64** in slot **1** and then code the agent to ``||agent:move||`` **up by 1**.
 
 ```python
 def on_chat3():
-    agent.set_item(BRICKS_SLAB, 1, 1)
+    agent.set_item(BRICKS_SLAB, 64, 1)
     agent.move(UP, 1)
 player.on_chat("roof", on_chat3)
 ```
@@ -92,7 +92,7 @@ Inside the **roof** ``||player:on chat||`` command, code a ``||loops:for||`` loo
 	
 ```python
 def on_chat3():
-    agent.set_item(BRICKS_SLAB, 1, 1)
+    agent.set_item(BRICKS_SLAB, 64, 1)
     agent.move(UP, 1)
     for index4 in range(4):
         agent.move(BACK, 1)
@@ -105,7 +105,7 @@ Inside the previous ``||loops:for||`` loop—above the ``||agent:agent move||`` 
 
 ```python
 def on_chat3():
-    agent.set_item(BRICKS_SLAB, 1, 1)
+    agent.set_item(BRICKS_SLAB, 64, 1)
     agent.move(UP, 1)
     for index4 in range(4):
         for index5 in range(4):
@@ -134,7 +134,7 @@ def on_chat2():
             agent.turn(RIGHT_TURN)
 player.on_chat("walls", on_chat2)
 def on_chat3():
-    agent.set_item(BRICKS_SLAB, 1, 1)
+    agent.set_item(BRICKS_SLAB, 64, 1)
     agent.move(UP, 1)
     for index4 in range(4):
         for index5 in range(4):
