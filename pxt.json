@@ -140,6 +140,10 @@
         "python/lesson8/activity3.md",
         "Storytime-HanselGretel.md"
     ],
+    "targetVersions": {
+        "target": "1.5.30",
+        "targetId": "minecraft"
+    },
     "supportedTargets": [
         "minecraft"
     ],
