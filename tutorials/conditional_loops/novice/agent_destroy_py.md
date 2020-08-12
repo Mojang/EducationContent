@@ -13,7 +13,7 @@ player.on_chat("destroy", on_chat)
 ```
 
 ## Step 2
-Add a ``||loops:while||`` loop inside the ``||player:on chat ||`` command that continues as long as the agent ``||agent:detects||`` a block **forward**. 
+Add a ``||loops:while||`` loop inside the ``||player:on chat||`` command that continues as long as the agent ``||agent:detects||`` a block **forward**. 
 
 ```python
 def on_chat():
