@@ -30,4 +30,4 @@ jobs:
       uses: peter-evans/create-pull-request@v3
       with:
         commit-message: Removing missing files from pxt.json
-        title: ':bug: Files missing in pxt.json'
+        title: '🐛 missing files listed in pxt.json 🐛'
