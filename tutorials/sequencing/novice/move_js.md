@@ -41,7 +41,7 @@ player.onChat("fd", function () {
 
 Code another ``||player:on chat||`` command and name it **“lt”**.
 
-```spy
+```javascript
 player.onChat("lt", function () {
 })
 ```
