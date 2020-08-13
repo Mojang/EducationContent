@@ -1,9 +1,9 @@
 # Modifying Agent Fun Functions: Python
 
 ## Step 1
-You are given an ``||player:on chat||`` command **carrot**, the ``||player:on chat||`` command **chicken** and the ``||player:on chat||`` command **snowball**.
+You are given an ``||player:on chat||`` command **carrot**, the ``||player:on chat||`` command **chicken** and the ``||player:on chat||`` command **snowball**. Check out the hint.
 
-```template
+```python
 def on_chat():
     agent.set_item(CARROTS, 64, 1)
     for index in range(3):
