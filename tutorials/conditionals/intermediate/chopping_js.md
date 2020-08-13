@@ -114,3 +114,20 @@ After the ``||loops:for||`` loop, code the agent to ``||agent:collect all||`` .
 
 Go into Minecraft, type **t** and test out the **tp**, and **chop** chat commands. 
 
+```javascript
+player.onChat("farm", function () { 
+    agent.setItem(CARROTS, 64, 1) 
+    for (let index = 0; index < 3; index++) { 
+        for (let index = 0; index < 5; index++) { 
+            agent.till(FORWARD) 
+            agent.move(FORWARD, 1) 
+            agent.place(FORWARD) 
+
+        } 
+        agent.move(BACK, 5) 
+        agent.move(RIGHT, 2) 
+
+    } 
+
+}) 
+```
