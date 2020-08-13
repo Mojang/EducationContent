@@ -13,7 +13,7 @@ jobs:
     - name: Setup Node
       uses: actions/setup-node@v1
 
-    - name: Run a one-line script
+    - name: Validate / fix pxt.json
       run: node ./.github/workflows/json-check.js
 
     - name: Create Pull Request

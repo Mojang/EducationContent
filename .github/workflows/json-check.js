@@ -14,8 +14,8 @@ for (const file of (json.files || [])) {
 
 if (missing.length) {
     console.warn(`pxt.json lists files that are missing:
-        ${missing.join(",\n    ")}
-    `);
+    ${missing.join(",\n    ")}
+`);
     json.files = existing;
     fs.writeFileSync('pxt.json', JSON.stringify(json, undefined, 4));
 }
