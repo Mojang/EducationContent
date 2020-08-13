@@ -49,7 +49,7 @@ player.onChat("carrot", function () {
         for (let index = 0; index < 5; index++) {
             agent.till(FORWARD)
             agent.move(FORWARD, 1)
-            agent.place(FORWARD)
+            agent.place(DOWN)
         }
         agent.move(BACK, 5)
         agent.move(RIGHT, 2)
