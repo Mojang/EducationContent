@@ -10,7 +10,7 @@ def on_chat():
         for index2 in range(5):
             agent.till(FORWARD)
             agent.move(FORWARD, 1)
-            agent.place(FORWARD)
+            agent.place(DOWN)
         agent.move(BACK, 5)
         agent.move(RIGHT, 2)
 player.on_chat("carrot", on_chat)
@@ -46,7 +46,7 @@ def on_chat():
         for index2 in range(5):
             agent.till(FORWARD)
             agent.move(FORWARD, 1)
-            agent.place(FORWARD)
+            agent.place(DOWN)
         agent.move(BACK, 5)
         agent.move(RIGHT, 2)
 player.on_chat("carrot", on_chat)
