@@ -11,13 +11,13 @@ player.on_chat("fence", on_chat)
 
 ## Step 2
 
-Code another ``||player:on chat||`` command, name it **side1**, then code the agent to  ``||agent:place on move||`` and set it to **true**.
+Code another ``||player:on chat||`` command, name it **side1**, then code the agent to  ``||agent:place on move||`` and set it to **true**. Add ``||agent:set item||`` command and set the count to **64**. 
 
 ```python
 def on_chat():
-    builder.teleport_to(world(-18, 4, -50))
-    builder.face(WEST)
-player.on_chat("1", on_chat)
+    agent.set_assist(PLACE_ON_MOVE, True)
+    agent.set_item(GRASS, 64, 1)
+player.on_chat("side1", on_chat)
 ```
 
 ## Step 3
@@ -84,11 +84,12 @@ player.on_chat("side1", on_chat2)
 
 ## Step 7
 
-Code a new ``||player:on chat||`` command and name it **side2**. Code the agent to ``||agent:place on move||`` to **true**.
+Code a new ``||player:on chat||`` command and name it **side2**. Code the agent to ``||agent:place on move||`` to **true**. Add ``||agent:set item||`` command and set the count to **64**. 
 
 ```python
 def on_chat3(): 
     agent.set_assist(PLACE_ON_MOVE, True) 
+    agent.set_item(GRASS, 64, 1)
  player.on_chat("side2", on_chat3)
 ```
 
