@@ -117,4 +117,25 @@ player.on_chat("chop", on_chat3)
 
 Go into Minecraft, type **t** and test out the **tp**, and **chop** chat commands. 
 
+```python
+def on_chat(): 
+
+    agent.set_item(CARROTS, 64, 1) 
+
+    for index in range(3): 
+
+        for index2 in range(5): 
+
+            agent.till(FORWARD) 
+
+            agent.move(FORWARD, 1) 
+
+            agent.place(FORWARD) 
+
+        agent.move(BACK, 5) 
+
+        agent.move(RIGHT, 2) 
+
+player.on_chat("farm", on_chat) 
+```
 
