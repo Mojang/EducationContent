@@ -73,7 +73,7 @@ Add a ``||loops:for||`` loop that says the variable **i** from 0 to 4 minus 1.
 
  Code the Agent to ``||agent:move forward||`` by the value of the **size** variable.
 
-```blocks
+```javascript
         for (let i = 0; i <= 0 - 0; i++) { 
             agent.move(FORWARD, size) 
         } 
