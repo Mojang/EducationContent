@@ -58,7 +58,7 @@ Add a ``||agent:place on move||`` block into the ``||logic:if-then||`` condition
 
 ## Step 6
 
-Get a ``||loops:for||`` loop and drag it into the ``||logic:if-then||`` conditional. Create a new variable with the name **I** and drag it into the **index** of the ``||loops:for||`` loop. Add a ``||math:return difference||`` of two numbers and set it to 4 minus 1.
+Get a ``||loops:for||`` loop and drag it into the ``||logic:if-then||`` conditional. Create a new variable with the name **I** and drag it into the **index** of the ``||loops:for||`` loop. Add a ``||math:return difference||`` of two numbers and set it to 4 minus 1 after the Agent ``||agent:place on move||``.
 	
 ```blocks
     agent.setAssist(PLACE_ON_MOVE, true) 
@@ -80,7 +80,7 @@ Add an ``||agent:agent move||`` block into the ``||loops:for||`` loop, set the f
 
 ## Step 8
 
- Add an ``||agent:agent turn||`` into the ``||loops:for||`` loop and set it to **left turn**.
+ Add an ``||agent:agent turn||`` into the end of ``||loops:for||`` loop and set it to **left turn**.
 
 ```blocks
 for (let i = 0; i <= 0 - 0; i++) { 
@@ -123,7 +123,7 @@ Get a ``||player:run chat||`` command and drag it into the workspace. Get a ``||
 
 ## Step 12
 
-Go into Minecraft, type **t** and test the **pyramid** chat command.
+Go into Minecraft, type **t** and test the **pyramid** chat command. Don't forget to add a **number** after **pyramid**.
 
 ```blocks
 player.onChat("pyramid", function (size) { 
