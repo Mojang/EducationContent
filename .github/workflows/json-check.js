@@ -3,6 +3,7 @@ const fs = require('fs');
 const json = JSON.parse(fs.readFileSync('pxt.json'));
 const missing = [];
 const existing = [];
+
 for (const file of (json.files || [])) {
     if (fs.existsSync(file)) {
         existing.push(file);
