@@ -106,38 +106,71 @@ blocks.onBlockBroken(DIAMOND_BLOCK, function () {
 Press the **Play** button, go into Minecraft and test out all the events.
 
 ```javascript
-let from_position: Position = null
-let to_position: Position = null
-let PlayerPosition: Position = null
-blocks.onBlockBroken(GLASS, function () {
-    blocks.place(DIAMOND_BLOCK, randpos(
-    from_position,
-    to_position
-    ))
-})
-player.onChat("wall", function () {
-    blocks.fill(
-    GLASS,
-    from_position,
-    to_position,
-    FillOperation.Replace
-    )
-})
-player.onChat("position", function () {
-    PlayerPosition = player.position()
-    from_position = positions.add(
-    PlayerPosition,
-    positions.create(6, 0, 0)
-    )
-    to_position = positions.add(
-    PlayerPosition,
-    positions.create(-6, 13, 0)
-    )
-})
-blocks.onBlockBroken(DIAMOND_BLOCK, function () {
-    blocks.place(ORANGE_WOOL, randpos(
-    from_position,
-    to_position
-    ))
-})
+let from_position: Position = null 
+
+let to_position: Position = null 
+
+let PlayerPosition: Position = null 
+
+blocks.onBlockBroken(GLASS, function () { 
+
+    blocks.place(DIAMOND_BLOCK, randpos( 
+
+    from_position, 
+
+    to_position 
+
+    )) 
+
+}) 
+
+player.onChat("wall", function () { 
+
+    blocks.fill( 
+
+    GLASS, 
+
+    from_position, 
+
+    to_position, 
+
+    FillOperation.Replace 
+
+    ) 
+
+}) 
+
+player.onChat("position", function () { 
+
+    PlayerPosition = player.position() 
+
+    from_position = positions.add( 
+
+    PlayerPosition, 
+
+    positions.create(6, 0, 0) 
+
+    ) 
+
+    to_position = positions.add( 
+
+    PlayerPosition, 
+
+    positions.create(-6, 13, 0) 
+
+    ) 
+
+}) 
+
+blocks.onBlockBroken(DIAMOND_BLOCK, function () { 
+
+    blocks.place(ORANGE_WOOL, randpos( 
+
+    from_position, 
+
+    to_position 
+
+    )) 
+
+}) 
 ```
