@@ -35,10 +35,21 @@ loops.forever(function () {
     } else {
         agent.move(FORWARD, 1)
     }
+})
 ```
+
 ## Step 5
 Press the **Play** button and try out your code in Minecraft. 
 
 ```ghost 
 agent.teleportToPlayer()
+```
+```javascript
+loops.forever(function () {
+    if (agent.detect(AgentDetection.Block, FORWARD)) {
+        agent.turn(LEFT_TURN)
+    } else {
+        agent.move(FORWARD, 1)
+    }
+})
 ```
