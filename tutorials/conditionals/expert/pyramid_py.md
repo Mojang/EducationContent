@@ -66,7 +66,7 @@ player.on_chat("pyramid", on_chat)
 
  Code the Agent to ``||agent:move forward||`` by the value of the **size** variable.
 
-```blocks
+```python
         i = 0
         while i <= 0 - 0:
             agent.move(FORWARD, size)
