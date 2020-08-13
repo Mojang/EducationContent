@@ -24,9 +24,10 @@ player.onChat("1", function () {
 Get a ``||builder:move||`` and set it to **forward by 21**. Drag it into the ``||player:on chat||`` **fence** command below the ``||builder:face||`` **West**.
 
 ```blocks
-player.onChat("side1", function () {
-})
-```
+    builder.face(WEST) 
+    builder.move(FORWARD, 21) 
+
+}) 
 
 ## Step 4
 
