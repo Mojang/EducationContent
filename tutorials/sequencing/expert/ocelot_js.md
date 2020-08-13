@@ -24,8 +24,9 @@ player.onChat("1", function () {
 ``||builder:Move||`` the builder **forward by 21**. 
 
 ```javascript
-player.onChat("side1", function () {
-})
+    builder.face(WEST) 
+    builder.move(FORWARD, 21) 
+}) 
 ```
 
 ## Step 4
