@@ -40,3 +40,11 @@ Press the **Play** button and try out your code in Minecraft.
 ```ghost
 agent.teleportToPlayer()
 ```
+```python
+def on_forever():
+    if agent.detect(AgentDetection.BLOCK, FORWARD):
+        agent.turn(LEFT_TURN)
+    else:
+        agent.move(FORWARD, 1)
+loops.forever(on_forever)
+```
