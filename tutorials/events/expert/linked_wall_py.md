@@ -83,7 +83,7 @@ blocks.on_block_broken(DIAMOND_BLOCK, block_broken_diamond)
 ```
 
 ## Step 9
-Press the **Play** button, go into Minecraft and test out all the events.
+Press the **Play** button, go into Minecraft and test out all the events. Start with **position**, then **wall**. Break a **glass block** and see what happens.
 
 ```python
 from_position: Position = None

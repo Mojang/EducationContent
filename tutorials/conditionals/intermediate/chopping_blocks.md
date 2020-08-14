@@ -9,7 +9,7 @@ player.onChat("tp", function () {
 ```
 
 ## Step 2
-Get an ``||agent:teleport to player||`` and drag it inside the **tp**  ``||player:on chat||`` command.
+Get an agent ``||agent:teleport to player||`` and drag it inside the **tp**  ``||player:on chat||`` command.
 
 ```blocks
 player.onChat("tp", function () {
@@ -32,12 +32,6 @@ Create a new ``||variable: variable||`` and name it **height**, set it to **0**.
 
 ```blocks
 let height = 0
-player.onChat("lt", function () {
-    agent.turn(LEFT_TURN)
-})
-player.onChat("tp", function () {
-    agent.teleportToPlayer()
-})
 player.onChat("chop", function () {
     height = 0
 })
@@ -67,15 +61,18 @@ Get a ``||variable: change variable||``, set it to the value of **height plus 1*
 
 ## Step 7
 
-Get an ``||agent:agent destroy||`` and set it to **up**. Drag it into the ``||loops: while||`` loop under the change variable **height**.
-
-Get an ``||agent:agent move||`` and set it to **up by 1**. Drag it into the ``||loops: while||`` loop directly beneath the ``||agent:agent destroy||``.
+Get an ``||agent:agent destroy||`` and set it to **up**. Drag it into the ``||loops: while||`` loop under the change variable **height**. Get an ``||agent:agent move||`` and set it to **up by 1**. Drag it into the ``||loops: while||`` loop directly beneath the ``||agent:agent destroy||``.
 
 ```blocks
-    height += 1
+   let height = 0
+player.onChat("chop", function () {
+    height = 0
+    while (agent.detect(AgentDetection.Block, FORWARD)) {
+        height += 1
         agent.destroy(UP)
         agent.move(UP, 1)
     }
+})
 ```
 
 
@@ -84,21 +81,39 @@ Get an ``||agent:agent move||`` and set it to **up by 1**. Drag it into the ``||
 Add a ``||loops:repeat||`` loop after the ``||loops: while||`` loop. Get the **height** variable and drag it into the **times** argument of the ``||loops:repeat||`` loop.
 
 ```blocks
-for (let index = 0; index < height; index++) {
-    } 
+let height = 0
+player.onChat("chop", function () {
+    height = 0
+    while (agent.detect(AgentDetection.Block, FORWARD)) {
+        height += 1
+        agent.destroy(UP)
+        agent.move(UP, 1)
+    }
+    for (let index = 0; index < height; index++) {
+    	
+    }
+})
 ```
 
 ## Step 9
 
-Duplicate the ``||agent:move||`` block (from above), then change it to **down**. Drag the ``||agent:agent move down||`` into the ``||loops:repeat||`` loop.
-
-Duplicate the ``||agent: agent destroy||`` (from above), then change it to **destroy forward**. Drag the ``||agent:agent destroy forward||`` into the  ``||loops:repeat||`` loop. Place it directly beneath the ``||agent:move||``.
+Duplicate the ``||agent:move||`` block (from above), then change it to **down**. Drag the ``||agent:agent move down||`` into the ``||loops:repeat||`` loop. Duplicate the ``||agent: agent destroy||`` (from above), then change it to **destroy forward**. Drag the ``||agent:agent destroy forward||`` into the  ``||loops:repeat||`` loop. Place it directly beneath the ``||agent:move||``.
 
 ```blocks
-for (let index = 0; index < height; index++) {
+let height = 0
+player.onChat("chop", function () {
+    height = 0
+    while (agent.detect(AgentDetection.Block, FORWARD)) {
+        height += 1
+        agent.destroy(UP)
+        agent.move(UP, 1)
+    }
+    for (let index = 0; index < height; index++) {
         agent.move(DOWN, 1)
         agent.destroy(FORWARD)
     }
+})
+
 ```
 
 ## Step 10
@@ -114,4 +129,19 @@ Get a ``||agent:collect all||`` block and drag it into the  ``||loops:repeat||``
 ## Step 11
 
 Go into Minecraft, press **t** and test the tutorial out by typing **tp** and **chop** chat commands.
-
+```blocks
+let height = 0
+player.onChat("chop", function () {
+    height = 0
+    while (agent.detect(AgentDetection.Block, FORWARD)) {
+        height += 1
+        agent.destroy(UP)
+        agent.move(UP, 1)
+    }
+    for (let index = 0; index < height; index++) {
+        agent.move(DOWN, 1)
+        agent.destroy(FORWARD)
+    }
+    agent.collectAll()
+})
+```

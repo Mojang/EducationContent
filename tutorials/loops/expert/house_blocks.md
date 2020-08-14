@@ -86,13 +86,13 @@ player.onChat("roof", function () {
 ```
 
 ## Step 9
-Get a ``||agent:set block or item||``command, set it to **Bricks slab** and then set the count to **1** and slot to **1** and drag it into the **roof** ``||player:on chat||`` command. Add an ``||agent:agent move||`` block and set it to up by **1**.
+Get a ``||agent:set block or item||``command, set it to **Bricks slab** and then set the count to **64** and slot to **1** and drag it into the **roof** ``||player:on chat||`` command. Add an ``||agent:agent move||`` block and set it to up by **1**.
 
 ```blocks
-player.onChat("roof", function () { 
-    agent.setItem(BRICKS_SLAB, 1, 1) 
-    agent.move(UP, 1) 
-}) 
+player.onChat("roof", function () {
+    agent.setItem(BRICKS_SLAB, 64, 1)
+    agent.move(UP, 1)
+})
 ```
 
 ## Step 10
@@ -100,7 +100,7 @@ Get a ``||loops:repeat||`` loop and drag it inside the **roof** ``||player:on ch
 	
 ```blocks
 player.onChat("roof", function () { 
-    agent.setItem(BRICKS_SLAB, 1, 1) 
+    agent.setItem(BRICKS_SLAB, 64, 1) 
     agent.move(UP, 1) 
     for (let index = 0; index < 4; index++) { 
         agent.move(BACK, 1) 
@@ -114,7 +114,7 @@ Get another ``||loops:repeat||`` loop, set it to repeat **4** times. Add an ``||
 
 ```blocks
 player.onChat("roof", function () { 
-    agent.setItem(BRICKS_SLAB, 1, 1) 
+    agent.setItem(BRICKS_SLAB, 64, 1) 
     agent.move(UP, 1) 
     for (let index = 0; index < 4; index++) { 
         for (let index = 0; index < 4; index++) { 
@@ -135,7 +135,7 @@ player.onChat("tp", function () {
     agent.teleportToPlayer() 
 }) 
 player.onChat("roof", function () { 
-    agent.setItem(BRICKS_SLAB, 1, 1) 
+    agent.setItem(BRICKS_SLAB, 64, 1) 
     agent.move(UP, 1) 
     for (let index = 0; index < 4; index++) { 
         for (let index = 0; index < 4; index++) { 

@@ -13,7 +13,7 @@ player.on_chat("fence", on_chat)
 
 Code a ``||builder:builder teleport||`` world position **-695, 9, 880**, facing **West**.
 
-```blocks
+```python
 def on_chat():
     builder.teleport_to(world(-695, 9, 880))
     builder.face(WEST)
@@ -24,7 +24,7 @@ player.on_chat("1", on_chat)
 
 ``||builder:Move||`` the builder **forward by 21**. 
 
-```blocks
+```python
     builder.face(WEST)
     builder.move(FORWARD, 21)
 player.on_chat("1", on_chat)
@@ -34,7 +34,7 @@ player.on_chat("1", on_chat)
 
 ``||builder:Turn||`` the builder to the **right**.
 
-```blocks
+```python
     builder.move(FORWARD, 21)
     builder.turn(RIGHT_TURN)
 player.on_chat("1", on_chat)
@@ -44,7 +44,7 @@ player.on_chat("1", on_chat)
 
 ``||builder:Move||`` the builder **forward by 9** and ``||builder:turn||`` **right**. 
 
-```blocks
+```python
     builder.turn(RIGHT_TURN)
     builder.move(FORWARD, 9)
     builder.turn(RIGHT_TURN)
@@ -55,7 +55,7 @@ player.on_chat("1", on_chat)
 
 ``||builder:Move||`` the builder **forward by 21**, ``||builder:turn||`` **right**, and ``||builder:move||`` **forward by 9**.
 
-```blocks
+```python
     builder.move(FORWARD, 21)
     builder.turn(RIGHT_TURN)
     builder.move(FORWARD, 9)
@@ -66,7 +66,7 @@ player.on_chat("1", on_chat)
 
 To place fencing along the perimeter of the rectangle, code the builder to ``||builder:trace||`` his former path while building with **Oak Fence** .
 
-```blocks
+```python
     builder.move(FORWARD, 9)
     builder.tracePath(OAK_FENCE)
 })
@@ -76,7 +76,7 @@ To place fencing along the perimeter of the rectangle, code the builder to ``||b
 
 Randomly ``||mobs:spawn||`` one **ocelot** inside the fence that was just built.
 
-```blocks
+```python
     builder.trace_path(OAK_FENCE)
     mobs.spawn(OCELOT, randpos(world(-698, 9, 870), world(-715, 9, 880)))
 player.on_chat("1", on_chat)
@@ -86,7 +86,7 @@ player.on_chat("1", on_chat)
 
 Randomly ``||mobs:spawn||`` another **ocelot** inside the fence that was just built.
 
-```blocks
+```python
     mobs.spawn(OCELOT, randpos(world(-698, 9, 870), world(-715, 9, 880)))
     mobs.spawn(OCELOT, randpos(world(-698, 9, 870), world(-715, 9, 880)))
 player.on_chat("1", on_chat)
@@ -96,7 +96,7 @@ player.on_chat("1", on_chat)
 
 Randomly ``||mobs:spawn||`` two wolves inside the fence that was just built.
 
-```blocks
+```python
     mobs.spawn(OCELOT, randpos(world(-20, 4, -58), world(-37, 4, -50)))
     mobs.spawn(WOLF, randpos(world(-20, 4, -58), world(-37, 4, -50)))
     mobs.spawn(WOLF, randpos(world(-20, 4, -58), world(-37, 4, -50)))

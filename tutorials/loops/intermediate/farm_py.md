@@ -105,7 +105,7 @@ player.on_chat("farm", on_chat)
 ```
 
 ## Step 10
-After the ``||agent:move||`` forward, code to have the ``||agent:place||`` forward. 
+After the ``||agent:move||`` forward, code to have the ``||agent:place||`` down. 
 
 ```python
 def on_chat():
@@ -114,7 +114,7 @@ def on_chat():
         for index2 in range(7):
             agent.till(FORWARD)
             agent.move(FORWARD, 1)
-            agent.place(FORWARD)
+            agent.place(DOWN)
         agent.move(BACK, 7)
         agent.move(RIGHT, 4)
 player.on_chat("farm", on_chat)
@@ -130,7 +130,7 @@ def on_chat():
         for index2 in range(5):
             agent.till(FORWARD)
             agent.move(FORWARD, 1)
-            agent.place(FORWARD)
+            agent.place(DOWN)
         agent.move(BACK, 5)
         agent.move(RIGHT, 2)
 player.on_chat("farm", on_chat)

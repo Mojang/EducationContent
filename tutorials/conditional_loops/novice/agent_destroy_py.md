@@ -1,19 +1,17 @@
-
 # Agent Destroy Passage: Python
 
 
 ## Step 1
-Code an ``||player:on chat||`` command and name it **“destroy”**.
+Code an ``||player:on chat||`` command and name it **"destroy"**.
 
 ```python
-player.onChat("destroy", function () {
 def on_chat():
     pass
 player.on_chat("destroy", on_chat)
 ```
 
 ## Step 2
-Add a ``||loops:while||`` loop inside the ``||player:on chat ||`` command that continues as long as the agent ``||agent:detects||`` a block **forward**. 
+Add a ``||loops:while||`` loop inside the ``||player:on chat||`` command that continues as long as the agent ``||agent:detects||`` a block **forward**. 
 
 ```python
 def on_chat():

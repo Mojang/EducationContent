@@ -2,7 +2,7 @@
 
 
 ## Step 1
-Code an ``||player:on chat||`` command and name it **“destroy”**.
+Code an ``||player:on chat||`` command and name it **"destroy"**.
 
 ```javascript
 player.onChat("destroy", function () {

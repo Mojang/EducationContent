@@ -10,12 +10,13 @@ player.onChat("tp", function () {
 
 ## Step 2
 
-Code another ``||player:on chat||`` command, name it **side1**, then code the agent to  ``||agent:place on move||`` and set it to **true**.
+Code another ``||player:on chat||`` command, name it **side1**, then code the agent to  ``||agent:place on move||`` and set it to **true**. Add ``||agent:agent set item||`` command and set the count to **64**.
 
 ```javascript
 player.onChat("side1", function () { 
-    agent.setAssist(PLACE_ON_MOVE, true) 
-    
+    agent.setAssist(PLACE_ON_MOVE, true)
+    agent.setItem(GRASS, 64, 1) 
+   
 }) 
 ```
 
@@ -83,11 +84,12 @@ player.onChat("side1", function () {
 
 ## Step 7
 
-Code a new ``||player:on chat||`` command and name it **side2**. Code the agent to ``||agent:place on move||`` to **true**.
+Code a new ``||player:on chat||`` command and name it **side2**. Code the agent to ``||agent:place on move||`` to **true**. Add ``||agent:agent set item||`` command and set the count to **64**.
 
 ```javascript
 player.onChat("side2", function () { 
     agent.setAssist(PLACE_ON_MOVE, true) 
+    agent.setItem(GRASS, 64, 1) 
     }) 
 ```
 
@@ -95,7 +97,7 @@ player.onChat("side2", function () {
 
 Code the agent to ``||agent:move||`` **forward by 7** and then ``||agent:turn||`` **left**.
 
-```spy
+```javascript
 player.onChat("side2", function () { 
     agent.setAssist(PLACE_ON_MOVE, true) 
     agent.move(FORWARD, 7) 

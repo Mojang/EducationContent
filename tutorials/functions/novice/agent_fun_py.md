@@ -1,16 +1,16 @@
 # Agent Fun Functions: Python
 
 ## Step 1
-You are given the following code for “carrots,” “chicken,” and “snowball” ``||player:on chat||`` commands.
+You are given the following code for “carrots,” “chicken,” and “snowball” ``||player:on chat||`` commands in the hint.
 
-```template
+```python
 def on_chat():
     agent.set_item(CARROTS, 64, 1)
     for index in range(3):
         for index2 in range(5):
             agent.till(FORWARD)
             agent.move(FORWARD, 1)
-            agent.place(FORWARD)
+            agent.place(DOWN)
         agent.move(BACK, 5)
         agent.move(RIGHT, 2)
 player.on_chat("carrot", on_chat)
@@ -46,7 +46,7 @@ def on_chat():
         for index2 in range(5):
             agent.till(FORWARD)
             agent.move(FORWARD, 1)
-            agent.place(FORWARD)
+            agent.place(DOWN)
         agent.move(BACK, 5)
         agent.move(RIGHT, 2)
 player.on_chat("carrot", on_chat)

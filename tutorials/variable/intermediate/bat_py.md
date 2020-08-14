@@ -14,12 +14,9 @@ player.on_chat("cave", on_chat)
 Code the player to  ``||player:say||``by typing **"Dig a cave"**, and drag it into the ``||player:on chat||`` command.
 
 ```python
-player.onChat("cave", function () {
-    player.say("Dig a cave")
-}def on_chat():
-    player.say("Dig a cave")
-player.on_chat("cave", on_chat)
-)
+def on_chat(): 
+    player.say("Dig a cave") 
+player.on_chat("cave", on_chat) 
 ```
 
 ## Step 3
@@ -27,10 +24,10 @@ player.on_chat("cave", on_chat)
 Set the time of day to **day**.
 
 ```python
-def on_chat():
-    player.say("Dig a cave")
-    gameplay.time_set(gameplay.time(DAY))
-player.on_chat("cave", on_chat)
+def on_chat(): 
+    player.say("Dig a cave") 
+    gameplay.time_set(gameplay.time(DAY)) 
+player.on_chat("cave", on_chat) 
 ```
 
 ## Step 4
@@ -38,11 +35,11 @@ player.on_chat("cave", on_chat)
 Code the player to ``||blocks:fill with||`` an **air** block with these positions: **from  = -1.0,-1** and **to = 1,2,1**. Code it to **replace**.
 
 ```python
-def on_chat():
-    player.say("Dig a cave")
-    gameplay.time_set(gameplay.time(DAY))
-    blocks.fill(AIR, pos(-1, 0, -1), pos(1, 2, 1), FillOperation.REPLACE)
-player.on_chat("cave", on_chat)
+def on_chat(): 
+    player.say("Dig a cave") 
+    gameplay.time_set(gameplay.time(DAY)) 
+    blocks.fill(AIR, pos(-1, 0, -1), pos(1, 2, 1), FillOperation.REPLACE) 
+player.on_chat("cave", on_chat) 
 ```
 
 ## Step 5
@@ -136,26 +133,32 @@ player.on_chat("cave", on_chat)
 Go into Minecraft and type **cave** in the chat to see all the code run.
 
 ```python
-let batcave: Position = null
-player.onChat("cave", function () {
-    player.say("Dig a cave")
-    gameplay.timeSet(gameplay.time(DAY))
-    for (let index = 0; index < 50; index++) {
-        blocks.fill(
-        AIR,
-        pos(-1, 0, -1),
-        pos(1, 2, 1),
-        FillOperation.Replace
-        )
-    }
-    batcave = player.position()
-    player.say("You have 10 seconds to get out before the bats arrive.")
-    loops.pause(10000)
-    player.say("Watch out for bats!")
-    gameplay.timeSet(gameplay.time(DUSK))
-    for (let index = 0; index < 200; index++) {
-        mobs.spawn(BAT, batcave)
-    }
-})
+batcave: Position = None 
+
+def on_chat(): 
+
+    player.say("Dig a cave") 
+
+    gameplay.time_set(gameplay.time(DAY)) 
+
+    for index in range(50): 
+
+        blocks.fill(AIR, pos(-1, 0, -1), pos(1, 2, 1), FillOperation.REPLACE) 
+
+    batcave = player.position() 
+
+    player.say("You have 10 seconds to get out before the bats arrive.") 
+
+    loops.pause(10000) 
+
+    player.say("Watch out for bats!") 
+
+    gameplay.time_set(gameplay.time(DUSK)) 
+
+    for index2 in range(200): 
+
+        mobs.spawn(BAT, batcave) 
+
+player.on_chat("cave", on_chat) 
 ```
 

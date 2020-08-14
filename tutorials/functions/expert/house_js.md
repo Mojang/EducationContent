@@ -73,11 +73,11 @@ function roof () {
 ```
 
 ## Step 7
-Code the agent to ``||agent:set block or item||``, set it to **brick slab**, set the count to **1** and the slot to **1** and drag it into the **roof** ``||functions:function||``. Also, code the agent to ``||agent:move||`` **up by 1**.
+Code the agent to ``||agent:set block or item||``, set it to **brick slab**, set the count to **64** and the slot to **1** and drag it into the **roof** ``||functions:function||``. Also, code the agent to ``||agent:move||`` **up by 1**.
 
 ```javascript
 function roof () {
-    agent.setItem(BRICKS_SLAB, 1, 1) 
+    agent.setItem(BRICKS_SLAB, 64, 1) 
     agent.move(UP, 1) 
 }) 
 ```
@@ -87,7 +87,7 @@ Inside the **roof** ``||functions:function||``, code a ``||loops:for||`` loop an
 	
 ```javascript
 function roof () {
-    agent.setItem(BRICKS_SLAB, 1, 1) 
+    agent.setItem(BRICKS_SLAB, 64, 1) 
     agent.move(UP, 1) 
     for (let index = 0; index < 4; index++) { 
         agent.move(BACK, 4) 
@@ -101,7 +101,7 @@ Code another ``||loops:for||`` loop and set it to repeat **4** times. Within thi
 
 ```javascript
 function roof () {
-    agent.setItem(BRICKS_SLAB, 1, 1) 
+    agent.setItem(BRICKS_SLAB, 64, 1) 
     agent.move(UP, 1) 
     for (let index = 0; index < 4; index++) { 
         for (let index = 0; index < 4; index++) { 
@@ -143,7 +143,7 @@ function walls () {
     }
 }
 function roof () {
-    agent.setItem(BRICKS_SLAB, 1, 1)
+    agent.setItem(BRICKS_SLAB, 64, 1)
     agent.move(UP, 1)
     for (let index = 0; index < 4; index++) {
         for (let index = 0; index < 4; index++) {

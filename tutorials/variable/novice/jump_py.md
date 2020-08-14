@@ -14,10 +14,9 @@ player.on_chat("jump", on_chat)
 Add the code in the ``||player:chat||`` command to ``||player:teleport||`` the player to the position **(0,100,0)** (which is 100 blocks higher than the current position). 
 
 ```python
-player.onChat("jump", function () { 
-   player.teleport(pos(0,100,0))  
-
-}) 
+def on_chat(): 
+    player.teleport(pos(0, 100, 0)) 
+player.on_chat("jump", on_chat) 
 ```
 
 ## Step 3
@@ -28,6 +27,12 @@ Try it out in Minecraft by typing jump in the chat.
 ## Step 4
 
 Add a ``||variable: variable||`` named **num1** to the “jump” chat command.   
+
+```python
+def on_chat(num1): 
+    player.teleport(pos(0, 100, 0)) 
+player.on_chat("jump", on_chat) 
+```
 
 ## Step 5
 

@@ -114,7 +114,7 @@ player.onChat("farm", function () {
 ```
 
 ## Step 10
-After the ``||agent:agent move||`` forward, code to have the ``||agent:agent||`` place forward. 
+After the ``||agent:agent move||`` forward, code to have the ``||agent:agent||`` place down. 
 
 ```javascript
 player.onChat("farm", function () { 
@@ -123,7 +123,7 @@ player.onChat("farm", function () {
         for (let index = 0; index < 7; index++) { 
             agent.till(FORWARD) 
             agent.move(FORWARD, 1) 
-            agent.place(FORWARD) 
+            agent.place(DOWN) 
         } 
         agent.move(BACK, 7) 
         agent.move(RIGHT, 4) 
@@ -142,7 +142,7 @@ player.onChat("farm", function () {
         for (let index = 0; index < 7; index++) {
             agent.till(FORWARD)
             agent.move(FORWARD, 1)
-            agent.place(FORWARD)
+            agent.place(DOWN)
         }
         agent.move(BACK, 7)
         agent.move(RIGHT, 4)

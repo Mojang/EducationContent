@@ -83,11 +83,11 @@ player.onChat("roof", function () {
 ```
 
 ## Step 8
-Code the ``||agent:set block or item||`` to set a **Bricks slab** at a count of **1** in slot **1** and then code the agent to ``||agent:move||`` **up by 1**.
+Code the ``||agent:set block or item||`` to set a **Bricks slab** at a count of **64** in slot **1** and then code the agent to ``||agent:move||`` **up by 1**.
 
 ```javascript
 player.onChat("roof", function () { 
-    agent.setItem(BRICKS_SLAB, 1, 1) 
+    agent.setItem(BRICKS_SLAB, 64, 1) 
     agent.move(UP, 1) 
 }) 
 ```
@@ -97,7 +97,7 @@ Inside the **roof** ``||player:on chat||`` command, code a ``||loops:for||`` loo
 	
 ```javascript
 player.onChat("roof", function () { 
-    agent.setItem(BRICKS_SLAB, 1, 1) 
+    agent.setItem(BRICKS_SLAB, 64, 1) 
     agent.move(UP, 1) 
     for (let index = 0; index < 4; index++) { 
         agent.move(BACK, 1) 
@@ -111,7 +111,7 @@ Inside the previous ``||loops:for||`` loop—above the ``||agent:move||`` **back
 
 ```javascript
 player.onChat("roof", function () { 
-    agent.setItem(BRICKS_SLAB, 1, 1) 
+    agent.setItem(BRICKS_SLAB, 64, 1) 
     agent.move(UP, 1) 
     for (let index = 0; index < 4; index++) { 
         for (let index = 0; index < 4; index++) { 
@@ -132,7 +132,7 @@ player.onChat("tp", function () {
     agent.teleportToPlayer()
 })
 player.onChat("roof", function () {
-    agent.setItem(BRICKS_SLAB, 1, 1)
+    agent.setItem(BRICKS_SLAB, 64, 1)
     agent.move(UP, 1)
     for (let index = 0; index < 4; index++) {
         for (let index = 0; index < 4; index++) {
