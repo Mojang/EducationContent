@@ -3,7 +3,7 @@
 ## Step 1
 Build a sustainable house with code! Use this starter code to get you going!
 
-```template
+```javascript
 player.onChat("rl", function () {
     agent.setItem(SANDSTONE, 64, 1)
 })
@@ -29,13 +29,4 @@ player.onChat("square", function () {
 })
 ```
 
-```ghost
-let count = 0
-if (!(false)) {
-    while (true) {
-        count = 0
-    }
-    agent.destroy(FORWARD)
-    agent.collectAll()
-}
-```
+
