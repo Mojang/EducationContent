@@ -142,7 +142,10 @@
         "Storytime-HanselGretel.md",
         "computing/unit-2/lesson-1.md",
         "computing/unit-2/lesson-2.md",
-        "computing/unit-2/lesson-3.md"
+        "computing/unit-2/lesson-3.md",
+        "computing/unit-3/lesson-1.md",
+        "computing/unit-3/lesson-2.md",
+        "computing/unit-3/lesson-3.md"
     ],
     "targetVersions": {
         "target": "1.5.30",
