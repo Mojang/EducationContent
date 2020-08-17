@@ -139,7 +139,10 @@
         "tutorials/variable/novice/jump_blocks.md",
         "python/lesson8/activity2.md",
         "python/lesson8/activity3.md",
-        "Storytime-HanselGretel.md"
+        "Storytime-HanselGretel.md",
+        "computing/unit-2/lesson-1.md",
+        "computing/unit-2/lesson-2.md",
+        "computing/unit-2/lesson-3.md"
     ],
     "targetVersions": {
         "target": "1.5.30",
