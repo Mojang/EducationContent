@@ -148,7 +148,8 @@
         "computing/unit-3/lesson-3.md",
         "computing/unit-4/lesson-1.md",
         "computing/unit-4/lesson-2.md",
-        "computing/unit-4/lesson-3.md"
+        "computing/unit-4/lesson-3.md",
+        "computing/unit-5/lesson-1.md"
     ],
     "targetVersions": {
         "target": "1.5.30",
