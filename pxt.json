@@ -247,7 +247,7 @@
         "ww1984/crate.md"
     ],
     "targetVersions": {
-        "target": "1.5.30",
+        "target": "1.5.31",
         "targetId": "minecraft"
     },
     "supportedTargets": [

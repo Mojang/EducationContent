@@ -1,7 +1,7 @@
 # Chopping Trees: Blocks
 
 ## Step 1
-Get an ``||player:on chat||`` command and name it **“tp”**.
+Get an ``||player:on chat||`` command and name it **"tp"**.
 
 ```blocks
 player.onChat("tp", function () {
@@ -19,7 +19,7 @@ player.onChat("tp", function () {
 
 ## Step 3
 
-Create another ``||player:on chat||`` command and name it **“chop”**.
+Create another ``||player:on chat||`` command and name it **"chop"**.
 
 ```blocks
 player.onChat("chop", function () {
