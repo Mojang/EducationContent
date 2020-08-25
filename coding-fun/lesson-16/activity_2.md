@@ -23,6 +23,7 @@ player.onChat("house", function (size, height) {
     }
     agent.turn(RIGHT_TURN)
 ```
+
 ```ghost
 player.onChat("build-simple", function (size, height) {
     for (let index = 0; index < height; index++) {
