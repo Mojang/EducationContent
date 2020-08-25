@@ -11,7 +11,7 @@
 Time to build the aqueducts! First, create ``||variable: length||`` and ``||variable: segments||`` variables. Then ``||variable: set length||`` to **5** and ``||variable: set segments||`` to **6** ``||loops: on start||``. 
 
 ## Step 2
-Now within an ``||player: on chat command||`` you need to add all the actions that the Agent needs to perform in order to build **1** part: ``||agent: set block pillar of quartz||`` at the count of **64**; ``||agent: place||`` commands and ``||agent:move forward||``.  Place all these actions within a ``||loops: repeat||`` loop that **repeats** ``||variable: length||`` times. 
+Now within an ``||player: on chat command||`` you need to add all the actions that the Agent needs to perform in order to build **1** part: ``||agent: set block pillar of quartz||`` at the count of **64**, ``||agent: place||`` commands, and ``||agent:move forward||``.  Place all these actions within a ``||loops: repeat||`` loop that **repeats** ``||variable: length||`` times. 
 
 ## Step 3
 Now nest the first ``||loops: repeat||`` loop within another ``||loops: repeat||`` loop that repeats ``||variables:segments||`` times. Try it out in Minecraft!
