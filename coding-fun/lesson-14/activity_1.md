@@ -12,7 +12,7 @@ You need to ``||player:sneak past||`` the dinosaur by making yourself ``||mobs:i
 
 
 ### ~ tutorialHint
-If you are on a Windows device, try pressing shift and W to sneak in Minecraft. 
+Try pressing shift and W to sneak in Minecraft. 
 
 
 ```ghost
