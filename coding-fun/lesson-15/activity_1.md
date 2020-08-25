@@ -8,7 +8,7 @@
 # Mining Quartz!
 
 ## Step 1
-Create an app that will **calculate** how many **blocks** you need to build the remaining columns. Here are some facts: there are **6 columns** and each column is **6 blocks high**. Start by creating and setting ``||variable:height||`` and ``||variable:quantity||`` variables to the correct numbers ``||loops: on start||``, then create a ``||variable:total blocks||`` variable. 
+Write some code that will **calculate** how many **blocks** you need to build the remaining columns. Here are some facts: there are **6 columns** and each column is **6 blocks high**. Start by creating and setting ``||variable:height||`` and ``||variable:quantity||`` variables to the correct numbers ``||loops: on start||``, then create a ``||variable:total blocks||`` variable. 
 
 ## Step 2
 Set up a condition, ``||logic: if||`` the ``||variable:total blocks||`` = ``||variable:height||`` * ``||variable:quantity||``, then ``||player: say||`` "Collected enough blocks!". 
