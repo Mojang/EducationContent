@@ -22,6 +22,7 @@ player.onChat("house", function (size, height) {
         agent.move(FORWARD, 1)
     }
     agent.turn(RIGHT_TURN)
+    )
 ```
 
 ```ghost
