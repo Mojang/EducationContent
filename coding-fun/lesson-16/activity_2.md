@@ -8,7 +8,7 @@
 # Build a starter house!
 
 ## Step 1
-Use the provided sample code to place 1 row of blocks. Then Agent needs to repeat the same procedure **4 times**, then ``||agent: move up||`` and **repeat** it more. Create a new ``||variable: variable||`` and name it **height**. Add **height** to the ``||loops: repeat||`` block. This code will allow you to build **1** house. 
+Use the provided sample code to place 1 row of blocks. Then Agent needs to repeat the same procedure **4 times**, then ``||agent: move up||`` and **repeat** it more. Get the ``||variable: height||`` and add it to the ``||loops: repeat||`` block. This code will allow you to build **1** house. 
 
 
 ### ~ tutorialHint
