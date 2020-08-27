@@ -14,15 +14,15 @@ Use the provided sample code to place 1 row of blocks. Then Agent needs to repea
 ### ~ tutorialHint
 Don't forget to input your numbers in the in-game chat when typing in the command, for example **house 2 5**. 
 
-```template
-player.onChat("house", function (size, height) {
+```template    
+ player.onChat("house", function (height, size) {
     for (let index = 0; index < size; index++) {
         agent.setItem(STONE, 1, 1)
         agent.place(DOWN)
         agent.move(FORWARD, 1)
     }
     agent.turn(RIGHT_TURN)
-    )
+})
 ```
 
 ```ghost
