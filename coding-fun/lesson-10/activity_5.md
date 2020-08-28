@@ -19,6 +19,7 @@ player.onChat("3", function () {
             agent.turn(LEFT_TURN)
         }
     }
+agent.place(FORWARD)
 agent.destroy(FORWARD)
 agent.collectAll()
 agent.place(FORWARD)
