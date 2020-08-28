@@ -8,7 +8,7 @@
 # Beets!
 
 ## Step 1
-You are provided with three functions: ``||functions: plantSeed||``, ``||functions: plantSection||`` and ``||functions: checkTurn||``. First, create 2 new ``||variable: variables||`` and name them **block** and **block2**. Set ``||variable: block||`` to **lapis lazuli** and ``||variable: block2||`` to **quartz**. Swap **lapis lazuli** and **quartz** in the ``||functions: turn||`` function to the newly created variables. In the new ``||player: on chat||`` command add your condition: ``||loops:while||`` the Agent is ``||agent:inspecting the block down||``, and it is not a **gold block**, ``||functions: call||`` the necessary functions. 
+You are provided with three functions: ``||functions: plantSeed||``, ``||functions: plantSection||`` and ``||functions: checkTurn||``. First, create 2 new ``||variable: variables||`` and name them **leftBlock** and **rightBlock**. Set ``||variable: leftBlock||`` to **lapis lazuli** and ``||variable: rightBlock||`` to **quartz**. Swap **lapis lazuli** and **quartz** in the ``||functions: turn||`` function to the newly created variables. In the new ``||player: on chat||`` command add your condition: ``||loops:while||`` the Agent is ``||agent:inspecting the block down||``, and it is not a **gold block**, ``||functions: call||`` the necessary functions. 
 
 
 
@@ -32,7 +32,7 @@ function plantSeed () {
         agent.place(DOWN)
     }
 }
-function turn (block: number, block2: number) {
+function turn (leftBlock: number, rightBlock: number) {
     if (agent.inspect(AgentInspection.Block, DOWN) == LAPIS_LAZULI_BLOCK) {
         agent.turn(RIGHT_TURN)
         agent.move(FORWARD, 1)
@@ -55,7 +55,7 @@ player.onChat("plant", function () {
     }
 })
 
-function turn (block: number, block2: number) {
+function turn (leftBlock: number, rightBlock: number) {
     if (agent.inspect(AgentInspection.Block, DOWN) == block) {
         agent.turn(RIGHT_TURN)
         agent.move(FORWARD, 1)
@@ -67,6 +67,6 @@ function turn (block: number, block2: number) {
     }
 }
 
-let block = BLOCK_OF_QUARTZ
-let block2 = LAPIS_LAZULI_BLOCK
+let leftBlock = BLOCK_OF_QUARTZ
+let rightBlock = LAPIS_LAZULI_BLOCK
 ```
