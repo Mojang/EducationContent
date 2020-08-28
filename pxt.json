@@ -154,7 +154,7 @@
         "computing/unit-5/lesson-3.md"
     ],
     "targetVersions": {
-        "target": "1.5.32",
+        "target": "1.5.33",
         "targetId": "minecraft"
     },
     "supportedTargets": [
