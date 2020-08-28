@@ -8,7 +8,7 @@
 # Beets!
 
 ## Step 1
-You are provided with three functions: ``||functions: plantSeed||``, ``||functions: plantSection||`` and ``||functions: checkTurn||``. First, create 2 new ``||variable: variables||`` and name them **block** and **block2**. Set ``||variable: block||`` to **lapis lazuli** and ``||variable: block2||`` to **quartz**. Swap **lapis lazuli** and **quartz** in the ``||functions: checkTurn||`` function to the newly created variables. In the new ``||player: on chat||`` command add your condition: ``||loops:while||`` the Agent is ``||agent:inspecting the block down||``, and it is not a **gold block**, ``||functions: call||`` the neccessary functions. 
+You are provided with three functions: ``||functions: plantSeed||``, ``||functions: plantSection||`` and ``||functions: checkTurn||``. First, create 2 new ``||variable: variables||`` and name them **block** and **block2**. Set ``||variable: block||`` to **lapis lazuli** and ``||variable: block2||`` to **quartz**. Swap **lapis lazuli** and **quartz** in the ``||functions: checkTurn||`` function to the newly created variables. In the new ``||player: on chat||`` command add your condition: ``||loops:while||`` the Agent is ``||agent:inspecting the block down||``, and it is not a **gold block**, ``||functions: call||`` the necessary functions. 
 
 
 
