@@ -17,7 +17,7 @@ Now within an ``||player: on chat command||`` you need to add all the actions th
 Now nest the first ``||loops: repeat||`` loop within another ``||loops: repeat||`` loop that repeats ``||variables:segments||`` times. Try it out in Minecraft!
 
 ### ~ tutorialHint
-Add ``||agent: agent move down||`` block before the first loop to make the code work!
+Add ``||agent: agent move down||`` block before the inner loop to make the code work!
 
 ```ghost
 player.onChat("build", function () {
