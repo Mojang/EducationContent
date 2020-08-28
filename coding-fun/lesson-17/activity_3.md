@@ -37,7 +37,7 @@ function plantSeed () {
 ```
 
 ```ghost
-player.onChat("checkTurn", function () {
+player.onChat("turn", function () {
     plantSection()
     if (agent.inspect(AgentInspection.Block, DOWN) == LAPIS_LAZULI_BLOCK) {
         agent.turn(RIGHT_TURN)
