@@ -8,6 +8,7 @@ We will start with building the walls. Rename the ``||Player:on chat command||``
 
 Drag and drop the ``||Agent:agent set active slot||`` code block to the coding Workspace and add it to your  ``||Player:on chat command||`` code block. 
 
+#### ~ tutorialhint
 ``` blocks
 player.onChat("build_a_structure.", function () {
     agent.setSlot(1)
@@ -18,6 +19,7 @@ player.onChat("build_a_structure.", function () {
 Drag the ``||Agent:agent [place on move]||`` code block to your ``||Player:on chat command||`` code set.
 Use the drop-down menu to change the **false** element of this block to **true**. 
 
+#### ~ tutorialhint
 ``` blocks
 player.onChat("build_a_structure.", function () {
     agent.setSlot(1)
@@ -28,6 +30,7 @@ player.onChat("build_a_structure.", function () {
 ## Step 4
 Drag the ``||Loops:repeat [4] times||`` code block to become the next step in your ``||Player:on chat command||`` set. 
 
+#### ~ tutorialhint
 ``` blocks
 player.onChat("build_a_structure.", function () {
     agent.setSlot(1)
@@ -43,6 +46,7 @@ Drag the ``||Agent:agent move [forward]||``, this time placing it inside your ``
 
 Change the number in the ``||Agent:agent move [forward]||`` code block to **5**. 
 
+#### ~ tutorialhint
 ``` blocks
 player.onChat("build_a_structure.", function () {
     agent.setSlot(1)
@@ -56,6 +60,7 @@ player.onChat("build_a_structure.", function () {
 ## Step 6
 Drag the ``||Agent:agent turn [left]||``, this time placing it inside your ``||Loops:repeat [4] times||`` code set. You can change the direction, depending on what and where you are building. For this example, we will leave it to **left**. 
 
+#### ~ tutorialhint
 ``` blocks
 player.onChat("build_a_structure.", function () {
     agent.setSlot(1)
@@ -74,6 +79,7 @@ The ``||Agent:repeat [4] times||`` code block has coded the Agent to walk forwar
 ## Step 8
 Add another ``||Agent:agent move [forward]||``, then change it to **up**. Place this one outside of and after the ``||Agent:repeat [4] times||`` code block as a new and separate action. This will move your Agent up one block and fill the block below as it does.
 
+#### ~ tutorialhint
 ``` blocks
 player.onChat("build_a_structure.", function () {
     agent.setSlot(1)
@@ -89,6 +95,7 @@ player.onChat("build_a_structure.", function () {
 ## Step 9
 Add another ``||Agent:agent place on move ||``, and leave this one set to **false** because we don't want our Agent to build this time as it moves. 
 
+#### ~ tutorialhint
 ``` blocks
 player.onChat("build_a_structure.", function () {
     agent.setSlot(1)
@@ -105,6 +112,7 @@ player.onChat("build_a_structure.", function () {
 ## Step 10
 Add another ``||Agent:agent move [forward]||``, then change it to **right**. This will put your Agent back at the beginning and ready to start the second layer of walls. 
 
+#### ~ tutorialhint
 ``` blocks
 player.onChat("build_a_structure.", function () {
     agent.setSlot(1)
@@ -130,6 +138,7 @@ Test your code!
 ## Step 13
 Add another ``||Agent:agent set active slot||``, and set it to **2**. This means that your Agent will now start to use the materials set in the second slot of its inventory. In our example, this will be **Stone Slabs**. 
 
+#### ~ tutorialhint
 ``` blocks
 player.onChat("build_a_structure.", function () {
     agent.setSlot(1)
@@ -151,6 +160,7 @@ player.onChat("build_a_structure.", function () {
 ## Step 14
 Bring another ``||Loops:repeat [4] times||`` to the coding Workspace, set it to **3**. Add this to the end of your coding so far. 
 
+#### ~ tutorialhint
 ``` blocks
 player.onChat("build_a_structure.", function () {
     agent.setSlot(1)
