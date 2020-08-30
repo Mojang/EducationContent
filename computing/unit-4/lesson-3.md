@@ -9,6 +9,7 @@ Visit the ``||Builder:BUILDER||`` drawer on the left of the screen. The ``||Buil
 
 Set the coordinates of the first to begin. Drag a ``||Builder:builder teleport to [~0] [~0] [~0]||`` block into your ``||Player:on chat command||`` block. 
 
+#### ~ tutorialhint
 ``` blocks
 player.onChat("ocelot_wall", function () {
     builder.teleportTo(pos(0, 0, 0))
@@ -20,6 +21,7 @@ Drag the``||Positions:world [0] [0] [0]||`` oval onto your coding Workspace, rep
 
 Now set the ``||Positions:world [0] [0] [0]||`` coordinates to the position you want to start building your wall. We have marked our intended start point with **Yellow Wool** in the picture below with the coordinates **-38, 69, -576**. Write the coordinates of your starting point, or first marker, in your workbook. 
 
+#### ~ tutorialhint
 ``` blocks
 player.onChat("ocelot_wall", function () {
     builder.teleportTo(world(-38, 69, -576))
@@ -38,7 +40,7 @@ Return to the ``||Builder:BUILDER||`` drawer and look for the ``||Builder:builde
 
 Note:  If the direction your player is facing is East, North or South, change this code block accordingly. To recap, you use the **compass** to find the direction you want the ``||Builder:BUILDER||`` to go and then enter that into this code block. 
 
-
+#### ~ tutorialhint
 ``` blocks
 player.onChat("ocelot_wall", function () {
     builder.teleportTo(world(-38, 69, -576))
@@ -49,6 +51,7 @@ player.onChat("ocelot_wall", function () {
 ## Step 5
 Now return to the ``||Builder:BUILDER||`` menu and drag a ``||Builder:builder move [forward]||`` block to your main code. 
 
+#### ~ tutorialhint
 ``` blocks
 player.onChat("ocelot_wall", function () {
     builder.teleportTo(world(-38, 69, -576))
@@ -62,6 +65,7 @@ Change the number of the ``||Builder:builder move [forward]||`` to the number of
 
 Now drag a ``||Builder:builder turn [left]||`` code block to your main code. 
 
+#### ~ tutorialhint
 ``` blocks
 player.onChat("ocelot_wall", function () {
     builder.teleportTo(world(-38, 69, -576))
@@ -76,6 +80,7 @@ Change this to the direction you wish your ``||Builder:BUILDER||`` to face next.
 
 Add another ``||Builder:builder move [forward]||`` code block and change the number to the total number of blocks you would like to build in this new direction. In our example, this is **9**. 
 
+#### ~ tutorialhint
 ``` blocks
 player.onChat("ocelot_wall", function () {
     builder.teleportTo(world(-38, 69, -576))
@@ -91,6 +96,7 @@ Tell the BUILDER what material to use. Finally, give your ``||Builder:BUILDER||`
 
 This tells your builder to leave a trail of a given material in the path it traces as it moves. 
 
+#### ~ tutorialhint
 ``` blocks
 player.onChat("ocelot_wall", function () {
     builder.teleportTo(world(-38, 69, -576))
@@ -105,6 +111,7 @@ player.onChat("ocelot_wall", function () {
 ## Step 9
 Use the drop-down menu to change the material element to the material you would like your perimeter wall to be. In our example, we will use **Stone Bricks**. 
 
+#### ~ tutorialhint
 ``` blocks
 player.onChat("ocelot_wall", function () {
     builder.teleportTo(world(-38, 69, -576))
@@ -125,6 +132,7 @@ Add fencing and other details. This wall won't keep ocelots in, let's add fencin
 ## Step 12
 Repeat the above coding or adjust your existing code to do this. You will only need to change your location to one block higher and the material to **Oak Fence**. See our example: 
 
+#### ~ tutorialhint
 ``` blocks
 player.onChat("ocelot_wall", function () {
     builder.teleportTo(world(-38, 70, -576))
@@ -149,6 +157,7 @@ Drag a ``||Mobs:spawn [animal] at||`` code block from the ``||Mobs:MOBS||`` menu
 
 Use the drop-down menu to change the **animal** element to **ocelot**. 
 
+#### ~ tutorialhint
 ``` blocks
 player.onChat("ocelot", function () {
     mobs.spawn(OCELOT, pos(0, 0, 0))
@@ -158,6 +167,7 @@ player.onChat("ocelot", function () {
 ## Step 16
 Go to the ``||Positions:POSITIONS||`` drawer and grab a ``||Positions:world [0] [0] [0]||`` to replace the **relative** coordinates oval. Then change the numbers to a position inside the enclosure. In our example, we will set them to **-50, 69, -580**. 
 
+#### ~ tutorialhint
 ``` blocks
 player.onChat("ocelot", function () {
     mobs.spawn(OCELOT, world(-50, 69, -580))
