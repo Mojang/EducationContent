@@ -1,3 +1,5 @@
+### @explicitHints 1
+
 #Lesson 3: Code Animal Enclosures 
 
 ## Step 1

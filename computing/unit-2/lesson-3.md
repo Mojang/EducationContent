@@ -1,3 +1,5 @@
+### @explicitHints 1
+
 # Lesson 3: Code a Row of Houses
 
 ## Step 1

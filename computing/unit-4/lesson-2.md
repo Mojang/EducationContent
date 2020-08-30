@@ -1,3 +1,5 @@
+### @explicitHints 1
+
 #Lesson 2: Code Zoo Paths 
 
 ## Step 1

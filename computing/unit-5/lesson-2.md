@@ -1,3 +1,5 @@
+### @explicitHints 1
+
 #Lesson 2: Animate the Wind Farm 
 
 ## Step 1

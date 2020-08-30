@@ -1,24 +1,13 @@
+### @explicitHints 1
+
 #Lesson 1: Code a Park Fence
 
 ## Step 1
-In Minecraft, ensure your player is at the following coordinates: **67, 69, -557**. If needed, teleport your player to the position by typing **/tp 67 69 -557** and selecting **Enter**.
-
-Press **E** to access your inventory and select **Iron Bars**. Place them in your own inventory. 
-
-Right click on your Agent and transfer the **Iron Bars** to its inventory. 
-
-Position your Agent at the place you wish to start building the fence. In our example, we have marked this with **Yellow Wool**. 
-
-## Step 2
-Count the number of blocks you want your Agent to move and place fencing and note this in the space in your workbook. In our example, we have used **Yellow Wool** to mark every second space, allowing us to calculate it clearly and without error. We can replace these blocks with grass again once this is done. In our example, this is 25. 
-
-Assuming your park is made up of four straight sides (as is our example park), measure the second side, immediately adjoining the end of the first you measured. In our example, this is 23. Our park is 23 x 25 bocks. Mark this information in the space in your workbook. 
-
-## Step 3
 Rename the **run** element of the ``||Player||on chat command||`` block to **park_fence**. 
 
 Drag and drop the ``||Agent:agent set active slot||`` code block to the coding Workspace and add it to your  ``||Player:on chat command||`` code block.  
 
+#### ~ tutorialhint
 ``` blocks
 player.onChat("park_fence", function () {
     agent.setSlot(1)

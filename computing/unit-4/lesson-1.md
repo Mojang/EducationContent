@@ -1,3 +1,5 @@
+### @explicitHints 1
+
 #Lesson 1: Code a Zoo Entrance
 
 ## Step 1
