@@ -12,9 +12,7 @@ Create your first model of the turbine blades in one specific position of rotati
 Remember when you use the ``||Blocks:clone||`` tool, the orientation of whatever you copy will always be the same. For example, if a building faces east, it is always going to face east. 
 
 ## Step 2
-Now create another next to this one, only design the blades to be in another state of rotation. 
-
-Create the third and final variation of the blades in one more, a different state of rotation.   
+Now create another next to this one, only design the blades to be in another state of rotation. Create the third and final variation of the blades in one more, a different state of rotation.   
 
 These three builds are three frames of what will be an animation. Like frames of a cartoon or a movie, when quickly played one after the other, they will create the illusion of movement.  
 
@@ -24,7 +22,7 @@ Clone the model blades on your first turbine. The next phase is to code the mode
 Select a new ``||Player:on chat command||`` code block, then change the text to **wind_turbine**. 
 
 Drag a ``||Loops:repeat [4] times||`` code block to your ``||Player:on chat command||`` block. For testing purposes, we will leave it set to **4**. 
-
+#### ~ tutorialhint
 ``` blocks
 player.onChat("wind_turbine", function () {
     for (let index = 0; index < 4; index++) {
@@ -36,6 +34,7 @@ player.onChat("wind_turbine", function () {
 ## Step 4
 Now visit the ``||Blocks:BLOCKS||`` drawer and select a ``||Blocks:clone from||`` block to your ``||Player:on chat command||`` block. 
 
+#### ~ tutorialhint
 ``` blocks
 player.onChat("wind_turbine", function () {
     for (let index = 0; index < 4; index++) {
@@ -52,7 +51,7 @@ player.onChat("wind_turbine", function () {
 
 ## Step 5
 Replace all three of the **relative** coordinates oval with ``||Positions:world [0] [0] [0]||`` coordinates oval from the ``||Positions:POSITIONS||`` menu.  
-
+#### ~ tutorialhint
 ``` blocks
 player.onChat("wind_turbine", function () {
     for (let index = 0; index < 4; index++) {
@@ -69,7 +68,7 @@ player.onChat("wind_turbine", function () {
 
 ## Step 6
 Right click on the ``||Blocks:clone from||`` code block and select **Duplicate** to create another faded version, then drag it into your code block, under the first.   
-
+#### ~ tutorialhint
 ``` blocks
 player.onChat("wind_turbine", function () {
     for (let index = 0; index < 4; index++) {
@@ -93,7 +92,7 @@ player.onChat("wind_turbine", function () {
 
 ## Step 7
 Create one more duplicate and place this below again, so you have three ``||Blocks:clone from||`` blocks in total. 
-
+#### ~ tutorialhint
 ``` blocks
 player.onChat("wind_turbine", function () {
     for (let index = 0; index < 4; index++) {
@@ -144,7 +143,7 @@ Note the coordinate of the top most block of the tower in your workbook.
 
 ## Step 12
 Then add this to the into coordinates of all three of your ``||Blocks:clone from||`` code blocks. 
-
+#### ~ tutorialhint
 ``` blocks
 player.onChat("wind_turbine", function () {
     for (let index = 0; index < 4; index++) {
@@ -196,5 +195,5 @@ When it's cloned correctly, remove the test blocks that you added to determine h
 
 Don't remove your model blades! They must stay there so you can clone them on your other turbines. 
 
-Animate the other turbines in your farm.Now that you finished the first one, you're ready to animate other turbines. Remember, you can use the same model coordinates and just change the ``||Blocks:into||`` coordinates input for each new turbine. 
+Animate the other turbines in your farm. Now that you finished the first one, you're ready to animate other turbines. Remember, you can use the same model coordinates and just change the ``||Blocks:into||`` coordinates input for each new turbine. 
  
