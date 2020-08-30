@@ -10,6 +10,7 @@ This code block allows you to clone a designated area of a Minecraft world and p
 
 When you clone, the orientation or direction of the building will be the same as the copied building. So, if the building you copy is facing east, the cloned building will also face east.
 
+#### ~ tutorialhint
 ``` blocks
 player.onChat("clone_here.", function () {
     blocks.clone(
@@ -34,6 +35,7 @@ Now create a top and opposite corner, creating an invisible box around the struc
 ## Step 4
 Visit the ``||Positions:POSITIONS||`` toolbox drawer and replace the first two coordinates with ``||Positions:world||`` coordinates. We know from our **Yellow Wool** that each of these coordinates are absolute. 
 
+#### ~ tutorialhint
 ``` blocks
 player.onChat("clone_here.", function () {
     blocks.clone(
@@ -51,7 +53,7 @@ Change the first set of coordinates (from **Step 9**) to the ``||Blocks:clone fr
 
 The last coordinates are relative to your player, so your player will become the marker for the place you want to clone the house. You'll need to move your player each time you want to clone another house. 
 
-
+#### ~ tutorialhint
 ``` blocks
 player.onChat("clone_here.", function () {
     blocks.clone(
