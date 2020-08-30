@@ -3,7 +3,6 @@
 ## Step 1
 Manually build the house to your design specification. Do this in a space you will not otherwise be using.
 
-
 ## Step 2
 Rename the **run** element of the ``||Player:on chat command||`` block to **clone_here**. Drag a ``||Blocks:clone from||`` code block to your ``||Player:on chat command||``. 
 
