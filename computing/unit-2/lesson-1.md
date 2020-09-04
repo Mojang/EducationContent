@@ -9,6 +9,7 @@ Rename the **run** element of the ``||Player:on chat command||`` block to **road
 player.onChat("road_1", function () {
     blocks.fill(
     GRASS,
+
     pos(0, 0, 0),
     pos(0, 0, 0),
     FillOperation.Replace
@@ -60,7 +61,6 @@ player.onChat("road_1", function () {
 ```
 
 ## Step 5
-Now add your first set of written coordinates **-22, 69, -565** to the first set of ``||Positions:world [0] [0] [0]||`` positions block. Do the same for the second set of world positions, adding your coordinates from **Step 5**.  
 
 ``` blocks
 player.onChat("road_1", function () {
@@ -71,6 +71,7 @@ player.onChat("road_1", function () {
     FillOperation.Replace
     )
 })
+
 ```
 
 ## Step 6
@@ -78,6 +79,7 @@ We are almost ready to test our code, however there is one more important thing 
 
 ## Step 7
 Repeat the steps for the second road. 
+
 
 ``` blocks
 player.onChat("road_2", function () {
@@ -89,19 +91,5 @@ player.onChat("road_2", function () {
     )
 })
 ```
-## Step 8
-Repeat the steps for the third road, crossing over the previous two to create a road network. 
 
-``` blocks
-player.onChat("road_3", function () {
-    blocks.fill(
-    GRAY_CONCRETE,
-    world(-22, 68, -565),
-    world(61, 68, -569),
-    FillOperation.Replace
-    )
-})
-```
-## Step 9
-Repeat the spets to add any extra roads you think you need. You can add the white lines manually or you can code your Agent to do it. 
 
