@@ -13,8 +13,6 @@ player.onChat("park_fence", function () {
     agent.setSlot(1)
 })
 ```
-
-
 ## Step 4
 Drag the ``||Agent:agent [place on move]||`` code block to the coding Workspace, add it to your ``||Player:on chat command||`` code block, then set it to **true**. Now your Agent will place the **Iron Fence** from inventory **slot 1**, as it walks.
 
