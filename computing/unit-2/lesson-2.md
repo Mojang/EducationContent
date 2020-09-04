@@ -1,27 +1,18 @@
-### @explicitHints 1
-
-# Lesson 2: Code a Building 
+# Lesson 2: Code a Building
 
 ## Step 1
-Make sure the Agent has these blocks in its inventory: **Slot 1: Light Grey Concrete** for the walls. **Slot 2: Stone Slabs** for the roof. **Slot 3: White Stained-Glass Pane** for the windows. **Slot 4: A Birch Door**.  
+Let's start with building the walls. Rename the **run** element of the ``||Player:on chat command||`` block to **build_a_structure**. Drag and drop the ``||Agent:agent set active slot||`` code block to the coding Workspace and add it to your  ``||Player:on chat command||`` code block. 
 
-## Step 2
-We will start with building the walls. Rename the ``||Player:on chat command||`` block to **build_a_structure**. 
-
-Drag and drop the ``||Agent:agent set active slot||`` code block to the coding Workspace and add it to your  ``||Player:on chat command||`` code block. 
-
-#### ~ tutorialhint
 ``` blocks
 player.onChat("build_a_structure.", function () {
     agent.setSlot(1)
 })
 ```
 
-## Step 3
-Drag the ``||Agent:agent [place on move]||`` code block to your ``||Player:on chat command||`` code set.
-Use the drop-down menu to change the **false** element of this block to **true**. 
+## Step 2
+Drag the ``||Agent:agent [place on move]||`` code block to your   ``||Player:on chat command||`` code set. Use the drop-down menu to change the **false** element of this block to **true**. 
 
-#### ~ tutorialhint
+
 ``` blocks
 player.onChat("build_a_structure.", function () {
     agent.setSlot(1)
@@ -29,10 +20,10 @@ player.onChat("build_a_structure.", function () {
 })
 ```
 
-## Step 4
-Drag the ``||Loops:repeat [4] times||`` code block to become the next step in your ``||Player:on chat command||`` set. 
+## Step 3
+Now let's give our Agent some instructions on what to build and how. Visit the ``||Loops:LOOPS||`` toolbox drawer on the left-hand menu. Drag the ``||Loops:repeat [4] times||`` code block to become the next step in your ``||Player:on chat command||`` set. 
 
-#### ~ tutorialhint
+
 ``` blocks
 player.onChat("build_a_structure.", function () {
     agent.setSlot(1)
@@ -43,12 +34,11 @@ player.onChat("build_a_structure.", function () {
 })
 ```
 
-## Step 5
-Drag the ``||Agent:agent move [forward]||``, this time placing it inside your ``||Loops:repeat [4] times||`` code set. 
 
-Change the number in the ``||Agent:agent move [forward]||`` code block to **5**. 
+## Step 4
+Return to the ``||Agent:AGENT||`` toolbox drawer and drag the ``||Agent:agent move [forward]||``, this time placing it inside your ``||Loops:repeat [4] times||`` code set. 
 
-#### ~ tutorialhint
+
 ``` blocks
 player.onChat("build_a_structure.", function () {
     agent.setSlot(1)
@@ -59,10 +49,9 @@ player.onChat("build_a_structure.", function () {
 })
 ```
 
-## Step 6
-Drag the ``||Agent:agent turn [left]||``, this time placing it inside your ``||Loops:repeat [4] times||`` code set. You can change the direction, depending on what and where you are building. For this example, we will leave it to **left**. 
+## Step 5
+Change the number in the ``||Agent:agent move [forward]||`` code block to **5**. Drag the ``||Agent:agent turn [left]||``, this time placing it inside your ``||Loops:repeat [4] times||`` code set. You can change the direction, depending on what and where you are building. For this example, we will leave it to **left**. 
 
-#### ~ tutorialhint
 ``` blocks
 player.onChat("build_a_structure.", function () {
     agent.setSlot(1)
@@ -74,14 +63,13 @@ player.onChat("build_a_structure.", function () {
 })
 ```
 
+## Step 6
+Test the code, it’s going to build four walls and leave our Agent near the start again. 
+
 ## Step 7
-If you test the code, it's going to build four walls and leave our Agent near the start again. 
-The ``||Agent:repeat [4] times||`` code block has coded the Agent to walk forward and turn left four times, while the code before this coded the Agent to leave a block of material each time it moved. But the Agent is stuck because the first block placed is in the way. So, we need to add another piece of code that will put Agent back to the start. 
+Return to the ``||Agent:AGENT||`` toolbox drawer and add another ``||Agent:agent move [forward]||``, then change it to **up**. Though place this one outside of and after the ``||Agent:repeat [4] times||`` code block as a new and separate action. This will move your Agent up one block and fill the block below as it does.
 
-## Step 8
-Add another ``||Agent:agent move [forward]||``, then change it to **up**. Place this one outside of and after the ``||Agent:repeat [4] times||`` code block as a new and separate action. This will move your Agent up one block and fill the block below as it does.
 
-#### ~ tutorialhint
 ``` blocks
 player.onChat("build_a_structure.", function () {
     agent.setSlot(1)
@@ -94,10 +82,10 @@ player.onChat("build_a_structure.", function () {
 })
 ```
 
-## Step 9
-Add another ``||Agent:agent place on move ||``, and leave this one set to **false** because we don't want our Agent to build this time as it moves. 
+## Step 8
+Add another ``||Agent:agent move [forward]||``, and leave this one set to **false**. Because we don’t want our Agent to build this time as it moves. 
 
-#### ~ tutorialhint
+
 ``` blocks
 player.onChat("build_a_structure.", function () {
     agent.setSlot(1)
@@ -111,10 +99,11 @@ player.onChat("build_a_structure.", function () {
 })
 ```
 
-## Step 10
+
+## Step 9
 Add another ``||Agent:agent move [forward]||``, then change it to **right**. This will put your Agent back at the beginning and ready to start the second layer of walls. 
 
-#### ~ tutorialhint
+
 ``` blocks
 player.onChat("build_a_structure.", function () {
     agent.setSlot(1)
@@ -129,18 +118,16 @@ player.onChat("build_a_structure.", function () {
 })
 ```
 
-## Step 11
+## Step 10
 Now, we need to repeat this process for the four layers of wall. This will require another loop. 
-Add another ``||Loops:repeat [4] times||`` to your coding Workspace, only this time, we want to repeat everything from **Steps 12-18**. Drag it and hold it until you can see the yellow **insert** marker show above the first ``||Loops:repeat [4] times||`` code block, as shown below. Once you add it fully, it will create a loop of the original loop. It will repeat what your Agent does another four times. 
+Return to your ``||Loops:LOOPS||`` drawer and bring another ``||Loops:repeat [4] times||`` to your coding Workspace, only this time, we want to repeat the walls building steps. 
+
+## Step 11
+Return to the ``||Agent:AGENT||`` toolbox drawer and add another ``||Agent:agent [place on move]||``, and set it to **true**. Test your code. 
 
 ## Step 12
-Add another ``||Agent:agent [place on move]||``, and set it to **true**. 
-Test your code! 
+Return to the ``||Agent:AGENT||`` toolbox drawer and add another ``||Agent:agent set active slot||``, and set it to **2**. This means that your Agent will now start to use the materials set in the second slot of its inventory. In our example, this will be **Stone Slabs**. 
 
-## Step 13
-Add another ``||Agent:agent set active slot||``, and set it to **2**. This means that your Agent will now start to use the materials set in the second slot of its inventory. In our example, this will be **Stone Slabs**. 
-
-#### ~ tutorialhint
 ``` blocks
 player.onChat("build_a_structure.", function () {
     agent.setSlot(1)
@@ -159,10 +146,6 @@ player.onChat("build_a_structure.", function () {
 })
 ```
 
-## Step 14
-Bring another ``||Loops:repeat [4] times||`` to the coding Workspace, set it to **3**. Add this to the end of your coding so far. 
-
-#### ~ tutorialhint
 ``` blocks
 player.onChat("build_a_structure.", function () {
     agent.setSlot(1)
@@ -183,10 +166,6 @@ player.onChat("build_a_structure.", function () {
     }
 })
 ```
-
-## Step 15
-Agent needs to ``||Agent:agent move [forward]||`` **5** steps, then **left** **1** block, then **back** **5** blocks and **left** **1** block. 
-
 
 ``` blocks
 player.onChat("build_a_structure.", function () {
@@ -212,11 +191,8 @@ player.onChat("build_a_structure.", function () {
 })
 ```
 
-## Step 16
-Test the code now. Now let's add the final details: a window and a door. Your Agent should now hover above one wall and so let's start adding details there.  
-
-## Step 17
-Drag another ``||Agent:agent [place on move]||`` block and leave it set to **false**. Then add another ``||Agent:agent move [forward]||``, and set it to **down** and **3**. Your Agent will move down three spaces to the level that a window might be placed so it won't place any roof tiles. 
+## Step 15
+Now it is time to build a roof. Add another ``||Agent:agent [place on move]||`` and leave it set to **false**. Then add another ``||Agent:agent move [forward]||``, and set it to **down** and **3**. Your Agent will move down three spaces to the level that a window might be placed so it won’t place any roof tiles. 
 
 ``` blocks
 player.onChat("build_a_structure.", function () {
@@ -244,7 +220,8 @@ player.onChat("build_a_structure.", function () {
 })
 ```
 
-## Step 18
+
+## Step 16
 Add another ``||Agent:agent move [forward]||``, and set it to ``||Agent:forward||`` and **1**.
 
 ``` blocks
@@ -274,13 +251,15 @@ player.onChat("build_a_structure.", function () {
 })
 ```
 
-## Step 19
+
+## Step 17
 Add another ``||Agent:set active slot||``, and set it to **3**. This will select your Agent's third Inventory slot and make **Glass Panes** your next building material. 
 
-Select the new code block, ``||Agent:agent destroy [forward]||``. Add it below the last block and change its value to **right**. This will make your Agent remove the block immediately to the right making a hole in the wall, ready for a window. 
+Add an ``||Agent:agent destroy [forward]||`` block. Add it below the last block and change its value to **right**. This will make your Agent remove the block immediately to the right making a hole in the wall, ready for a window. 
 
-## Step 20
-Drag an ``||Agent:agent place [back]||`` and use the drop-down menu to change it to **right**. This will code your Agent to place a **Glass Pane** in the gap left after destroying the wall block. 
+## Step 18
+Now select the new code block, ``||Agent:agent place [back]||`` and use the drop-down menu to change it to **right**. This will code your Agent to place a **Glass Pane** in the gap left after destroying the wall block. 
+
 
 ``` blocks
 player.onChat("build_a_structure.", function () {
@@ -311,11 +290,13 @@ player.onChat("build_a_structure.", function () {
 })
 ```
 
-## Step 21
+
+## Step 19
 Add another ``||Agent:agent destroy [forward]||`` code block. Leave it set to **forward** and change the numbering to **2**.
 
-## Step 22
-We are placing a door, that's why we will need to destroy two blocks high in the wall. Start by destroying this one by placing an ``||Agent:agent destroy [forward]||`` code block and setting it to **right**. 
+## Step 20
+Because we are placing a door, we will need to destroy two blocks high in the wall. Start by destroying this one by placing an ``||Agent:agent destroy [forward]||`` code block and setting it to **right**. 
+
 
 ``` blocks
 player.onChat("build_a_structure.", function () {
@@ -348,7 +329,8 @@ player.onChat("build_a_structure.", function () {
 })
 ```
 
-## Step 23
+## Step 21
+
 Add another ``||Agent:agent move [forward]||`` code block. Change it to **down**. This will place your Agent right where we want to place a door. So, we need to set the right active inventory slot and then place a door. 
 
 ``` blocks 
@@ -383,9 +365,11 @@ player.onChat("build_a_structure.", function () {
 })
 ```
 
-## Step 24
+## Step 22
 Add another ``||Agent:agent destroy [forward]||`` code block. Change it to **right**.
-Drag another ``||Agent:select active slot||`` code block. Change it to **4**. This will select your Agent's fourth Inventory slot, the **Acacia Door**. 
+
+Return to the ``||Agent:AGENT||`` drawer and add another ``||Agent:select active slot||`` code block. Change it to **4**. This will select your Agent's fourth Inventory slot, the **Acacia Door**. 
+
 
 ``` blocks
 player.onChat("build_a_structure.", function () {
@@ -422,8 +406,10 @@ player.onChat("build_a_structure.", function () {
 })
 ```
 
-## Step 25
-Add another ``||Agent:agent place [back]||`` code block and change it to **right**. This will place your door and complete your building. 
+
+## Step 23
+Return to the ``||Agent:AGENT||`` toolbox drawer and add another ``||Agent:agent place [back]||`` code block and change it to **right**. This will place your door and complete your building. Test your code! 
+
 
 ``` blocks
 player.onChat("build_a_structure.", function () {
@@ -461,8 +447,6 @@ player.onChat("build_a_structure.", function () {
 })
 ```
 
-## Step 26
-Now test your code. Now you need to create more new buildings to complete your city. Code a unique building that will be used as the town hall, for the mayor or any other city buildings that you might think of. 
 
 
 

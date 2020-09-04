@@ -1,5 +1,5 @@
 ### @explicitHints true
-
+### @hideIteration true 
 # Activity 2 - All of the lights.
 
 ```python

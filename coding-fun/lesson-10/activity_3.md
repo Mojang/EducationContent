@@ -8,7 +8,7 @@
 # Surroundings 
 
 ## Step 1
-While **inspecting the block down** that is **not packed ice**, program the Agent to locate, **destroy** and **collect** the following blocks: **iron ore**, **gold ore**, **emerald ore** and **diamond ore**. 
+While **inspecting the block down** that is **not packed ice**, program the Agent to locate, **destroy** and **collect** the following blocks: **iron**, **gold**, **emerald** and **diamond**. 
 
 
 
@@ -16,12 +16,12 @@ While **inspecting the block down** that is **not packed ice**, program the Agen
 player.onChat("3", function () {
     agent.setItem(STONE, 64, 1)
     while (agent.inspect(AgentInspection.Block, DOWN) != PACKED_ICE) {
-        if (agent.inspect(AgentInspection.Block, DOWN) == IRON_ORE || agent.inspect(AgentInspection.Block, DOWN) == GOLD_ORE) {
+        if (agent.inspect(AgentInspection.Block, DOWN) == IRON || agent.inspect(AgentInspection.Block, DOWN) == GOLD) {
             agent.turn(LEFT_TURN)
             agent.destroy(DOWN)
             agent.collectAll()
         }
-        if (agent.inspect(AgentInspection.Block, DOWN) == DIAMOND_ORE || agent.inspect(AgentInspection.Block, DOWN) == EMERALD_ORE) {
+        if (agent.inspect(AgentInspection.Block, DOWN) == DIAMOND || agent.inspect(AgentInspection.Block, DOWN) == EMERALD) {
             agent.turn(RIGHT_TURN)
             agent.destroy(DOWN)
             agent.collectAll()

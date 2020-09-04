@@ -1,5 +1,5 @@
 ### @explicitHints true
-
+### @hideIteration true 
 # Activity 2 - Firebreak. 
 
 ```python
@@ -12,8 +12,9 @@ while True:
 ```
 
 ## Step 1
-Write a code to make the Agent move forward when there is Redstone dust in front of it. While moving forward the Agent should make  
-a one-block high wall to its left. When it encounters a change in terrain height the Agent needs to move up and continiue the wall.
+Write some code to make the Agent move forward when there is Redstone dust in front of it.
+While moving forward the Agent should make a one-block high wall to its left.
+When it encounters a change in terrain height the Agent needs to move up and continue the wall.
 
 ```template
 //Replace the lines below with your code #

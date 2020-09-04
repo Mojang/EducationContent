@@ -5,7 +5,6 @@
 ```python
 player.say("hi")
 item +=1
-
 ```
 
 ## Step 1
@@ -19,15 +18,15 @@ code and press the correct button.
 
 ## Step 3 
 Look at the last tv monitor, the value of the crops **apple** and **melon** have now changed. **Apple** has increased in price by **2**, 
-and **melon** has decreased in price by **3**. Account for this change in your code by using **+=** and **-=** operators after the variable **tax**.
+and **melon** has decreased in price by **3**. Account for this change in your code by using **+=** and **-=** operators.
 
 ```template
 apple = 10
 melon = 15
 berries = 20
+potato = 2
 //Replace the lines below with your code #
 //replace with pumpkin variable | Step 2
-tax = 2
 //apple change                          | Step 3
 //melon change                          | Step 3
 //cost variable        | Step 1
