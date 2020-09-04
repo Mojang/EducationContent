@@ -1,6 +1,5 @@
 {
     "name": "educationcontent",
-
     "version": "3.0.4",
     "dependencies": {
         "core": "*",
@@ -180,15 +179,6 @@
         "tutorials/conditional_loops/application/javascript.md",
         "tutorials/conditional_loops/application/python.md",
         "welcome.md",
-        "tutorials/sequencing/expert/ocelot_blocks.md",
-        "tutorials/sequencing/expert/ocelot_py.md",
-        "tutorials/sequencing/expert/ocelot_blocks.md",
-        "tutorials/sequencing/intermediate/maze_blocks.md",
-        "tutorials/sequencing/intermediate/maze_py.md",
-        "tutorials/sequencing/intermediate/maze_js.md",
-        "tutorials/sequencing/novice/move_blocks.md",
-        "tutorials/sequencing/novice/move_py.md",
-        "tutorials/sequencing/novice/move_js.md",
         "tutorials/sequencing/application/blocks.md",
         "tutorials/sequencing/application/python.md",
         "tutorials/sequencing/application/javascript.md",
@@ -247,7 +237,9 @@
         "coding-fun/lesson-18.md",
         "ww1984/crate.md",
         "computing/unit-2/lesson-1.md",
-        "computing/unit-2/lesson-2.md"
+        "computing/unit-2/lesson-2.md",
+        "computing/unit-2/lesson-3.md",
+        "computing/unit-3/lesson-1.md"
     ],
     "targetVersions": {
         "target": "1.5.33",
