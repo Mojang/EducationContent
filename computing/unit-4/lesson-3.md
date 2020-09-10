@@ -1,6 +1,6 @@
 ### @explicitHints 1
 
-#Lesson 3: Code Animal Enclosures 
+# Lesson 3: Code Animal Enclosures 
 
 ## Step 1
 Tell the BUILDER where to start. In MakeCode, rename the **run** element of the ``||Player:on chat command||`` block to **ocelot_wall**. 
