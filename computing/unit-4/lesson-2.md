@@ -1,6 +1,6 @@
 ### @explicitHints 1
 
-#Lesson 2: Code Zoo Paths 
+# Lesson 2: Code Zoo Paths 
 
 ## Step 1
 Rename the **run** element of the ``||Player:on chat command||`` block to **zoo_path_1**. 
@@ -71,6 +71,7 @@ player.onChat("zoo_path_1", function () {
 ## Step 5
 Do the same for the ``||Blocks:to||`` set of ``||Positions:world [0] [0] [0]||`` positions, adding your coordinates from **Step 4**. 
 
+#### ~ tutorialhint
 ``` blocks
 player.onChat("zoo_path_1", function () {
     blocks.fill(
