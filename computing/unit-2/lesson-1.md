@@ -1,6 +1,6 @@
 ### @explicitHints 1
 
-# Lesson A: Code a Road Network
+# Lesson 1: Code a Road Network
 
 ## Step 1
 Rename the **run** element of the ``||Player:on chat command||`` block to **road_1**. Select the ``||Blocks:fill with||`` code block and drag it into your ``||Player:on chat command||`` block. 
