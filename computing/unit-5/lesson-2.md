@@ -1,6 +1,6 @@
 ### @explicitHints 1
 
-#Lesson 2: Animate the Wind Farm 
+# Lesson 2: Animate the Wind Farm 
 
 ## Step 1
 Code three model blades. In Minecraft, ensure your player is at your wind farm, which should be near the following coordinates: **19, 79, -413**. If needed, use the slash command to teleport your player to the position by typing **/tp 19 79 -413** and selecting **Enter**.   
@@ -51,6 +51,7 @@ player.onChat("wind_turbine", function () {
 
 ## Step 5
 Replace all three of the **relative** coordinates oval with ``||Positions:world [0] [0] [0]||`` coordinates oval from the ``||Positions:POSITIONS||`` menu.  
+
 #### ~ tutorialhint
 ``` blocks
 player.onChat("wind_turbine", function () {
@@ -68,6 +69,7 @@ player.onChat("wind_turbine", function () {
 
 ## Step 6
 Right click on the ``||Blocks:clone from||`` code block and select **Duplicate** to create another faded version, then drag it into your code block, under the first.   
+
 #### ~ tutorialhint
 ``` blocks
 player.onChat("wind_turbine", function () {
@@ -92,6 +94,7 @@ player.onChat("wind_turbine", function () {
 
 ## Step 7
 Create one more duplicate and place this below again, so you have three ``||Blocks:clone from||`` blocks in total. 
+
 #### ~ tutorialhint
 ``` blocks
 player.onChat("wind_turbine", function () {
@@ -143,6 +146,7 @@ Note the coordinate of the top most block of the tower in your workbook.
 
 ## Step 12
 Then add this to the into coordinates of all three of your ``||Blocks:clone from||`` code blocks. 
+
 #### ~ tutorialhint
 ``` blocks
 player.onChat("wind_turbine", function () {
