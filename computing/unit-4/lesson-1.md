@@ -1,6 +1,6 @@
 ### @explicitHints 1
 
-#Lesson 1: Code a Zoo Entrance
+# Lesson 1: Code a Zoo Entrance
 
 ## Step 1
 Rename the **run** element of the ``||Player:on chat command||`` block to **build_gates**. 
@@ -81,6 +81,7 @@ player.onChat("build_gates", function () {
 
 ## Step 6
 Place another ``||Agent:agent move [forward]||`` code block from the ``||Agent:Agent||`` drawer and set it to **left**, leaving the number at **1**. 
+
 #### ~ tutorialhint
 ``` blocks
 player.onChat("build_gates", function () {
