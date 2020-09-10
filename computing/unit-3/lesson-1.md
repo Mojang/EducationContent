@@ -1,6 +1,6 @@
 ### @explicitHints 1
 
-#Lesson 1: Code a Park Fence
+# Lesson 1: Code a Park Fence
 
 ## Step 1
 Rename the **run** element of the ``||Player||on chat command||`` block to **park_fence**. 
