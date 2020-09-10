@@ -68,7 +68,7 @@ player.onChat("build_a_structure.", function () {
 ```
 
 ## Step 6
-Test the code, it’s going to build four walls and leave our Agent near the start again. 
+Test the code, it's going to build four walls and leave our Agent near the start again. 
 
 ## Step 7
 Return to the ``||Agent:AGENT||`` toolbox drawer and add another ``||Agent:agent move [forward]||``, then change it to **up**. Though place this one outside of and after the ``||Agent:repeat [4] times||`` code block as a new and separate action. This will move your Agent up one block and fill the block below as it does.
@@ -87,7 +87,7 @@ player.onChat("build_a_structure.", function () {
 ```
 
 ## Step 8
-Add another ``||Agent:agent move [forward]||``, and leave this one set to **false**. Because we don’t want our Agent to build this time as it moves. 
+Add another ``||Agent:agent move [forward]||``, and leave this one set to **false**. Because we don't want our Agent to build this time as it moves. 
 
 ### ~ tutorialhint
 ``` blocks
@@ -159,7 +159,7 @@ player.onChat("build_a_structure.", function () {
 ```
 
 ## Step 13
-Now it is time to build a roof. Add another ``||Agent:agent [place on move]||`` and leave it set to **false**. Then add another ``||Agent:agent move [forward]||``, and set it to **down** and **3**. Your Agent will move down three spaces to the level that a window might be placed so it won’t place any roof tiles. 
+Now it is time to build a roof. Add another ``||Agent:agent [place on move]||`` and leave it set to **false**. Then add another ``||Agent:agent move [forward]||``, and set it to **down** and **3**. Your Agent will move down three spaces to the level that a window might be placed so it won't place any roof tiles. 
 
 ### ~ tutorialhint
 ``` blocks
