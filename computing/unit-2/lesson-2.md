@@ -1,4 +1,5 @@
-###  tutorialhint
+### @explicitHints 1
+
 # Lesson 2: Code a Building
 
 ## Step 1
