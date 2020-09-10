@@ -3,7 +3,7 @@
 # Lesson 1: Code a Park Fence
 
 ## Step 1
-Rename the **run** element of the ``||Player||on chat command||`` block to **park_fence**. 
+Rename the **run** element of the ``||Player:on chat command||`` block to **park_fence**. 
 
 Drag and drop the ``||Agent:agent set active slot||`` code block to the coding Workspace and add it to your  ``||Player:on chat command||`` code block.  
 
