@@ -292,6 +292,7 @@ player.onChat("park_fountain", function () {
 ## Step 15
 Let's get the Agent back into position. Get your Agent to ``||Agent:agent move [forward]||``, set it to **back**, and change the number to **3**. 
 
+#### ~ tutorialhint
 ``` blocks
 player.onChat("park_fountain", function () {
     for (let index = 0; index < 4; index++) {
