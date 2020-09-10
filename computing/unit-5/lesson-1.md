@@ -13,3 +13,29 @@ Test yourself. You should be familiar with the two main coding build methods, ``
 
 ## Step 4
 Use the ``||Blocks:clone||`` command from the ``||Blocks:BLOCKS||`` toolbox drawer to make more of these, if you wish.   
+
+
+```ghost
+player.onChat("run", function () {
+    blocks.clone(
+    pos(0, 0, 0),
+    pos(0, 0, 0),
+    pos(0, 0, 0),
+    CloneMask.Replace,
+    CloneMode.Normal
+    )
+    agent.destroy(FORWARD)
+    agent.place(FORWARD)
+    agent.setAssist(PLACE_ON_MOVE, false)
+    agent.turn(LEFT_TURN)
+    agent.move(FORWARD, 1)
+    agent.teleportToPlayer()
+    agent.setItem(GRASS, 1, 1)
+    for (let index = 0; index < 4; index++) {
+        blocks.place(GRASS, world(0, 0, 0))
+    }
+    while (true) {
+    	
+    }
+})
+```
