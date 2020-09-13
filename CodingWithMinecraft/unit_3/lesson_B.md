@@ -67,10 +67,9 @@ Next, open ``||vARIABLES: VARIABLES||``, and drag ``||Variables: start||`` into 
 ```
 
 ## Step 9
-Repeat for the stop command. Right-click ``||Player:on chat command||`` **"start"** and duplicate it.
+Repeat for the stop command. Right-click ``||Player:on chat command||`` **"start"** and duplicate it. Rename ``||Player: on chat||`` command into **stop**. 
 
-## Step 10
-Delete the empty ``||Player:on chat command||`` blocks for **"stop"** and **"copy"**.
+Change the ``||Player: say||`` text into **"Stopping Point Set"**. Add a ``||Variables: stop||`` variable into the ``||Text: join||`` block. 
 
 ### ~ tutorialhint
 ``` blocks
@@ -80,6 +79,8 @@ Delete the empty ``||Player:on chat command||`` blocks for **"stop"** and **"cop
      player.say("Stopping Point Set: " + stop)
 })
 ```
+## Step 10
+Delete the empty ``||Player:on chat command||`` blocks for **"stop"** and **"copy"**.
 
 ## Step 11
 Build the copy command. Open ``||Blocks:BLOCKS||``, and drag the ``||Blocks:clone||`` block into **"copy"** block.
@@ -119,7 +120,14 @@ From ``||Variables:VARIABLES||``, drag ``||Variables:stop||`` into the second sl
 ```
 
 ## Step 14
-Let's finish up. Try your code in Minecraft. 
+Try your code in Minecraft. You need to build a house or a structure that you would like to copy. Move your player to one of the bottom corners of the structure, and in the chat window, type the command “start”. 
+
+## Step 15
+Move your player diagonally to the top corner from the start. In the chat window, type the command “stop”.
+Move your player to an open space in the world where you want to copy the structure, and in the chat window, type the command “copy”.
+Did it copy your house or structure correctly?
+
+### ~ tutorialhint
 ``` blocks
 let stop: Position = null
 let start: Position = null
