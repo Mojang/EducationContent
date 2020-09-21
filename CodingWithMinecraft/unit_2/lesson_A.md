@@ -13,7 +13,7 @@ Listening for the walk event. Drag the ``||Player: on player walk||`` block into
 ```
 
 ##Step 2 
-Place some grass. Drag the ``||Blocks: Place at||`` block under the ``||On player walk||`` block until you hear and see it snap into place.
+Place some grass. Drag the ``||Blocks: Place at||`` block under the ``||Player:On player walk||`` block until you hear and see it snap into place.
 
 ### ~ tutorialhint      
 ``` blocks
