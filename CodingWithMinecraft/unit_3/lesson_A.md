@@ -35,7 +35,7 @@ Print East and West directions. Find ``||Blocks:print||`` block. This block prin
 
 ## Step 5
 Drag out two ``||Blocks:print||`` blocks and place them after ``||Blocks:fill with||`` block. 
-Enter “W” in the first ``||Blocks:print||`` and **“E”** in the second ``||Blocks:print||`` to indicate West and East.
+Enter "W" in the first ``||Blocks:print||`` and **"E"** in the second ``||Blocks:print||`` to indicate West and East.
 
 ## Step 6
 Select a block to ``||Blocks:print||`` the letters in. In this example, **lime wool** is used for west and **yellow wool** for east.
@@ -81,7 +81,7 @@ Put the values **(~0 ~-1 ~-10)** in **from** and **(~0 ~-1 ~10)** in **to**. Thi
 Drag out two ``||Blocks:print||`` blocks and place them after the newest ``||Blocks:fill with||`` block.
 
 ## Step 11
-Enter **“N”** in the first ``||Blocks:print||`` block and **“S”** in the second ``||Blocks:print||`` block to indicate North and South.
+Enter **"N"** in the first ``||Blocks:print||`` block and **"S"** in the second ``||Blocks:print||`` block to indicate North and South.
 
 ## Step 12
 Select a block to ``||Blocks:print||`` the letters in. This example uses **blue wool** for north and red wool for south.
