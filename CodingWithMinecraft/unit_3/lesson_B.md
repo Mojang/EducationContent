@@ -58,7 +58,7 @@ In the first slot of ``||Text:join||``, enter **"Starting Point Set"**.
 Next, open ``||vARIABLES: VARIABLES||``, and drag ``||Variables: start||`` into the second slot of the ``||Text:join||`` block.
 
 ### ~ tutorialhint
-     ```blocks
+```blocks
           let start: Position = null
           player.onChat("start", function () {
      start = player.position()
