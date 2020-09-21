@@ -6,11 +6,11 @@
 Create a new ``||Player: on chat||`` command. Drag a ``||Player:on chat command||`` block out and change the command to **compassrose"**.
 
 ### ~ tutorialhint
-    ``` blocks
-        player.onChat("compassrose", function () {
-     })
+``` blocks
+player.onChat("compassrose", function () {
+})
 
-    ```
+```
 
 ## Step 2 
 Next, place a ``||Blocks:fill with||`` block inside the ``||Player:on chat command||`` block. 
@@ -29,7 +29,6 @@ Put the values **(~-10 ~-1 ~0)** in **from** and **(~10 ~-1 ~0)** in **to**. Thi
         FillOperation.Replace
         )
 })
-
 ```
 ## Step 4
 Print East and West directions. Find ``||Blocks:print||`` block. This block prints words with any block you choose along a specified axis.
