@@ -12,7 +12,7 @@ Put the coordinates **(~0, ~0, ~1)** in ``||Mobs:spawn||`` block. Sheep will spa
 
 ### ~ tutorialhint
 ``` blocks
-player.onTravelled(TravelMethod.Walk, function () {
+player.onTravelled(WALK, function () {
     mobs.spawn(SHEEP, pos(0, 0, 1))
 })
 ```
@@ -27,16 +27,16 @@ Adjust the ``||Blocks:fill with||`` to **Nether Brick Fence**. And change coordi
 
 ### ~ tutorialhint
 ``` blocks
-    player.onTravelled(TravelMethod.Walk, function () {
-        mobs.spawn(SHEEP, pos(0, 0, 1))
-    })
-    player.onChat("pen", function () {
-        blocks.fill(
-        NETHER_BRICK_FENCE,
-        pos(5, 0, 1),
-        pos(-5, 4, 1),
-        FillOperation.Replace
-        )
+player.onTravelled(WALK, function () {
+    mobs.spawn(SHEEP, pos(0, 0, 1))
+})
+player.onChat("pen", function () {
+    blocks.fill(
+    NETHER_BRICK_FENCE,
+    pos(5, 0, 1),
+    pos(-5, 4, 1),
+    FillOperation.Replace
+    )
 })
 ```
 
@@ -51,28 +51,28 @@ Adjust the coordinates for **Acacia Fence** to **~5, ~0, ~1** and **~-5, ~4, ~20
 
 ### ~ tutorialhint
 ``` blocks 
-    player.onTravelled(TravelMethod.Walk, function () {
-        mobs.spawn(SHEEP, pos(0, 0, 1))
-    })
-    player.onChat("pen", function () {
-        blocks.fill(
-        NETHER_BRICK_FENCE,
-        pos(5, 0, 1),
-        pos(-5, 4, 1),
-        FillOperation.Replace
-        )
-        blocks.fill(
-        BIRCH_FENCE,
-        pos(-5, 0, 1),
-        pos(-5, 4, 20),
-        FillOperation.Replace
-        )
-        blocks.fill(
-        ACACIA_FENCE,
-        pos(5, 0, 1),
-        pos(5, 4, 20),
-        FillOperation.Replace
-        )
+player.onTravelled(WALK, function () {
+    mobs.spawn(SHEEP, pos(0, 0, 1))
+})
+player.onChat("pen", function () {
+    blocks.fill(
+    NETHER_BRICK_FENCE,
+    pos(5, 0, 1),
+    pos(-5, 4, 1),
+    FillOperation.Replace
+    )
+    blocks.fill(
+    BIRCH_FENCE,
+    pos(-5, 0, 1),
+    pos(-5, 4, 20),
+    FillOperation.Replace
+    )
+    blocks.fill(
+    ACACIA_FENCE,
+    pos(5, 0, 1),
+    pos(5, 4, 20),
+    FillOperation.Replace
+    )
 })
 ```
 ## Step 9
@@ -82,25 +82,25 @@ Close the sheep pen with north entrance. **Z** should be exactly **20** blocks a
 ``` blocks
 player.onChat("pen", function () {
     blocks.fill(
-    blocks.block(Block.NetherBrickFence),
+    NETHER_BRICK_FENCE,
     positions.create(5, 0, -1),
     positions.create(-5, 4, -1),
     FillOperation.Replace
     )
     blocks.fill(
-    blocks.block(Block.AcaciaFence),
+    ACACIA_FENCE,
     positions.create(-5, 0, -1),
     positions.create(-5, 4, 20),
     FillOperation.Replace
     )
     blocks.fill(
-    blocks.block(Block.BirchFence),
+    BIRCH_FENCE,
     positions.create(5, 0, -1),
     positions.create(5, 4, 20),
     FillOperation.Replace
     )
     blocks.fill(
-    blocks.block(Block.NetherBrickFence),
+    NETHER_BRICK_FENCE,
     positions.create(5, 0, 20),
     positions.create(-5, 4, 20),
     FillOperation.Replace
