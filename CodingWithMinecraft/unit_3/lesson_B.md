@@ -8,10 +8,10 @@ Drag three ``||Player:on chat command||`` blocks into the coding Workspace.
 Change the names of these ``||Player:on chat command||`` blocks to **"start"**, **"stop"**, and **"copy"**.
 
 ### ~ tutorialhint
-``` blocks
-    player.onChat("start", function () { })
-    player.onChat("stop", function () { })
-    player.onChat("copy", function () { })
+```blocks
+player.onChat("start", function () { })
+player.onChat("stop", function () { })
+player.onChat("copy", function () { })
 ```
 
 ## Step 2
@@ -32,20 +32,20 @@ Adjust **0** to ``||Player:player world position||``. Drag ``||Player:player wor
 
 ### ~ tutorialhint
 ```blocks
-    let start: Position = null
-    player.onChat("start", function () {
-        start = player.position()
+let start: Position = null
+player.onChat("start", function () {
+    start = player.position()
 })
 ```
 ## Step 6
 Print messages. Add ``||Player:say||`` block after ``||Variables:set start||``. 
 
 ### ~ tutorialhint
-``` blocks
-    let start: Position = null
-    player.onChat("start", function () {
-        start = player.position()
-        player.say("Hi!")
+```blocks
+let start: Position = null
+player.onChat("start", function () {
+    start = player.position()
+    player.say("Hi!")
 })
 ```
 
@@ -59,11 +59,12 @@ Next, open ``||vARIABLES: VARIABLES||``, and drag ``||Variables: start||`` into 
 
 ### ~ tutorialhint
 ```blocks
-          let start: Position = null
-          player.onChat("start", function () {
-     start = player.position()
-     player.say("Starting Point Set: " + start)
+let start: Position = null
+player.onChat("start", function () {
+    start = player.position()
+    player.say("Starting Point Set: " + start)
 })
+
 ```
 
 ## Step 9
@@ -73,10 +74,10 @@ Change the ``||Player: say||`` text into **"Stopping Point Set"**. Add a ``||Var
 
 ### ~ tutorialhint
 ``` blocks
- let stop: Position = null
-     player.onChat("stop", function () {
-     stop = player.position()
-     player.say("Stopping Point Set: " + stop)
+let stop: Position = null
+player.onChat("stop", function () {
+    stop = player.position()
+    player.say("Stopping Point Set: " + stop)
 })
 ```
 ## Step 10
@@ -87,14 +88,14 @@ Build the copy command. Open ``||Blocks:BLOCKS||``, and drag the ``||Blocks:clon
 
 ### ~ tutorialhint
 ``` blocks
- player.onChat("copy", function () {
-     blocks.clone(
-     pos(0, 0, 0),
-     pos(0, 0, 0),
-     pos(0, 0, 0),
-     CloneMask.Replace,
-     CloneMode.Normal
-     )
+player.onChat("copy", function () {
+    blocks.clone(
+    pos(0, 0, 0),
+    pos(0, 0, 0),
+    pos(0, 0, 0),
+    CloneMask.Replace,
+    CloneMode.Normal
+    )
 })
 ```
 
@@ -106,15 +107,15 @@ From ``||Variables:VARIABLES||``, drag ``||Variables:stop||`` into the second sl
 
 ### ~ tutorialhint
 ```blocks
-     let start: Position = null
-     let stop: Position = null
-     player.onChat("copy", function () {
-          blocks.clone(
-          start,
-          stop,
-          pos(0, 0, 0),
-          CloneMask.Replace,
-          CloneMode.Normal
+player.onChat("copy", function () {
+    let stop: Position = null
+    let start: Position = null
+    blocks.clone(
+    start,
+    stop,
+    pos(0, 0, 0),
+    CloneMask.Replace,
+    CloneMode.Normal
     )
 })
 ```
@@ -129,8 +130,8 @@ Did it copy your house or structure correctly?
 
 ### ~ tutorialhint
 ``` blocks
-let stop: Position = null
 let start: Position = null
+let stop: Position = null
 player.onChat("start", function () {
     start = player.position()
     player.say("Starting Point Set: " + start)
