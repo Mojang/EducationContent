@@ -2,10 +2,10 @@
 # Activity: Chicken Storm 
 
 ## Step 1
-Drag ``||Player:on chat||`` command into the coding Workspace and change the command to **"chickens"**.
+Drag an ``||Player:on chat||`` command into the coding Workspace and change the command to **"chickens"**.
 
 ## Step 2
-Add a ``||Loops:repeat||`` loop inside ``||Player:on chat command "chickens"||``.
+Add a ``||Loops:repeat||`` loop inside ``||Player:on chat command||`` "chickens".
 
 ## Step 3
 Add a ``||Mobs:spawn animal||`` block inside the ``||Loops:repeat||`` loop.
@@ -16,7 +16,7 @@ Change the **Y** coordinate to **10** inside ``||Mobs:spawn animal||``. Chickens
 ### ~ tutorialhint
 ``` blocks
 player.onChat("chickens", function () {
-    for (let i = 0; i < 4; i++) {
+    for (let index = 0; index < 4; index++) {
         mobs.spawn(CHICKEN, pos(0, 10, 0))
     }
 })
