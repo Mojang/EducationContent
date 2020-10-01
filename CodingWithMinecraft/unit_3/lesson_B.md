@@ -121,11 +121,11 @@ player.onChat("copy", function () {
 ```
 
 ## Step 14
-Try your code in Minecraft. You need to build a house or a structure that you would like to copy. Move your player to one of the bottom corners of the structure, and in the chat window, type the command “start”. 
+Try your code in Minecraft. You need to build a house or a structure that you would like to copy. Move your player to one of the bottom corners of the structure, and in the chat window, type the command "start". 
 
 ## Step 15
-Move your player diagonally to the top corner from the start. In the chat window, type the command “stop”.
-Move your player to an open space in the world where you want to copy the structure, and in the chat window, type the command “copy”.
+Move your player diagonally to the top corner from the start. In the chat window, type the command "stop".
+Move your player to an open space in the world where you want to copy the structure, and in the chat window, type the command "copy".
 Did it copy your house or structure correctly?
 
 ### ~ tutorialhint
