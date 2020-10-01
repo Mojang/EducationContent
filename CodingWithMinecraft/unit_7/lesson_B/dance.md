@@ -3,7 +3,7 @@
 # Activity: Dance Dance Agent 
 
 ## Step 1
-Make the “dance” command. Drag a new ``||Player:on chat command||`` block to the coding Workspace. Name this command **"dance"**.
+Make the "dance" command. Drag a new ``||Player:on chat command||`` block to the coding Workspace. Name this command **"dance"**.
 
 ## Step 2
 Create a sequence of moves for your agent to follow. Here is one example:
@@ -42,7 +42,7 @@ player.onChat("dance", function () {
 ```
 
 ## Step 5
-Where is your agent? Last, you need to get your agent to your character so you can see your robot dance. Remember, you can teleport your agent.  Let’s make a separate ``||PLayer:on chat command||`` to get your agent.
+Where is your agent? Last, you need to get your agent to your character so you can see your robot dance. Remember, you can teleport your agent.  Let's make a separate ``||PLayer:on chat command||`` to get your agent.
 
 ## Step 6
 Drag a new ``||PLayer:on chat command||`` block to the coding Workspace and name it "tp".

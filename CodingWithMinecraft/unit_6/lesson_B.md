@@ -76,7 +76,7 @@ Next, you want to change the game mode for your player. Setting the gamemode to 
 
 Adjust this new block so it reads ``||Gameplay:change game mode to 'survival'||``.
 
-Also, adjust the target so that it targets “yourself”.
+Also, adjust the target so that it targets "yourself".
 
 ## Step 10
 Finally, fighting will be very difficult without a weapon. You can give yourself a weapon to make the game more reasonable for your player. Grab a ``||Mobs:give||`` block and place it as the last block in the ``||Function:setup||`` function.
@@ -155,7 +155,7 @@ player.onChat("play", function () {
 ```
 
 ## Step 16
-Time not changing? Make sure the **Always Day** option isn’t turned on. 
+Time not changing? Make sure the **Always Day** option isn't turned on. 
 
 Spawn additional Pigmen. After defeating a pigman, you want another pigman to spawn. You can create a new pigman with the event ``||Mobs:on Mob killed||``. You will use the function ``||Agent:call Pigman||``.
 
