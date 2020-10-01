@@ -7,7 +7,6 @@
     },
     "files": [
         "README.md",
-        "_locales/en-GB/README.md",
         "agent_trials/agent_move_JS.md",
         "agent_trials/agent_move_blocks.md",
         "agent_trials/agent_move_python.md",
