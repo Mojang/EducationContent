@@ -15,7 +15,7 @@ Drag an ``||Player:on chat command||`` block onto the Workspace.
 Rename this ``||Player:on chat command||`` to **"burger"**.
 
 ## Step 4
-Drag five blocks ``||Functions:call function bottomBun||``, ``||Functions:call function meat||``, ``||Functions:call function lettuce||`` , ``||Functions:call function tomato||`` and ``||Functions:call function topBun||`` into ``||Blocks:on chat command "play"||``.
+Drag five blocks ``||Functions:call function bottomBun||``, ``||Functions:call function meat||``, ``||Functions:call function lettuce||`` , ``||Functions:call function tomato||`` and ``||Functions:call function topBun||`` into ``||Player:on chat command "play"||``.
 
 **NOTE**: The order of these function calls is important.
 
