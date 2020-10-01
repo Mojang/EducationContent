@@ -37,7 +37,7 @@ function setup()  {
 ```
 
 ## Step 5
-Create the Zombie Pig. Drag a ``||Mobs:spawn animal||`` block into ``||Function:zombie pig||``. Change the animal by selecting **Pig** from the drop-down menu. Then change the position in the Z coordinate to spawn a pig five blocks north of the player.
+Create the Zombie Pig. Drag a ``||Mobs:spawn animal||`` block into ``||Functions:zombie pig||``. Change the animal by selecting **Pig** from the drop-down menu. Then change the position in the Z coordinate to spawn a pig five blocks north of the player.
 
 Create another spawn block and place it below the first. Replace **animal** with a projectile lightning bolt.
 
