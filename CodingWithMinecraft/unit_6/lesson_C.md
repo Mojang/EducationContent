@@ -46,7 +46,7 @@ function tomato()  {
 ```
 
 ## Step 5
-Create the bottom bun. The first thing you’ll do is create the bottom bun.
+Create the bottom bun. The first thing you'll do is create the bottom bun.
 
 Drag a ``||Blocks:fill||`` into ``||Functions:bottomBun||``. Change the block by clicking **Oak Wood Planks** from the drop-down menu.
 
@@ -84,7 +84,7 @@ function tomato() {
 ```
 
 ## Step 7
-“Cook” the meat. Let’s create a layer of meat. Drag a ``||Blocks:fill||`` into ``||Functions:meat||``. 
+"Cook" the meat. Let's create a layer of meat. Drag a ``||Blocks:fill||`` into ``||Functions:meat||``. 
 
 Adjust the material by selecting **Brown Terracotta** from the drop-down menu. Then change the position in the coordinates section to a starting position of **(~4, ~1, ~4)** and a finishing position of **(~7, ~1, ~7)**.
 
@@ -126,7 +126,7 @@ function tomato() {
 }
 ```
 ## Step 8
-Create the lettuce. Let’s create a layer of lettuce. Drag a ``||Blocks:fill||`` into the ``||Functions:lettuce||`` function.
+Create the lettuce. Let's create a layer of lettuce. Drag a ``||Blocks:fill||`` into the ``||Functions:lettuce||`` function.
 
 Change the material selecting **Lime Concrete** from the drop-down menu. Then change the position in the coordinates to a starting position of **(~4, ~2, ~4)** and a finishing position of **(~7, ~2, ~7)**.
 
@@ -173,7 +173,7 @@ function tomato() {
 ```
 
 ## Step 9
-Create the tomato. Let’s create a layer of tomato. Drag a ``||Blocks:fill||`` into the ``||Functions:tomato||`` function.
+Create the tomato. Let's create a layer of tomato. Drag a ``||Blocks:fill||`` into the ``||Functions:tomato||`` function.
 
 Change the material selecting **Red Concrete** from the drop-down menu. Then change the position in the coordinates to a starting position of **(~4, ~3, ~4)** and a finishing position of **(~7, ~3, ~7)**.
 
