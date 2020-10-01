@@ -5,7 +5,7 @@
 ## Step 1
 Use Introduction to the Agent activity as the starter code. This will allow you to easily position your agent, and then you can adapt some of it to do something new.
 
-``` template
+```template
 player.onChat("tp", function () {
     agent.teleportToPlayer()
 })
