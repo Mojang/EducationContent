@@ -23,7 +23,7 @@ warp_array = []
 ```
 
 ## Step 4
-Make the “delete” command. Drag an ``||Player:on chat command||`` onto the Workspace.
+Make the "delete" command. Drag an ``||Player:on chat command||`` onto the Workspace.
 
 Name this command **delete**.
 
@@ -47,7 +47,7 @@ player.onChat("delete", function () {
 warp_array = []
 ```
 ## Step 7
-Make the “save” command. Drag another ``||Player:on chat command||`` to the Workspace.
+Make the "save" command. Drag another ``||Player:on chat command||`` to the Workspace.
 
 Name this command **save**.
 
@@ -84,7 +84,7 @@ warp_array = []
 ```
 
 ## Step 10
-Create a “warp” command. The player will use the warp command by passing in a number, such as “warp 1” or “warp 2”, to teleport themselves to a saved location in the array.
+Create a "warp" command. The player will use the warp command by passing in a number, such as "warp 1" or "warp 2", to teleport themselves to a saved location in the array.
 
 Drag a ``||Player:on chat command||`` to the Workspace and name it **warp**.
 
