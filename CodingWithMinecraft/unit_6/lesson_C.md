@@ -20,7 +20,7 @@ Drag five blocks ``||Functions:call function bottomBun||``, ``||Functions:call f
 **NOTE**: The order of these function calls is important.
 
 ### ~ tutorialhint
-``` blocks
+```blocks
 function lettuce()  {
 
 }
@@ -54,7 +54,7 @@ Drag a ``||Blocks:fill||`` into ``||Functions:bottomBun||``. Change the block by
 Enter the coordinates for the top bun with a starting position of **(~3, ~0, ~3)** and ending position of **(~8, ~0, ~8)**.
 
 ### ~ tutorialhint
-``` blocks
+```blocks
 function bottomBun() {
     blocks.fill(
     PLANKS_OAK,
@@ -91,7 +91,7 @@ Adjust the material by selecting **Brown Terracotta** from the drop-down menu. T
 Duplicate it. 
 
 ### ~ tutorialhint
-``` blocks
+```blocks
 function bottomBun() {
     blocks.fill(
     PLANKS_OAK,
@@ -131,8 +131,7 @@ Create the lettuce. Let's create a layer of lettuce. Drag a ``||Blocks:fill||`` 
 Change the material selecting **Lime Concrete** from the drop-down menu. Then change the position in the coordinates to a starting position of **(~4, ~2, ~4)** and a finishing position of **(~7, ~2, ~7)**.
 
 ### ~ tutorialhint
-``` blocks
-
+```blocks
 function bottomBun() {
     blocks.fill(
     PLANKS_OAK,
@@ -178,8 +177,7 @@ Create the tomato. Let's create a layer of tomato. Drag a ``||Blocks:fill||`` in
 Change the material selecting **Red Concrete** from the drop-down menu. Then change the position in the coordinates to a starting position of **(~4, ~3, ~4)** and a finishing position of **(~7, ~3, ~7)**.
 
 ### ~ tutorialhint
-``` blocks
-
+```blocks
 function tomato() {
     blocks.fill(
     RED_CONCRETE,
@@ -189,7 +187,6 @@ function tomato() {
     )
 }
 tomato()
-
 ```
 
 ## Step 10
@@ -205,7 +202,6 @@ The bottom fill should have a starting position of **(~4, ~5, ~4)** and a finish
 
 ### ~ tutorialhint
 ``` blocks
-
 function topBun() {
     blocks.fill(
     PLANKS_OAK,
@@ -221,7 +217,6 @@ function topBun() {
     )
 }
 topBun()
-
 ```
 
 ## Step 13
@@ -229,7 +224,7 @@ topBun()
 Complete the program!
 
 ### ~ tutorialhint
-``` blocks
+```blocks
 function meat() {
     blocks.fill(
     BROWN_TERRACOTTA,
@@ -283,5 +278,4 @@ function lettuce() {
     FillOperation.Replace
     )
 }
-
 ```
