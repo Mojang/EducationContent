@@ -2,7 +2,7 @@
 #Activity: Fall Is in the Air
 
 ## Step 1
-Drag a ``||Player:on chat command||`` block to the Workspace.
+Drag an ``||Player:on chat command||`` block to the Workspace.
 
 ## Step 2
 Right-click the ``||Player:on chat command||`` and select duplicate. Do this twice so that you end up with three ``||Player:on chat command||`` blocks.
@@ -36,7 +36,7 @@ Change ``||Player:on player walk||`` to ``||Player:on player fall||`` block.
 ```
 
 ## Step 6
-Be “Creative”. Construct the ``||Player:on chat command||`` for **"cr"**. This command will change the game mode to Creative. You can fly in Creative mode, so this is very helpful to get to a high place.
+Be "Creative". Construct the ``||Player:on chat command||`` for **"cr"**. This command will change the game mode to Creative. You can fly in Creative mode, so this is very helpful to get to a high place.
  
 ## Step 7
 Drag out ``||Gameplay:change game mode||``block and drop it inside ``||Player:on chat command "cr"||``.
@@ -126,7 +126,7 @@ player.onChat("pm", function () {
 ```
 
 ## Step 21
-Join the variable to the message. In ``||Text:join||``, enter **“You fell"** in the first slot, replacing *"Hello"*.
+Join the variable to the message. In ``||Text:join||``, enter **"You fell"** in the first slot, replacing *"Hello"*.
 
 ## Step 22
 Drag ``||Variables:report||`` into the second ``||Text:join||`` slot, replacing *"World"*.
