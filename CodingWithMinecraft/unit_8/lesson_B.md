@@ -5,7 +5,7 @@
 ## Step 1
 You will need an ``||Loops:on start||`` for the project. Create a new variable and name it **animalarray**.
 
-Make an array for animals. Drag ``||Variables:set||`` block into the ``||Player:On start||`` block.
+Make an array for animals. Drag ``||Variables:set||`` block into the ``||Loops:On start||`` block.
 
 ## Step 2
 Using the drop-down menu in ``||Variables:set||``, select the **animalarray** variable.
@@ -21,14 +21,14 @@ Drag an **Animal block** into the first slot of ``||Arrays:create array with||``
 Populate the rest of your array with animal blocks. You can right-click on ``||Mobs:animal||`` and select **Duplicate** to make copies of this block.
 
 ## Step 5
-Pick your animals. Create a zoo with **8** different types of animals. Be aware that certain animals will eat other animals! For example, ocelots and chickens don’t get along very well. Think about what kind of zoo you want, and plan accordingly.
+Pick your animals. Create a zoo with **8** different types of animals. Be aware that certain animals will eat other animals! For example, ocelots and chickens don't get along very well. Think about what kind of zoo you want, and plan accordingly.
 Using the drop-down menus in the ``||Mobs:animal||`` blocks, select different types of animals in your array.
 
 ## Step 6
-Let’s have an animal pen. Now that you have your Animal Array set up, let’s work on creating a fenced-in enclosure for your zoo. You will use the ``||Builder:BUILDER||`` blocks for this. The Builder is like an invisible cursor in the game that can place blocks along a path very quickly. You will direct the Builder to go to a point in the southeast corner, and create a mark, which is an invisible point of reference. Then you will give it a series of commands to make it trace out a square. Finally, the builder is able to place fences along this path.
+Let's have an animal pen. Now that you have your Animal Array set up, let's work on creating a fenced-in enclosure for your zoo. You will use the ``||Builder:BUILDER||`` blocks for this. The Builder is like an invisible cursor in the game that can place blocks along a path very quickly. You will direct the Builder to go to a point in the southeast corner, and create a mark, which is an invisible point of reference. Then you will give it a series of commands to make it trace out a square. Finally, the builder is able to place fences along this path.
 
 ## Step 7
-Drag an ``||Player:on chat command||`` block to the Workspace. Rename the command “pen”.
+Drag an ``||Player:on chat command||`` block to the Workspace. Rename the command "pen".
 
 Drag ``||Builder:builder teleport to||`` block into ``||PLayer:on chat command "pen"||``.
 
@@ -38,14 +38,14 @@ Find a place for the pen. We want the Builder to start in the northeast corner o
 In ``||Builder:builder teleport to||``, change the position values to **(~5, ~0, ~-5)**.
 
 ## Step 9
-Set the starting mark. Let’s make sure the Builder is facing the right way so that it draws the pen around you. After the builder is facing the correct direction, you can then have it place a starting mark.
+Set the starting mark. Let's make sure the Builder is facing the right way so that it draws the pen around you. After the builder is facing the correct direction, you can then have it place a starting mark.
 
-Drag ``||Builder:builder face||`` block out and under ``||Builder:builder teleport to||``. The default ‘face West’ is fine.
+Drag ``||Builder:builder face||`` block out and under ``||Builder:builder teleport to||``. The default 'face West' is fine.
 
 ## Step 10
 Grab a ``||Builder:builder place mark||`` to put after the ``||Builder:builder face||``.
 
-Draw the outline of the pen. Now we’ll simply have the Builder draw a square.
+Draw the outline of the pen. Now we'll simply have the Builder draw a square.
 
 ## Step 11
 Drag a ``||Loops:repeat loop||`` and place it after ``||Builder:builder place mark||``. A square has **four** sides so repeating **four** times is great.
@@ -79,12 +79,12 @@ player.onChat("pen", function () {
 ```
 
 ## Step 15
-Try the “pen” command. 
+Try the "pen" command. 
 
-Get ready to release the animals. Now comes the fun part. The array is loaded up with animals, the pen has been built… it’s time to let them loose! 
+Get ready to release the animals. Now comes the fun part. The array is loaded up with animals, the pen has been built… it's time to let them loose! 
 
 ## Step 16
-Get an ``||Player:on chat command||`` and rename it “zoo”.
+Get an ``||Player:on chat command||`` and rename it "zoo".
 
 Drag a ``||Loops:for element||`` into your ``||Player:on chat command "zoo"||``.
 
@@ -114,7 +114,7 @@ player.onChat("zoo", function () {
 ```
 
 ## Step 21
-Try the “zoo” command. Go back into your Minecraft world, and type the command “zoo” into the chat window, and watch the animals appear!
+Try the "zoo" command. Go back into your Minecraft world, and type the command "zoo" into the chat window, and watch the animals appear!
 
 ### ~ tutorialhint
 ``` blocks
