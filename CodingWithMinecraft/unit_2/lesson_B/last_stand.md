@@ -49,7 +49,7 @@ mobs.onMobKilled(mobs.monster(ZOMBIE), function () {
 ```
 
 ## Step 6
-Where to spawn the zombies? Replace the default **(~0 ~0 ~0)** with a ``||Blocks:pick random position||`` block.
+Where to spawn the zombies? Replace the default **(~0 ~0 ~0)** with a ``||Positions:pick random position||`` block.
 
 ## Step 7
 Set the random position range: in the ``||Blocks:pick random position||`` block, enter the **from** coordinates as **(~10 ~0 ~10)** and the **to** coordinates as **(~-10 ~0 ~-10)**.
