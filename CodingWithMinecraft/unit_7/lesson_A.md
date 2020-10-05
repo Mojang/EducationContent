@@ -6,7 +6,7 @@ Change the name of the default ``||Player:on chat command||`` block to "tp".
 
 
 ### ~ tutorialhint
-``` blocks
+```blocks
 player.onChat("tp", function () {})
 ```
 
@@ -14,7 +14,7 @@ player.onChat("tp", function () {})
 Teleport the agent. Drag an ``||Agent:agent teleport to player||`` block and drop it inside the on chat command block.
 
 ### ~ tutorialhint
-``` blocks
+```blocks
 player.onChat("tp", function () {
     agent.teleportToPlayer()
 })
@@ -24,7 +24,7 @@ player.onChat("tp", function () {
 Move and turn your agent. Now, in Minecraft, when you enter **tp** in the chat window, the agent will teleport directly to your location. You should do this whenever you want to use the agent in a project. You might also want to create some additional basic commands to move the agent around.
 
 ### ~ tutorialhint
-``` blocks 
+```blocks 
 player.onChat("fd", function () {
     agent.move(FORWARD, 1)
 })
