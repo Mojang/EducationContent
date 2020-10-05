@@ -1,13 +1,13 @@
 ### @explicitHints 1
 
-#Activity: Agent Tree Chopper 
+# Activity: Agent Tree Chopper 
 
 ## Step 1
 Rename the existing ``||Player:on chat command||`` to **"tp"**.
 Drag an ``||Agent:agent teleport to player||`` block inside ``||Player:on chat command "tp"||``.
 
 ## Step 2
-Now, let’s also create a directional command, so we can turn our Agent around. You can right-click on ``||Player:on chat command "tp"||`` and select **Duplicate** to make a copy.
+Now, let's also create a directional command, so we can turn our Agent around. You can right-click on ``||Player:on chat command "tp"||`` and select **Duplicate** to make a copy.
 
 Rename the duplicate **"lt"**.
 
@@ -27,7 +27,7 @@ player.onChat("lt", function () {
 ##Step 4
 Create the height variable. Drag an ``||Player:on chat command||`` block into the coding Workspace and rename it **"chop"**.
 
-You’ll use a variable to keep track of the height of the tree. In the ``||Variables:VARIABLES||`` Toolbox drawer, click the **Make a Variable** button. Name the new variable **height**.
+You'll use a variable to keep track of the height of the tree. In the ``||Variables:VARIABLES||`` Toolbox drawer, click the **Make a Variable** button. Name the new variable **height**.
 
 ## Step 5
 Initialize height to **zero**. Drag out ``||Variables:set||`` and snap it inside ``||Player:on chat command "chop"||``.
@@ -81,7 +81,7 @@ Move up the tree and chop. Place a ``||Variables:change||`` block inside the ``|
 The new block should read ``||Variables:change 'height' by 1||``. This will increase the height variable by 1 each time the agent moves up. This is how we can keep track of the height of the tree.
 
 ## Step 11
-If leaves or branches are above the agent’s head, you need to destroy them in order to move the agent up. Place an ``||Agents: agent destroy||`` block below ``||Variables:change 'height' by 1||``. You will need to adjust this block by selecting **up** as the direction from the drop-down menu.
+If leaves or branches are above the agent's head, you need to destroy them in order to move the agent up. Place an ``||Agents: agent destroy||`` block below ``||Variables:change 'height' by 1||``. You will need to adjust this block by selecting **up** as the direction from the drop-down menu.
 
 ## Step 12
 Finally, get your agent to move up. Grab an ``||Agent:agent move||`` block, and then use the drop-down menu to select up as the **direction** like you did in the previous step.
