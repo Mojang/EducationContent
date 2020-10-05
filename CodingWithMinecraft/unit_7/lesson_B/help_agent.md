@@ -22,7 +22,7 @@ player.onChat("farm", function () {
 ```
 
 ## Step 4
-Till Some Soil. Drag a ``||Loops:repeat||`` block into ``||Player:on chat command "farm"||``.
+Till Some soil. Drag a ``||Loops:repeat||`` block into ``||Player:on chat command "farm"||``.
 
 ## Step 5
 This will determine the length of our row, so in ``||Loops:repeat||`` change **4** to **6**.
