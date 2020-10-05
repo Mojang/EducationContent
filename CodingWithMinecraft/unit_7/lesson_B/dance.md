@@ -8,7 +8,7 @@ Make the "dance" command. Drag a new ``||Player:on chat command||`` block to the
 ## Step 2
 Create a sequence of moves for your agent to follow. Here is one example:
 
-``` template 
+```template 
 player.onChat("dance", function () {
     agent.move(LEFT, 1)
     agent.attack(FORWARD)
