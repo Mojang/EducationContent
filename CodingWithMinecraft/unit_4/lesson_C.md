@@ -17,7 +17,7 @@ Right-click ``||Variables:set word1||`` and duplicate it. Put this new duplicate
 ## Step 4
 Now go back to the second ``||Variables:set word1||`` and change **word1** to **word2** from the drop-down list.
 
-### @explicitHints 1
+### ~ tutorialhint
 ``` blocks
 let word2 = ""
 let word1 = ""
@@ -30,7 +30,7 @@ Write two funny words! Replace the empty **" "** with some text for **word1**.
 
 Replace the empty **" "** with some text for **word2**. Here is an example **rail** for ``||Variables:word1||`` and **road** for ``||Variables:word2||``.
 
-### @explicitHints 1
+### ~ tutorialhint
 ``` blocks
 let word2 = ""
 let word1 = ""
@@ -48,7 +48,7 @@ Put ``||Variables:word1||`` inside ``||Blocks:print||`` .
 
 Change the grass to **Redstone Ore**.
 
-### @explicitHints 1
+### ~ tutorialhint
 ``` blocks
 let word2 = ""
 let word1 = ""
@@ -72,7 +72,7 @@ Change this so it prints  ``||Variables:word2||``. Change the **Grass** to **Red
 ## Step 9
 Fine-tune and test. You need to print in the air a bit to leave enough room for everything to fit. Also, you started printing **south** on the **north/south axis**. Adjust the ``||Blocks:print||``, so it reads **along South (positive Z)**.
 
-### @explicitHints 1
+### ~ tutorialhint
 ```blocks
 let word2 = ""
 let word1 = ""
@@ -89,17 +89,17 @@ word2 = "road"
 ```
 
 ## Step 10
-Your two words are now printing, but there is a little problem. If you don’t stop moving after typing **mix**, the two words will not be aligned when they print.
+Your two words are now printing, but there is a little problem. If you don't stop moving after typing **mix**, the two words will not be aligned when they print.
 
 ## Step 11
-To fix it store your player’s world position. Click **Make a Variable** and name the new variable **Starting_World_Position**.
+To fix it store your player's world position. Click **Make a Variable** and name the new variable **Starting_World_Position**.
 
 Add ``||Variables:set item||`` to the top of ``||Player:on chat command mix||``. Change this block to read **Set Starting_World_Position**.
 
 ## Step 12
 Put ``||Player:player world position||`` into ``||Variables:set Starting_World_Position||``.
 
-### @explicitHints 1
+### ~ tutorialhint
 ``` blocks
 let word2 = ""
 let Starting_World_Position: Position = null
@@ -124,9 +124,9 @@ word2 = "road"
 ```
 
 ## Step 13
-Fix the print block’s position.
+Fix the print block's position.
 
-### @explicitHints 1
+### ~ tutorialhint
 ``` blocks
 let word2 = ""
 let Starting_World_Position: Position = null
@@ -165,9 +165,9 @@ Adjust settings so that you print using **Block of Redstone**.
 The **Y** relative coordinate should be **5**.
 
 ## Step 16
-Search for “join”. Place this ``||Text:TEXT||`` block, so ``||Blocks:print||`` block reads **print join word1 word2**.
+Search for "join". Place this ``||Text:TEXT||`` block, so ``||Blocks:print||`` block reads **print join word1 word2**.
 
-### @explicitHints 1
+### ~ tutorialhint
 ``` blocks
 let word2 = ""
 let word1 = ""
