@@ -2,7 +2,7 @@
 
 ## Step 1
 
-Create an ``||player:on chat||`` command and name it **“tp”**.
+Create an ``||player:on chat||`` command and name it **"tp"**.
 
 ```javascript
 player.onChat("tp", function () {
@@ -21,7 +21,7 @@ player.onChat("tp", function () {
 
 ## Step 3
 
-Create another ``||player: on chat||`` command and name it **“chop”**.
+Create another ``||player: on chat||`` command and name it **"chop"**.
 
 ```javascript
 player.onChat("chop", function () {
