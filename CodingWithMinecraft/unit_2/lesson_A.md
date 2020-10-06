@@ -2,7 +2,7 @@
 
 # Activity: Yellow Brick Road
 
-##Step 1 
+## Step 1 
 Listening for the walk event. Drag the ``||Player: on player walk||`` block into the coding workspace.
 
 ### ~ tutorialhint
@@ -12,7 +12,7 @@ Listening for the walk event. Drag the ``||Player: on player walk||`` block into
 })
 ```
 
-##Step 2 
+## Step 2 
 Place some grass. Drag the ``||Blocks: Place at||`` block under the ``||Player:On player walk||`` block until you hear and see it snap into place.
 
 ### ~ tutorialhint      
@@ -22,8 +22,8 @@ Place some grass. Drag the ``||Blocks: Place at||`` block under the ``||Player:O
 })
 ```
 
-##Step 3: 
-Place a Flower. Select the **dandelion** (yellow flower) from the``||Blocks: Place at||`` using the dropdown menu to replace the **Grass** block. 
+## Step 3
+Place a Flower. Select the **dandelion** (yellow flower) from the ``||Blocks: place at||`` using the dropdown menu to replace the **Grass** block. 
 
 ### ~ tutorialhint
         ```blocks
@@ -32,7 +32,7 @@ Place a Flower. Select the **dandelion** (yellow flower) from the``||Blocks: Pla
 })
         ```
 
-## Step 4: 
+## Step 4 
 Go to Minecraft and start walking for a second or two. Turn around and look at your flower trail. If you walk backward, you can watch the flowers pop from the ground as you move.
 
 
@@ -41,37 +41,37 @@ Go to Minecraft and start walking for a second or two. Turn around and look at y
 Add gold. Drag the ``||Player: on player walk||`` block into the coding workspace. add the ``||Blocks: Place at||`` block and place gold instead of a flower.
 
 ### ~ tutorialhint
-        ``` blocks
-        player.onTravelled(TravelMethod.Walk, function () {
-        blocks.place(GOLD_BLOCK, pos(0, 0, 0))
+``` blocks
+player.onTravelled(TravelMethod.Walk, function () {
+blocks.place(GOLD_BLOCK, pos(0, 0, 0))
 })
-        ```
+```
 
-##Step 2 
-Watch what happens. That’s the right idea, but not exactly what you are going for. You are actually leaving a gold wall behind you,which is rather inconvenient. How might you sink those blocks into the ground so that they form a yellow brick road?
+## Step 6
+Watch what happens. That's the right idea, but not exactly what you are going for. You are actually leaving a gold wall behind you,which is rather inconvenient. How might you sink those blocks into the ground so that they form a yellow brick road?
 
-##Step 3 : 
-Modify Y coordinate. Let’s modify the **Y** coordinate by **subtracting 1** so that the bottoms of the bricks are one level down.
+## Step 7  
+Modify Y coordinate. Let's modify the **Y** coordinate by **subtracting 1** so that the bottoms of the bricks are one level down.
 
 ### ~ tutorialhint
-        ``` blocks
-        player.onTravelled(TravelMethod.Walk, function () {
-        blocks.place(GOLD_BLOCK, pos(0, -1, 0))
+``` blocks
+player.onTravelled(TravelMethod.Walk, function () {
+blocks.place(GOLD_BLOCK, pos(0, -1, 0))
 })
-        ```
+```
 
-##Step 4: 
+##Step 8 
 Make a proper brick road. See what happens from the Game then **add** a different block from the ``||Blocks: Blocks||`` menu!
 
 ### ~ tutorialhint
-        ``` blocks
-        player.onTravelled(TravelMethod.Walk, function () {
-        blocks.fill(
-        GOLD_BLOCK,
-        pos(-1, -1, -1),
-        pos(1, -1, 1),
-        FillOperation.Replace
-        )
+``` blocks
+player.onTravelled(TravelMethod.Walk, function () {
+blocks.fill(
+GOLD_BLOCK,
+pos(-1, -1, -1),
+pos(1, -1, 1),
+FillOperation.Replace
+)
 })
-        ```
+```
 
