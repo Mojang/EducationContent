@@ -15,7 +15,6 @@ Add the code in the ``||player:chat||`` command to ``||player:teleport||`` the p
 ```javascript
 player.onChat("jump", function () { 
    player.teleport(pos(0,100,0))  
-
 }) 
 ```
 
