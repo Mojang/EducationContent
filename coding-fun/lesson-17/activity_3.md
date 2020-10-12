@@ -8,7 +8,7 @@
 # Planting Beets!
 
 ## Step 1
-Two functions **plantSeed** and **plantSection** are provided for you. Create a new ``||player: on chat||`` command and ``||functions: call plantSection||`` within it. Add an ``||logic: if||`` statement that checks if ``||agent: agent inspects block down||`` . If the block down is ``||blocks: lapis lazuli||``, then the agent needs  to ``||agent: turn right||``, ``||agent: move forward||`` and ``||agent: turn right||``. ``||logic: If||`` the agent ``||agent: inspects the block down||`` and it is ``||blocks: a block of quartz||``, then the agent needs to ``||agent: turn left||``, ``||agent: move forward||`` and ``||agent: turn right||``. Finally ``||functions: call plantSection||``.  
+Two functions **plantSeed** and **plantSection** are provided for you. Create a new ``||player: on chat||`` command and ``||functions: call plantSection||`` within it. Add an ``||logic: if||`` statement that checks if ``||agent: agent inspects block down||`` . If the block down is ``||blocks: lapis lazuli||``, then the agent needs  to ``||agent: turn right||``, ``||agent: move forward||`` and ``||agent: turn right||``. ``||logic: If||`` the agent ``||agent: inspects the block down||`` and it is ``||blocks: a block of quartz||``, then the agent needs to ``||agent: turn left||``, ``||agent: move forward||`` and ``||agent: turn left||``. Finally ``||functions: call plantSection||``.  
 
 ```template
 /**
