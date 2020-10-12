@@ -8,7 +8,7 @@
 # Power the portal!
 
 ## Step 1
-You need to make the lightning strike while you are standing on the **gold plates**. First, you need to set the ``||gameplay: weather||`` to rain ``||loops: on start||``. Then try using ``||logic: if||``, ``||blocks: test for||`` and ``||mobs: spawn a ligtning bolt||`` to make the lightning strike at the exact moment. 
+You need to make the lightning strike while you are standing on the **gold plates**. First, you need to set the ``||gameplay: weather||`` to rain ``||loops: on start||``. Then try using ``||logic: if||``, ``||blocks: test for||`` and ``||mobs: spawn a lightning bolt||`` to make the lightning strike at the exact moment. 
 
 ### ~ tutorialHint
 The gold plates are beneath you at **0, -1, 0** coordinates. 
