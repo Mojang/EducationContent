@@ -1,3 +1,7 @@
+```template
+//
+```
+
 ### @codeStart players set @s makecode 0
 ### @codeStop players set @s makecode 1
 
@@ -17,12 +21,9 @@ Move your Agent to the gold block.
 
 #### ~ tutorialhint 
 
-Count the number of steps that the Agent needs to make! 
+Count the number of steps that the Agent needs to make! It should be **4**. 
 
 
 ```ghost
 agent.move(SixDirection.Forward, 1)
-```
-```template
-// onStart block only
 ```
