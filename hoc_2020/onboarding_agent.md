@@ -25,5 +25,8 @@ Count the number of steps that the Agent needs to make! It should be **4**.
 
 
 ```ghost
-agent.move(SixDirection.Forward, 1)
+player.onChat("run", function () {
+	
+})
+agent.move(FORWARD, 1)
 ```
