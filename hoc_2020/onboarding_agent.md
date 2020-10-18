@@ -25,8 +25,5 @@ Count the number of steps that the Agent needs to make! It should be **4**.
 
 
 ```ghost
-player.onChat("run", function () {
-	
-})
 agent.move(FORWARD, 1)
 ```
