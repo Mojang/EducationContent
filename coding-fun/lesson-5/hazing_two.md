@@ -12,7 +12,7 @@
 Step 1 is to do hazing two.  
 
 ## Step 2
-When done, press the **Play** buton to compile the code. Don't forget to run your code in Minecraft. 
+When done, press the **Play** button to compile the code. Don't forget to run your code in Minecraft. 
 
 ```blocks
 player.onChat("run", function () {
