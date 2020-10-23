@@ -15,7 +15,7 @@ Program the Agent to **build a bridge** across the chasm in the ice. Use ``||age
 player.onChat("chasm", function () {
     agent.setItem(PLANKS_OAK, 1, 1)
     agent.move(FORWARD, 1)
-    while (!(agent.detect(AgentDetection.Block, FORWARD))) {
+    while (!(agent.detect(AgentDetection.Block, DOWN))) {
     	
     }
 })
