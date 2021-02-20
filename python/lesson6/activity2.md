@@ -37,7 +37,7 @@ right = PINK_GLAZED_TERRACOTTA
 //Change value of loop below from 9 to 21                     |Part 2
 //for loop set to 9                                   |Part 1
 //if else conditional with an Agent inspect condition |Part 1
-//Make the agent turn left                            |Part 1
+agent.turn(LEFT_TURN)
 //elif conditional with an Agent inspect condition            |Part 2
 //Make the agent turn right                                   |Part 2
 //else part of the if else conditional                |Part 1

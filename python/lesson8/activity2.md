@@ -37,7 +37,7 @@ agent.inspect(AgentInspection.BLOCK, DIRECTION) == BLOCK_TYPE
 //Replace with comment about function below                  |Part 1   
 //Declare function 1                                         |Part 1
 //Make the Agent destroy the block forward                   |Part 1
-//Make the Agent move forward                                |Part 1
+    agent.move(FORWARD, 1)
 //Replace with comment about function below                          |Part 2   
 //Declare function 2                                                 |Part 2
 //Make the Agent move forward                                        |Part 2

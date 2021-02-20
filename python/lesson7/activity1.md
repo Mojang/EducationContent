@@ -19,12 +19,12 @@ while True:
 ### ~ tutorialhint
 You do not have to give the Agent any blocks, it already has the required blocks in its inventory.  
 ```template
-//Replace the lines below with your code #    
+//Replace the lines below with your code #     
 //While loop with an Agent detect condition |Part 1
 //Make the Agent place a block to its right         |Part 2
 //Make the Agent move up                            |Part 2
 //Make the Agent place a block to its right         |Part 2
-//Make the Agent move back down                     |Part 2
-//Make the Agent move forward               |Part 1
+//Make the Agent move back down                     |Part 2:
+    agent.move(FORWARD, 1)
 //End of while loop                                
 ```

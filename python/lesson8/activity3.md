@@ -45,7 +45,7 @@ Do this by adding an `||logic:if else||` conditional, that inspects for grass bl
 //Replace with comment about function below           |Part 1    
 //Declare function 3                                  |Part 1
 //Make the Agent turn left                            |Part 1
-//Make the Agent move forward                         |Part 1
+    agent.move(FORWARD, 1)
 //Make the Agent turn left                            |Part 1
 //Replace with comment about function below                   |Part 2 
 //Declare function 4                                          |Part 2

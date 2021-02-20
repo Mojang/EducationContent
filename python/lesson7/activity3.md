@@ -28,7 +28,7 @@ the Agent needs to move one block beyond the outline to place a block, and then 
 //Make the Agent place a block to its left    |Part 1       
 //Make the Agent move forward                 |Part 1 
 //While loop 2 with an Agent detect condition |Part 1
-//Make the Agent turn left                    |Part 1                 
+agent.turn(LEFT_TURN)
 //Make the Agent move forward                 |Part 1
 //End of while loop 2
 //While loop 3 with an Agent detect condition         |Part 2

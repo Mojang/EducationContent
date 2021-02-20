@@ -13,7 +13,7 @@ agent.set_slot(1)
 function structure: 
 ```python
 def function_name():
-    my code 
+    agent.till(RIGHT)
 ```
 
 ### ~ tutorialhint 
@@ -40,7 +40,7 @@ command.
 //Make the Agent place fertilizer to its left         |Part 2
 //Make the Agent place fertilizer to its left         |Part 2
 //Replace the lines below with your code #    
-//Make the Agent move forward                 |Part 1
+agent.move(FORWARD, 1)
 //Call your function                          |Part 1
 //Make the Agent move forward                 |Part 1
 //Call your function                          |Part 1

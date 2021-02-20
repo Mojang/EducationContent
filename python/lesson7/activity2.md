@@ -20,7 +20,7 @@ When it encounters a change in terrain height the Agent needs to move up and con
 //Replace the lines below with your code #
 //While loop 1 with an Agent detect Redstone condition 
 //While loop 2 with an Agent detect block condition 
-//Make the Agent place a block to its left         
+agent.place(LEFT)
 //Make the Agent move up                            
 //Make the Agent place a block to its left         
 //Make the Agent move forward

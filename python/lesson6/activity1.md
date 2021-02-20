@@ -24,8 +24,7 @@ agent.detect(AgentDetection.BLOCK, LEFT)
 Do this by adding a **not** operator before the condition. 
 
 ## Step 3
-**Part 3:** Add to the code so that the Agent stops for **2000** miliseconds when there **is** a block to its left.
-Do this by using the `||loops:pause||` command. After two seconds the Agent should move again to reach the last gold block.
+**Part 3:** Make the Agent move again after the `||loops:pause||` command to reach the last gold block.
 
 ### ~ tutorialhint
 **1000** ms is **1** second.
@@ -37,7 +36,7 @@ Do this by using the `||loops:pause||` command. After two seconds the Agent shou
 //if conditional with an Agent detect condition|Part 1
 //Make the Agent move forward                  |Part 1
 //if conditional with an Agent detect condition                |Part 3
-//Pause for 2000 ms                                            |Part 3
+loops.pause(2000)
 //Make the Agent move forward                                  |Part 3
 //End of loop
 ```
