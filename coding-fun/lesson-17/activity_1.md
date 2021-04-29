@@ -8,7 +8,7 @@
 # Plant a Seed!
 
 ## Step 1
-First, right-click the Agent to open its inventory and give it the seeds. Then create ``||player: on chat||`` command and add ``||agent: till forward||`` and ``||agent: place||``. 
+First, interact with the Agent to open its inventory and give it the seeds. Then create ``||player: on chat||`` command and add ``||agent: till forward||`` and ``||agent: place||``. 
 
 ```ghost
 player.onChat("plantSeed", function () {
