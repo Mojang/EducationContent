@@ -12,21 +12,21 @@ player.onChat("wind_turbine", function () {
         blocks.clone(
         world(55, 78, -291),
         world(61, 85, -291),
-        world(8, 113, -409),
+        world(-3, 94, -434),
         CloneMask.Replace,
         CloneMode.Normal
         )
         blocks.clone(
         world(63, 78, -291),
         world(69, 85, -291),
-        world(8, 113, -409),
+        world(-3, 94, -434),
         CloneMask.Replace,
         CloneMode.Normal
         )
         blocks.clone(
         world(71, 78, -291),
         world(77, 85, -291),
-        world(8, 113, -409),
+        world(-3, 94, -434),
         CloneMask.Replace,
         CloneMode.Normal
         )
@@ -45,21 +45,21 @@ player.onChat("wind_turbine", function () {
         blocks.clone(
         world(55, 78, -291),
         world(61, 85, -291),
-        world(8, 113, -409),
+        world(-3, 94, -434),
         CloneMask.Replace,
         CloneMode.Normal
         )
         blocks.clone(
         world(63, 78, -291),
         world(69, 85, -291),
-        world(8, 113, -409),
+        world(-3, 94, -434),
         CloneMask.Replace,
         CloneMode.Normal
         )
         blocks.clone(
         world(71, 78, -291),
         world(77, 85, -291),
-        world(8, 113, -409),
+        world(-3, 94, -434),
         CloneMask.Replace,
         CloneMode.Normal
         )
@@ -78,21 +78,21 @@ player.onChat("wind_turbine", function () {
         blocks.clone(
         world(55, 78, -291),
         world(61, 85, -291),
-        world(8, 113, -409),
+        world(-3, 94, -434),
         CloneMask.Replace,
         CloneMode.Normal
         )
         blocks.clone(
         world(63, 78, -291),
         world(69, 85, -291),
-        world(8, 113, -409),
+        world(-3, 94, -434),
         CloneMask.Replace,
         CloneMode.Normal
         )
         blocks.clone(
         world(71, 78, -291),
         world(77, 85, -291),
-        world(8, 113, -409),
+        world(-3, 94, -434),
         CloneMask.Replace,
         CloneMode.Normal
         )
@@ -111,21 +111,21 @@ player.onChat("wind_turbine", function () {
         blocks.clone(
         world(55, 78, -291),
         world(61, 85, -291),
-        world(8, 113, -409),
+        world(-3, 94, -434),
         CloneMask.Replace,
         CloneMode.Normal
         )
         blocks.clone(
         world(63, 78, -291),
         world(69, 85, -291),
-        world(8, 113, -409),
+        world(-3, 94, -434),
         CloneMask.Replace,
         CloneMode.Normal
         )
         blocks.clone(
         world(71, 78, -291),
         world(77, 85, -291),
-        world(8, 113, -409),
+        world(-3, 94, -434),
         CloneMask.Replace,
         CloneMode.Normal
         )
@@ -147,21 +147,21 @@ player.onChat("wind_turbine", function () {
         blocks.clone(
         world(55, 78, -291),
         world(61, 85, -291),
-        world(8, 113, -409),
+        world(-3, 94, -434),
         CloneMask.Replace,
         CloneMode.Normal
         )
         blocks.clone(
         world(63, 78, -291),
         world(69, 85, -291),
-        world(8, 113, -409),
+        world(-3, 94, -434),
         CloneMask.Replace,
         CloneMode.Normal
         )
         blocks.clone(
         world(71, 78, -291),
         world(77, 85, -291),
-        world(8, 113, -409),
+        world(-3, 94, -434),
         CloneMask.Replace,
         CloneMode.Normal
         )
@@ -182,21 +182,21 @@ player.onChat("wind_turbine", function () {
         blocks.clone(
         world(55, 78, -291),
         world(61, 85, -291),
-        world(8, 113, -409),
+        world(-3, 94, -434),
         CloneMask.Replace,
         CloneMode.Normal
         )
         blocks.clone(
         world(63, 78, -291),
         world(69, 85, -291),
-        world(8, 113, -409),
+        world(-3, 94, -434),
         CloneMask.Replace,
         CloneMode.Normal
         )
         blocks.clone(
         world(71, 78, -291),
         world(77, 85, -291),
-        world(8, 113, -409),
+        world(-3, 94, -434),
         CloneMask.Replace,
         CloneMode.Normal
         )
@@ -216,21 +216,21 @@ player.onChat("wind_turbine", function () {
         blocks.clone(
         world(55, 78, -291),
         world(61, 85, -291),
-        world(8, 113, -409),
+        world(-3, 94, -434),
         CloneMask.Replace,
         CloneMode.Normal
         )
         blocks.clone(
         world(63, 78, -291),
         world(69, 85, -291),
-        world(8, 113, -409),
+        world(-3, 94, -434),
         CloneMask.Replace,
         CloneMode.Normal
         )
         blocks.clone(
         world(71, 78, -291),
         world(77, 85, -291),
-        world(8, 113, -409),
+        world(-3, 94, -434),
         CloneMask.Replace,
         CloneMode.Normal
         )
@@ -260,21 +260,21 @@ loops.forever(function () {
         blocks.clone(
         world(55, 78, -291),
         world(61, 85, -291),
-        world(8, 113, -409),
+        world(-3, 94, -434),
         CloneMask.Replace,
         CloneMode.Normal
         )
         blocks.clone(
         world(63, 78, -291),
         world(69, 85, -291),
-        world(8, 113, -409),
+        world(-3, 94, -434),
         CloneMask.Replace,
         CloneMode.Normal
         )
         blocks.clone(
         world(71, 78, -291),
         world(77, 85, -291),
-        world(8, 113, -409),
+        world(-3, 94, -434),
         CloneMask.Replace,
         CloneMode.Normal
         )
@@ -298,21 +298,21 @@ loops.forever(function () {
         blocks.clone(
         world(55, 78, -291),
         world(61, 85, -291),
-        world(8, 113, -409),
+        world(-3, 94, -434),
         CloneMask.Replace,
         CloneMode.Normal
         )
         blocks.clone(
         world(63, 78, -291),
         world(69, 85, -291),
-        world(8, 113, -409),
+        world(-3, 94, -434),
         CloneMask.Replace,
         CloneMode.Normal
         )
         blocks.clone(
         world(71, 78, -291),
         world(77, 85, -291),
-        world(8, 113, -409),
+        world(-3, 94, -434),
         CloneMask.Replace,
         CloneMode.Normal
         )
@@ -341,21 +341,21 @@ loops.forever(function () {
         blocks.clone(
         world(55, 78, -291),
         world(61, 85, -291),
-        world(8, 113, -409),
+        world(-3, 94, -434),
         CloneMask.Replace,
         CloneMode.Normal
         )
         blocks.clone(
         world(63, 78, -291),
         world(69, 85, -291),
-        world(8, 113, -409),
+        world(-3, 94, -434),
         CloneMask.Replace,
         CloneMode.Normal
         )
         blocks.clone(
         world(71, 78, -291),
         world(77, 85, -291),
-        world(8, 113, -409),
+        world(-3, 94, -434),
         CloneMask.Replace,
         CloneMode.Normal
         )

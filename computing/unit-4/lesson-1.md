@@ -141,7 +141,7 @@ Repeat this for the second pillar. Position your Agent on the other **Yellow woo
 ## Step 11
 Code the sign entrance. Now we need to add the sign at the top.   
 
-Get a new ``||Player:on chat command||`` block and rename the **jump** element to **zoo_sign**.
+Get a new ``||Player:on chat command||`` block and rename the **run** chat command to **zoo_sign**.
 
 #### ~ tutorialhint
 ``` blocks

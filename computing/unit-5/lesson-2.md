@@ -7,7 +7,7 @@ Code three model blades.
 
 Find a space away from your wind farm to create secret models that will be used for the animations. These can be anywhere in the world, just ideally make sure you can't see them from up on the hill.
 
-Create your first model of the turbine blades in one specific position of rotation. In our example below, we've made the blades in **Yellow Wool**, but you can make these from anything you wish. You must create these in the direction you want them to appear in final animation, so build them facing the way you want to see them when they finally appear at the end of this lesson. 
+Create your first model of the turbine blades in one specific position of rotation. In our example below, we've made the blades in **Light Grey Concrete**, but you can make these from anything you wish. You must create these in the direction you want them to appear in final animation, so build them facing the way you want to see them when they finally appear at the end of this lesson. 
 
 Remember when you use the ``||Blocks:clone||`` tool, the orientation of whatever you copy will always be the same. For example, if a building faces east, it is always going to face east. 
 
@@ -140,7 +140,7 @@ Input the cloning coordinates. Return to MakeCode and carefully input the coordi
 Return to your wind turbine structure, created in **Lesson 1** of this unit.  
 
 ## Step 11
-From the top of your turbine pillar, build a tower of 20 blocks, of any kind of material. This is a test pillar to allow you to find your final coordinates. In our example, we have built one from **Yellow Wool**.  
+From the top of your turbine pillar, build a tower of 20 blocks, of any kind of material. This is a test pillar to allow you to find your final coordinates.  
 
 Note the coordinate of the top most block of the tower in your workbook.  
 
@@ -178,11 +178,11 @@ player.onChat("wind_turbine", function () {
 ## Step 13
 Test the cloning coordinates. Run a small test before you commit to placing your animation permanently. This part is about finding where the blades clone in when you run the command. This is likely to differ for everyone depending on the direction you placed them, the size of them, etc.  
 
-Using the center of your blades, work your way down and to the center again. In our example, we have marked this with **Orange Wool**. Write this information in your workbook. 
+Using the center of your blades, work your way down and to the center again. Write this information in your workbook. 
 
 The bottom, horizontal part of this tells us that the center of our blade animation was three blocks too far to the right so that we can compensate for that later. 
 
-Now do the same for the height, from the top of your pillar to the center of the blade animation and note it in your workbook. Again, we have marked this in **Orange Wool** and on the left this time.  
+Now do the same for the height, from the top of your pillar to the center of the blade animation and note it in your workbook.   
 
 This top, vertical part tells us that the center was four blocks too high. We can compensate for both now. 
 
@@ -195,7 +195,7 @@ We have found our new and accurate center coordinates for our animation. Stand o
 Now run your code to see if you have an accurate and working wind blade at the top of your turbine pillar. If you don't have an accurate and working wind turbine, make other adjustments as needed. Use the space in your workbook as needed for notes. 
 
 ## Step 16
-When it's cloned correctly, remove the test blocks that you added to determine how much the test clone was off. In the example, it would be removing the **Yellow, Orange, **and **Red Wool** blocks. 
+When it's cloned correctly, remove the test blocks that you added to determine how much the test clone was off.   
 
 Don't remove your model blades! They must stay there so you can clone them on your other turbines. 
 
